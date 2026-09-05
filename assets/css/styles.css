@@ -80,8 +80,14 @@ body {
   font-family: var(--sans);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  display: grid;
-  grid-template-rows: auto auto 1fr auto auto;
+  /* A column, not a five-row grid. Positional rows silently mis-assign
+     themselves the moment an optional child is absent: .notice carries the
+     failed-feed banner and is [hidden] whenever every feed came back, which
+     dropped it out of the grid and slid the deck onto the row meant for the
+     pager — the deck collapsed to its padding and the stories vanished. In a
+     column only the deck grows, so a hidden child changes nothing. */
+  display: flex;
+  flex-direction: column;
   height: 100dvh;
 }
 
@@ -230,6 +236,10 @@ button { font: inherit; color: inherit; }
 
 .deck {
   position: relative;
+  /* The one child that takes the leftover height. min-height keeps it able to
+     shrink below its content, so the stage clips rather than pushing the pager
+     and colophon off the bottom. */
+  flex: 1 1 auto;
   min-height: 0;
   padding: var(--gap) clamp(12px, 2.4vw, 34px);
 }
