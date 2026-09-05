@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-05T10:05:57.611Z",
+ "generatedAt": "2026-09-05T10:28:27.319Z",
  "site": {
   "name": "Kertas",
   "tagline": "Malaysia first. The world next.",
@@ -56,7 +56,7 @@
   "business": 22,
   "tech": 30,
   "sport": 24,
-  "opinion": 46
+  "opinion": 48
  },
  "failedFeeds": [
   "thestar-nation",
@@ -64,7 +64,177 @@
   "bernama",
   "theedge"
  ],
+ "withBody": 178,
  "articles": [
+  {
+   "id": "ad313b76a687a701",
+   "title": "Emergency remains: Uggah says Serian still under haze alert despite API improvement",
+   "link": "https://www.malaymail.com/news/malaysia/2026/09/05/emergency-remains-uggah-says-serian-still-under-haze-alert-despite-api-improvement/234064",
+   "summary": "KUCHING, Sept 5 — Serian remains under the haze emergency despite its Air Pollutant Index (API) reading improving...",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/05/360858.jpg",
+   "published": "2026-09-05T10:22:59.000Z",
+   "source": "Malay Mail",
+   "feedId": "malaymail",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "f40e0a5eb0dcb52c",
+   "title": "Ramkarpal hits back at PAS rep, says DAP consistently questioned Zahid's DNAA",
+   "link": "https://www.malaysiakini.com/news/783616",
+   "summary": "Mardhiyyah is ignorant of DAP's consistent stand on the matter, he says.",
+   "image": "",
+   "published": "2026-09-05T10:20:44.000Z",
+   "source": "Malaysiakini",
+   "feedId": "malaysiakini",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "ed09dac2eb780f9c",
+   "title": "Immigration steps up hunt for foreigners issued fraudulent PLKS",
+   "link": "https://www.nst.com.my/news/nation/2026/09/1526302/immigration-steps-hunt-foreigners-issued-fraudulent-plks",
+   "summary": "PUTRAJAYA: The Immigration Department will intensify enforcement operations to track down foreigners holding more than 1,300 Temporary Employment Visit Passes (PLKS) believed to have been irregularly approved through a syndicate uncovered under Op Crack.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/FB4C6CCFEF53215EFB5666558D9EF12B_data.jpg",
+   "published": "2026-09-05T10:20:41.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "b4ab849d48297b03",
+   "title": "Indonesia rescues second orangutan mother and baby from wildfire",
+   "link": "https://www.nst.com.my/world/region/2026/09/1526299/indonesia-rescues-second-orangutan-mother-and-baby-wildfire",
+   "summary": "JAKARTA: An orangutan mother and her baby, threatened by encroaching wildfires to their habitat in Indonesia, were rescued earlier this week, authorities said in a statement Saturday.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/2BD22FCFF92D0E24408529FC1C35A997_data_0.jpg",
+   "published": "2026-09-05T10:17:33.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "d72fba252aa7df3d",
+   "title": "Clarke gave SFA 'a little shove' for new contract",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c790e8dxddro?at_medium=RSS&at_campaign=rss",
+   "summary": "Steve Clarke says he had to cajole the Scottish FA into handing him a new contract as national head coach shortly before the World Cup finals this summer because he felt the governing body was hedging its bets.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce0a/live/51cc6050-a912-11f1-b109-879e35c24276.jpg",
+   "published": "2026-09-05T10:14:28.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "811b0d9c7fb52cc3",
+   "title": "#SHOWBIZ: Real-life events power Japan film fest line-up",
+   "link": "https://www.nst.com.my/lifestyle/groove/2026/09/1526297/showbiz-real-life-events-power-japan-film-fest-line",
+   "summary": "“THE struggle behind the collapse and rebuilding of community – which is the foundation of daily life – resonates with people today surrounded by uncertainty, while also delivering a gust of positivity,” says director Lee Sang-Il.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/1656ADC6A56D12930D3528BC24A20A37_data_0.jpg",
+   "published": "2026-09-05T10:14:25.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "b223dd714593dd3a",
+   "title": "Air we breathe could be harming children, says Sultan Nazrin",
+   "link": "https://www.nst.com.my/news/nation/2026/09/1526295/air-we-breathe-could-be-harming-children-says-sultan-nazrin",
+   "summary": "KUALA LUMPUR: Chemical emissions from industries, vehicle exhaust fumes, as well as water and soil pollution can no longer be regarded solely as environmental issues, as prolonged exposure has been linked to various cancers, including among children.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/0F97EB02EFB7D52BF8881DC8C869C3E7_data_0.jpg",
+   "published": "2026-09-05T10:12:48.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "52a77112e98feb6a",
+   "title": "Farage and Jenrick to speak on final day of Reform conference marred by scandal and protests – UK politics live",
+   "link": "https://www.theguardian.com/politics/live/2026/sep/05/nigel-farage-robert-jenrick-reform-uk-politics-latest-news-updates",
+   "summary": "Farage, who had earlier suspended two close aides, had his keynote speech interrupted multiple times by protesters on Friday Robert Jenrick is set to unveil a major tax-cutting pledge at Reform UK’s conference today, as the party seeks to shift the focus back…",
+   "image": "https://i.guim.co.uk/img/media/446559159038ca8e544e7bcfedb7307e96d94214/520_0_5912_4732/master/5912.jpg?width=700&quality=85&auto=format&fit=max&s=2ea2be592a0ff1d2f22177bd2db7e154",
+   "published": "2026-09-05T10:09:11.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-world",
+   "topic": "world",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "1fb27e4ffeade16d",
+   "title": "Bangladesh opposition launches protest march over energy crisis",
+   "link": "https://www.freemalaysiatoday.com/category/world/2026/09/05/bangladesh-opposition-launches-protest-march-over-energy-crisis",
+   "summary": "Thousands marched over acute shortages of cooking gas, electricity and fertiliser in the first major street mobilisation against the government.",
+   "image": "https://media.freemalaysiatoday.com/v3/2026/09/517d3820-e70f-46ff-91d2-80a9f16831ff-AFP__20260905__C7EN863__v1__HighRes__BangladeshPoliticsProtest_cropped_1-1-.webp",
+   "published": "2026-09-05T10:08:10.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "af62504f185dbdca",
+   "title": "PAS rep ‘ignorant’ of DAP’s stand on Zahid’s case, says Ramkarpal",
+   "link": "https://www.freemalaysiatoday.com/category/nation/2026/09/05/pas-rep-ignorant-of-dap-s-stand-on-zahid-s-case-says-ramkarpal",
+   "summary": "The DAP MP points out the instances his party had urged the AGC to explain its decisions on the Umno president’s Yayasan Akalbudi case.",
+   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2025/05/5ea01063-ramkarpal-singh-220525-1.webp",
+   "published": "2026-09-05T10:08:00.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "7d33c98984c7b862",
+   "title": "Hong Kong edge Malaysia in dramatic Premier Cup thriller",
+   "link": "https://www.nst.com.my/sports/cricket/2026/09/1526293/hong-kong-edge-malaysia-dramatic-premier-cup-thriller",
+   "summary": "KUALA LUMPUR: Hong Kong delivered a dramatic Group A Super Over win against Malaysia in the ACC Premier Cup at the UKM Oval in Bangi on Saturday.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/58510EEAA4EA15EAD78FC7F3A0ABD316_data_0.jpg",
+   "published": "2026-09-05T10:05:42.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "15fe8f767ae2cb3f",
+   "title": "Orange suits out, double standards must too, says criminologist",
+   "link": "https://www.nst.com.my/news/nation/2026/09/1526291/orange-suits-out-double-standards-must-too-says-criminologist",
+   "summary": "KUALA LUMPUR: The Malaysian Anti-Corruption Commission's (MACC) decision to stop requiring suspects to wear its orange uniform during remand proceedings is appropriate, but the policy must be applied equally regardless of a person's status, wealth or…",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/5838C71739D37CB0274EF1C7C33FB350_data_0_0.jpg",
+   "published": "2026-09-05T10:05:37.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "455c6298188ff1ff",
+   "title": "FIA appeal court refutes Briatore impartiality claim",
+   "link": "https://www.bbc.co.uk/sport/formula1/articles/c4g56x1xxn3o?at_medium=RSS&at_campaign=rss",
+   "summary": "The FIA court of appeal refutes a claim by Alpine boss Flavio Briatore which it says \"question the independence and impartiality of the judges\".",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5073/live/ec27db20-a90d-11f1-b101-3b8aa2acb53f.jpg",
+   "published": "2026-09-05T10:02:46.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
   {
    "id": "ab34d8d52281c154",
    "title": "Lindsay Clancy murder trial has divided US on whether she's victim or criminal",
@@ -75,18 +245,72 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
-   "id": "52a77112e98feb6a",
-   "title": "Farage and Jenrick to speak on final day of Reform conference marred by scandal and protests – UK politics live",
-   "link": "https://www.theguardian.com/politics/live/2026/sep/05/nigel-farage-robert-jenrick-reform-uk-politics-latest-news-updates",
-   "summary": "Farage, who had earlier suspended two close aides, had his keynote speech interrupted multiple times by protesters on Friday Reform UK home affairs spokesperson Zia Yusuf spotted at the conference, taking photos with supporters as the event gets under way.…",
-   "image": "https://i.guim.co.uk/img/media/446559159038ca8e544e7bcfedb7307e96d94214/520_0_5912_4732/master/5912.jpg?width=700&quality=85&auto=format&fit=max&s=2ea2be592a0ff1d2f22177bd2db7e154",
-   "published": "2026-09-05T09:55:39.000Z",
+   "id": "9765296b4f058230",
+   "title": "Captain calamity: Pete Hegseth under fire for ‘inept’ leadership of US military",
+   "link": "https://www.theguardian.com/us-news/2026/sep/05/pete-hegseth-pentagon-military",
+   "summary": "The US defense secretary faces internal dissent and discord at the Pentagon, accused of focusing on culture war issues and his own political ambitions as the Iran war drags on In a different Washington, under a different president, a return to the well-worn…",
+   "image": "https://i.guim.co.uk/img/media/bb0b40fe4ad859e195c4994e7732c97a77187798/1730_767_3375_2701/master/3375.jpg?width=700&quality=85&auto=format&fit=max&s=f32301c1e5acdcaf78a0e61bbd1108c0",
+   "published": "2026-09-05T10:00:35.000Z",
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "2487f95c8bc32ab4",
+   "title": "‘It cost me many friendships’: former Brazil military chief reveals inside struggle to stop Bolsonaro’s coup",
+   "link": "https://www.theguardian.com/world/2026/sep/05/jair-bolsonaro-coup-plan-2022-election-brazil-air-force-baptista-junior",
+   "summary": "Carlos de Almeida Baptista Júnior describes 2022 meeting in new book as ex-leader’s son vies with Lula for presidency The far-right populist Jair Bolsonaro was in his final days as Brazil’s president when, six weeks after losing the election and still…",
+   "image": "https://i.guim.co.uk/img/media/28299cd26cb005726bef0fc856481cef483cd627/232_188_2166_1734/master/2166.jpg?width=700&quality=85&auto=format&fit=max&s=32dc442c1a794172ba445653f563ad64",
+   "published": "2026-09-05T10:00:34.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-world",
+   "topic": "world",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "6a68c82b5d12dbd4",
+   "title": "CTE in football players is a health crisis. It’s time for us to stop watching",
+   "link": "https://www.theguardian.com/sport/2026/sep/05/cte-football-players-nfl",
+   "summary": "A new study offers more evidence that America’s biggest sport produces life-altering head trauma. The NFL will never turn itself off, so it’s on fans to do so As a new NFL season begins this Wednesday, the danger of America’s most-watched sport has never been…",
+   "image": "https://i.guim.co.uk/img/media/0d955bb7d29e4ee34693ac07dea0619ae1415e9b/612_0_6120_4896/master/6120.jpg?width=700&quality=85&auto=format&fit=max&s=d1ccd4beb9a8044c105f71afd318f682",
+   "published": "2026-09-05T10:00:34.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-opinion",
+   "topic": "opinion",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "a2c5a7acebbb9ef3",
+   "title": "Gaza refugee says sister-in-law ‘would be alive’ if Home Office had let her come to UK",
+   "link": "https://www.theguardian.com/uk-news/2026/sep/05/gaza-refugee-visa-refusal-home-office",
+   "summary": "Anwar, who lives in Glasgow, says Home Office refused visa application despite Maryam having cancer A man living in the UK has said he believes his sister-in-law who died from cancer in Gaza would still be alive today if the Home Office had agreed to bring…",
+   "image": "https://i.guim.co.uk/img/media/9ac708749be218885612be0edce28f76ab14d983/223_0_6815_5452/master/6815.jpg?width=700&quality=85&auto=format&fit=max&s=14226e3ed8eb69eb56a7b1e4ae6f9ebb",
+   "published": "2026-09-05T10:00:33.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-world",
+   "topic": "world",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "9fe3d948eadfb3ed",
+   "title": "Why is Trump threatening to strike Iran’s Pickaxe Mountain again, now?",
+   "link": "https://www.aljazeera.com/news/2026/9/5/why-is-trump-threatening-to-strike-irans-pickaxe-mountain-again-now?traffic_source=rss",
+   "summary": "As oil tanker struck off Kharg island, Trump threatens one of the remaining parts of Iran’s nuclear complex.",
+   "image": "",
+   "published": "2026-09-05T09:56:53.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -99,6 +323,33 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "bcb91d1ad5039cd7",
+   "title": "Bersatu lantik ketua baharu di Perlis, Terengganu",
+   "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/09/05/bersatu-lantik-ketua-baharu-di-perlis-terengganu",
+   "summary": "Setiausaha Agung Bersatu Azmin Ali berkata lantikan itu berkuatkuasa Khamis lalu.",
+   "image": "https://media.freemalaysiatoday.com/v3/2026/09/852ee1bb-b044-48c8-af73-75270b2feac8-Izizam-Ibrahim-Yusop-Majid-tile-050926jpg.jpg",
+   "published": "2026-09-05T09:53:00.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "5a141513ace1ac8e",
+   "title": "US ambassador to Israel meets Palestinian-Americans in occupied West Bank",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/5/us-ambassador-to-israel-meets-palestinian-americans-in-occupied-west-bank?traffic_source=rss",
+   "summary": "US Ambassador to Israel Mike Huckabee has visited Turmus Ayya in the occupied West Bank.",
+   "image": "",
+   "published": "2026-09-05T09:52:44.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -111,6 +362,33 @@
    "source": "New Straits Times",
    "feedId": "nst",
    "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "e2e844a67829e403",
+   "title": "Qatar removed from Fitch’s negative watch list as risks to LNG sites ease",
+   "link": "https://www.aljazeera.com/economy/2026/9/5/fitch-removes-qatar-from-rating-watch-as-lng-risks-ease?traffic_source=rss",
+   "summary": "The global ratings agency has also maintained the country’s sovereign rating at AA.",
+   "image": "",
+   "published": "2026-09-05T09:48:48.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "7ff01c6e720cab17",
+   "title": "Vietnam, Myanmar agree to deepen defence ties",
+   "link": "https://www.freemalaysiatoday.com/category/world/2026/09/05/vietnam-myanmar-agree-to-deepen-defence-ties",
+   "summary": "The leaders of both countries agreed to expand military cooperation and disaster response, while stepping up information sharing and coordination against crime.",
+   "image": "https://media.freemalaysiatoday.com/v3/2026/09/6fbd6014-6c5e-4650-a091-7566c8f21d2d-AFP__20260905__C7EK49F__v1__HighRes__VietnamMyanmarDiplomacy_cropped_1.webp",
+   "published": "2026-09-05T09:46:20.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -123,6 +401,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -135,6 +414,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -147,6 +427,7 @@
    "source": "New Straits Times",
    "feedId": "nst",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -159,6 +440,7 @@
    "source": "New Straits Times",
    "feedId": "nst",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -171,6 +453,7 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -183,6 +466,7 @@
    "source": "New Straits Times",
    "feedId": "nst",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -195,6 +479,7 @@
    "source": "New Straits Times",
    "feedId": "nst",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -207,6 +492,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
    "top": false
   },
   {
@@ -219,6 +505,20 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "b4a14298340b23a4",
+   "title": "Bukan tanda Umno solo di Melaka, Takiyuddin ulas Zahid tak hadir muktamar",
+   "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/09/05/bukan-tanda-umno-solo-di-melaka-takiyuddin-ulas-zahid-tak-hadir-muktamar",
+   "summary": "Setiausaha Agung PAS Takiyuddin Hassan berkata rundingan antara PAS bersama PN dan BN berkait kerjasama PRN Melaka masih berjalan.",
+   "image": "https://media.freemalaysiatoday.com/v3/2026/09/37e9b07a-2c99-4635-bb58-b236f68ab1c1-Takiyuddin-Hassan-fmt-050926-1.jpg",
+   "published": "2026-09-05T09:22:55.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -231,6 +531,33 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "c17d28a804c0c59b",
+   "title": "Chinese national rescued alive from Nepal tunnel",
+   "link": "https://www.freemalaysiatoday.com/category/highlight/2026/09/05/chinese-national-rescued-alive-from-nepal-tunnel",
+   "summary": "The worker was pulled from the Upper Trishuli-1 Hydropower Project tunnel buried by debris after catastrophic flooding.",
+   "image": "https://media.freemalaysiatoday.com/v3/2026/09/6a519adc-37df-47fc-818a-0def48db340f-AFP__20260905__C7EQ49E__v4__HighRes__TopshotNepalDisasterFlood_1_cropped_1.webp",
+   "published": "2026-09-05T09:20:00.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "0e03e9c655d1537c",
+   "title": "PAS was offered foreign help to topple govt in 2014, says Hadi",
+   "link": "https://www.freemalaysiatoday.com/category/nation/2026/09/05/pas-was-offered-foreign-help-to-topple-govt-in-2014-says-hadi",
+   "summary": "The PAS president says, however, its party leaders were not swayed by the offer and remained firm in rejecting it.",
+   "image": "https://media.freemalaysiatoday.com/v3/2026/09/920fd9bc-e18b-48cf-97b8-cd5180c8a5c3-Hadi-Awang-Muktamar-050926.jpg",
+   "published": "2026-09-05T09:19:00.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -243,6 +570,7 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -255,6 +583,7 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
    "top": false
   },
   {
@@ -267,6 +596,7 @@
    "source": "New Straits Times",
    "feedId": "nst",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -279,6 +609,7 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -291,6 +622,7 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -303,6 +635,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -315,6 +648,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -327,6 +661,7 @@
    "source": "New Straits Times",
    "feedId": "nst",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -339,6 +674,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -351,18 +687,20 @@
    "source": "New Straits Times",
    "feedId": "nst",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
    "id": "4f8c98310c9861bb",
    "title": "Hadi recounts spurning US offer to topple Najib-led BN govt",
    "link": "https://www.malaysiakini.com/news/783612",
-   "summary": "PAS MUKTAMAR | PAS supremo says Takiyuddin, Samsuri were present during the meeting.",
+   "summary": "UPDATED 6.25PM | PAS MUKTAMAR | PAS supremo says Takiyuddin, Samsuri were present during the meeting.",
    "image": "",
    "published": "2026-09-05T09:08:37.000Z",
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -375,6 +713,7 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -387,6 +726,7 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -399,6 +739,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -411,6 +752,7 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -423,6 +765,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -435,6 +778,7 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -447,6 +791,7 @@
    "source": "New Straits Times",
    "feedId": "nst",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -459,6 +804,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
    "top": false
   },
   {
@@ -471,6 +817,7 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -483,6 +830,7 @@
    "source": "New Straits Times",
    "feedId": "nst",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -495,6 +843,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
    "top": false
   },
   {
@@ -507,6 +856,7 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -519,6 +869,7 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -531,6 +882,7 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
    "top": false
   },
   {
@@ -543,6 +895,7 @@
    "source": "New Straits Times",
    "feedId": "nst",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -555,6 +908,7 @@
    "source": "New Straits Times",
    "feedId": "nst",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -567,6 +921,7 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -579,6 +934,7 @@
    "source": "New Straits Times",
    "feedId": "nst",
    "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -591,7 +947,8 @@
    "source": "New Straits Times",
    "feedId": "nst",
    "topic": "malaysia",
-   "top": true
+   "hasBody": true,
+   "top": false
   },
   {
    "id": "f487f5e1bda3fba0",
@@ -603,6 +960,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -615,7 +973,8 @@
    "source": "New Straits Times",
    "feedId": "nst",
    "topic": "malaysia",
-   "top": true
+   "hasBody": true,
+   "top": false
   },
   {
    "id": "24d6f3df09fa3497",
@@ -627,7 +986,8 @@
    "source": "New Straits Times",
    "feedId": "nst",
    "topic": "malaysia",
-   "top": true
+   "hasBody": true,
+   "top": false
   },
   {
    "id": "612c4e68aab55a33",
@@ -639,6 +999,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -651,6 +1012,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -663,6 +1025,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
    "top": false
   },
   {
@@ -675,6 +1038,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -683,11 +1047,12 @@
    "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/09/05/hadi-dakwa-pas-pernah-ditawar-as-perjatuh-kerajaan",
    "summary": "Presiden PAS berkata ia berlaku ketika pertemuan di Kedutaan AS semasa lawatan Barack Obama ke Malaysia.",
    "image": "https://media.freemalaysiatoday.com/v3/2026/09/920fd9bc-e18b-48cf-97b8-cd5180c8a5c3-Hadi-Awang-Muktamar-050926.jpg",
-   "published": "2026-09-05T08:35:28.000Z",
+   "published": "2026-09-05T08:35:00.000Z",
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
-   "top": true
+   "hasBody": true,
+   "top": false
   },
   {
    "id": "1cfebe14338490f6",
@@ -699,7 +1064,8 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
-   "top": true
+   "hasBody": true,
+   "top": false
   },
   {
    "id": "81532ead9775bfca",
@@ -711,7 +1077,8 @@
    "source": "New Straits Times",
    "feedId": "nst",
    "topic": "malaysia",
-   "top": true
+   "hasBody": true,
+   "top": false
   },
   {
    "id": "8b5dbf095469f7b0",
@@ -723,7 +1090,8 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
-   "top": true
+   "hasBody": true,
+   "top": false
   },
   {
    "id": "78abcb740b124a58",
@@ -735,7 +1103,8 @@
    "source": "New Straits Times",
    "feedId": "nst",
    "topic": "malaysia",
-   "top": true
+   "hasBody": true,
+   "top": false
   },
   {
    "id": "dc7b6329e213cd0e",
@@ -747,7 +1116,8 @@
    "source": "New Straits Times",
    "feedId": "nst",
    "topic": "malaysia",
-   "top": true
+   "hasBody": true,
+   "top": false
   },
   {
    "id": "c3713287775497a4",
@@ -759,7 +1129,8 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
-   "top": true
+   "hasBody": true,
+   "top": false
   },
   {
    "id": "64d08d5c12acb040",
@@ -771,19 +1142,8 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
-   "top": true
-  },
-  {
-   "id": "c1cef20084166763",
-   "title": "11 detained to assist probe into group attack in Ipoh",
-   "link": "https://www.nst.com.my/news/nation/2026/09/1526230/11-detained-assist-probe-group-attack-ipoh",
-   "summary": "IPOH: Police have detained 11 individuals to assist in investigations into a group attack that left a victim seriously injured in Taman Pengkalan Jaya here on Tuesday (Sept 1).",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/C4FDF2CA8EE6F43ECB1A0A3CDFBFBAFF_data_0.jpg",
-   "published": "2026-09-05T08:21:26.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
-   "top": true
+   "hasBody": true,
+   "top": false
   },
   {
    "id": "136d20b4717e440b",
@@ -795,7 +1155,8 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
-   "top": true
+   "hasBody": true,
+   "top": false
   },
   {
    "id": "cbddfb0ed6731d9e",
@@ -807,18 +1168,7 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
-   "top": true
-  },
-  {
-   "id": "e6cc1845b3ff97a4",
-   "title": "From janitor to senior lecturer: UM academic turns experience into PhD research",
-   "link": "https://www.nst.com.my/news/nation/2026/09/1526227/janitor-senior-lecturer-um-academic-turns-experience-phd-research",
-   "summary": "KUALA LUMPUR: From collecting rubbish as a janitor to becoming a senior lecturer at Universiti Malaya, Dr Nurul Asmaa Akmal Md Din has turned years of hard work into an academic career.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/F3F7D4C8893A7F4F5BAF0B066210B454_data_0.jpg",
-   "published": "2026-09-05T08:15:22.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -831,30 +1181,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
-   "top": false
-  },
-  {
-   "id": "7fd02edef06855ef",
-   "title": "Selangor slams FAM for 'not giving a single sen' and neglecting its affiliates",
-   "link": "https://www.nst.com.my/sports/football/2026/09/1526225/selangor-slams-fam-not-giving-single-sen-and-neglecting-its",
-   "summary": "KUALA LUMPUR: The FA of Malaysia (FAM) is said to be the richest national sports association in the country. So how much does it give its affiliates?",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/C934C7BA578C373589EF0CE141F1F4F1_data_0.jpg",
-   "published": "2026-09-05T08:12:22.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
-   "top": false
-  },
-  {
-   "id": "f1c187e916b8480c",
-   "title": "Pas-Umno ummah unity must move beyond resolutions, says Tuan Ibrahim",
-   "link": "https://www.nst.com.my/news/nation/2026/09/1526222/pas-umno-ummah-unity-must-move-beyond-resolutions-says-tuan-ibrahim",
-   "summary": "KOTA BARU: The ummah unity between Pas and Umno, which was unanimously endorsed at the Islamist party's muktamar, must be translated into action.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/7AEB16A53A1F81BE0C231DF98282D73D_data_0.jpg",
-   "published": "2026-09-05T08:11:56.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -867,6 +1194,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -879,6 +1207,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -891,18 +1220,7 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
-   "top": false
-  },
-  {
-   "id": "616d9c54a23d8fc7",
-   "title": "Haze-linked health problems on the rise, asthma cases jump eightfold",
-   "link": "https://www.nst.com.my/news/nation/2026/09/1526219/haze-linked-health-problems-rise-asthma-cases-jump-eightfold",
-   "summary": "KUALA LUMPUR: Asthma, bronchitis, acute respiratory tract infections (URTI) and conjunctivitis are among the health problems reported to have increased amid the haze currently blanketing the country.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/1EE6217CAD82078DDB66FAA9899BA2EA_data_0_0.jpg",
-   "published": "2026-09-05T08:03:07.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -915,6 +1233,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -927,18 +1246,7 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
-   "top": false
-  },
-  {
-   "id": "089c8864ca892d30",
-   "title": "Moto4 rider suffers multiple fractures in Valencia crash",
-   "link": "https://www.nst.com.my/sports/motor-sports/2026/09/1526217/moto4-rider-suffers-multiple-fractures-valencia-crash",
-   "summary": "KUALA LUMPUR: Promising rider Qabil Irfan Azlan sustained fractures to his left leg after crashing during free practice two (FP2) at the Valencia leg of the Moto4 European Cup yesterday.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/77F567CFF91D819C469EC8D53E9F0344_data_0.jpg",
-   "published": "2026-09-05T07:56:07.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -951,6 +1259,7 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -963,6 +1272,7 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -975,6 +1285,7 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -987,6 +1298,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -999,6 +1311,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1011,6 +1324,7 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1023,6 +1337,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1035,6 +1350,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1047,6 +1363,7 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1059,6 +1376,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1071,6 +1389,7 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1083,6 +1402,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1095,6 +1415,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1107,6 +1428,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1119,6 +1441,7 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1131,6 +1454,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1143,6 +1467,7 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1155,6 +1480,7 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1167,6 +1493,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1179,6 +1506,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1191,18 +1519,7 @@
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
-   "top": false
-  },
-  {
-   "id": "8dae98ad0842e0ea",
-   "title": "Two dead, 81 hurt after blasts rock Bolivia army barracks",
-   "link": "https://www.malaymail.com/news/world/2026/09/05/two-dead-81-hurt-after-blasts-rock-bolivia-army-barracks/234032",
-   "summary": "VIACHA, Sept 5 — Two explosions at an army barracks in Bolivia killed at least two people and wounded 81 on Friday...",
-   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/05/360825.jpg",
-   "published": "2026-09-05T06:52:10.000Z",
-   "source": "Malay Mail",
-   "feedId": "malaymail",
-   "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1215,6 +1532,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1227,6 +1545,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1239,6 +1558,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1251,6 +1571,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1263,6 +1584,7 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1275,6 +1597,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1287,6 +1610,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1299,6 +1623,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1311,6 +1636,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1323,6 +1649,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1335,6 +1662,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1347,6 +1675,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1359,6 +1688,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1371,6 +1701,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1383,6 +1714,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1395,6 +1727,7 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1407,6 +1740,7 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1419,6 +1753,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1431,6 +1766,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1443,6 +1779,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1455,6 +1792,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1467,6 +1805,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1479,18 +1818,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
-   "top": false
-  },
-  {
-   "id": "834f6c2088f60e12",
-   "title": "PAS muktamar approves motions on Muslim unity, ‘corporate mafia’ RCI",
-   "link": "https://www.freemalaysiatoday.com/category/nation/2026/09/05/pas-muktamar-approves-motions-on-muslim-unity-corporate-mafia-rci",
-   "summary": "The party says Muslim unity is key to strengthening the community, ensuring political stability and safeguarding the country’s wellbeing.",
-   "image": "https://media.freemalaysiatoday.com/v3/2026/09/d8f187df-20d8-4a0a-8e09-a061e780b04d-ABDUL-HADI-AWANG-PERASMIAN-MUKTAMAR-TAHUNAN-PAS-PUSAT-KE-72-PUTIK-KOTA-BHARU-20.jpg",
-   "published": "2026-09-05T05:15:00.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1503,30 +1831,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
-   "top": false
-  },
-  {
-   "id": "6f27c83fdf54c7cf",
-   "title": "Indonesia’s Anak Krakatau continues to erupt",
-   "link": "https://www.freemalaysiatoday.com/category/highlight/2026/09/05/indonesia-s-anak-krakatau-continues-to-erupt",
-   "summary": "Booming and rumbling sounds could be heard from an observation post as authorities reported lava-fountaining activity.",
-   "image": "https://media.freemalaysiatoday.com/v3/2026/09/0ce2d87e-b6e0-4963-8bba-eec093d18a86-8707095.webp",
-   "published": "2026-09-05T05:08:00.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "top": false
-  },
-  {
-   "id": "4f9600dde7088d6f",
-   "title": "Alternative sites for LIMA proposed amid regional competition, says Khaled",
-   "link": "https://www.freemalaysiatoday.com/category/nation/2026/09/05/alternative-sites-for-lima-proposed-amid-regional-competition-says-khaled",
-   "summary": "The defence minister says Malaysia must always make improvements, including in terms of venue size and exhibition facilities.",
-   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2026/06/84fab8e4-khaled-nordin-bernama-140626-1.webp",
-   "published": "2026-09-05T05:06:00.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1539,6 +1844,7 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1551,18 +1857,7 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
-   "top": false
-  },
-  {
-   "id": "6ce8d2571d9d1950",
-   "title": "Cadangan lokasi alternatif Lima tampung penyertaan lebih besar, kekal kompetitif",
-   "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/09/05/cadangan-lokasi-alternatif-lima-tampung-penyertaan-lebih-besar-kekal-kompetitif",
-   "summary": "Menteri pertahanan berkata Klebang antara lokasi boleh dipertimbangkan, namun perlu pelaburan besar untuk menyediakan pusat konvensyen dan kawasan pameran sesuai.",
-   "image": "https://media.freemalaysiatoday.com/v3/2026/09/727c62b3-44f1-4640-b093-c2f110deb0a4-lima-bernama-pic-resave-5926.webp",
-   "published": "2026-09-05T04:59:00.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1573,32 +1868,9 @@
    "image": "https://media.freemalaysiatoday.com/v3/2026/09/e01d4ed0-7327-4eef-9725-e106fad5aab4-Tunku-Azizah-Aminah-Maimunah-Iskandariah-fmt-5926.webp",
    "published": "2026-09-05T04:58:00.000Z",
    "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "top": false
-  },
-  {
-   "id": "dab4aa8e1e9eb055",
-   "title": "Sydney sweats in spring hot spell, faces ‘extreme’ bushfire risk",
-   "link": "https://www.freemalaysiatoday.com/category/world/2026/09/05/sydney-sweats-in-spring-hot-spell-faces-extreme-bushfire-risk",
-   "summary": "Australia's weather forecaster says temperatures in the New South Wales capital are set to hit 33°C, nearly 13°C above average.",
-   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2026/01/537596c0-australia-fire-10012026.webp",
-   "published": "2026-09-05T04:46:13.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "top": false
-  },
-  {
-   "id": "5d77176f00d3d9cb",
-   "title": "US judge reinforces order barring immediate work on Trump arch",
-   "link": "https://www.freemalaysiatoday.com/category/world/2026/09/05/us-judge-reinforces-order-barring-immediate-work-on-trump-arch",
-   "summary": "The planned 76-meter Washington arch is facing legal challenges and lacks final approval from a government planning authority.",
-   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2026/04/8f2ce5dd-13433506.webp",
-   "published": "2026-09-05T04:38:00.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
+   "feedId": "fmt-opinion",
+   "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1611,6 +1883,7 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1623,6 +1896,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1635,6 +1909,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1647,6 +1922,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1659,6 +1935,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1671,6 +1948,7 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1683,6 +1961,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1695,6 +1974,7 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1707,6 +1987,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1719,6 +2000,7 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1731,6 +2013,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1743,6 +2026,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1755,6 +2039,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1767,6 +2052,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1779,6 +2065,7 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1791,6 +2078,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1803,6 +2091,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1815,6 +2104,7 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1827,6 +2117,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1839,6 +2130,7 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1851,6 +2143,7 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1863,6 +2156,7 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1875,6 +2169,7 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1887,6 +2182,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1899,6 +2195,7 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1911,6 +2208,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1923,6 +2221,7 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1935,18 +2234,7 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
-   "top": false
-  },
-  {
-   "id": "07288d5fd9b75d02",
-   "title": "Ecuador defends US sinking of vessels as joint anti-drug operation",
-   "link": "https://www.aljazeera.com/news/2026/9/5/ecuador-defends-us-sinking-of-vessels-as-joint-anti-drug-operation?traffic_source=rss",
-   "summary": "Relatives of detained crew say US forces acted without evidence, claiming the men were fishermen, not smugglers.",
-   "image": "",
-   "published": "2026-09-05T01:46:50.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1959,6 +2247,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1971,18 +2260,7 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
-   "top": false
-  },
-  {
-   "id": "c9927feaebdccd89",
-   "title": "Asylum seekers caught in US immigration crackdown",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/5/asylum-seekers-caught-in-us-immigration-crackdown?traffic_source=rss",
-   "summary": "Dree Collopy argues it could make people who lawfully enter the US more vulnerable to arrest and deportation.",
-   "image": "",
-   "published": "2026-09-05T01:27:31.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1995,6 +2273,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2007,6 +2286,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2019,6 +2299,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2031,18 +2312,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
-   "top": false
-  },
-  {
-   "id": "0814e5546ffc7d84",
-   "title": "Judge declares mistrial in Lindsay Clancy children’s murder case",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/5/judge-declares-mistrial-in-lindsay-clancy-childrens-murder-case?traffic_source=rss",
-   "summary": "Lindsay Clancy’s high-profile trial for the murder of her three children has ended in a mistrial.",
-   "image": "",
-   "published": "2026-09-05T01:02:18.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2055,6 +2325,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2067,6 +2338,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2079,6 +2351,7 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2091,6 +2364,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2103,6 +2377,7 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2115,6 +2390,7 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2127,6 +2403,7 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2139,6 +2416,7 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2151,6 +2429,7 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2163,6 +2442,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2175,6 +2455,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2187,6 +2468,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2199,6 +2481,7 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2211,6 +2494,7 @@
    "source": "Ars Technica",
    "feedId": "arstechnica",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2223,6 +2507,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2235,6 +2520,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2247,6 +2533,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2259,6 +2546,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2271,6 +2559,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2283,6 +2572,7 @@
    "source": "Ars Technica",
    "feedId": "arstechnica",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2295,6 +2585,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2307,6 +2598,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2319,6 +2611,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2331,18 +2624,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
-   "top": false
-  },
-  {
-   "id": "b5a530c2f45b9334",
-   "title": "Ex-safety manager given 19 months’ prison over five-year-old’s hyperbaric chamber fire death",
-   "link": "https://www.theguardian.com/us-news/2026/sep/04/hyperbaric-chamber-sentencing-child-death",
-   "summary": "Jeffrey Mosteller pleaded no contest to charges relating to burning death of Thomas Cooper in Michigan A former safety manager has been sentenced to one year and seven months in prison in connection with the death of a five-year-old Michigan boy who was…",
-   "image": "https://i.guim.co.uk/img/media/0366c61e773ad897a477f4f1a2efa286ea7c1f7c/1_146_1578_1262/master/1578.jpg?width=700&quality=85&auto=format&fit=max&s=2da0217d91fc42f43adac23343c4404a",
-   "published": "2026-09-04T21:51:27.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-world",
-   "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2355,30 +2637,7 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
-   "top": false
-  },
-  {
-   "id": "1cb015fb7f39c753",
-   "title": "Leigh seal top-six spot as St Helens fail to make play-offs",
-   "link": "https://www.bbc.co.uk/sport/rugby-league/articles/c4gv039e1kvo?at_medium=RSS&at_campaign=rss",
-   "summary": "Leigh Leopards secure a Super League top-six finish by thrashing St Helens, ending Saints' hopes of reaching the play-offs.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7253/live/27457ac0-a89e-11f1-89c2-a7a8f1ef1615.jpg",
-   "published": "2026-09-04T21:47:57.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
-   "top": false
-  },
-  {
-   "id": "414d631039dd9948",
-   "title": "'I thought we were excellent' - O'Neil on Liverpool defeat",
-   "link": "https://www.bbc.co.uk/sport/football/videos/c5y4rpj0lx4o?at_medium=RSS&at_campaign=rss",
-   "summary": "Ipswich Town manager Gary O'Neil describes his team's performance as \"excellent\" despite their 2-0 defeat to Liverpool at Portman Road.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7627/live/f4fa4310-a8a8-11f1-b109-879e35c24276.jpg",
-   "published": "2026-09-04T21:47:02.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2391,6 +2650,7 @@
    "source": "The Verge",
    "feedId": "theverge",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2403,6 +2663,7 @@
    "source": "Ars Technica",
    "feedId": "arstechnica",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2415,6 +2676,7 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2427,6 +2689,7 @@
    "source": "Ars Technica",
    "feedId": "arstechnica",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2439,6 +2702,7 @@
    "source": "The Verge",
    "feedId": "theverge",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2451,6 +2715,7 @@
    "source": "Ars Technica",
    "feedId": "arstechnica",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2463,6 +2728,7 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2475,6 +2741,7 @@
    "source": "The Verge",
    "feedId": "theverge",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2487,6 +2754,7 @@
    "source": "The Verge",
    "feedId": "theverge",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2499,6 +2767,7 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2511,6 +2780,7 @@
    "source": "Ars Technica",
    "feedId": "arstechnica",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2523,6 +2793,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2535,6 +2806,7 @@
    "source": "Ars Technica",
    "feedId": "arstechnica",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2547,6 +2819,7 @@
    "source": "The Verge",
    "feedId": "theverge",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2559,6 +2832,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2571,6 +2845,7 @@
    "source": "Ars Technica",
    "feedId": "arstechnica",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2583,6 +2858,7 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2595,6 +2871,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2607,6 +2884,7 @@
    "source": "Ars Technica",
    "feedId": "arstechnica",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2619,6 +2897,7 @@
    "source": "Ars Technica",
    "feedId": "arstechnica",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2631,6 +2910,7 @@
    "source": "Ars Technica",
    "feedId": "arstechnica",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2643,6 +2923,7 @@
    "source": "The Verge",
    "feedId": "theverge",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2655,6 +2936,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2667,6 +2949,7 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2679,6 +2962,7 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2691,6 +2975,7 @@
    "source": "Ars Technica",
    "feedId": "arstechnica",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2703,6 +2988,7 @@
    "source": "Ars Technica",
    "feedId": "arstechnica",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2715,6 +3001,7 @@
    "source": "The Verge",
    "feedId": "theverge",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2727,6 +3014,7 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2739,6 +3027,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2751,6 +3040,7 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2763,6 +3053,7 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2775,6 +3066,7 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2787,6 +3079,7 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2799,6 +3092,7 @@
    "source": "The Verge",
    "feedId": "theverge",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2811,6 +3105,7 @@
    "source": "The Verge",
    "feedId": "theverge",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2823,6 +3118,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2835,6 +3131,7 @@
    "source": "The Verge",
    "feedId": "theverge",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2847,6 +3144,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2859,6 +3157,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2871,6 +3170,7 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2883,18 +3183,7 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
-   "top": false
-  },
-  {
-   "id": "74a429ded5d16cb2",
-   "title": "Two workers pulled alive from tunnel nine days after Nepal-Tibet floods",
-   "link": "https://www.theguardian.com/world/2026/sep/04/nepal-tunnel-found-alive-flood-two-workers-hydropower-rescue",
-   "summary": "Officials say pair were rescued from Trishuli 3A hydropower tunnel in Nepal after being trapped at depth of 170 metres Two people have been pulled out alive from a hydropower tunnel in Nepal nine days after deadly flash floods buried the projects in deep mud…",
-   "image": "https://i.guim.co.uk/img/media/48855307f6ce4ed9ec2e91a7134eb5658c9fe585/214_0_1066_853/master/1066.jpg?width=700&quality=85&auto=format&fit=max&s=a9d91638f86dca76d0900cbc838544c4",
-   "published": "2026-09-04T13:10:26.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-world",
-   "topic": "world",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2907,6 +3196,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2919,6 +3209,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2931,6 +3222,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2943,6 +3235,7 @@
    "source": "Ars Technica",
    "feedId": "arstechnica",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2955,18 +3248,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
-   "top": false
-  },
-  {
-   "id": "53586f2e3db7db75",
-   "title": "Seeds of hope: how a local farming project is offering a lifeline to Gaza",
-   "link": "https://www.theguardian.com/environment/2026/sep/04/seed-bank-hope-farming-project-gaza-al-qarara",
-   "summary": "Family-run Al-Qarara Seed Bank is striving to help Palestinians gain sovereignty over their food security Salama Ayesh Muhanna still remembers the first seeds he planted on his family’s land in al-Qarara, Gaza. At just 17, Muhanna had proudly sprouted…",
-   "image": "https://i.guim.co.uk/img/media/0522e1eaaff4b7c7e316acd329ad811841c98b65/379_0_4583_3667/master/4583.jpg?width=700&quality=85&auto=format&fit=max&s=fb2d1e9bada395338c20e30163f4b83c",
-   "published": "2026-09-04T12:37:57.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-world",
-   "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2979,6 +3261,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2991,6 +3274,7 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3003,6 +3287,7 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3015,6 +3300,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3027,6 +3313,7 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3039,6 +3326,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3051,6 +3339,7 @@
    "source": "Ars Technica",
    "feedId": "arstechnica",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3063,6 +3352,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3075,6 +3365,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3087,6 +3378,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3099,6 +3391,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3111,6 +3404,7 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3123,6 +3417,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3135,6 +3430,7 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3147,6 +3443,7 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3159,6 +3456,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3171,6 +3469,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3183,6 +3482,7 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3195,6 +3495,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3207,6 +3508,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3219,6 +3521,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3231,6 +3534,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3243,6 +3547,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3255,6 +3560,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3267,6 +3573,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3279,6 +3586,7 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3291,6 +3599,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3303,6 +3612,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3315,6 +3625,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3327,6 +3638,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3339,6 +3651,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3351,6 +3664,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3363,18 +3677,7 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
-   "top": false
-  },
-  {
-   "id": "bb6642398e28df25",
-   "title": "Najib, son get reprieve in RM1.69b tax bankruptcy case",
-   "link": "https://www.malaysiakini.com/news/783508",
-   "summary": "UPDATED 11.43AM | Court of Appeal says High Court erred in refusing duo's stay application.",
-   "image": "",
-   "published": "2026-09-04T02:06:32.000Z",
-   "source": "Malaysiakini",
-   "feedId": "malaysiakini",
-   "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3387,6 +3690,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3399,6 +3703,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3411,6 +3716,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3423,6 +3729,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3435,6 +3742,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3447,6 +3755,7 @@
    "source": "Ars Technica",
    "feedId": "arstechnica",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3459,6 +3768,7 @@
    "source": "Ars Technica",
    "feedId": "arstechnica",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3471,6 +3781,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3483,6 +3794,7 @@
    "source": "Ars Technica",
    "feedId": "arstechnica",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3495,6 +3807,7 @@
    "source": "Ars Technica",
    "feedId": "arstechnica",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3507,6 +3820,7 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3519,6 +3833,7 @@
    "source": "Ars Technica",
    "feedId": "arstechnica",
    "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3531,6 +3846,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3543,6 +3859,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3555,6 +3872,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3567,6 +3885,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3579,6 +3898,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3591,6 +3911,7 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3603,6 +3924,7 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3615,6 +3937,7 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3627,6 +3950,7 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3639,6 +3963,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3651,6 +3976,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3663,6 +3989,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3675,6 +4002,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3687,18 +4015,20 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
-   "id": "468aae2f274d8df8",
-   "title": "Trump admin spends billions to deport Black and brown people while doubling dollars for white ‘refugees’ | Heba Gowayed",
-   "link": "https://www.theguardian.com/commentisfree/2026/sep/02/trump-deportation-refugees-south-africa",
-   "summary": "‘Where the wealthiest country in the world allocates money has always been a question of political will over political way’ The United States once led most other nations on resettling refugees from all over the world. But in the fiscal year 2025- 2026, except…",
-   "image": "https://i.guim.co.uk/img/media/66dc81d80d0c528e5597d0960ff738f72e3fdc60/304_312_4358_3485/master/4358.jpg?width=700&quality=85&auto=format&fit=max&s=372c98f3c8a58a71632d73229dd24d6b",
-   "published": "2026-09-02T14:27:00.000Z",
+   "id": "c2e96f47a1491ffb",
+   "title": "Trump’s ridiculous bullying of Canada is backfiring | Robert Reich",
+   "link": "https://www.theguardian.com/commentisfree/2026/sep/02/trump-canada-tariffs-trade-war-backfiring",
+   "summary": "The US president’s need to assert dominance is igniting patriotism abroad and a backlash at home What do bullies do when someone stands up to their bullying and punches them in the face? They look for someone weaker to bully who won’t punch back. Presumably…",
+   "image": "https://i.guim.co.uk/img/media/735d296a8fcdc17212e854b1abe29887a4709544/621_0_6821_5456/master/6821.jpg?width=700&quality=85&auto=format&fit=max&s=3e805e2c1ea7bedf66058062d074bf16",
+   "published": "2026-09-02T12:00:24.000Z",
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3711,6 +4041,7 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3723,6 +4054,7 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3735,6 +4067,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3747,6 +4080,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3759,6 +4093,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3771,6 +4106,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3783,6 +4119,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3795,6 +4132,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3807,6 +4145,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3819,6 +4158,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3831,6 +4171,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3843,6 +4184,7 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3855,6 +4197,7 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3867,6 +4210,7 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
    "top": false
   }
  ]
