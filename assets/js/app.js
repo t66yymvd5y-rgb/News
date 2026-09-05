@@ -82,13 +82,13 @@ const dom = {
   filterTopic: el('filter-topic'), filterSource: el('filter-source'),
   savedCount: el('saved-count'), btnSaved: el('btn-saved'),
   tpl: el('tpl-tile'),
-  reader: el('reader'), readerSheet: null,
+  reader: el('reader'), readerSheet: document.querySelector('.reader__sheet'),
   readerArt: el('reader-art'), readerImage: el('reader-image'),
   readerSource: el('reader-source'), readerTime: el('reader-time'),
   readerTitle: el('reader-title'), readerBody: el('reader-body'),
   readerNote: el('reader-note'), readerLink: el('reader-link'),
   readerSave: el('reader-save'), readerClose: el('reader-close'),
-  readerScrim: el('reader-scrim')
+  readerDismiss: el('reader-dismiss'), readerScrim: el('reader-scrim')
 };
 
 /* ------------------------------------------------------------ storage --- */
@@ -297,17 +297,47 @@ function renderPage(i) {
 
 /* ------------------------------------------------------------- the fold --- */
 
-/** Wrap a page copy in a clipping half. */
-function half(pageIndex, which) {
+/** Wrap an existing page node in a clipping half. */
+function halfOf(pageNode, which) {
   const wrap = document.createElement('div');
   wrap.className = `half half--${which}`;
-  wrap.appendChild(renderPage(pageIndex));
+  wrap.appendChild(pageNode);
   return wrap;
+}
+
+/** Wrap a freshly rendered page copy in a clipping half. */
+function half(pageIndex, which) {
+  return halfOf(renderPage(pageIndex), which);
 }
 
 function paintStatic(index) {
   dom.stage.replaceChildren(half(index, 'top'), half(index, 'bottom'));
   refreshSaveButtons();
+  preloadNeighbours(index);
+}
+
+/**
+ * Fetch the art on the pages either side of this one, so a turn does not begin
+ * by asking the network for pictures. Without it the incoming half arrives with
+ * empty frames and fills in a beat later, which reads as a blink mid-turn.
+ *
+ * Detached Image objects: they never enter the document, they only put the
+ * bytes in the browser's cache for the real <img> to pick up.
+ */
+const warmed = new Set();
+
+function preloadNeighbours(index) {
+  for (const i of [index + 1, index - 1]) {
+    for (const slot of state.pages[i] || []) {
+      const src = slot.article && slot.article.image;
+      if (!src || warmed.has(src)) continue;
+      warmed.add(src);
+      const img = new Image();
+      img.referrerPolicy = 'no-referrer';
+      img.decoding = 'async';
+      img.src = src;
+    }
+  }
 }
 
 const reducedMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -324,15 +354,18 @@ function flipDuration() {
 /**
  * Build one turning leaf: half a page, hinged at the fold.
  *
+ * Takes a page node rather than an index so the outgoing leaf can adopt the
+ * one already on screen instead of rendering a second copy of it.
+ *
  * @param {'top'|'bottom'} region  which half of the stage it occupies
- * @param {number} pageIndex       the page whose half it shows
+ * @param {HTMLElement} pageNode   the page whose half it shows
  * @param {number} from            starting rotation, degrees
  * @param {number} shade           starting shade opacity
  */
-function makeLeaf(region, pageIndex, from, shade) {
+function makeLeaf(region, pageNode, from, shade) {
   const leaf = document.createElement('div');
   leaf.className = `leaf leaf--${region}`;
-  leaf.appendChild(renderPage(pageIndex));
+  leaf.appendChild(pageNode);
 
   const veil = document.createElement('div');
   veil.className = 'leaf__shade';
@@ -361,11 +394,6 @@ function goTo(target) {
 
   state.busy = true;
 
-  // Static layers. The half the leaves uncover shows the incoming page; the
-  // half they sweep across keeps the outgoing page until it is covered.
-  const staticTop = half(forward ? from : next, 'top');
-  const staticBottom = half(forward ? next : from, 'bottom');
-
   // Going forward the lower half lifts up and over; going back the upper half
   // folds down. The incoming leaf starts flipped away and lands flat.
   //
@@ -378,10 +406,30 @@ function goTo(target) {
   const outEnd = forward ? 180 : -180;
   const inStart = forward ? -180 : 180;
 
-  const leafOut = makeLeaf(outRegion, from, 0, 0);
-  const leafIn = makeLeaf(inRegion, next, inStart, 0.34);
+  // What is already painted, as live nodes. Re-rendering the page the reader is
+  // looking at is what produced the blink at the start of a turn: a fresh <img>
+  // has no frame to paint yet, so the paper went blank for a moment before the
+  // browser filled it back in. Nothing on screen is rebuilt here. The half the
+  // leaves do not uncover is left untouched in the stage, and the other half's
+  // page is lifted straight into the outgoing leaf, still decoded.
+  const staticKeep = dom.stage.querySelector(`:scope > .half--${inRegion}`)
+    || half(from, inRegion);
+  const staleHalf = dom.stage.querySelector(`:scope > .half--${outRegion}`);
+  const outPage = (staleHalf && staleHalf.firstElementChild) || renderPage(from);
 
-  dom.stage.replaceChildren(staticTop, staticBottom, leafOut, leafIn);
+  // The half the leaves uncover carries the incoming page; the leaves sweep
+  // across the other one, which keeps the outgoing page until it is covered.
+  const staticFresh = half(next, outRegion);
+
+  const leafOut = makeLeaf(outRegion, outPage, 0, 0);
+  const leafIn = makeLeaf(inRegion, renderPage(next), inStart, 0.34);
+
+  // Append rather than replace, so the kept half is never detached: leaves sit
+  // above both halves on z-index, and leafIn must follow leafOut to land on top
+  // of it, but the two halves never overlap so their order does not matter.
+  if (staleHalf) staleHalf.remove();
+  if (!staticKeep.parentNode) dom.stage.appendChild(staticKeep);
+  dom.stage.append(staticFresh, leafOut, leafIn);
   refreshSaveButtons();
 
   // Force a frame so each transition has a start value to animate from.
@@ -400,12 +448,12 @@ function goTo(target) {
   // halves produced. The two leaf wrappers are all that need removing; the
   // other half was rendered with the incoming page when the turn began.
   const settle = () => {
-    const landing = inRegion === 'top' ? staticTop : staticBottom;
     const arrived = leafIn.querySelector('.page');
-    if (arrived) landing.replaceChildren(arrived);
+    if (arrived) staticKeep.replaceChildren(arrived);
     leafOut.remove();
     leafIn.remove();
     state.busy = false;
+    preloadNeighbours(next);
   };
   leafIn.addEventListener('transitionend', (e) => {
     if (e.propertyName === 'transform') settle();
@@ -571,6 +619,9 @@ async function openReader(article, returnTo) {
 
   dom.reader.hidden = false;
   document.body.style.overflow = 'hidden';
+  // A story always opens at its own beginning, whatever the last one was
+  // scrolled to — and pull-to-close reads scrollTop, so it has to be honest.
+  dom.readerSheet.scrollTop = 0;
   dom.readerClose.focus();
 
   const bodies = await loadBodies();
@@ -598,6 +649,7 @@ function paragraph(text) {
 }
 
 function closeReader() {
+  clearPull();
   dom.reader.hidden = true;
   document.body.style.overflow = '';
   readerArticle = null;
@@ -606,6 +658,110 @@ function closeReader() {
 }
 
 const readerOpen = () => !dom.reader.hidden;
+
+/* ------------------------------------------------------- pull to close --- */
+
+/* How far the sheet has to be dragged before letting go closes it, and the
+   flick speed that closes it from a shorter drag. */
+const PULL_CLOSE_PX = 108;
+const PULL_FLICK_VELOCITY = 0.55;   // px per ms
+
+/** Put the sheet and the scrim back the way the stylesheet has them. */
+function clearPull() {
+  dom.reader.classList.remove('is-pulling');
+  dom.readerSheet.style.transition = '';
+  dom.readerSheet.style.transform = '';
+  dom.readerScrim.style.opacity = '';
+}
+
+/**
+ * Drag the reader down from its top edge to close it.
+ *
+ * The sheet is its own scroller, so the gesture only claims a touch that starts
+ * with the story already at the top and then moves downwards more than
+ * sideways. Anything else — a scroll, a swipe across, a pinch — is left to the
+ * browser, which keeps ordinary reading untouched.
+ */
+function wireReaderPull() {
+  const sheet = dom.readerSheet;
+  let startY = 0;
+  let startX = 0;
+  let startedAtTop = false;
+  let pulling = false;
+  let shift = 0;
+  let lastY = 0;
+  let lastT = 0;
+  let velocity = 0;
+
+  sheet.addEventListener('touchstart', (e) => {
+    if (e.touches.length !== 1) { startedAtTop = false; return; }
+    // A drag that begins mid-story is a scroll, not a dismissal.
+    startedAtTop = sheet.scrollTop <= 0;
+    pulling = false;
+    shift = 0;
+    velocity = 0;
+    startY = lastY = e.touches[0].clientY;
+    startX = e.touches[0].clientX;
+    lastT = e.timeStamp;
+    sheet.style.transition = '';
+  }, { passive: true });
+
+  sheet.addEventListener('touchmove', (e) => {
+    if (!startedAtTop || e.touches.length !== 1) return;
+    const y = e.touches[0].clientY;
+    const dy = y - startY;
+    const dx = e.touches[0].clientX - startX;
+
+    if (!pulling) {
+      // Wait for the direction to declare itself before taking the gesture.
+      if (Math.abs(dy) < 8 && Math.abs(dx) < 8) return;
+      if (dy <= 0 || Math.abs(dx) > Math.abs(dy)) { startedAtTop = false; return; }
+      pulling = true;
+      dom.reader.classList.add('is-pulling');
+    }
+
+    // An upward correction mid-drag just returns the sheet; it never scrolls
+    // the story from under the finger, which would feel like two gestures.
+    shift = Math.max(0, dy);
+    const dt = e.timeStamp - lastT;
+    if (dt > 0) velocity = (y - lastY) / dt;
+    lastY = y;
+    lastT = e.timeStamp;
+
+    e.preventDefault();
+    sheet.style.transform = `translateY(${shift}px)`;
+    // The scrim thins as the sheet leaves, so the deck behind it comes back.
+    dom.readerScrim.style.opacity = String(Math.max(0.25, 1 - shift / 420));
+  }, { passive: false });
+
+  const release = () => {
+    if (!pulling) { startedAtTop = false; return; }
+    pulling = false;
+    startedAtTop = false;
+
+    const closing = shift > PULL_CLOSE_PX
+      || (shift > 36 && velocity > PULL_FLICK_VELOCITY);
+
+    if (!closing) {
+      // Springs back, and the class comes off once it has landed so the next
+      // open still gets its entrance animation.
+      sheet.style.transition = 'transform 200ms cubic-bezier(0.22, 0.7, 0.25, 1)';
+      sheet.style.transform = '';
+      dom.readerScrim.style.opacity = '';
+      setTimeout(() => { if (!pulling) clearPull(); }, 220);
+      return;
+    }
+
+    if (reducedMotion()) { closeReader(); return; }
+    sheet.style.transition = 'transform 180ms ease-in, opacity 180ms ease-in';
+    sheet.style.transform = `translateY(${sheet.offsetHeight}px)`;
+    dom.readerScrim.style.opacity = '0';
+    setTimeout(closeReader, 170);
+  };
+
+  sheet.addEventListener('touchend', release, { passive: true });
+  sheet.addEventListener('touchcancel', release, { passive: true });
+}
 
 /**
  * Open the reader on a plain left click, and leave every other click to the
@@ -727,7 +883,9 @@ function wireEvents() {
   });
 
   dom.readerClose.addEventListener('click', closeReader);
+  dom.readerDismiss.addEventListener('click', closeReader);
   dom.readerScrim.addEventListener('click', closeReader);
+  wireReaderPull();
   dom.readerSave.addEventListener('click', () => {
     if (!readerArticle) return;
     toggleSaved(readerArticle);
