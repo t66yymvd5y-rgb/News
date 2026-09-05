@@ -262,6 +262,36 @@
    "url": "https://simonwillison.net/atom/everything/",
    "enabled": true,
    "maxItems": 10
+  },
+  {
+   "id": "gnews-star",
+   "source": "The Star",
+   "topic": "malaysia",
+   "url": "https://news.google.com/rss/search?q=site:thestar.com.my+when:2d&hl=en-MY&gl=MY&ceid=MY:en",
+   "enabled": true,
+   "maxItems": 20,
+   "via": "google-news",
+   "note": "Bridged via Google News: this publisher's own RSS returned 404 on every path probed on 5.9.2026. Links go to a Google redirect that forwards to the publisher, and there is no imagery or syndicated article text."
+  },
+  {
+   "id": "gnews-bernama",
+   "source": "Bernama",
+   "topic": "malaysia",
+   "url": "https://news.google.com/rss/search?q=site:bernama.com+when:2d&hl=en-MY&gl=MY&ceid=MY:en",
+   "enabled": true,
+   "maxItems": 15,
+   "via": "google-news",
+   "note": "Bridged via Google News: this publisher's own RSS returned 404 on every path probed on 5.9.2026. Links go to a Google redirect that forwards to the publisher, and there is no imagery or syndicated article text."
+  },
+  {
+   "id": "gnews-edge",
+   "source": "The Edge Malaysia",
+   "topic": "business",
+   "url": "https://news.google.com/rss/search?q=site:theedgemalaysia.com+when:2d&hl=en-MY&gl=MY&ceid=MY:en",
+   "enabled": true,
+   "maxItems": 12,
+   "via": "google-news",
+   "note": "Bridged via Google News: this publisher's own RSS returned 404 on every path probed on 5.9.2026. Links go to a Google redirect that forwards to the publisher, and there is no imagery or syndicated article text."
   }
  ],
  "fetch": {
@@ -270,30 +300,5 @@
   "timeoutMs": 15000,
   "topStoriesSize": 40
  },
- "probe": [
-  {
-   "id": "gnews-star",
-   "url": "https://news.google.com/rss/search?q=site:thestar.com.my+when:2d&hl=en-MY&gl=MY&ceid=MY:en"
-  },
-  {
-   "id": "gnews-bernama",
-   "url": "https://news.google.com/rss/search?q=site:bernama.com+when:2d&hl=en-MY&gl=MY&ceid=MY:en"
-  },
-  {
-   "id": "gnews-edge",
-   "url": "https://news.google.com/rss/search?q=site:theedgemalaysia.com+when:2d&hl=en-MY&gl=MY&ceid=MY:en"
-  },
-  {
-   "id": "star-f",
-   "url": "https://www.thestar.com.my/rss/"
-  },
-  {
-   "id": "bernama-e",
-   "url": "https://www.bernama.com/en/rss/general.xml"
-  },
-  {
-   "id": "edge-e",
-   "url": "https://theedgemalaysia.com/api/rss"
-  }
- ]
+ "probe": []
 }
