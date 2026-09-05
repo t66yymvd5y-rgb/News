@@ -22,6 +22,9 @@ import { fileURLToPath } from 'node:url';
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const CONFIG_PATH = resolve(ROOT, 'config/sources.json');
 const OUTPUT_PATH = resolve(ROOT, 'data/articles.json');
+// Bodies live in their own file so the index stays small and the site paints
+// before any article text is fetched. The reader loads this on first open.
+const BODIES_PATH = resolve(ROOT, 'data/bodies.json');
 
 const USER_AGENT =
   'KertasBot/1.0 (+https://github.com/t66yymvd5y-rgb/news; static news aggregator; contact via repo issues)';
@@ -217,6 +220,73 @@ function normaliseImageUrl(url) {
   return clean.replace(/^http:\/\//i, 'https://');
 }
 
+const PARA = '\u0000';
+
+/**
+ * Reduce syndicated article HTML to plain-text paragraphs.
+ *
+ * Plain text, not HTML: feed content is untrusted third-party input, and the
+ * reader renders these with textContent, so there is no path from a hostile or
+ * compromised feed to script execution in the page.
+ */
+function htmlToParagraphs(html) {
+  if (!html) return [];
+  let s = String(html).replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1');
+
+  // Elements whose text is furniture rather than article, dropped whole.
+  s = s.replace(/<(script|style|noscript|iframe|form|figcaption|aside)\b[\s\S]*?<\/\1>/gi, ' ');
+
+  // Mark paragraph boundaries before the tags are stripped.
+  s = s.replace(/<\/(p|div|li|h[1-6]|blockquote|tr|section)\s*>/gi, PARA);
+  s = s.replace(/(<br\s*\/?>\s*){2,}/gi, PARA);
+
+  s = stripTags(s);
+  s = decodeEntities(s);
+  if (TAG.test(s)) {
+    TAG.lastIndex = 0;
+    s = stripTags(s);
+  }
+  TAG.lastIndex = 0;
+
+  return s
+    .split(PARA)
+    .map((para) => para.replace(/\s+/g, ' ').trim())
+    .filter(Boolean)
+    .filter((para) => !BOILERPLATE.test(para));
+}
+
+const BOILERPLATE =
+  /^(the post .+ appeared first on|read more|continue reading|share (this|on)|related (stories|articles)|advertisement|sign up|subscribe|follow us|click here|photo:|image:|source:)/i;
+
+const MAX_PARAGRAPHS = 80;
+const MAX_BODY_CHARS = 20000;
+/* Below this a "body" is just the teaser again, and a reader view adds nothing. */
+const MIN_BODY_CHARS = 320;
+
+/**
+ * The article body as the publisher chose to syndicate it, or null.
+ *
+ * Only what the feed itself carries is used. Nothing is fetched from the
+ * publisher's site, so a metered article stays metered.
+ */
+function pickBody(block) {
+  for (const tag of ['content:encoded', 'content', 'description']) {
+    const found = firstTag(block, tag.replace(':', '\\:'));
+    if (!found) continue;
+    let paragraphs = htmlToParagraphs(found.inner).slice(0, MAX_PARAGRAPHS);
+
+    let total = 0;
+    const capped = [];
+    for (const para of paragraphs) {
+      if (total + para.length > MAX_BODY_CHARS) break;
+      capped.push(para);
+      total += para.length;
+    }
+    if (total >= MIN_BODY_CHARS) return capped;
+  }
+  return null;
+}
+
 function pickSummary(block) {
   for (const tag of ['description', 'summary', 'content:encoded', 'content', 'subtitle']) {
     const found = firstTag(block, tag.replace(':', '\\:'));
@@ -271,6 +341,7 @@ function parseFeed(xml, feed) {
     if (!title || !link) continue;
 
     const canonical = canonicalLink(link);
+    const body = pickBody(block);
     articles.push({
       id: hash(canonical),
       title,
@@ -281,7 +352,8 @@ function parseFeed(xml, feed) {
       published: pickDate(block),
       source: feed.source,
       feedId: feed.id,
-      topic: feed.topic
+      topic: feed.topic,
+      body
     });
   }
   return articles;
@@ -376,6 +448,22 @@ async function readPrevious() {
   }
 }
 
+async function readPreviousBodies() {
+  try {
+    const parsed = JSON.parse(await readFile(BODIES_PATH, 'utf8'));
+    return parsed.bodies || {};
+  } catch {
+    return {};
+  }
+}
+
+function median(values) {
+  if (!values.length) return 0;
+  const sorted = [...values].sort((a, b) => a - b);
+  const mid = Math.floor(sorted.length / 2);
+  return sorted.length % 2 ? sorted[mid] : Math.round((sorted[mid - 1] + sorted[mid]) / 2);
+}
+
 function scoreArticle(article, now) {
   // Top Stories ranking: recency, with a nudge for items that carry imagery
   // (a mosaic built entirely of text tiles reads badly) and for Malaysian desks.
@@ -402,7 +490,13 @@ async function main() {
     enabled.map(async (feed) => {
       try {
         const articles = await fetchFeed(feed, timeoutMs);
-        console.log(`  ok    ${feed.id.padEnd(18)} ${articles.length} items`);
+        const bodied = articles.filter((a) => a.body && a.body.length);
+        const chars = bodied.map((a) => a.body.join(' ').length);
+        console.log(
+          `  ok    ${feed.id.padEnd(18)} ${String(articles.length).padStart(3)} items` +
+            `  ·  full text: ${String(bodied.length).padStart(3)}/${articles.length}` +
+            (bodied.length ? `  median ${median(chars)} chars` : '')
+        );
         return { feed, articles, ok: true };
       } catch (err) {
         const carried = previous
@@ -447,6 +541,17 @@ async function main() {
     deduped.push(article);
   }
 
+  // Bodies are held separately and carried forward for items whose feed was
+  // down, so a reader view does not empty out during an outage.
+  const previousBodies = await readPreviousBodies();
+  const bodies = {};
+  for (const article of deduped) {
+    const body = article.body && article.body.length ? article.body : previousBodies[article.id];
+    if (body && body.length) bodies[article.id] = body;
+    article.hasBody = Boolean(bodies[article.id]);
+    delete article.body;
+  }
+
   const topIds = new Set(
     [...deduped]
       .sort((a, b) => scoreArticle(b, now) - scoreArticle(a, now))
@@ -467,6 +572,7 @@ async function main() {
       return acc;
     }, {}),
     failedFeeds: failures,
+    withBody: Object.keys(bodies).length,
     articles: deduped
   };
 
@@ -481,9 +587,16 @@ async function main() {
 
   await mkdir(dirname(OUTPUT_PATH), { recursive: true });
   await writeFile(OUTPUT_PATH, `${JSON.stringify(payload, null, 1)}\n`, 'utf8');
+  await writeFile(
+    BODIES_PATH,
+    `${JSON.stringify({ generatedAt: payload.generatedAt, bodies }, null, 1)}\n`,
+    'utf8'
+  );
 
+  const bodyCount = Object.keys(bodies).length;
   console.log(
     `Kertas: wrote ${deduped.length} articles from ${payload.sources.length} sources` +
+      `, ${bodyCount} with syndicated full text (${Math.round((100 * bodyCount) / deduped.length)}%)` +
       (failures.length ? ` (${failures.length} feed(s) failed: ${failures.join(', ')})` : '')
   );
 }

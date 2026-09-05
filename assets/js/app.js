@@ -11,6 +11,7 @@
    ========================================================================= */
 
 const DATA_URL = 'data/articles.json';
+const BODIES_URL = 'data/bodies.json';
 const STORE_SAVED = 'kertas.saved.v1';
 const STORE_THEME = 'kertas.theme.v1';
 
@@ -80,7 +81,14 @@ const dom = {
   searchTally: el('search-tally'),
   filterTopic: el('filter-topic'), filterSource: el('filter-source'),
   savedCount: el('saved-count'), btnSaved: el('btn-saved'),
-  tpl: el('tpl-tile')
+  tpl: el('tpl-tile'),
+  reader: el('reader'), readerSheet: null,
+  readerArt: el('reader-art'), readerImage: el('reader-image'),
+  readerSource: el('reader-source'), readerTime: el('reader-time'),
+  readerTitle: el('reader-title'), readerBody: el('reader-body'),
+  readerNote: el('reader-note'), readerLink: el('reader-link'),
+  readerSave: el('reader-save'), readerClose: el('reader-close'),
+  readerScrim: el('reader-scrim')
 };
 
 /* ------------------------------------------------------------ storage --- */
@@ -262,6 +270,8 @@ function buildTile({ area, size, article }) {
   node.querySelector('.tile__title').textContent = article.title;
   node.querySelector('.tile__summary').textContent = article.summary || '';
 
+  wireStoryOpen(link, article);
+
   const save = node.querySelector('.tile__save');
   save.dataset.id = article.id;
   save.classList.toggle('is-saved', isSaved(article.id));
@@ -358,10 +368,15 @@ function goTo(target) {
 
   // Going forward the lower half lifts up and over; going back the upper half
   // folds down. The incoming leaf starts flipped away and lands flat.
+  //
+  // Sign matters and is easy to get backwards. Under CSS's axes a positive
+  // rotateX brings the edge below the hinge towards the reader, so the outgoing
+  // lower half lifts off the page the way a hand turns it. Negative angles fold
+  // it away into the screen, which reads as the page falling over backwards.
   const outRegion = forward ? 'bottom' : 'top';
   const inRegion = forward ? 'top' : 'bottom';
-  const outEnd = forward ? -180 : 180;
-  const inStart = forward ? 180 : -180;
+  const outEnd = forward ? 180 : -180;
+  const inStart = forward ? -180 : 180;
 
   const leafOut = makeLeaf(outRegion, from, 0, 0);
   const leafIn = makeLeaf(inRegion, next, inStart, 0.34);
@@ -379,8 +394,17 @@ function goTo(target) {
   leafOut.querySelector('.leaf__shade').style.opacity = '0.34';
   leafIn.querySelector('.leaf__shade').style.opacity = '0';
 
+  // Hand the incoming leaf's page to the static half of the same region rather
+  // than re-rendering the stage. The node is already laid out and its images
+  // already decoded, so the turn ends without the flash that rebuilding both
+  // halves produced. The two leaf wrappers are all that need removing; the
+  // other half was rendered with the incoming page when the turn began.
   const settle = () => {
-    paintStatic(state.index);
+    const landing = inRegion === 'top' ? staticTop : staticBottom;
+    const arrived = leafIn.querySelector('.page');
+    if (arrived) landing.replaceChildren(arrived);
+    leafOut.remove();
+    leafIn.remove();
     state.busy = false;
   };
   leafIn.addEventListener('transitionend', (e) => {
@@ -490,6 +514,113 @@ function build({ keepIndex = false } = {}) {
   updatePager();
 }
 
+/* --------------------------------------------------------------- reader --- */
+
+/**
+ * Article bodies, loaded once on first use.
+ *
+ * Only what a publisher syndicates in their own feed is ever shown. Nothing is
+ * fetched from the publisher's site, so a metered article stays metered and no
+ * article text is reproduced beyond what the feed itself offers.
+ */
+let bodiesPromise = null;
+
+function loadBodies() {
+  if (!bodiesPromise) {
+    bodiesPromise = fetch(BODIES_URL, { cache: 'no-cache' })
+      .then((res) => (res.ok ? res.json() : { bodies: {} }))
+      .then((data) => data.bodies || {})
+      .catch(() => ({}));
+  }
+  return bodiesPromise;
+}
+
+let readerReturnFocus = null;
+let readerArticle = null;
+
+function renderReaderSaveButton() {
+  if (!readerArticle) return;
+  const on = isSaved(readerArticle.id);
+  dom.readerSave.textContent = on ? 'Saved' : 'Save for later';
+  dom.readerSave.classList.toggle('btn--primary', false);
+  dom.readerSave.setAttribute('aria-pressed', String(on));
+}
+
+async function openReader(article, returnTo) {
+  readerArticle = article;
+  readerReturnFocus = returnTo || null;
+
+  dom.readerSource.textContent = article.source;
+  dom.readerTime.textContent = relativeTime(article.published);
+  dom.readerTitle.textContent = article.title;
+  dom.readerLink.href = article.link || '#';
+  dom.readerLink.textContent = `Read the full story at ${article.source}`;
+  renderReaderSaveButton();
+
+  if (article.image) {
+    dom.readerArt.hidden = false;
+    dom.readerImage.src = article.image;
+    dom.readerImage.addEventListener('error', () => { dom.readerArt.hidden = true; }, { once: true });
+  } else {
+    dom.readerArt.hidden = true;
+  }
+
+  // Show the excerpt immediately; swap in the full text once it arrives.
+  dom.readerBody.replaceChildren(paragraph(article.summary || ''));
+  dom.readerNote.hidden = true;
+
+  dom.reader.hidden = false;
+  document.body.style.overflow = 'hidden';
+  dom.readerClose.focus();
+
+  const bodies = await loadBodies();
+  // The reader may have been closed, or moved on to another story, while the
+  // bodies file was in flight.
+  if (!readerArticle || readerArticle.id !== article.id || dom.reader.hidden) return;
+
+  const body = bodies[article.id];
+  if (body && body.length) {
+    dom.readerBody.replaceChildren(...body.map(paragraph));
+    dom.readerNote.hidden = true;
+  } else {
+    dom.readerBody.replaceChildren(paragraph(article.summary || ''));
+    dom.readerNote.textContent =
+      `${article.source} publishes only a summary in their feed, so that is all there is to show here. The full article is on their site.`;
+    dom.readerNote.hidden = false;
+  }
+}
+
+/** Text nodes only — feed content is never trusted as markup. */
+function paragraph(text) {
+  const p = document.createElement('p');
+  p.textContent = text;
+  return p;
+}
+
+function closeReader() {
+  dom.reader.hidden = true;
+  document.body.style.overflow = '';
+  readerArticle = null;
+  if (readerReturnFocus && document.contains(readerReturnFocus)) readerReturnFocus.focus();
+  readerReturnFocus = null;
+}
+
+const readerOpen = () => !dom.reader.hidden;
+
+/**
+ * Open the reader on a plain left click, and leave every other click to the
+ * browser so cmd-click, middle-click and "open in new tab" still reach the
+ * publisher directly.
+ */
+function wireStoryOpen(link, article) {
+  link.addEventListener('click', (e) => {
+    if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    if (!article.link || article.link === '#') return;
+    e.preventDefault();
+    openReader(article, link);
+  });
+}
+
 /* --------------------------------------------------------------- search --- */
 
 function openSearch() {
@@ -529,6 +660,7 @@ function runSearch() {
       const link = document.createElement('a');
       link.href = a.link || '#';
       if (a.link && a.link !== '#') { link.target = '_blank'; link.rel = 'noopener noreferrer'; }
+      wireStoryOpen(link, a);
 
       const text = document.createElement('div');
       const meta = document.createElement('p');
@@ -571,7 +703,20 @@ function wireEvents() {
   dom.prev.addEventListener('click', () => goTo(state.index - 1));
   dom.next.addEventListener('click', () => goTo(state.index + 1));
 
+  dom.readerClose.addEventListener('click', closeReader);
+  dom.readerScrim.addEventListener('click', closeReader);
+  dom.readerSave.addEventListener('click', () => {
+    if (!readerArticle) return;
+    toggleSaved(readerArticle);
+    renderReaderSaveButton();
+  });
+
   document.addEventListener('keydown', (e) => {
+    // The reader sits above everything; while it is open it owns the keyboard.
+    if (readerOpen()) {
+      if (e.key === 'Escape') closeReader();
+      return;
+    }
     if (!dom.panel.hidden) {
       if (e.key === 'Escape') closeSearch();
       return;
@@ -591,12 +736,15 @@ function wireEvents() {
     }
   });
 
-  // Wheel: one page per gesture, not one per tick.
+  // Wheel: one page per gesture, not one per tick. The quiet period is tied to
+  // the turn itself, so a trackpad's momentum tail cannot queue up further
+  // turns behind the one already running.
   let wheelLock = 0;
   dom.stage.parentElement.addEventListener('wheel', (e) => {
+    if (state.busy) return;
     if (Math.abs(e.deltaY) < 12) return;
     const now = Date.now();
-    if (now - wheelLock < 480) return;
+    if (now - wheelLock < flipDuration() + 120) return;
     wheelLock = now;
     goTo(state.index + (e.deltaY > 0 ? 1 : -1));
   }, { passive: true });

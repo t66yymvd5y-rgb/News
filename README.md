@@ -88,12 +88,29 @@ Saved stories are kept in the browser's own storage as a snapshot of the
 headline, so they survive the feed rotating them out. Nothing is sent anywhere;
 there is no account and no sync between devices.
 
+## Reading a story
+
+Tapping a story opens it in the reader rather than jumping straight out to the
+publisher. Cmd-click, middle-click and "open in new tab" still go to the
+publisher directly, and every reader view carries a link there.
+
+What the reader shows is decided entirely by the publisher. Feeds that syndicate
+the whole article — `content:encoded` in RSS, `content` in Atom — are shown in
+full. Feeds that carry only a teaser show the teaser and say so. Nothing is ever
+fetched from the publisher's own pages, so a metered article stays metered.
+
+Bodies are stored in `data/bodies.json`, separate from the index, so the site
+paints before any article text is loaded; the reader fetches it once, on first
+open. They are stored as plain-text paragraphs rather than HTML and rendered
+with `textContent`: feed content is untrusted third-party input, and this leaves
+no path from a hostile or compromised feed to script execution in the page.
+
 ## What it does not do
 
-It shows a headline, an excerpt as supplied by the publisher's own feed, the
-publisher's name, the timestamp, and the publisher's own image. Every tile links
-back to the publisher. It does not reproduce article text, cache article bodies,
-or work around paywalls.
+It shows a headline, the publisher's name, the timestamp, the publisher's own
+image, and whatever text the publisher puts in their own feed. Every story links
+back to the source. It does not fetch or reproduce article text beyond the feed,
+cache publisher pages, or work around paywalls.
 
 ## Layout
 
