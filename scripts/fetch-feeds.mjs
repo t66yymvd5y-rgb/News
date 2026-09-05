@@ -329,6 +329,29 @@ function hash(value) {
   return createHash('sha1').update(value).digest('hex').slice(0, 16);
 }
 
+function escapeRegExp(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+/**
+ * Normalisation for feeds that carry a publisher's headlines rather than the
+ * publisher's own feed.
+ *
+ * Google News search feeds append " - Publisher" to every headline, and use
+ * the description for a block of markup rather than a summary, so both are
+ * corrected here instead of being shown as-is.
+ */
+function applyFeedQuirks(article, feed) {
+  if (feed.via !== 'google-news') return article;
+
+  const suffix = new RegExp(`\\s*[-–—]\\s*${escapeRegExp(feed.source)}\\s*$`, 'i');
+  article.title = article.title.replace(suffix, '').trim();
+  // The description is a link blob, and there is no syndicated article text.
+  article.summary = '';
+  article.body = null;
+  return article;
+}
+
 function parseFeed(xml, feed) {
   const { kind, blocks } = splitEntries(xml);
   if (!blocks.length) throw new Error('no <item> or <entry> elements found');
@@ -342,7 +365,7 @@ function parseFeed(xml, feed) {
 
     const canonical = canonicalLink(link);
     const body = pickBody(block);
-    articles.push({
+    articles.push(applyFeedQuirks({
       id: hash(canonical),
       title,
       link,
@@ -354,7 +377,7 @@ function parseFeed(xml, feed) {
       feedId: feed.id,
       topic: feed.topic,
       body
-    });
+    }, feed));
   }
   return articles;
 }

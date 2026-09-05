@@ -67,10 +67,19 @@ whatever works into `feeds`, and delete the rest.
 **Malaysiakini** publishes free headlines but meters some articles, so a
 proportion of those tiles will hit a paywall.
 
-**The Star, Bernama and The Edge Malaysia** are disabled. Every candidate RSS
-path was probed on 5.9.2026 and every one returned 404; these publishers appear
-to have withdrawn public feeds rather than moved them. They are left in the
-config, disabled, so re-enabling is one flag if they return.
+**The Star, Bernama and The Edge Malaysia** no longer publish RSS. Every
+candidate path was probed on 5.9.2026 and every one returned 404; they appear to
+have withdrawn public feeds rather than moved them. Their direct entries are
+left in the config, disabled, so re-enabling is one flag if they return.
+
+In the meantime all three are bridged through Google News, which still carries
+their headlines. A bridged feed is marked `"via": "google-news"`, which strips
+the " - Publisher" suffix Google appends to every headline and discards the
+description, since Google fills it with a block of markup rather than a summary.
+The trade-off is real and worth knowing: **links go to a Google redirect that
+forwards to the publisher rather than straight there, and there is no imagery
+and no article text for the reader.** Those tiles show a headline and a link,
+nothing more. Delete the three `gnews-` entries to drop the bridge.
 
 **Reuters** is disabled for the same reason — they withdrew their public RSS
 feeds some time ago.
