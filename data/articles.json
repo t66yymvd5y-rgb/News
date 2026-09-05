@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-05T10:41:30.698Z",
+ "generatedAt": "2026-09-05T10:44:35.047Z",
  "site": {
   "name": "Kertas",
   "tagline": "Malaysia first. The world next.",
@@ -37,35 +37,52 @@
   }
  ],
  "sources": [
+  "AI News",
   "Al Jazeera",
   "Ars Technica",
   "BBC News",
   "BBC Sport",
   "Channel NewsAsia",
   "Free Malaysia Today",
+  "Google",
+  "Google DeepMind",
+  "MIT News",
+  "MIT Technology Review",
   "Malay Mail",
   "Malaysiakini",
   "New Straits Times",
+  "Simon Willison",
+  "TechCrunch",
   "The Guardian",
-  "The Verge"
+  "The Register",
+  "The Verge",
+  "Wired"
  ],
  "counts": {
   "top": 40,
   "malaysia": 100,
   "world": 95,
   "business": 22,
-  "tech": 30,
+  "tech": 128,
   "sport": 24,
   "opinion": 48
  },
- "failedFeeds": [
-  "thestar-nation",
-  "thestar-business",
-  "bernama",
-  "theedge"
- ],
- "withBody": 178,
+ "failedFeeds": [],
+ "withBody": 228,
  "articles": [
+  {
+   "id": "b4f1b8eefb24f2cd",
+   "title": "SNAPSHOT | Malacca mulls RM2.5k minimum wage; DAP MP questions planned SST-GST hybrid system",
+   "link": "https://www.malaysiakini.com/news/783617",
+   "summary": "What’s going on in the news today, with updates at 11am, 2pm, and 6pm.",
+   "image": "",
+   "published": "2026-09-05T10:41:12.000Z",
+   "source": "Malaysiakini",
+   "feedId": "malaysiakini",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
   {
    "id": "6987e9fa6f411c2d",
    "title": "Antonelli 'disrupting rules of fandom' in Ferrari's Italy",
@@ -78,6 +95,19 @@
    "topic": "sport",
    "hasBody": false,
    "top": false
+  },
+  {
+   "id": "6ac9db0a68f1953f",
+   "title": "Budget 2027 plan: Fadhlina pushes Kasih Madani training expansion to protect children nationwide",
+   "link": "https://www.malaymail.com/news/malaysia/2026/09/05/budget-2027-plan-fadhlina-pushes-kasih-madani-training-expansion-to-protect-children-nationwide/234066",
+   "summary": "BUTTERWORTH, Sept 5 — Education Minister Datuk Seri Fadhlina Sidek will propose including the Kasih Madani home ch...",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/05/360860.jpg",
+   "published": "2026-09-05T10:36:24.000Z",
+   "source": "Malay Mail",
+   "feedId": "malaymail",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
   },
   {
    "id": "17b8d827485f8d5e",
@@ -119,6 +149,32 @@
    "top": true
   },
   {
+   "id": "16f547224f455349",
+   "title": "There May Not Be an iPhone 18 This Year",
+   "link": "https://www.wired.com/story/there-may-not-be-an-iphone-18-this-year/",
+   "summary": "Apple is expected to announce several products at its September event next week—including a folding phone—but the iPhone 18 might not be among them. It would be a first for the company.",
+   "image": "https://media.wired.com/photos/6a9728f10bab9c8d3b25021e/master/pass/Might-Not-Be-iphone-18-Gear-2241791725.jpg",
+   "published": "2026-09-05T10:30:00.000Z",
+   "source": "Wired",
+   "feedId": "wired",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "f21ca7313d294404",
+   "title": "OpenAI Agents Hacked Another Website",
+   "link": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/",
+   "summary": "Plus: Tens of millions of US and Canadian drivers’ licenses go up for sale on the dark web, the US military finally tries to tackle the risk online ad data poses to troops, and more.",
+   "image": "https://media.wired.com/photos/6a9b056f355eb442715c734d/master/pass/Security_OpenAIAgentsTriedtoHackAnotherWebsite_v1-ezgif.com-video-to-gif-converter.gif",
+   "published": "2026-09-05T10:30:00.000Z",
+   "source": "Wired",
+   "feedId": "wired",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "52a77112e98feb6a",
    "title": "Farage and Jenrick to speak on final day of Reform conference marred by scandal and protests – UK politics live",
    "link": "https://www.theguardian.com/politics/live/2026/sep/05/nigel-farage-robert-jenrick-reform-uk-politics-latest-news-updates",
@@ -129,6 +185,19 @@
    "feedId": "guardian-world",
    "topic": "world",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "0df0abe813f720f7",
+   "title": "At least 5 killed in Russian attacks on Ukraine as US envoys visit Moscow",
+   "link": "https://www.aljazeera.com/news/2026/9/5/at-least-5-killed-in-russian-attacks-on-ukraine-as-us-envoys-visit-moscow?traffic_source=rss",
+   "summary": "Ukrainian armed forces were ordered to follow a three-day ceasefire as US envoys visit Moscow, before trip to Kyiv.",
+   "image": "",
+   "published": "2026-09-05T10:27:23.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -185,7 +254,7 @@
   },
   {
    "id": "d72fba252aa7df3d",
-   "title": "Clarke gave SFA 'a little shove' for new contract",
+   "title": "Clarke gave SFA 'a little shove' over new contract",
    "link": "https://www.bbc.co.uk/sport/football/articles/c790e8dxddro?at_medium=RSS&at_campaign=rss",
    "summary": "Steve Clarke says he had to cajole the Scottish FA into handing him a new contract as national head coach shortly before the World Cup finals this summer because he felt the governing body was hedging its bets.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce0a/live/51cc6050-a912-11f1-b109-879e35c24276.jpg",
@@ -353,6 +422,19 @@
    "top": false
   },
   {
+   "id": "51d2f9c6d4db9654",
+   "title": "Scientists Put Caterpillars in an Ultraquiet Chamber to Learn How They Hear Without Ears",
+   "link": "https://www.wired.com/story/how-do-caterpillars-hear-without-ears/",
+   "summary": "The research could do more than help unlock the mystery of caterpillar hearing. It could also help make microphones better.",
+   "image": "https://media.wired.com/photos/6a99561e6f7d62b638e21691/master/pass/GettyImages-1404567195.jpg",
+   "published": "2026-09-05T10:00:00.000Z",
+   "source": "Wired",
+   "feedId": "wired",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "9fe3d948eadfb3ed",
    "title": "Why is Trump threatening to strike Iran’s Pickaxe Mountain again, now?",
    "link": "https://www.aljazeera.com/news/2026/9/5/why-is-trump-threatening-to-strike-irans-pickaxe-mountain-again-now?traffic_source=rss",
@@ -442,6 +524,19 @@
    "topic": "malaysia",
    "hasBody": true,
    "top": true
+  },
+  {
+   "id": "e68586cdbe7842b6",
+   "title": "The Watch World Went Crazy This Week. Here Are the 10 You Need to See",
+   "link": "https://www.wired.com/story/the-watch-world-went-crazy-this-week-here-are-the-10-you-need-to-see/",
+   "summary": "The main action took place at Geneva Watch Days, but others dialed in remotely to make sure it wasn't just a Swiss party.",
+   "image": "https://media.wired.com/photos/6a9b0cbfa95fee1cd7b0f651/master/pass/WatchWeek.jpg",
+   "published": "2026-09-05T09:45:00.000Z",
+   "source": "Wired",
+   "feedId": "wired",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
   },
   {
    "id": "bd6829ed160886cc",
@@ -912,6 +1007,19 @@
    "top": false
   },
   {
+   "id": "145ee0ff0407451a",
+   "title": "Marvel Has Assigned 42 Hours of Homework Before ‘Avengers: Doomsday’",
+   "link": "https://www.wired.com/story/marvel-has-assigned-42-hours-of-homework-before-avengers-doomsday/",
+   "summary": "The studio released an official catch-up list ahead of December’s release. We have easy links to watch every one of the movies so you can get up to speed.",
+   "image": "https://media.wired.com/photos/6a9af956bdd01751be1ee6b8/master/pass/Marvel-Is-Giving-You-Homework-Culture-Avengers_TrailerPull.jpg",
+   "published": "2026-09-05T09:00:00.000Z",
+   "source": "Wired",
+   "feedId": "wired",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "2f84d4fe8ae6f366",
    "title": "Abdul Karim: Kuching gears up for Malaysia Day celebration expected to draw 5,000",
    "link": "https://www.malaymail.com/news/malaysia/2026/09/05/abdul-karim-kuching-gears-up-for-malaysia-day-celebration-expected-to-draw-5000/234054",
@@ -961,7 +1069,7 @@
    "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "ff18c53a382ec604",
@@ -1549,19 +1657,6 @@
    "top": false
   },
   {
-   "id": "b180cb693e2844dd",
-   "title": "‘Not just Kota Kinabalu’: MOH targets Sandakan, Tawau clusters in Sabah specialist expansion",
-   "link": "https://www.malaymail.com/news/malaysia/2026/09/05/not-just-kota-kinabalu-moh-targets-sandakan-tawau-clusters-in-sabah-specialist-expansion/234033",
-   "summary": "KOTA KINABALU, Sept 5 — The Ministry of Health Malaysia (MOH) will begin placing resident specialists in several h...",
-   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/05/360826.jpg",
-   "published": "2026-09-05T06:52:32.000Z",
-   "source": "Malay Mail",
-   "feedId": "malaymail",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
    "id": "3beab6e7cc6bfb26",
    "title": "At least five killed in Sudan’s South Kordofan in attack by rebel group",
    "link": "https://www.aljazeera.com/news/2026/9/5/five-killed-in-sudans-kordofan-in-attack-by-rebel-group?traffic_source=rss",
@@ -1598,6 +1693,19 @@
    "feedId": "bbc-sport",
    "topic": "sport",
    "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "dbcf89bb6cac86e8",
+   "title": "BepiColombo sheds its ride and starts the final glide to Mercury",
+   "link": "https://www.theregister.com/science/2026/09/05/bepicolombo-sheds-its-ride-and-starts-the-final-glide-to-mercury/5294601",
+   "summary": "Eight year after launch, Mercury probe and its Mercury Transfer Module consciously uncouple as orbit approaches",
+   "image": "https://image.theregister.com/?imageId=1685901&width=800",
+   "published": "2026-09-05T06:41:00.000Z",
+   "source": "The Register",
+   "feedId": "register",
+   "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2147,19 +2255,6 @@
    "top": false
   },
   {
-   "id": "8af81a5af110b4fc",
-   "title": "‘To challenge deadly blockade’: New flotilla mission sets sail for Gaza",
-   "link": "https://www.aljazeera.com/news/2026/9/5/to-challenge-deadly-blockade-new-flotilla-mission-sets-sail-for-gaza?traffic_source=rss",
-   "summary": "Human rights advocates call for diplomatic measures to guarantee flotilla safety and end Israel's deadly Gaza blockade.",
-   "image": "",
-   "published": "2026-09-05T02:43:23.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "1c1948d888fa64a4",
    "title": "Bangladesh measles toll nears grim 1,000-child mark",
    "link": "https://www.channelnewsasia.com/asia/bangladesh-measles-toll-nears-grim-1000-child-mark-6364166",
@@ -2420,6 +2515,32 @@
    "top": false
   },
   {
+   "id": "b3b9e98febac2b86",
+   "title": "The Pelican comparison grid for Astra is pretty interesting",
+   "link": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+   "summary": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in a comparison grid…",
+   "image": "",
+   "published": "2026-09-04T23:59:05.000Z",
+   "source": "Simon Willison",
+   "feedId": "simonw",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "d7b2d01e2750bd0a",
+   "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+   "link": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+   "summary": "The round is being raised just months after the robot data startup exited from stealth.",
+   "image": "",
+   "published": "2026-09-04T23:36:14.000Z",
+   "source": "TechCrunch",
+   "feedId": "techcrunch",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "94f521fa7cc79067",
    "title": "Is motion sickness preventable? What works and what doesn't",
    "link": "https://www.channelnewsasia.com/wellness/motion-sickness-prevention-treatment-6345526",
@@ -2456,6 +2577,19 @@
    "feedId": "fmt-opinion",
    "topic": "opinion",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "fe3e9affeeaab43c",
+   "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+   "link": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+   "summary": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
+   "image": "",
+   "published": "2026-09-04T23:15:11.000Z",
+   "source": "TechCrunch",
+   "feedId": "techcrunch",
+   "topic": "tech",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2667,6 +2801,32 @@
    "top": false
   },
   {
+   "id": "886491e995a15d9b",
+   "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+   "link": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+   "summary": "Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO.",
+   "image": "",
+   "published": "2026-09-04T21:12:11.000Z",
+   "source": "TechCrunch",
+   "feedId": "techcrunch",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "e342a9152cac1c87",
+   "title": "Anthropic lays groundwork for bots that shop for you",
+   "link": "https://www.theregister.com/ai-and-ml/2026/09/04/anthropic-lays-groundwork-for-bots-that-shop-for-you/5294621",
+   "summary": "Now comes the harder sell: Convincing customers and merchants to trust AI with purchases",
+   "image": "https://image.theregister.com/?imageId=5294637&width=800",
+   "published": "2026-09-04T20:36:07.000Z",
+   "source": "The Register",
+   "feedId": "register",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "036c14f11385c81a",
    "title": "Measles killed 6-week-old baby, coroner confirms after RFK Jr. disputed deaths",
    "link": "https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/",
@@ -2689,6 +2849,19 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "b548c89b70b8ed74",
+   "title": "AMD's Threadripper Halo is a local-AI workstation for researchers with deep pockets",
+   "link": "https://www.theregister.com/on-prem/2026/09/04/amds-threadripper-halo-is-a-local-ai-workstation-for-researchers-with-deep-pockets/5294616",
+   "summary": "AI workstation promises to put up to 576 GB of HBM3e and 16 TB/s of memory bandwidth on your desk",
+   "image": "https://image.theregister.com/?imageId=5294624&width=800",
+   "published": "2026-09-04T20:12:11.000Z",
+   "source": "The Register",
+   "feedId": "register",
+   "topic": "tech",
    "hasBody": true,
    "top": false
   },
@@ -2719,6 +2892,19 @@
    "top": false
   },
   {
+   "id": "d7afce71bf05aa09",
+   "title": "ASCII smuggling isn't just an AI security risk",
+   "link": "https://www.theregister.com/security/2026/09/04/ascii-smuggling-isnt-just-an-ai-security-risk/5294595",
+   "summary": "Phishers find a new use for invisible Unicode tag characters",
+   "image": "https://image.theregister.com/?imageId=258480&width=800",
+   "published": "2026-09-04T19:23:25.000Z",
+   "source": "The Register",
+   "feedId": "register",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "836e6a043916331c",
    "title": "Medieval manuscripts are \"biological time capsules\" for deadly sheeppox virus",
    "link": "https://arstechnica.com/science/2026/09/medieval-manuscripts-are-biological-time-capsules-for-deadly-sheeppox-virus/",
@@ -2727,6 +2913,45 @@
    "published": "2026-09-04T19:01:02.000Z",
    "source": "Ars Technica",
    "feedId": "arstechnica",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "b2656ae427d99a5c",
+   "title": "Home Depot Labor Day Sale (2026): BOGO on Best Grills and Tools",
+   "link": "https://www.wired.com/story/home-depot-labor-day-sale-deals-2026/",
+   "summary": "The Home Depot Labor Day sale goes hard on grills and tools. Here are our recommendations on what to buy—and what to ignore.",
+   "image": "https://media.wired.com/photos/6a9b0a92df1ff8f5f606a6e1/master/pass/Home-Depot",
+   "published": "2026-09-04T18:54:28.000Z",
+   "source": "Wired",
+   "feedId": "wired",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "2ba0ff18d3ffdc6d",
+   "title": "Casio ‘CasioNaut’ G-Shock GMC-2500 GAC-2500 Series: Price, Specs, Availability",
+   "link": "https://www.wired.com/story/casio-g-shock-casionaut-looks-like-a-patek-philippe-classic/",
+   "summary": "In what appears to be a follow-up to the mighty “CasiOak,” the rugged Japanese watch brand is expected to release an all-new luxury homage.",
+   "image": "https://media.wired.com/photos/6a9af6d18a4288faa89a786c/master/pass/Casio-Leaked-Top.jpg",
+   "published": "2026-09-04T18:41:47.000Z",
+   "source": "Wired",
+   "feedId": "wired",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "7cccdbfe5204daed",
+   "title": "Architecting memory and storage in the AI era",
+   "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+   "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These…",
+   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/07/iStock-2239372581.jpg?w=840",
+   "published": "2026-09-04T18:39:19.000Z",
+   "source": "MIT Technology Review",
+   "feedId": "mittr",
    "topic": "tech",
    "hasBody": true,
    "top": false
@@ -2758,6 +2983,19 @@
    "top": false
   },
   {
+   "id": "1115b0321b2917c5",
+   "title": "Judge blocks X rival from using Twitter name, but allows ‘Tweet’ for now",
+   "link": "https://techcrunch.com/2026/09/04/judge-blocks-x-rival-from-using-twitter-name-but-allows-tweet-for-now/",
+   "summary": "A federal judge temporarily barred an X rival from using the Twitter name, but found that X was likely to have abandoned the “Tweet” trademark and bird logo. The startup has since relaunched as Tweet.app.",
+   "image": "",
+   "published": "2026-09-04T17:52:05.000Z",
+   "source": "TechCrunch",
+   "feedId": "techcrunch",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "fc75f575fc539669",
    "title": "Roland is getting into generative AI music with Melody Flip",
    "link": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
@@ -2781,6 +3019,19 @@
    "feedId": "guardian-world",
    "topic": "world",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "5ba31ce361d217ca",
+   "title": "OpenAI's rogue agents were caught communicating via public wikis",
+   "link": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
+   "summary": "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by models being trained by OpenAI. This time it was agents engaged in some…",
+   "image": "",
+   "published": "2026-09-04T17:38:48.000Z",
+   "source": "Simon Willison",
+   "feedId": "simonw",
+   "topic": "tech",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2823,6 +3074,19 @@
    "top": false
   },
   {
+   "id": "8387f1efcfcf3db0",
+   "title": "What will Apple’s John Ternus era look like?",
+   "link": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
+   "summary": "It’s officially the Ternus era at Apple. Tim Cook stepped down as CEO this week, handing the company to former hardware chief John Ternus, whose first memo promised a “huge launch next week” — timing that puts Apple’s next iPhone event on his desk before he’s…",
+   "image": "",
+   "published": "2026-09-04T17:18:00.000Z",
+   "source": "TechCrunch",
+   "feedId": "techcrunch",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "a250f481fd3b74e1",
    "title": "AGI is whatever you want it to be",
    "link": "https://www.theverge.com/podcast/990323/agi-is-whatever-you-want-it-to-be",
@@ -2859,6 +3123,19 @@
    "feedId": "arstechnica",
    "topic": "tech",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "35007d86f71b88ef",
+   "title": "No little kids allowed, and other new info about Tesla’s Cybercab",
+   "link": "https://techcrunch.com/2026/09/04/no-little-kids-allowed-and-other-new-info-about-teslas-cybercab/",
+   "summary": "The company says no children under 13 can ride -- even with a parent. That's more restrictive than the Model Y SUVs it's using as robotaxis.",
+   "image": "",
+   "published": "2026-09-04T16:51:23.000Z",
+   "source": "TechCrunch",
+   "feedId": "techcrunch",
+   "topic": "tech",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2927,6 +3204,19 @@
    "top": false
   },
   {
+   "id": "1db7ddb57e1849b5",
+   "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
+   "link": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+   "summary": "It's the latest failure of OpenAI's internal monitoring and security systems.",
+   "image": "",
+   "published": "2026-09-04T16:21:11.000Z",
+   "source": "TechCrunch",
+   "feedId": "techcrunch",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "f038a295bd4f2ca6",
    "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
    "link": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
@@ -2935,6 +3225,19 @@
    "published": "2026-09-04T16:05:57.000Z",
    "source": "The Verge",
    "feedId": "theverge",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "a2d3d2ae6b0e8aab",
+   "title": "Apple’s Ternus era begins as Nvidia bets on the whole AI stack",
+   "link": "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/",
+   "summary": "It’s officially the Ternus era at Apple. Tim Cook stepped down as CEO this week, handing the company to former hardware chief John Ternus, whose first memo promised a “huge launch next week” — timing that puts Apple’s next iPhone event on his desk before he’s…",
+   "image": "",
+   "published": "2026-09-04T16:04:08.000Z",
+   "source": "TechCrunch",
+   "feedId": "tc-ai",
    "topic": "tech",
    "hasBody": true,
    "top": false
@@ -2950,6 +3253,19 @@
    "feedId": "bbc-world",
    "topic": "world",
    "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "0a01ea7dbbf864bd",
+   "title": "Rogue OpenAI agents used dead German web site to communicate in May, months before Hugging Face incident",
+   "link": "https://www.theregister.com/ai-and-ml/2026/09/04/rogue-openai-agents-used-dead-german-web-site-to-communicate-in-may-months-before-hugging-face-incident/5294554",
+   "summary": "Two cases of agents escaping to solve unsolvable problems paints an uncomfortable question: Is the entire internet in OpenAI's experimental agentic firing line?",
+   "image": "https://image.theregister.com/?imageId=5294592&width=800",
+   "published": "2026-09-04T16:02:08.000Z",
+   "source": "The Register",
+   "feedId": "register",
+   "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3057,6 +3373,32 @@
    "top": false
   },
   {
+   "id": "aa7fa43197f4509e",
+   "title": "My Word. Microsoft's prepping Similarity Checker for retirement",
+   "link": "https://www.theregister.com/applications/2026/09/04/my-word-microsofts-prepping-similarity-checker-for-retirement/5294550",
+   "summary": "Built-in plagiarism police to hand in badge next month",
+   "image": "https://image.theregister.com/?imageId=5278204&width=800",
+   "published": "2026-09-04T15:19:00.000Z",
+   "source": "The Register",
+   "feedId": "register",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "38289f8dca234645",
+   "title": "Tesla’s Cybercab Officially Launches Today. It’s Already Under Investigation",
+   "link": "https://www.wired.com/story/tesla-cybercab-officially-launches-today-its-already-under-investigation/",
+   "summary": "The US government is investigating whether the Cybercab, which lacks a steering wheel and pedals, meets vehicle safety standards.",
+   "image": "https://media.wired.com/photos/6a9ad63d482e2501722eeac3/master/pass/GettyImages-2193378836.jpg",
+   "published": "2026-09-04T15:17:12.000Z",
+   "source": "Wired",
+   "feedId": "wired",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "8b7a07338564b8d9",
    "title": "Israelis shoot dead two Palestinian teenagers after settlers encircle village",
    "link": "https://www.theguardian.com/world/2026/sep/03/israelis-shoot-dead-two-palestinian-teenagers-after-settlers-encircle-village",
@@ -3096,6 +3438,45 @@
    "top": false
   },
   {
+   "id": "55539761692d6aec",
+   "title": "CD sales are making an unexpected comeback amid a retro tech boom",
+   "link": "https://techcrunch.com/2026/09/04/cd-sales-are-making-an-unexpected-comeback-amid-a-retro-tech-boom/",
+   "summary": "U.S. CD revenue jumped 58.6% in the first half of 2026, reversing last year’s decline as interest in retro tech and physical media continues to grow.",
+   "image": "",
+   "published": "2026-09-04T15:00:00.000Z",
+   "source": "TechCrunch",
+   "feedId": "techcrunch",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "b107c6fa642bc1cb",
+   "title": "Who Cares if AI Is Conscious—It’s Basically Alive",
+   "link": "https://www.wired.com/story/who-cares-if-ai-is-conscious-its-basically-alive/",
+   "summary": "While philosophers ponder AI consciousness, the models have ideas of their own.",
+   "image": "https://media.wired.com/photos/6a9a07e3356d3dfac634d3e8/master/pass/Backchannel-AI-Consciousness-Business-2289990159.jpg",
+   "published": "2026-09-04T15:00:00.000Z",
+   "source": "Wired",
+   "feedId": "wired",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "69dce0b2c3d1c9eb",
+   "title": "Canonical shuttering some of its legacy chat channels",
+   "link": "https://www.theregister.com/os-platforms/2026/09/04/canonical-shuttering-some-of-its-legacy-chat-channels/5294524",
+   "summary": "The Ubuntu Pastebin went in June, IRC gets demoted next",
+   "image": "https://image.theregister.com/?imageId=2918386&width=800",
+   "published": "2026-09-04T14:56:00.000Z",
+   "source": "The Register",
+   "feedId": "register",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "73c09db2c6f20e90",
    "title": "Alienware’s refurbished 16 Aurora is almost $200 off at Woot",
    "link": "https://www.theverge.com/gadgets/989407/alienware-gaming-laptop-capsule-dishwasher-samsung-oled-deal-sale",
@@ -3119,6 +3500,32 @@
    "feedId": "theverge",
    "topic": "tech",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "1bb217788652d405",
+   "title": "Krafton doubles down on India with another $250M bet beyond gaming",
+   "link": "https://techcrunch.com/2026/09/04/krafton-doubles-down-on-india-with-another-250m-bet-beyond-gaming/",
+   "summary": "Krafton's planned investment in India is set to surpass $500 million with its latest commitment.",
+   "image": "",
+   "published": "2026-09-04T14:47:20.000Z",
+   "source": "TechCrunch",
+   "feedId": "techcrunch",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "5f35fcfca71ea0ce",
+   "title": "Google’s Gemini Spark can now manage your Google Photos library",
+   "link": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+   "summary": "Gemini Spark can edit and curate photo albums, create shared collections, turn photos into calendar events, and handle other Google Photos tasks for AI Pro and Ultra subscribers.",
+   "image": "",
+   "published": "2026-09-04T14:47:11.000Z",
+   "source": "TechCrunch",
+   "feedId": "techcrunch",
+   "topic": "tech",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3174,6 +3581,19 @@
    "top": false
   },
   {
+   "id": "12e0ba41d6ebf922",
+   "title": "Less than 24 hours to apply for your TechCrunch Disrupt 2026 Side Event",
+   "link": "https://techcrunch.com/2026/09/04/less-than-24-hours-to-apply-for-your-techcrunch-disrupt-2026-side-event/",
+   "summary": "Less than 24 hours left to apply to host a Side Event during TechCrunch Disrupt 2026 and make your mark in the Silicon Valley scene. Apply before the application closes tonight at midnight PT.",
+   "image": "",
+   "published": "2026-09-04T14:00:00.000Z",
+   "source": "TechCrunch",
+   "feedId": "techcrunch",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "bfdc93634c3c87d2",
    "title": "Nigel Farage meeting a 'shadowy foreign donor'? It can only be another establishment stitch-up | Marina Hyde",
    "link": "https://www.theguardian.com/commentisfree/2026/sep/04/nigel-farage-reform-shadowy-foreign-donor-establishment-stitch-up",
@@ -3196,6 +3616,45 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "fd57482f7017f340",
+   "title": "Microsoft to bounce mail from outdated Exchange servers",
+   "link": "https://www.theregister.com/on-prem/2026/09/04/microsoft-to-bounce-mail-from-outdated-exchange-servers/5294506",
+   "summary": "2016 and 2019 installations must meet the October 2025 baseline to reach cloud-hosted inboxes",
+   "image": "https://image.theregister.com/?imageId=246612&width=800",
+   "published": "2026-09-04T13:43:00.000Z",
+   "source": "The Register",
+   "feedId": "register",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "1b7f615d616cf49e",
+   "title": "US military disabled ad tracking on troops’ devices following reports of targeted attacks",
+   "link": "https://techcrunch.com/2026/09/04/us-military-disabled-ad-tracking-on-troops-devices-following-reports-of-targeted-attacks/",
+   "summary": "A senator's letter confirms the U.S. military moved to prevent the tracking after foreign adversaries used location data to target troops.",
+   "image": "",
+   "published": "2026-09-04T13:21:37.000Z",
+   "source": "TechCrunch",
+   "feedId": "techcrunch",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "071d9e8efc94c12e",
+   "title": "PostgreSQL 19 connects the dots with standardized graph queries",
+   "link": "https://www.theregister.com/databases/2026/09/04/postgresql-19-connects-the-dots-with-standardized-graph-queries/5294500",
+   "summary": "Baked-in SQL syntax arrives through multi-vendor collaboration, although indexing still needs to catch up",
+   "image": "https://image.theregister.com/?imageId=1682919&width=800",
+   "published": "2026-09-04T13:07:35.000Z",
+   "source": "The Register",
+   "feedId": "register",
+   "topic": "tech",
    "hasBody": true,
    "top": false
   },
@@ -3278,6 +3737,45 @@
    "top": false
   },
   {
+   "id": "3ef2abb0e09d5e2d",
+   "title": "JavaScript installer pnpm recast in Rust because ECMAScript can't keep up",
+   "link": "https://www.theregister.com/devops/2026/09/04/javascript-installer-pnpm-recast-in-rust-because-ecmascript-cant-keep-up/5294394",
+   "summary": "Fully backward-compatible upgrade promises zero-friction speedup for monorepo wranglers.",
+   "image": "https://image.theregister.com/?imageId=1683640&width=800",
+   "published": "2026-09-04T12:22:00.000Z",
+   "source": "The Register",
+   "feedId": "register",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "151ff70b82d8a4d9",
+   "title": "The Download: selling battlefield drone data and AI reshaping language",
+   "link": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Data from drones in Ukraine is fueling a new Wild West marketplace —Cory Alpert, a researcher at the University of…",
+   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/04/AdobeStock_716372037.jpg?fit=2128,1196",
+   "published": "2026-09-04T12:10:00.000Z",
+   "source": "MIT Technology Review",
+   "feedId": "mittr",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "fc415860d3056a4e",
+   "title": "Feds launch investigation into Tesla’s Cybercab deployment",
+   "link": "https://techcrunch.com/2026/09/04/feds-launch-investigation-into-teslas-cybercab-deployment/",
+   "summary": "The investigation was launched just a few hours after Tesla put the first production Cybercabs on the road in Austin.",
+   "image": "",
+   "published": "2026-09-04T12:01:14.000Z",
+   "source": "TechCrunch",
+   "feedId": "techcrunch",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "dfcdef6b230233a1",
    "title": "Tennessee is about to execute its first woman since 1819. Her case raises troubling questions | Austin Sarat",
    "link": "https://www.theguardian.com/commentisfree/2026/sep/04/tennessee-executes-first-woman-since-1819",
@@ -3288,6 +3786,19 @@
    "feedId": "guardian-opinion",
    "topic": "opinion",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "b25a44f9d1225ca0",
+   "title": "Japan Is Launching a Probe to Collect the First-Ever Samples From a Martian Moon",
+   "link": "https://www.wired.com/story/japan-launching-probe-to-collect-first-ever-samples-martian-moon/",
+   "summary": "The mission to Phobos, Japan’s first Mars probe launch in 28 years, may reveal new information about our closest planetary neighbor.",
+   "image": "https://media.wired.com/photos/6a970a6fa68d74f184f30efc/master/pass/mmx.jpg",
+   "published": "2026-09-04T12:00:00.000Z",
+   "source": "Wired",
+   "feedId": "wired",
+   "topic": "tech",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3343,6 +3854,45 @@
    "top": false
   },
   {
+   "id": "a3395da5ac1d70f9",
+   "title": "Cloud snail-mail service Docmail enters third day stuck in the outbox",
+   "link": "https://www.theregister.com/off-prem/2026/09/04/cloud-snail-mail-service-docmail-enters-third-day-stuck-in-the-outbox/5294476",
+   "summary": "No restoration time for platform used by more than 30,000 UK organizations, including NHS trusts and medical practices",
+   "image": "https://image.theregister.com/?imageId=1681267&width=800",
+   "published": "2026-09-04T11:37:08.000Z",
+   "source": "The Register",
+   "feedId": "register",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "211f0d9df9882746",
+   "title": "The Best Dyson Vacuums (2026) to Buy—and Some to Avoid",
+   "link": "https://www.wired.com/gallery/best-dyson-vacuums/",
+   "summary": "Feeling the pull of a new clean machine? I'll help you make sense of Dyson’s whirlwind vacuum lineup.",
+   "image": "https://media.wired.com/photos/6a6bbf4540acee2ccd9960d5/master/pass/Update--The-Best-Dyson-Vacuums.jpg",
+   "published": "2026-09-04T11:30:00.000Z",
+   "source": "Wired",
+   "feedId": "wired",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "e6c68f8494cd06ea",
+   "title": "The Best Automatic Litter Box of 2026: Petkit and Litter-Robot",
+   "link": "https://www.wired.com/gallery/best-automatic-cat-litter-boxes/",
+   "summary": "With these high-tech automatic litter boxes, gone are the days of scooping and smells. Welcome to the future.",
+   "image": "https://media.wired.com/photos/69d4403d94490f13c636bd21/master/pass/The-Best-Automatic-Litter-Boxes-Tested-by-Our-Spoiled-Cats.jpg",
+   "published": "2026-09-04T11:08:00.000Z",
+   "source": "Wired",
+   "feedId": "wired",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "e64d2393f5c4110b",
    "title": "Nearly impossible? How Fairphone built the ethical, repairable Fairphone Gen 6+",
    "link": "https://arstechnica.com/gadgets/2026/09/nearly-impossible-how-fairphone-built-the-ethical-repairable-fairphone-gen-6/",
@@ -3356,6 +3906,19 @@
    "top": false
   },
   {
+   "id": "e8863ec5a1f1201d",
+   "title": "How a Secret Orangutan Breeding Program Is Creating a Baby Boom",
+   "link": "https://www.wired.com/story/secret-orangutan-breeding-program-creating-baby-boom/",
+   "summary": "The success of a program linking zoos across the US has created social media stars and generated a wave of interest in how to protect the endangered great apes in the wild.",
+   "image": "https://media.wired.com/photos/6a98081e0e1a07689023de20/master/pass/Ru_Orangutan-7.jpg",
+   "published": "2026-09-04T11:00:00.000Z",
+   "source": "Wired",
+   "feedId": "wired",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "359f9e47ae270c3b",
    "title": "US diesel prices hit an all-time-high",
    "link": "https://www.bbc.co.uk/news/articles/c7903r0grx0o?at_medium=RSS&at_campaign=rss",
@@ -3366,6 +3929,19 @@
    "feedId": "bbc-business",
    "topic": "business",
    "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "49051c5219f0f885",
+   "title": "Wayve and Uber steal a march on Waymo with paid self-driving London rides",
+   "link": "https://www.theregister.com/ai-and-ml/2026/09/04/wayve-and-uber-steal-a-march-on-waymo-with-paid-self-driving-london-rides/5294451",
+   "summary": "15 Mustangs on the city streets, but the Nissan LEAF follow-up could dispense with the safety driver",
+   "image": "https://image.theregister.com/?imageId=5294457&width=800",
+   "published": "2026-09-04T10:45:00.000Z",
+   "source": "The Register",
+   "feedId": "register",
+   "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3391,6 +3967,32 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "b6299f69274268a3",
+   "title": "Measles Outbreaks Are Forcing Parents of Immunocompromised Kids to Make Hard Choices",
+   "link": "https://www.wired.com/story/measles-outbreaks-immunocompromised-kids-schools/",
+   "summary": "With the risk of infection rising, parents and their children are trying to navigate how safe it is to be out in public as school starts back up.",
+   "image": "https://media.wired.com/photos/6a999184075950c219e9520c/master/pass/GettyImages-2166820737.jpg",
+   "published": "2026-09-04T10:30:00.000Z",
+   "source": "Wired",
+   "feedId": "wired",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "e1a4f72591765336",
+   "title": "The 6 Best Monitors That Actually Work Well With Macs",
+   "link": "https://www.wired.com/gallery/best-monitors-for-mac/",
+   "summary": "Macs are fantastic computers, but you’ll need one of these great displays to complete your work-from-home setup.",
+   "image": "https://media.wired.com/photos/6a9b6841638e390527ba0ba4/master/pass/The-Best-Monitors-for-the-Mac.jpg",
+   "published": "2026-09-04T10:30:00.000Z",
+   "source": "Wired",
+   "feedId": "wired",
+   "topic": "tech",
    "hasBody": false,
    "top": false
   },
@@ -3421,6 +4023,58 @@
    "top": false
   },
   {
+   "id": "5f7cd56d0d1d4e7c",
+   "title": "Enjoy the Windows 10 Update Experience at London's O2",
+   "link": "https://www.theregister.com/offbeat/2026/09/04/enjoy-the-windows-10-update-experience-at-londons-o2/5294302",
+   "summary": "The new extreme sport: Windows Updates",
+   "image": "https://image.theregister.com/?imageId=5294306&width=800",
+   "published": "2026-09-04T10:00:00.000Z",
+   "source": "The Register",
+   "feedId": "register",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "d57e751005566a63",
+   "title": "M&T Bank expands enterprise AI after years of technology overhaul",
+   "link": "https://www.artificialintelligence-news.com/news/mt-bank-enterprise-ai-15000-employees/",
+   "summary": "M&T Bank has deployed AI copilots to more than 15,000 employees as the US regional bank applies AI to internal operations, customer service, software development, and risk management. The bank uses AI to analyse call-centre conversations, draft reports,…",
+   "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2026/06/image.png",
+   "published": "2026-09-04T10:00:00.000Z",
+   "source": "AI News",
+   "feedId": "ai-news",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "ab46dd6955dc6a95",
+   "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
+   "link": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
+   "summary": "Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. The data drones generate will far outlast…",
+   "image": "",
+   "published": "2026-09-04T09:25:19.000Z",
+   "source": "MIT Technology Review",
+   "feedId": "mittr",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "ce7b2c5a244b92c1",
+   "title": "US law firm accuses UK AI software firm of unwanted contract renewal when it tried to leave",
+   "link": "https://www.theregister.com/legal/2026/09/04/us-law-firm-accuses-uk-ai-software-firm-of-unwanted-contract-renewal-when-it-tried-to-leave/5293995",
+   "summary": "Customer alleges AI telco system had frequent issues, did not work as promised, as vendor sues separately for non payment",
+   "image": "https://image.theregister.com/?imageId=1683941&width=800",
+   "published": "2026-09-04T09:15:00.000Z",
+   "source": "The Register",
+   "feedId": "register",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "c7e234659fa95f82",
    "title": "How could US-Iran conflict end? Three experts give their views",
    "link": "https://www.bbc.co.uk/news/articles/cgjql614glvo?at_medium=RSS&at_campaign=rss",
@@ -3443,6 +4097,45 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "3ab3fb43b864932c",
+   "title": "UK military wants lasers to stop drone swarms without running out of ammo",
+   "link": "https://www.theregister.com/offbeat/2026/09/04/uk-military-wants-lasers-to-stop-drone-swarms-without-running-out-of-ammo/5294176",
+   "summary": "Project PANOPTES puts £5M on the table for an autonomous, vehicle-mounted defense",
+   "image": "https://image.theregister.com/?imageId=5294183&width=800",
+   "published": "2026-09-04T08:30:00.000Z",
+   "source": "The Register",
+   "feedId": "register",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "627f8cf355cddc9d",
+   "title": "50.5% of Americans Say AI Romance Can Count as Cheating",
+   "link": "https://www.artificialintelligence-news.com/news/50-5-of-americans-say-ai-romance-can-count-as-cheating/",
+   "summary": "Just over half of American adults, 50.5%, say a partner’s romantic or sexual relationship with an AI can count as cheating. The figure comes from an AI romance survey of 2,150 U.S. adults, run by AI Girlfriend Coach through SurveyMonkey Audience on 26 and 27…",
+   "image": "",
+   "published": "2026-09-04T08:25:12.000Z",
+   "source": "AI News",
+   "feedId": "ai-news",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "fc639a975b8bffc6",
+   "title": "Best eSIM for travel 2026: which one offers the best value for money?",
+   "link": "https://www.theregister.com/personal-tech/2026/09/04/partner-content-best-esim-for-travel-2026-which-one-offers-the-best-value-for-money/5293006",
+   "summary": "PARTNER CONTENT: Price isn't everything",
+   "image": "https://image.theregister.com/?imageId=5293023&width=800",
+   "published": "2026-09-04T08:00:00.000Z",
+   "source": "The Register",
+   "feedId": "register",
+   "topic": "tech",
    "hasBody": true,
    "top": false
   },
@@ -3499,6 +4192,19 @@
    "top": false
   },
   {
+   "id": "68135a2c736b460b",
+   "title": "On Call: User who handled life-or-death situations struggled with the SHIFT key",
+   "link": "https://www.theregister.com/personal-tech/2026/09/04/on-call-user-who-handled-life-or-death-situations-struggled-with-the-shift-key/5294131",
+   "summary": "Novel interpretations of the keyboard made for trouble @ work",
+   "image": "https://image.theregister.com/?imageId=5294136&width=800",
+   "published": "2026-09-04T06:30:00.000Z",
+   "source": "The Register",
+   "feedId": "register",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "83c50ceb7dead0d2",
    "title": "SNAPSHOT | Serian's air quality worsens; green activists protest at Indonesian embassy over forest fires",
    "link": "https://www.malaysiakini.com/news/783544",
@@ -3551,6 +4257,19 @@
    "top": false
   },
   {
+   "id": "3e9af61cc03a6f12",
+   "title": "August newsletter is out",
+   "link": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
+   "summary": "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here. This month: We got more details on OpenAl's accidental cyberattacks One-shotting Raccoon Heist games with Fable…",
+   "image": "",
+   "published": "2026-09-04T05:54:40.000Z",
+   "source": "Simon Willison",
+   "feedId": "simonw",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "8be58d66db090ba7",
    "title": "Would you lie to get a birthday freebie?",
    "link": "https://www.bbc.co.uk/news/videos/cq637lp0q3zo?at_medium=RSS&at_campaign=rss",
@@ -3590,6 +4309,19 @@
    "top": false
   },
   {
+   "id": "a1238531fc3c5c1e",
+   "title": "Google engineer unplugged every fiber they could see and – surprise! – took down a chunk of the G-Cloud",
+   "link": "https://www.theregister.com/off-prem/2026/09/04/google-engineer-unplugged-every-fiber-they-could-see-and-surprise-took-down-a-chunk-of-the-g-cloud/5294418",
+   "summary": "This sounds like a RTFM error at hyperscale",
+   "image": "https://image.theregister.com/?imageId=5263102&width=800",
+   "published": "2026-09-04T04:48:25.000Z",
+   "source": "The Register",
+   "feedId": "register",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "803029eaaea0e089",
    "title": "Takiyuddin disputes Zafrul on lottery draws, says it was never brought to cabinet",
    "link": "https://www.malaysiakini.com/news/783533",
@@ -3600,6 +4332,32 @@
    "feedId": "malaysiakini",
    "topic": "malaysia",
    "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "5eac92faee237511",
+   "title": "The sameness problem behind those unappetizing AI-generated menus",
+   "link": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
+   "summary": "While restaurant owners might look to generative AI as a shortcut to sprucing up their menu, customers can viscerally sense that something is wrong with the food.",
+   "image": "",
+   "published": "2026-09-04T04:21:03.000Z",
+   "source": "TechCrunch",
+   "feedId": "techcrunch",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "fc4b2c33c47f1229",
+   "title": "The search company that plants trees just launched a Linux browser to help Europe battle big tech",
+   "link": "https://www.theregister.com/software/2026/09/04/the-search-company-that-plants-trees-just-launched-a-linux-browser-to-help-europe-battle-big-tech/5294345",
+   "summary": "Why now? Well, the Linux desktop market share in the EU doubled between 2024 and 2025 (to 5.7%). That's why!",
+   "image": "https://image.theregister.com/?imageId=5294349&width=800",
+   "published": "2026-09-04T04:00:00.000Z",
+   "source": "The Register",
+   "feedId": "register",
+   "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3668,15 +4426,28 @@
    "top": false
   },
   {
-   "id": "1d8078dd7b4b9303",
-   "title": "Guan Eng urges action against Zahid for overspending, warns of threat to financial stability",
-   "link": "https://www.malaysiakini.com/news/783510",
-   "summary": "Action necessary to deter other ministries from committing similar offences, DAP leader says.",
+   "id": "23e587a15661dc54",
+   "title": "Cisco searched for IOS XR bugs and found so many it rolled them into an update release",
+   "link": "https://www.theregister.com/security/2026/09/04/cisco-searched-for-ios-xr-bugs-and-found-so-many-it-rolled-them-into-an-update-release/5294410",
+   "summary": "Three critical vulns demand your attention, one a make-me-root mess in Nexus 9000 Series Switches that you can mitigate, not fix",
+   "image": "https://image.theregister.com/?imageId=5294415&width=800",
+   "published": "2026-09-04T02:18:36.000Z",
+   "source": "The Register",
+   "feedId": "register",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "9f51bb0bfc69977b",
+   "title": "Crusoe reportedly raises $3B at a $30B valuation",
+   "link": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+   "summary": "The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street.",
    "image": "",
-   "published": "2026-09-04T02:08:20.000Z",
-   "source": "Malaysiakini",
-   "feedId": "malaysiakini",
-   "topic": "malaysia",
+   "published": "2026-09-04T00:48:42.000Z",
+   "source": "TechCrunch",
+   "feedId": "techcrunch",
+   "topic": "tech",
    "hasBody": false,
    "top": false
   },
@@ -3785,6 +4556,19 @@
    "top": false
   },
   {
+   "id": "d7b11e7817581777",
+   "title": "GPT‑6 Astra",
+   "link": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+   "summary": "GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself,…",
+   "image": "",
+   "published": "2026-09-03T20:18:41.000Z",
+   "source": "Simon Willison",
+   "feedId": "simonw",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "7ec0a10fb9cd17b8",
    "title": "150 research primates got diarrhea, flooding lab with priceless vaccine data",
    "link": "https://arstechnica.com/health/2026/09/150-research-primates-got-diarrhea-flooding-lab-with-priceless-vaccine-data/",
@@ -3837,6 +4621,45 @@
    "top": false
   },
   {
+   "id": "262a0d0fa8880803",
+   "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+   "link": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+   "summary": "The high-profile startup's annual revenue run rate stands at over $100 million.",
+   "image": "",
+   "published": "2026-09-03T19:36:29.000Z",
+   "source": "TechCrunch",
+   "feedId": "tc-ai",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "4b9bca93ab437045",
+   "title": "Abliteration.ai is making a business out of removing AI guardrails",
+   "link": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+   "summary": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity.",
+   "image": "",
+   "published": "2026-09-03T18:37:57.000Z",
+   "source": "TechCrunch",
+   "feedId": "tc-ai",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "fa3adaabd5cff94c",
+   "title": "Four major AI models suffer rare overlapping downtime",
+   "link": "https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime/",
+   "summary": "Service interruptions hit ChatGPT, Claude, Grok, and Gemini practically simultaneously.",
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2197730159-1152x648.jpg",
+   "published": "2026-09-03T18:10:19.000Z",
+   "source": "Ars Technica",
+   "feedId": "ars-ai",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "6c3117868899aa29",
    "title": "Nvidia strikes $12.9bn deal to buy AI platform Hugging Face",
    "link": "https://www.bbc.co.uk/news/articles/cr4vnr5g1k7o?at_medium=RSS&at_campaign=rss",
@@ -3847,6 +4670,32 @@
    "feedId": "bbc-business",
    "topic": "business",
    "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "caee6b9633b5dc9a",
+   "title": "OneRail uses Nvidia AI for real-time last-mile delivery optimisation",
+   "link": "https://www.artificialintelligence-news.com/news/ai-last-mile-delivery-optimisation/",
+   "summary": "OneRail has launched an AI-powered delivery platform that uses Nvidia technology to help retailers, wholesalers, and distributors decide how individual orders should be delivered. Called OmniSTAR, the system evaluates options including owned fleets, couriers,…",
+   "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2026/06/image.png",
+   "published": "2026-09-03T16:07:18.000Z",
+   "source": "AI News",
+   "feedId": "ai-news",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "89afef119434b189",
+   "title": "NVIDIA to acquire Hugging Face for $12.93B",
+   "link": "https://www.artificialintelligence-news.com/news/nvidia-to-acquire-hugging-face-for-12-93b/",
+   "summary": "NVIDIA has agreed to acquire Hugging Face for $12.93 billion to scale the open-source model repository’s platform and infrastructure. The transaction targets platform growth and infrastructure investment, aiming to expand AI access for enterprise developers,…",
+   "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2026/09/nvidia-hugging-face-repo-contributions-open-models-data-1024x712.png",
+   "published": "2026-09-03T15:50:31.000Z",
+   "source": "AI News",
+   "feedId": "ai-news",
+   "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3876,6 +4725,19 @@
    "top": false
   },
   {
+   "id": "d75554c78e0fe54a",
+   "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+   "link": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+   "summary": "",
+   "image": "https://lh3.googleusercontent.com/I3SASQw4etgOOVbcWS0lr7J14HFqWcee_ln6M0TBOWlvVg2XYCi3kpz4eAi81cAkyq47YvgU1FLzAlaiCNMLcsx9sFA3ufURiSg76Yz8hVm1-u_fYEY=w528-h297-n-nu-rw-lo",
+   "published": "2026-09-03T15:02:08.000Z",
+   "source": "Google DeepMind",
+   "feedId": "deepmind",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "7d64edaf9996de24",
    "title": "Who is really accountable for rural development spending?",
    "link": "https://www.freemalaysiatoday.com/category/opinion/2026/09/03/who-is-really-accountable-for-rural-development-spending",
@@ -3885,6 +4747,19 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "64bb67d3e4b5250e",
+   "title": "Nvidia buys Hugging Face, the GitHub of AI, for $13 billion",
+   "link": "https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion/",
+   "summary": "Nvidia says Hugging Face will stay open even as the chipmaker takes control of a key AI hub.",
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/09/hugging_face_3-1152x648.jpg",
+   "published": "2026-09-03T13:34:13.000Z",
+   "source": "Ars Technica",
+   "feedId": "ars-ai",
+   "topic": "tech",
    "hasBody": true,
    "top": false
   },
@@ -3912,6 +4787,19 @@
    "feedId": "bbc-business",
    "topic": "business",
    "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "8fec76a1d567e175",
+   "title": "The Download: rethinking child safety and fossil-fueled farming",
+   "link": "https://www.technologyreview.com/2026/09/03/1143385/the-download-rethinking-child-safety-online-fossil-fuels-farming/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Child-monitoring apps might need a reboot Digital harms have become the defining fear of American parents. In response,…",
+   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/04/2412_GW_2Month_2_1.jpg?w=840",
+   "published": "2026-09-03T12:10:00.000Z",
+   "source": "MIT Technology Review",
+   "feedId": "mittr",
+   "topic": "tech",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3950,6 +4838,32 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "6705aca3ce5a3a42",
+   "title": "Agriculture relies on fossil fuels. It’s costing us.",
+   "link": "https://www.technologyreview.com/2026/09/03/1143320/fertilizer-prices-fossil-fuels/",
+   "summary": "If you’ve had to fill up your vehicle’s gas tank or buy a plane ticket lately, you’ve probably felt the effects of rising fossil-fuel prices. But farmers buying fertilizer for their crops are especially aware of just how far the ripple effects of the conflict…",
+   "image": "",
+   "published": "2026-09-03T10:00:00.000Z",
+   "source": "MIT Technology Review",
+   "feedId": "mittr",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "486daba17dfa821d",
+   "title": "Scaling agentic AI pilots across the enterprise",
+   "link": "https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/",
+   "summary": "As agentic AI moves from experimentation toward enterprise deployment, the challenge is figuring out how agents can work together, connect to the systems and data they need, and operate safely across the workflows that run a business. Although agentic AI has…",
+   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/MITTRI-NiCE-social-card.png?w=840",
+   "published": "2026-09-03T09:30:32.000Z",
+   "source": "MIT Technology Review",
+   "feedId": "mittr",
+   "topic": "tech",
    "hasBody": true,
    "top": false
   },
@@ -4019,6 +4933,162 @@
    "top": false
   },
   {
+   "id": "569889965fd0fb38",
+   "title": "From MIT to IBM, expediting AI and quantum deployment",
+   "link": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
+   "summary": "MIT affiliates engage with the MIT-IBM Computing Research Lab to bring rigorous theory to production systems.",
+   "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/ibm-mit-alumni-00_0.png?itok=uFF5Hcp-",
+   "published": "2026-09-02T20:25:00.000Z",
+   "source": "MIT News",
+   "feedId": "mit-ai",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "ca2980465003bc78",
+   "title": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
+   "link": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
+   "summary": "Google's Pro model updates are seemingly paused, but there's yet another Gemini Flash today.",
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-1-1152x648.jpg",
+   "published": "2026-09-02T18:13:54.000Z",
+   "source": "Ars Technica",
+   "feedId": "ars-ai",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "a723b72506e364a4",
+   "title": "Trump may be forced to reveal secret rules feds use for AI safety testing",
+   "link": "https://arstechnica.com/tech-policy/2026/09/trump-may-be-forced-to-reveal-secret-rules-feds-use-for-ai-safety-testing/",
+   "summary": "Trump’s secret reviews of frontier AI models may hide corruption, lawsuit says.",
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2250714805-1024x648.jpg",
+   "published": "2026-09-02T17:58:33.000Z",
+   "source": "Ars Technica",
+   "feedId": "ars-ai",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "43c216d63c8bd92a",
+   "title": "llm-gemini 0.34",
+   "link": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+   "summary": "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash, with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan. #137 Google released Gemini 3.8 Flash (and…",
+   "image": "",
+   "published": "2026-09-02T16:39:38.000Z",
+   "source": "Simon Willison",
+   "feedId": "simonw",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "15c2cbe250fe5147",
+   "title": "Proactive cyber defense for governments and enterprises",
+   "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-02T16:24:24.000Z",
+   "source": "Google DeepMind",
+   "feedId": "deepmind",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "a9b9d17f3a5b6e12",
+   "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+   "link": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-02T16:18:31.000Z",
+   "source": "Google DeepMind",
+   "feedId": "deepmind",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "7f0cad5ff04b79f9",
+   "title": "Proactive cyber defense for governments and enterprises",
+   "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+   "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-program__b.max-600x600.format-webp.webp",
+   "published": "2026-09-02T15:40:00.000Z",
+   "source": "Google",
+   "feedId": "google-ai",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "99da84f097666dcd",
+   "title": "Motional and MIT AI explains self-driving car decisions",
+   "link": "https://www.artificialintelligence-news.com/news/motional-and-mit-ai-explains-self-driving-car-decisions/",
+   "summary": "Motional and MIT researchers have built a system that lets self-driving cars explain their decisions in real-time, tackling the black-box problem in autonomous vehicle AI. The work, published in Nature, comes from a team at Motional that includes CEO Laura…",
+   "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai-expo-banner-2025.png",
+   "published": "2026-09-02T15:25:12.000Z",
+   "source": "AI News",
+   "feedId": "ai-news",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "12bff037b7e74c13",
+   "title": "System helps humans predict when self-driving cars will make mistakes",
+   "link": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902",
+   "summary": "A new method, called CW-Net, translates the reasoning process of an autonomous vehicle’s AI system into understandable concepts that explain its behavior.",
+   "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/MIT-InterpretCars-01-press.jpg?itok=l_ISl3I_",
+   "published": "2026-09-02T15:00:00.000Z",
+   "source": "MIT News",
+   "feedId": "mit-ai",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "7c32fbb7723eb736",
+   "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+   "link": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+   "summary": "Anthropic publish the system prompts for their Claude consumer applications (Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to…",
+   "image": "",
+   "published": "2026-09-02T14:16:42.000Z",
+   "source": "Simon Willison",
+   "feedId": "simonw",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "6a052858f31dc1af",
+   "title": "Facilitating AI integration with simplicity at scale",
+   "link": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
+   "summary": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data silos that make it harder to spot problems…",
+   "image": "",
+   "published": "2026-09-02T14:00:00.000Z",
+   "source": "MIT Technology Review",
+   "feedId": "mittr",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "6e0c3f1e1c559e05",
+   "title": "The Download: AI puzzles and a path to our nearest star system",
+   "link": "https://www.technologyreview.com/2026/09/02/1143283/the-download-ai-puzzles-alpha-centauri-mission/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI models flub these intelligence tests. Can you fare any better? Puzzles and games have always been central to AI…",
+   "image": "https://wp.technologyreview.com/wp-content/uploads/2025/06/HyIron-Feb-2025-dji-3.edit_.jpg?w=840",
+   "published": "2026-09-02T12:10:00.000Z",
+   "source": "MIT Technology Review",
+   "feedId": "mittr",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "c2e96f47a1491ffb",
    "title": "Trump’s ridiculous bullying of Canada is backfiring | Robert Reich",
    "link": "https://www.theguardian.com/commentisfree/2026/sep/02/trump-canada-tariffs-trade-war-backfiring",
@@ -4071,6 +5141,19 @@
    "top": false
   },
   {
+   "id": "cd5da1960a4afcad",
+   "title": "Quoting Rick Brewster",
+   "link": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+   "summary": "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now has an internal, from-scratch, clean-room…",
+   "image": "",
+   "published": "2026-09-02T05:50:57.000Z",
+   "source": "Simon Willison",
+   "feedId": "simonw",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "d5dae1681de72f50",
    "title": "Please change the movie on tax",
    "link": "https://www.freemalaysiatoday.com/category/opinion/2026/09/02/please-change-the-movie-on-tax",
@@ -4097,6 +5180,19 @@
    "top": false
   },
   {
+   "id": "0e0a28d0130f277a",
+   "title": "Claude Fable 5.1 made me a really nice animated pelican",
+   "link": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+   "summary": "Today is Claude Fable (and Mythos) 5.1 day. Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6%…",
+   "image": "",
+   "published": "2026-09-01T23:57:28.000Z",
+   "source": "Simon Willison",
+   "feedId": "simonw",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "b52e353415fcdf6e",
    "title": "Auku repeal: Turning universities into labs of the future",
    "link": "https://www.freemalaysiatoday.com/category/opinion/2026/09/02/auku-repeal-turning-universities-into-labs-of-the-future",
@@ -4110,6 +5206,136 @@
    "top": false
   },
   {
+   "id": "aaaa8fc91eb96bba",
+   "title": "Walter Torous named executive director of MIT Center for Real Estate",
+   "link": "https://news.mit.edu/2026/walter-torous-named-executive-director-mit-center-real-estate-0901",
+   "summary": "The senior lecturer, already director of the degree program, will now oversee all aspects of the center’s activities and operations.",
+   "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/Torous-MIT-A1.jpg?itok=8qiWk_oP",
+   "published": "2026-09-01T21:25:00.000Z",
+   "source": "MIT News",
+   "feedId": "mit-ai",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "4df22e2911252dab",
+   "title": "The latest AI news we announced in August 2026",
+   "link": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+   "summary": "Here are Google’s latest AI updates from August 2026",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/August_AI_Recap_social.max-600x600.format-webp.webp",
+   "published": "2026-09-01T20:45:00.000Z",
+   "source": "Google",
+   "feedId": "google-ai",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "389667d1ba014a14",
+   "title": "How AI plotted an interstellar journey to Alpha Centauri",
+   "link": "https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/",
+   "summary": "A nonprofit organization called the Fermi Explorer Mission announced today that it intends to launch a spacecraft to our nearest star system by the end of 2029. It’s a hugely ambitious mission—if all goes well, the spacecraft could take up to 80,000 years to…",
+   "image": "",
+   "published": "2026-09-01T19:10:36.000Z",
+   "source": "MIT Technology Review",
+   "feedId": "mittr",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "123fd05b4f2a5eea",
+   "title": "Codex bundles LibreOffice",
+   "link": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+   "summary": "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-primary-runtime, including a full Python…",
+   "image": "",
+   "published": "2026-09-01T19:03:01.000Z",
+   "source": "Simon Willison",
+   "feedId": "simonw",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "5c2753a2624a1b50",
+   "title": "GeoJSON Map Viewer",
+   "link": "https://simonwillison.net/2026/Sep/1/geojson/",
+   "summary": "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council) and found a need to display some GeoJSON files on a map and export that as a PNG. I…",
+   "image": "",
+   "published": "2026-09-01T18:05:45.000Z",
+   "source": "Simon Willison",
+   "feedId": "simonw",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "9658836c8e4ce085",
+   "title": "Introducing agentic video understanding with Gemini",
+   "link": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-01T17:08:51.000Z",
+   "source": "Google DeepMind",
+   "feedId": "deepmind",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "0a27a9eb6a6174dd",
+   "title": "ChatGPT Ads passes $1B run rate in 200 days",
+   "link": "https://www.artificialintelligence-news.com/news/chatgpt-ads-passes-1b-run-rate-in-200-days/",
+   "summary": "ChatGPT Ads has hit $1 billion in annualised revenue run rate in under 200 days, and OpenAI is expanding self-service ads to new regions. Tens of thousands of advertisers now use the platform and self-service access through Ads Manager is launching today in…",
+   "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2026/09/openai-chatgpt-ad-example-1024x768.jpg",
+   "published": "2026-09-01T16:05:27.000Z",
+   "source": "AI News",
+   "feedId": "ai-news",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "ab183206da806772",
+   "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
+   "link": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+   "summary": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GooglePics_Hero.max-600x600.format-webp.webp",
+   "published": "2026-09-01T16:00:00.000Z",
+   "source": "Google",
+   "feedId": "google-ai",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "feb2b17cbcef52af",
+   "title": "Making the AI-powered case for legacy modernization",
+   "link": "https://www.technologyreview.com/2026/09/01/1142180/making-the-ai-powered-case-for-legacy-modernization/",
+   "summary": "For years, legacy technology has been a problem companies knew they needed to solve, but one they often struggled to tackle. The cost, complexity, and risk of replacing business-critical systems could make modernization feel like a disruption to manage…",
+   "image": "",
+   "published": "2026-09-01T14:00:00.000Z",
+   "source": "MIT Technology Review",
+   "feedId": "mittr",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "ae955ceb45d6cf82",
+   "title": "Why MCP servers are becoming AI’s newest attack surface",
+   "link": "https://www.artificialintelligence-news.com/news/why-mcp-servers-are-becoming-ais-newest-attack-surface/",
+   "summary": "As AI adoption gathers pace, so does the evolution of the infrastructure that supports it. New standards and connectors keep appearing, and the ones that catch on spread through the ecosystem within months rather than years. That speed strengthens what AI can…",
+   "image": "",
+   "published": "2026-09-01T07:37:26.000Z",
+   "source": "AI News",
+   "feedId": "ai-news",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "68917948ae4fb993",
    "title": "Let not the court of public opinion prevail",
    "link": "https://www.freemalaysiatoday.com/category/opinion/2026/09/01/let-not-the-court-of-public-opinion-prevail",
@@ -4119,6 +5345,19 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "6fe323e48c553697",
+   "title": "Ila Kumar: Innovating with communities",
+   "link": "https://news.mit.edu/2026/ila-kumar-innovates-with-communities-0901",
+   "summary": "The PhD student works to give young people an active role in shaping digital technologies that can support their own well-being.",
+   "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202608/MIT-kumar-ila-A1.jpg?itok=c4VttTnq",
+   "published": "2026-09-01T04:00:00.000Z",
+   "source": "MIT News",
+   "feedId": "mit-ai",
+   "topic": "tech",
    "hasBody": true,
    "top": false
   },
@@ -4188,6 +5427,32 @@
    "top": false
   },
   {
+   "id": "f4d129304bdd7b6e",
+   "title": "MIT Quantum Initiative launches postdoctoral fellowship program",
+   "link": "https://news.mit.edu/2026/mit-quantum-initiative-launches-postdoctoral-fellowship-0831",
+   "summary": "The Institute welcomes its first cohort of QMIT Fellows this fall to advance interdisciplinary quantum research.",
+   "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202608/mit-qmit.jpg?itok=-AA_RhRU",
+   "published": "2026-08-31T19:30:00.000Z",
+   "source": "MIT News",
+   "feedId": "mit-ai",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "fc94637995a44294",
+   "title": "“Zlibrary my beloved”: Anthropic staff chats extolling piracy cited in Sony suit",
+   "link": "https://arstechnica.com/tech-policy/2026/08/zlibrary-my-beloved-anthropic-staff-chats-extolling-piracy-cited-in-sony-suit/",
+   "summary": "Lawsuit: Anthropic’s torrenting totally screwed songwriters as AI songs top charts.",
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-172575622-1152x648.jpg",
+   "published": "2026-08-31T18:10:45.000Z",
+   "source": "Ars Technica",
+   "feedId": "ars-ai",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "69a65c052e8600cf",
    "title": "The Guardian view on Trump’s immigration crackdown: who will have fewer rights next? | Editorial",
    "link": "https://www.theguardian.com/commentisfree/2026/aug/31/the-guardian-view-on-trumps-immigration-crackdown-who-will-have-fewer-rights-next",
@@ -4210,6 +5475,19 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "0328f1aec6181fb1",
+   "title": "ChatGPT and Reddit now face EU's toughest online safety rules",
+   "link": "https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/",
+   "summary": "Explosive growth comes with a new regulatory burden in the European Union.",
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/03/getty-eu-flag-1152x648.jpg",
+   "published": "2026-08-31T13:41:40.000Z",
+   "source": "Ars Technica",
+   "feedId": "ars-ai",
+   "topic": "tech",
    "hasBody": true,
    "top": false
   }
