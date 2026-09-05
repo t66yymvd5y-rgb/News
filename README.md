@@ -39,17 +39,41 @@ Everything lives in `config/sources.json`. To add a source:
 
 `topic` must match one of the ids in the `topics` array. Set `"enabled": false`
 to park a feed without deleting it. `fetch` controls how many items each feed
-contributes, how far back to keep them, and how many stories reach Top Stories.
+contributes by default, how far back to keep them, and how many stories reach
+Top Stories; an individual feed can override the default with `"maxItems"`, so
+one prolific publisher cannot swamp its section.
 
 A feed that 404s or times out does not break the build: the fetch logs a
 warning and carries forward that feed's items from the previous run. Only a
 total wipeout — every feed down — fails the workflow, so a stale site is never
 replaced by an empty one.
 
-Two of the shipped sources, **Malaysiakini** and **The Edge Malaysia**, publish
-free headlines but meter some articles, so a proportion of those tiles will hit
-a paywall. Reuters is listed but disabled — they withdrew their public RSS
-feeds; re-enable it if that changes.
+### Checking a feed URL before shipping it
+
+Publishers move and withdraw their feeds. Rather than guess a URL and discover
+it is wrong on the live site, list candidates under `probe`:
+
+```json
+"probe": [ { "id": "star-a", "url": "https://example.com/rss" } ]
+```
+
+The next run fetches each one and reports what came back, without publishing
+any of them. A candidate passes only if it returns 200 **and** parses as a feed
+with items — a publisher's 200-with-an-HTML-error-page does not count. Promote
+whatever works into `feeds`, and delete the rest.
+
+### Notes on particular sources
+
+**Malaysiakini** publishes free headlines but meters some articles, so a
+proportion of those tiles will hit a paywall.
+
+**The Star, Bernama and The Edge Malaysia** are disabled. Every candidate RSS
+path was probed on 5.9.2026 and every one returned 404; these publishers appear
+to have withdrawn public feeds rather than moved them. They are left in the
+config, disabled, so re-enabling is one flag if they return.
+
+**Reuters** is disabled for the same reason — they withdrew their public RSS
+feeds some time ago.
 
 ## Optional: a news API on top of RSS
 
