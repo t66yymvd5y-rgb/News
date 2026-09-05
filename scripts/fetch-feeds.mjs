@@ -329,23 +329,38 @@ function hash(value) {
   return createHash('sha1').update(value).digest('hex').slice(0, 16);
 }
 
-function escapeRegExp(str) {
-  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const compact = (str) => str.toLowerCase().replace(/[^a-z0-9]/g, '');
+
+/**
+ * Strip the attribution Google News appends to every headline.
+ *
+ * The appended name is whatever Google calls the publisher, which is not
+ * always what we call it: a bernama.com query returns items credited to
+ * "majujohor.bernama.com". So the trailing segment is removed when it reduces
+ * to something containing the source's own name — which catches subdomains and
+ * variants like "The Star Online" — and left alone otherwise, so a headline
+ * that simply ends in a dash keeps its words.
+ */
+function stripAttribution(title, source) {
+  const match = /^([\s\S]+?)\s*[-–—|]\s*([^-–—|]{1,60})$/.exec(title);
+  if (!match) return title;
+  const [, head, tail] = match;
+  if (!head.trim()) return title;
+  return compact(tail).includes(compact(source)) ? head.trim() : title;
 }
 
 /**
  * Normalisation for feeds that carry a publisher's headlines rather than the
  * publisher's own feed.
  *
- * Google News search feeds append " - Publisher" to every headline, and use
- * the description for a block of markup rather than a summary, so both are
+ * Google News search feeds append the publisher to every headline, and use the
+ * description for a block of markup rather than a summary, so both are
  * corrected here instead of being shown as-is.
  */
 function applyFeedQuirks(article, feed) {
   if (feed.via !== 'google-news') return article;
 
-  const suffix = new RegExp(`\\s*[-–—]\\s*${escapeRegExp(feed.source)}\\s*$`, 'i');
-  article.title = article.title.replace(suffix, '').trim();
+  article.title = stripAttribution(article.title, feed.source);
   // The description is a link blob, and there is no syndicated article text.
   article.summary = '';
   article.body = null;
