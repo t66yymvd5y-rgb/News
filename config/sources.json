@@ -1,46 +1,300 @@
 {
-  "site": {
-    "name": "Kertas",
-    "tagline": "Malaysia first. The world next.",
-    "locale": "en-MY",
-    "timezone": "Asia/Kuala_Lumpur"
+ "site": {
+  "name": "Kertas",
+  "tagline": "Malaysia first. The world next.",
+  "locale": "en-MY",
+  "timezone": "Asia/Kuala_Lumpur"
+ },
+ "topics": [
+  {
+   "id": "top",
+   "label": "Top Stories"
   },
-  "topics": [
-    { "id": "top",       "label": "Top Stories" },
-    { "id": "malaysia",  "label": "Malaysia" },
-    { "id": "world",     "label": "World" },
-    { "id": "business",  "label": "Business" },
-    { "id": "tech",      "label": "Tech" },
-    { "id": "sport",     "label": "Sport" },
-    { "id": "opinion",   "label": "Opinion" }
-  ],
-  "feeds": [
-    { "id": "thestar-nation",   "source": "The Star",            "topic": "malaysia", "url": "https://www.thestar.com.my/rss/News/Nation",            "enabled": true },
-    { "id": "thestar-business", "source": "The Star",            "topic": "business", "url": "https://www.thestar.com.my/rss/Business/Business-News", "enabled": true },
-    { "id": "nst",              "source": "New Straits Times",   "topic": "malaysia", "url": "https://www.nst.com.my/feed",                            "enabled": true },
-    { "id": "malaymail",        "source": "Malay Mail",          "topic": "malaysia", "url": "https://www.malaymail.com/feed/rss",                     "enabled": true },
-    { "id": "bernama",          "source": "Bernama",             "topic": "malaysia", "url": "https://www.bernama.com/en/rss/news_general.xml",        "enabled": true },
-    { "id": "fmt",              "source": "Free Malaysia Today", "topic": "malaysia", "url": "https://www.freemalaysiatoday.com/feed/",                "enabled": true },
-    { "id": "fmt-opinion",      "source": "Free Malaysia Today", "topic": "opinion",  "url": "https://www.freemalaysiatoday.com/category/opinion/feed/","enabled": true },
-    { "id": "malaysiakini",     "source": "Malaysiakini",        "topic": "malaysia", "url": "https://www.malaysiakini.com/rss/en/news.rss",           "enabled": true, "note": "Headlines are free; some articles are metered." },
-    { "id": "theedge",          "source": "The Edge Malaysia",   "topic": "business", "url": "https://theedgemalaysia.com/rss",                         "enabled": true, "note": "Headlines are free; some articles are metered." },
-
-    { "id": "bbc-world",        "source": "BBC News",            "topic": "world",    "url": "https://feeds.bbci.co.uk/news/world/rss.xml",            "enabled": true },
-    { "id": "bbc-business",     "source": "BBC News",            "topic": "business", "url": "https://feeds.bbci.co.uk/news/business/rss.xml",         "enabled": true },
-    { "id": "bbc-sport",        "source": "BBC Sport",           "topic": "sport",    "url": "https://feeds.bbci.co.uk/sport/rss.xml",                 "enabled": true },
-    { "id": "aljazeera",        "source": "Al Jazeera",          "topic": "world",    "url": "https://www.aljazeera.com/xml/rss/all.xml",              "enabled": true },
-    { "id": "cna",              "source": "Channel NewsAsia",    "topic": "world",    "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml", "enabled": true },
-    { "id": "guardian-world",   "source": "The Guardian",        "topic": "world",    "url": "https://www.theguardian.com/world/rss",                  "enabled": true },
-    { "id": "guardian-opinion", "source": "The Guardian",        "topic": "opinion",  "url": "https://www.theguardian.com/commentisfree/rss",          "enabled": true },
-    { "id": "reuters",          "source": "Reuters",             "topic": "world",    "url": "https://www.reutersagency.com/feed/?best-topics=world&post_type=best", "enabled": false, "note": "Reuters withdrew its public RSS feeds. Left here, disabled, so it is easy to re-enable if they return." },
-
-    { "id": "arstechnica",      "source": "Ars Technica",        "topic": "tech",     "url": "https://feeds.arstechnica.com/arstechnica/index",        "enabled": true },
-    { "id": "theverge",         "source": "The Verge",           "topic": "tech",     "url": "https://www.theverge.com/rss/index.xml",                 "enabled": true }
-  ],
-  "fetch": {
-    "maxItemsPerFeed": 25,
-    "maxAgeDays": 5,
-    "timeoutMs": 15000,
-    "topStoriesSize": 40
+  {
+   "id": "malaysia",
+   "label": "Malaysia"
+  },
+  {
+   "id": "world",
+   "label": "World"
+  },
+  {
+   "id": "business",
+   "label": "Business"
+  },
+  {
+   "id": "tech",
+   "label": "Tech"
+  },
+  {
+   "id": "sport",
+   "label": "Sport"
+  },
+  {
+   "id": "opinion",
+   "label": "Opinion"
   }
+ ],
+ "feeds": [
+  {
+   "id": "thestar-nation",
+   "source": "The Star",
+   "topic": "malaysia",
+   "url": "https://www.thestar.com.my/rss/News/Nation",
+   "enabled": true
+  },
+  {
+   "id": "thestar-business",
+   "source": "The Star",
+   "topic": "business",
+   "url": "https://www.thestar.com.my/rss/Business/Business-News",
+   "enabled": true
+  },
+  {
+   "id": "nst",
+   "source": "New Straits Times",
+   "topic": "malaysia",
+   "url": "https://www.nst.com.my/feed",
+   "enabled": true
+  },
+  {
+   "id": "malaymail",
+   "source": "Malay Mail",
+   "topic": "malaysia",
+   "url": "https://www.malaymail.com/feed/rss",
+   "enabled": true
+  },
+  {
+   "id": "bernama",
+   "source": "Bernama",
+   "topic": "malaysia",
+   "url": "https://www.bernama.com/en/rss/news_general.xml",
+   "enabled": true
+  },
+  {
+   "id": "fmt",
+   "source": "Free Malaysia Today",
+   "topic": "malaysia",
+   "url": "https://www.freemalaysiatoday.com/feed/",
+   "enabled": true
+  },
+  {
+   "id": "fmt-opinion",
+   "source": "Free Malaysia Today",
+   "topic": "opinion",
+   "url": "https://www.freemalaysiatoday.com/category/opinion/feed/",
+   "enabled": true
+  },
+  {
+   "id": "malaysiakini",
+   "source": "Malaysiakini",
+   "topic": "malaysia",
+   "url": "https://www.malaysiakini.com/rss/en/news.rss",
+   "enabled": true,
+   "note": "Headlines are free; some articles are metered."
+  },
+  {
+   "id": "theedge",
+   "source": "The Edge Malaysia",
+   "topic": "business",
+   "url": "https://theedgemalaysia.com/rss",
+   "enabled": true,
+   "note": "Headlines are free; some articles are metered."
+  },
+  {
+   "id": "bbc-world",
+   "source": "BBC News",
+   "topic": "world",
+   "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+   "enabled": true
+  },
+  {
+   "id": "bbc-business",
+   "source": "BBC News",
+   "topic": "business",
+   "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+   "enabled": true
+  },
+  {
+   "id": "bbc-sport",
+   "source": "BBC Sport",
+   "topic": "sport",
+   "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+   "enabled": true
+  },
+  {
+   "id": "aljazeera",
+   "source": "Al Jazeera",
+   "topic": "world",
+   "url": "https://www.aljazeera.com/xml/rss/all.xml",
+   "enabled": true
+  },
+  {
+   "id": "cna",
+   "source": "Channel NewsAsia",
+   "topic": "world",
+   "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml",
+   "enabled": true
+  },
+  {
+   "id": "guardian-world",
+   "source": "The Guardian",
+   "topic": "world",
+   "url": "https://www.theguardian.com/world/rss",
+   "enabled": true
+  },
+  {
+   "id": "guardian-opinion",
+   "source": "The Guardian",
+   "topic": "opinion",
+   "url": "https://www.theguardian.com/commentisfree/rss",
+   "enabled": true
+  },
+  {
+   "id": "reuters",
+   "source": "Reuters",
+   "topic": "world",
+   "url": "https://www.reutersagency.com/feed/?best-topics=world&post_type=best",
+   "enabled": false,
+   "note": "Reuters withdrew its public RSS feeds. Left here, disabled, so it is easy to re-enable if they return."
+  },
+  {
+   "id": "arstechnica",
+   "source": "Ars Technica",
+   "topic": "tech",
+   "url": "https://feeds.arstechnica.com/arstechnica/index",
+   "enabled": true
+  },
+  {
+   "id": "theverge",
+   "source": "The Verge",
+   "topic": "tech",
+   "url": "https://www.theverge.com/rss/index.xml",
+   "enabled": true
+  }
+ ],
+ "fetch": {
+  "maxItemsPerFeed": 25,
+  "maxAgeDays": 5,
+  "timeoutMs": 15000,
+  "topStoriesSize": 40
+ },
+ "probe": [
+  {
+   "id": "star-a",
+   "url": "https://www.thestar.com.my/rss/editors-choice"
+  },
+  {
+   "id": "star-b",
+   "url": "https://www.thestar.com.my/rss/news/nation"
+  },
+  {
+   "id": "star-c",
+   "url": "https://www.thestar.com.my/news/nation/rss"
+  },
+  {
+   "id": "star-d",
+   "url": "https://www.thestar.com.my/rss/News/Nation/"
+  },
+  {
+   "id": "star-e",
+   "url": "https://www.thestar.com.my/rss/business/business-news"
+  },
+  {
+   "id": "bernama-a",
+   "url": "https://www.bernama.com/rss/news_general.xml"
+  },
+  {
+   "id": "bernama-b",
+   "url": "https://www.bernama.com/en/rss.php"
+  },
+  {
+   "id": "bernama-c",
+   "url": "https://www.bernama.com/en/feed/"
+  },
+  {
+   "id": "bernama-d",
+   "url": "https://bernama.com/en/rss/news_general.xml"
+  },
+  {
+   "id": "edge-a",
+   "url": "https://theedgemalaysia.com/feed"
+  },
+  {
+   "id": "edge-b",
+   "url": "https://theedgemalaysia.com/rss.xml"
+  },
+  {
+   "id": "edge-c",
+   "url": "https://theedgemalaysia.com/rss/latest"
+  },
+  {
+   "id": "edge-d",
+   "url": "https://www.theedgemalaysia.com/rss"
+  },
+  {
+   "id": "techcrunch",
+   "url": "https://techcrunch.com/feed/"
+  },
+  {
+   "id": "tc-ai",
+   "url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+  },
+  {
+   "id": "register",
+   "url": "https://www.theregister.com/headlines.atom"
+  },
+  {
+   "id": "register-ai",
+   "url": "https://www.theregister.com/software/ai_ml/headlines.atom"
+  },
+  {
+   "id": "wired",
+   "url": "https://www.wired.com/feed/rss"
+  },
+  {
+   "id": "wired-ai",
+   "url": "https://www.wired.com/feed/tag/ai/latest/rss"
+  },
+  {
+   "id": "mittr",
+   "url": "https://www.technologyreview.com/feed/"
+  },
+  {
+   "id": "hn",
+   "url": "https://hnrss.org/frontpage"
+  },
+  {
+   "id": "ars-ai",
+   "url": "https://arstechnica.com/ai/feed/"
+  },
+  {
+   "id": "vb-ai",
+   "url": "https://venturebeat.com/category/ai/feed/"
+  },
+  {
+   "id": "google-ai",
+   "url": "https://blog.google/technology/ai/rss/"
+  },
+  {
+   "id": "deepmind",
+   "url": "https://deepmind.google/blog/rss.xml"
+  },
+  {
+   "id": "hf-blog",
+   "url": "https://huggingface.co/blog/feed.xml"
+  },
+  {
+   "id": "simonw",
+   "url": "https://simonwillison.net/atom/everything/"
+  },
+  {
+   "id": "mit-ai",
+   "url": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+  },
+  {
+   "id": "nature-ai",
+   "url": "https://www.artificialintelligence-news.com/feed/"
+  }
+ ]
 }

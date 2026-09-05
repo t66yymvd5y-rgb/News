@@ -697,11 +697,34 @@ function runSearch() {
   }
 }
 
+/**
+ * Back to the front: Top Stories, first page, nothing overlaying it.
+ *
+ * State reset rather than a reload, so the turn is instant and saved stories
+ * and theme are untouched. The wordmark stays a real link, so cmd-click and
+ * middle-click still open the site in a new tab.
+ */
+function goHome() {
+  if (readerOpen()) closeReader();
+  if (!dom.panel.hidden) closeSearch();
+  dom.btnSaved.classList.remove('is-on');
+  state.view = 'section';
+  state.topic = 'top';
+  build();
+  dom.sections.scrollTo({ left: 0, behavior: reducedMotion() ? 'auto' : 'smooth' });
+}
+
 /* ---------------------------------------------------------------- input --- */
 
 function wireEvents() {
   dom.prev.addEventListener('click', () => goTo(state.index - 1));
   dom.next.addEventListener('click', () => goTo(state.index + 1));
+
+  el('wordmark-link').addEventListener('click', (e) => {
+    if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    e.preventDefault();
+    goHome();
+  });
 
   dom.readerClose.addEventListener('click', closeReader);
   dom.readerScrim.addEventListener('click', closeReader);
