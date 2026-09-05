@@ -527,3 +527,138 @@ button { font: inherit; color: inherit; }
   .tile__art img { transition: none; }
   .deck__stage.is-fading > .half { transition: opacity 180ms linear; }
 }
+
+/* ------------------------------------------------------------- reader ---- */
+
+.reader {
+  position: fixed; inset: 0; z-index: 60;
+  display: grid;
+  /* Short pieces sit as a centred card; long ones grow to the cap and scroll
+     inside themselves. Stretching by default left short stories with a column
+     of empty paper under the buttons. */
+  place-content: center;
+  overflow: hidden;
+}
+
+.reader__scrim {
+  position: absolute; inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+}
+
+.reader__sheet {
+  position: relative;
+  justify-self: center;
+  width: min(820px, 100%);
+  max-height: min(100dvh, 960px);
+  border-radius: 4px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background: var(--paper);
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.32);
+  animation: reader-in 260ms cubic-bezier(0.22, 0.7, 0.25, 1);
+}
+
+@keyframes reader-in {
+  from { transform: translateY(18px); opacity: 0; }
+  to   { transform: none; opacity: 1; }
+}
+
+.reader__close {
+  position: absolute; top: 12px; right: 12px; z-index: 2;
+  background: color-mix(in srgb, var(--paper) 82%, transparent);
+  backdrop-filter: blur(6px);
+}
+
+.reader__art {
+  margin: 0;
+  aspect-ratio: 16 / 9;
+  background: var(--shade);
+  overflow: hidden;
+}
+.reader__art img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.reader__inner {
+  padding: clamp(20px, 3.4vw, 44px) clamp(18px, 3.4vw, 52px) clamp(28px, 4vw, 56px);
+}
+
+.reader__kicker {
+  display: flex; align-items: center; gap: 8px;
+  margin: 0 0 10px;
+  font-size: 11px; letter-spacing: 0.09em; text-transform: uppercase;
+  color: var(--ink-3);
+}
+.reader__source { color: var(--accent); font-weight: 700; }
+.reader__time::before { content: "·"; margin-inline-end: 8px; color: var(--rule-2); }
+
+.reader__title {
+  font-family: var(--serif);
+  font-size: clamp(26px, 3.5vw, 42px);
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: -0.018em;
+  margin: 0 0 clamp(16px, 2vw, 26px);
+}
+
+.reader__body {
+  font-family: var(--serif);
+  font-size: clamp(16px, 1.25vw, 19px);
+  line-height: 1.66;
+  color: var(--ink);
+  max-width: 68ch;
+}
+.reader__body p { margin: 0 0 1.05em; }
+/* An opening drop of emphasis, the way a feature page sets its first line. */
+.reader__body p:first-child { font-size: 1.06em; color: var(--ink); }
+
+.reader__note {
+  margin: 6px 0 0;
+  padding: 14px 16px;
+  border-inline-start: 2px solid var(--rule-2);
+  background: var(--shade);
+  color: var(--ink-2);
+  font-size: 13px;
+  line-height: 1.5;
+  max-width: 68ch;
+}
+
+.reader__actions {
+  display: flex; flex-wrap: wrap; gap: 10px;
+  margin-top: clamp(22px, 3vw, 34px);
+  padding-top: clamp(18px, 2.4vw, 26px);
+  border-top: 1px solid var(--rule);
+}
+
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 11px 18px;
+  border: 1px solid var(--rule-2); border-radius: 999px;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 13px; font-weight: 600;
+  text-decoration: none; cursor: pointer;
+  transition: background 140ms ease, border-color 140ms ease, color 140ms ease;
+}
+.btn:hover { background: var(--shade); }
+.btn--primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+.btn--primary:hover { background: var(--accent); filter: brightness(1.08); }
+/* The dark palette's accent is a light pink, so the label goes dark on it.
+   Scoped to dark only: :root:not([data-theme="light"]) matches in light mode
+   too when no explicit choice is stamped. */
+:root[data-theme="dark"] .btn--primary { color: #1a0a0e; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .btn--primary { color: #1a0a0e; }
+}
+
+@media (max-width: 640px) {
+  .reader__sheet { width: 100%; max-height: 100dvh; border-radius: 0; }
+  .reader__art { aspect-ratio: 4 / 3; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reader__sheet { animation: none; }
+}

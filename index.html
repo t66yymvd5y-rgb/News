@@ -93,6 +93,35 @@
 
 <div class="scrim" id="scrim" hidden></div>
 
+<!-- Reader ------------------------------------------------------------- -->
+<div class="reader" id="reader" hidden role="dialog" aria-modal="true" aria-labelledby="reader-title">
+  <div class="reader__scrim" id="reader-scrim"></div>
+  <article class="reader__sheet">
+    <button class="iconbtn reader__close" id="reader-close" aria-label="Close reader">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+
+    <figure class="reader__art" id="reader-art">
+      <img id="reader-image" alt="" referrerpolicy="no-referrer">
+    </figure>
+
+    <div class="reader__inner">
+      <p class="reader__kicker">
+        <span class="reader__source" id="reader-source"></span>
+        <span class="reader__time" id="reader-time"></span>
+      </p>
+      <h1 class="reader__title" id="reader-title"></h1>
+      <div class="reader__body" id="reader-body"></div>
+      <p class="reader__note" id="reader-note" hidden></p>
+
+      <div class="reader__actions">
+        <a class="btn btn--primary" id="reader-link" target="_blank" rel="noopener noreferrer"></a>
+        <button class="btn" id="reader-save" type="button"></button>
+      </div>
+    </div>
+  </article>
+</div>
+
 <!-- Tile template ------------------------------------------------------- -->
 <template id="tpl-tile">
   <article class="tile">
