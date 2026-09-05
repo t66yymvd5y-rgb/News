@@ -571,11 +571,11 @@ async function main() {
 
   // Trim per feed before merging so one prolific publisher cannot dominate.
   const merged = [];
-  for (const { articles } of results) {
+  for (const { feed, articles } of results) {
     const fresh = articles
       .filter((a) => !a.published || Date.parse(a.published) >= cutoff)
       .sort((a, b) => (Date.parse(b.published || 0) || 0) - (Date.parse(a.published || 0) || 0))
-      .slice(0, maxItemsPerFeed);
+      .slice(0, feed.maxItems || maxItemsPerFeed);
     merged.push(...fresh);
   }
 

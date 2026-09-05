@@ -41,14 +41,16 @@
    "source": "The Star",
    "topic": "malaysia",
    "url": "https://www.thestar.com.my/rss/News/Nation",
-   "enabled": true
+   "enabled": false,
+   "note": "Every candidate RSS path probed on 5.9.2026 returned 404; this publisher appears to have withdrawn public feeds. Disabled rather than deleted so it is one flag to re-enable if they return."
   },
   {
    "id": "thestar-business",
    "source": "The Star",
    "topic": "business",
    "url": "https://www.thestar.com.my/rss/Business/Business-News",
-   "enabled": true
+   "enabled": false,
+   "note": "Every candidate RSS path probed on 5.9.2026 returned 404; this publisher appears to have withdrawn public feeds. Disabled rather than deleted so it is one flag to re-enable if they return."
   },
   {
    "id": "nst",
@@ -69,7 +71,8 @@
    "source": "Bernama",
    "topic": "malaysia",
    "url": "https://www.bernama.com/en/rss/news_general.xml",
-   "enabled": true
+   "enabled": false,
+   "note": "Every candidate RSS path probed on 5.9.2026 returned 404; this publisher appears to have withdrawn public feeds. Disabled rather than deleted so it is one flag to re-enable if they return."
   },
   {
    "id": "fmt",
@@ -98,8 +101,8 @@
    "source": "The Edge Malaysia",
    "topic": "business",
    "url": "https://theedgemalaysia.com/rss",
-   "enabled": true,
-   "note": "Headlines are free; some articles are metered."
+   "enabled": false,
+   "note": "Every candidate RSS path probed on 5.9.2026 returned 404; this publisher appears to have withdrawn public feeds. Disabled rather than deleted so it is one flag to re-enable if they return."
   },
   {
    "id": "bbc-world",
@@ -171,6 +174,94 @@
    "topic": "tech",
    "url": "https://www.theverge.com/rss/index.xml",
    "enabled": true
+  },
+  {
+   "id": "register",
+   "source": "The Register",
+   "topic": "tech",
+   "url": "https://www.theregister.com/headlines.atom",
+   "enabled": true,
+   "maxItems": 20
+  },
+  {
+   "id": "techcrunch",
+   "source": "TechCrunch",
+   "topic": "tech",
+   "url": "https://techcrunch.com/feed/",
+   "enabled": true,
+   "maxItems": 15
+  },
+  {
+   "id": "wired",
+   "source": "Wired",
+   "topic": "tech",
+   "url": "https://www.wired.com/feed/rss",
+   "enabled": true,
+   "maxItems": 15
+  },
+  {
+   "id": "mittr",
+   "source": "MIT Technology Review",
+   "topic": "tech",
+   "url": "https://www.technologyreview.com/feed/",
+   "enabled": true,
+   "maxItems": 10
+  },
+  {
+   "id": "ars-ai",
+   "source": "Ars Technica",
+   "topic": "tech",
+   "url": "https://arstechnica.com/ai/feed/",
+   "enabled": true,
+   "maxItems": 15
+  },
+  {
+   "id": "tc-ai",
+   "source": "TechCrunch",
+   "topic": "tech",
+   "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "enabled": true,
+   "maxItems": 12
+  },
+  {
+   "id": "ai-news",
+   "source": "AI News",
+   "topic": "tech",
+   "url": "https://www.artificialintelligence-news.com/feed/",
+   "enabled": true,
+   "maxItems": 12
+  },
+  {
+   "id": "mit-ai",
+   "source": "MIT News",
+   "topic": "tech",
+   "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+   "enabled": true,
+   "maxItems": 12
+  },
+  {
+   "id": "google-ai",
+   "source": "Google",
+   "topic": "tech",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
+   "enabled": true,
+   "maxItems": 10
+  },
+  {
+   "id": "deepmind",
+   "source": "Google DeepMind",
+   "topic": "tech",
+   "url": "https://deepmind.google/blog/rss.xml",
+   "enabled": true,
+   "maxItems": 10
+  },
+  {
+   "id": "simonw",
+   "source": "Simon Willison",
+   "topic": "tech",
+   "url": "https://simonwillison.net/atom/everything/",
+   "enabled": true,
+   "maxItems": 10
   }
  ],
  "fetch": {
@@ -181,120 +272,28 @@
  },
  "probe": [
   {
-   "id": "star-a",
-   "url": "https://www.thestar.com.my/rss/editors-choice"
+   "id": "gnews-star",
+   "url": "https://news.google.com/rss/search?q=site:thestar.com.my+when:2d&hl=en-MY&gl=MY&ceid=MY:en"
   },
   {
-   "id": "star-b",
-   "url": "https://www.thestar.com.my/rss/news/nation"
+   "id": "gnews-bernama",
+   "url": "https://news.google.com/rss/search?q=site:bernama.com+when:2d&hl=en-MY&gl=MY&ceid=MY:en"
   },
   {
-   "id": "star-c",
-   "url": "https://www.thestar.com.my/news/nation/rss"
+   "id": "gnews-edge",
+   "url": "https://news.google.com/rss/search?q=site:theedgemalaysia.com+when:2d&hl=en-MY&gl=MY&ceid=MY:en"
   },
   {
-   "id": "star-d",
-   "url": "https://www.thestar.com.my/rss/News/Nation/"
+   "id": "star-f",
+   "url": "https://www.thestar.com.my/rss/"
   },
   {
-   "id": "star-e",
-   "url": "https://www.thestar.com.my/rss/business/business-news"
+   "id": "bernama-e",
+   "url": "https://www.bernama.com/en/rss/general.xml"
   },
   {
-   "id": "bernama-a",
-   "url": "https://www.bernama.com/rss/news_general.xml"
-  },
-  {
-   "id": "bernama-b",
-   "url": "https://www.bernama.com/en/rss.php"
-  },
-  {
-   "id": "bernama-c",
-   "url": "https://www.bernama.com/en/feed/"
-  },
-  {
-   "id": "bernama-d",
-   "url": "https://bernama.com/en/rss/news_general.xml"
-  },
-  {
-   "id": "edge-a",
-   "url": "https://theedgemalaysia.com/feed"
-  },
-  {
-   "id": "edge-b",
-   "url": "https://theedgemalaysia.com/rss.xml"
-  },
-  {
-   "id": "edge-c",
-   "url": "https://theedgemalaysia.com/rss/latest"
-  },
-  {
-   "id": "edge-d",
-   "url": "https://www.theedgemalaysia.com/rss"
-  },
-  {
-   "id": "techcrunch",
-   "url": "https://techcrunch.com/feed/"
-  },
-  {
-   "id": "tc-ai",
-   "url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-  },
-  {
-   "id": "register",
-   "url": "https://www.theregister.com/headlines.atom"
-  },
-  {
-   "id": "register-ai",
-   "url": "https://www.theregister.com/software/ai_ml/headlines.atom"
-  },
-  {
-   "id": "wired",
-   "url": "https://www.wired.com/feed/rss"
-  },
-  {
-   "id": "wired-ai",
-   "url": "https://www.wired.com/feed/tag/ai/latest/rss"
-  },
-  {
-   "id": "mittr",
-   "url": "https://www.technologyreview.com/feed/"
-  },
-  {
-   "id": "hn",
-   "url": "https://hnrss.org/frontpage"
-  },
-  {
-   "id": "ars-ai",
-   "url": "https://arstechnica.com/ai/feed/"
-  },
-  {
-   "id": "vb-ai",
-   "url": "https://venturebeat.com/category/ai/feed/"
-  },
-  {
-   "id": "google-ai",
-   "url": "https://blog.google/technology/ai/rss/"
-  },
-  {
-   "id": "deepmind",
-   "url": "https://deepmind.google/blog/rss.xml"
-  },
-  {
-   "id": "hf-blog",
-   "url": "https://huggingface.co/blog/feed.xml"
-  },
-  {
-   "id": "simonw",
-   "url": "https://simonwillison.net/atom/everything/"
-  },
-  {
-   "id": "mit-ai",
-   "url": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-  },
-  {
-   "id": "nature-ai",
-   "url": "https://www.artificialintelligence-news.com/feed/"
+   "id": "edge-e",
+   "url": "https://theedgemalaysia.com/api/rss"
   }
  ]
 }
