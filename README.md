@@ -19,6 +19,16 @@ them, normalises the items, commits the result, and deploys to GitHub Pages.
 That sidesteps browser CORS restrictions entirely — no proxy service to depend
 on — and means there are no secrets in the deployed site.
 
+Just before the site is uploaded, `scripts/stamp-assets.mjs` rewrites the
+stylesheet and script URLs in `index.html` to carry a hash of the file they
+point at. GitHub Pages serves everything with `Cache-Control: max-age=600`, so
+without the stamp a browser that already has the site would keep the previous
+`app.js` and `styles.css` next to a freshly fetched `index.html` — new markup
+driven by old code. The stamp is applied to the published copy only; the file
+in the repository keeps plain paths, so opening it from disk still works.
+`index.html` itself is still subject to that ten-minute window, which is the
+remaining bound on how long a change takes to appear.
+
 ## Setting it up
 
 1. **Enable Pages.** Repository *Settings → Pages → Build and deployment →

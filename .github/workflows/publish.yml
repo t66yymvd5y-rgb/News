@@ -59,6 +59,12 @@ jobs:
           echo "Could not push refreshed data after 4 attempts." >&2
           exit 1
 
+      # After the data commit, so the stamped index.html is never committed: the
+      # repository keeps plain asset paths and only the published copy is
+      # fingerprinted.
+      - name: Stamp asset URLs with a content hash
+        run: node scripts/stamp-assets.mjs
+
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
