@@ -476,6 +476,59 @@ function scoreArticle(article, now) {
   return score;
 }
 
+/* ----------------------------------------------------------------- probes */
+
+/**
+ * Try candidate feed URLs and report what came back, without adding any of
+ * them to the site.
+ *
+ * Publishers move their feeds, and the URLs cannot be checked from a dev
+ * machine behind an egress policy. Listing candidates under "probe" in the
+ * config gets them checked by the runner, which can reach them, so a working
+ * URL is promoted to a real feed on evidence rather than on a guess — and a
+ * wrong guess never reaches the site's "feeds unavailable" banner.
+ */
+async function runProbes(config, timeoutMs) {
+  const probes = config.probe || [];
+  if (!probes.length) return;
+
+  console.log(`\nKertas: probing ${probes.length} candidate URLs (not published)`);
+  for (const candidate of probes) {
+    const label = candidate.id.padEnd(26);
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    try {
+      const res = await fetch(candidate.url, {
+        signal: controller.signal,
+        redirect: 'follow',
+        headers: { 'user-agent': USER_AGENT, accept: 'application/rss+xml, application/xml, */*' }
+      });
+      if (!res.ok) {
+        console.log(`  probe FAIL ${label} HTTP ${res.status}`);
+        continue;
+      }
+      const body = await res.text();
+      const { kind, blocks } = splitEntries(body);
+      if (!blocks.length) {
+        console.log(`  probe FAIL ${label} HTTP 200 but no items — not a feed (${body.length} bytes)`);
+        continue;
+      }
+      const parsed = parseFeed(body, { id: candidate.id, source: 'probe', topic: 'probe' });
+      const bodied = parsed.filter((a) => a.body && a.body.length).length;
+      console.log(
+        `  probe OK   ${label} ${kind} · ${blocks.length} items · ` +
+          `${parsed.filter((a) => a.image).length} with images · ${bodied} with full text` +
+          (res.url !== candidate.url ? ` · redirected to ${res.url}` : '')
+      );
+    } catch (err) {
+      console.log(`  probe FAIL ${label} ${err.message}`);
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+  console.log('');
+}
+
 async function main() {
   const config = JSON.parse(await readFile(CONFIG_PATH, 'utf8'));
   const { maxItemsPerFeed, maxAgeDays, timeoutMs, topStoriesSize } = config.fetch;
@@ -485,6 +538,7 @@ async function main() {
   const cutoff = now - maxAgeDays * 864e5;
 
   console.log(`Kertas: fetching ${enabled.length} feeds`);
+  await runProbes(config, timeoutMs);
 
   const results = await Promise.all(
     enabled.map(async (feed) => {
