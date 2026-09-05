@@ -1,0 +1,46 @@
+{
+  "site": {
+    "name": "Kertas",
+    "tagline": "Malaysia first. The world next.",
+    "locale": "en-MY",
+    "timezone": "Asia/Kuala_Lumpur"
+  },
+  "topics": [
+    { "id": "top",       "label": "Top Stories" },
+    { "id": "malaysia",  "label": "Malaysia" },
+    { "id": "world",     "label": "World" },
+    { "id": "business",  "label": "Business" },
+    { "id": "tech",      "label": "Tech" },
+    { "id": "sport",     "label": "Sport" },
+    { "id": "opinion",   "label": "Opinion" }
+  ],
+  "feeds": [
+    { "id": "thestar-nation",   "source": "The Star",            "topic": "malaysia", "url": "https://www.thestar.com.my/rss/News/Nation",            "enabled": true },
+    { "id": "thestar-business", "source": "The Star",            "topic": "business", "url": "https://www.thestar.com.my/rss/Business/Business-News", "enabled": true },
+    { "id": "nst",              "source": "New Straits Times",   "topic": "malaysia", "url": "https://www.nst.com.my/feed",                            "enabled": true },
+    { "id": "malaymail",        "source": "Malay Mail",          "topic": "malaysia", "url": "https://www.malaymail.com/feed/rss",                     "enabled": true },
+    { "id": "bernama",          "source": "Bernama",             "topic": "malaysia", "url": "https://www.bernama.com/en/rss/news_general.xml",        "enabled": true },
+    { "id": "fmt",              "source": "Free Malaysia Today", "topic": "malaysia", "url": "https://www.freemalaysiatoday.com/feed/",                "enabled": true },
+    { "id": "fmt-opinion",      "source": "Free Malaysia Today", "topic": "opinion",  "url": "https://www.freemalaysiatoday.com/category/opinion/feed/","enabled": true },
+    { "id": "malaysiakini",     "source": "Malaysiakini",        "topic": "malaysia", "url": "https://www.malaysiakini.com/rss/en/news.rss",           "enabled": true, "note": "Headlines are free; some articles are metered." },
+    { "id": "theedge",          "source": "The Edge Malaysia",   "topic": "business", "url": "https://theedgemalaysia.com/rss",                         "enabled": true, "note": "Headlines are free; some articles are metered." },
+
+    { "id": "bbc-world",        "source": "BBC News",            "topic": "world",    "url": "https://feeds.bbci.co.uk/news/world/rss.xml",            "enabled": true },
+    { "id": "bbc-business",     "source": "BBC News",            "topic": "business", "url": "https://feeds.bbci.co.uk/news/business/rss.xml",         "enabled": true },
+    { "id": "bbc-sport",        "source": "BBC Sport",           "topic": "sport",    "url": "https://feeds.bbci.co.uk/sport/rss.xml",                 "enabled": true },
+    { "id": "aljazeera",        "source": "Al Jazeera",          "topic": "world",    "url": "https://www.aljazeera.com/xml/rss/all.xml",              "enabled": true },
+    { "id": "cna",              "source": "Channel NewsAsia",    "topic": "world",    "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml", "enabled": true },
+    { "id": "guardian-world",   "source": "The Guardian",        "topic": "world",    "url": "https://www.theguardian.com/world/rss",                  "enabled": true },
+    { "id": "guardian-opinion", "source": "The Guardian",        "topic": "opinion",  "url": "https://www.theguardian.com/commentisfree/rss",          "enabled": true },
+    { "id": "reuters",          "source": "Reuters",             "topic": "world",    "url": "https://www.reutersagency.com/feed/?best-topics=world&post_type=best", "enabled": false, "note": "Reuters withdrew its public RSS feeds. Left here, disabled, so it is easy to re-enable if they return." },
+
+    { "id": "arstechnica",      "source": "Ars Technica",        "topic": "tech",     "url": "https://feeds.arstechnica.com/arstechnica/index",        "enabled": true },
+    { "id": "theverge",         "source": "The Verge",           "topic": "tech",     "url": "https://www.theverge.com/rss/index.xml",                 "enabled": true }
+  ],
+  "fetch": {
+    "maxItemsPerFeed": 25,
+    "maxAgeDays": 5,
+    "timeoutMs": 15000,
+    "topStoriesSize": 40
+  }
+}

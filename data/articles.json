@@ -1,0 +1,498 @@
+{
+ "generatedAt": "2026-09-05T09:24:15.173Z",
+ "sample": true,
+ "site": {
+  "name": "Kertas",
+  "tagline": "Malaysia first. The world next.",
+  "locale": "en-MY",
+  "timezone": "Asia/Kuala_Lumpur"
+ },
+ "topics": [
+  {
+   "id": "top",
+   "label": "Top Stories"
+  },
+  {
+   "id": "malaysia",
+   "label": "Malaysia"
+  },
+  {
+   "id": "world",
+   "label": "World"
+  },
+  {
+   "id": "business",
+   "label": "Business"
+  },
+  {
+   "id": "tech",
+   "label": "Tech"
+  },
+  {
+   "id": "sport",
+   "label": "Sport"
+  },
+  {
+   "id": "opinion",
+   "label": "Opinion"
+  }
+ ],
+ "sources": [
+  "Sample Chronicle",
+  "Sample Circuit",
+  "Sample Commentary",
+  "Sample Daily",
+  "Sample Exchange",
+  "Sample Global",
+  "Sample Ledger",
+  "Sample Post",
+  "Sample Review",
+  "Sample Sports",
+  "Sample Terminal",
+  "Sample Wire"
+ ],
+ "counts": {
+  "top": 15,
+  "malaysia": 9,
+  "world": 7,
+  "business": 6,
+  "tech": 5,
+  "sport": 4,
+  "opinion": 5
+ },
+ "failedFeeds": [],
+ "articles": [
+  {
+   "id": "0ebc5a174c0a7631",
+   "title": "Cabinet approves revised framework for public infrastructure procurement",
+   "link": "#",
+   "summary": "Ministers agreed on a staged rollout, with the first tranche of projects to be tendered under the new rules before the end of the year.",
+   "image": "",
+   "published": "2026-09-05T09:09:15.173Z",
+   "source": "Sample Wire",
+   "feedId": "sample",
+   "topic": "malaysia",
+   "top": true
+  },
+  {
+   "id": "1b0fbcf21dee5c87",
+   "title": "Federal Court reserves judgment in long-running land acquisition appeal",
+   "link": "#",
+   "summary": "A five-member panel heard two days of submissions on the compensation payable to former smallholders.",
+   "image": "",
+   "published": "2026-09-05T08:32:15.173Z",
+   "source": "Sample Wire",
+   "feedId": "sample",
+   "topic": "malaysia",
+   "top": true
+  },
+  {
+   "id": "8363623ff15807d6",
+   "title": "Klang Valley rail extension enters final testing phase",
+   "link": "#",
+   "summary": "Operators say trial runs will continue for six weeks before the line opens to passengers.",
+   "image": "",
+   "published": "2026-09-05T07:55:15.173Z",
+   "source": "Sample Daily",
+   "feedId": "sample",
+   "topic": "malaysia",
+   "top": true
+  },
+  {
+   "id": "ebdd5528d1ca9ac8",
+   "title": "State assembly passes amendments to local council by-laws",
+   "link": "#",
+   "summary": "The changes tighten enforcement timelines and raise penalties for repeat offences.",
+   "image": "",
+   "published": "2026-09-05T07:18:15.173Z",
+   "source": "Sample Daily",
+   "feedId": "sample",
+   "topic": "malaysia",
+   "top": true
+  },
+  {
+   "id": "7e2ff51009beca9f",
+   "title": "Flood mitigation works begin along three river basins",
+   "link": "#",
+   "summary": "Contractors have been given eighteen months to complete the first phase.",
+   "image": "",
+   "published": "2026-09-05T06:41:15.173Z",
+   "source": "Sample Post",
+   "feedId": "sample",
+   "topic": "malaysia",
+   "top": false
+  },
+  {
+   "id": "b7098edca4ffa2b1",
+   "title": "Regulator issues new guidance on private hospital billing transparency",
+   "link": "#",
+   "summary": "Facilities will be required to publish indicative charges for common procedures.",
+   "image": "",
+   "published": "2026-09-05T06:04:15.173Z",
+   "source": "Sample Post",
+   "feedId": "sample",
+   "topic": "malaysia",
+   "top": false
+  },
+  {
+   "id": "38aa490a8be92b66",
+   "title": "Universities report record intake for engineering programmes",
+   "link": "#",
+   "summary": "Admissions rose across all public institutions, reversing a three-year decline.",
+   "image": "",
+   "published": "2026-09-05T05:27:15.173Z",
+   "source": "Sample Wire",
+   "feedId": "sample",
+   "topic": "malaysia",
+   "top": false
+  },
+  {
+   "id": "40ba202607de9256",
+   "title": "Highway concessionaire announces toll restructuring talks",
+   "link": "#",
+   "summary": "Negotiations are expected to run through the next quarter.",
+   "image": "",
+   "published": "2026-09-05T04:50:15.173Z",
+   "source": "Sample Daily",
+   "feedId": "sample",
+   "topic": "malaysia",
+   "top": false
+  },
+  {
+   "id": "cf1e8a7616ac28a0",
+   "title": "Coastal reclamation project faces fresh environmental review",
+   "link": "#",
+   "summary": "The assessment was ordered after objections from fishing communities.",
+   "image": "",
+   "published": "2026-09-05T04:13:15.173Z",
+   "source": "Sample Post",
+   "feedId": "sample",
+   "topic": "malaysia",
+   "top": false
+  },
+  {
+   "id": "bc0902f81966690a",
+   "title": "Trade ministers conclude framework talks after marathon session",
+   "link": "#",
+   "summary": "Delegates described the outcome as a starting point rather than a settlement.",
+   "image": "",
+   "published": "2026-09-05T03:36:15.173Z",
+   "source": "Sample Global",
+   "feedId": "sample",
+   "topic": "world",
+   "top": true
+  },
+  {
+   "id": "467406c8a3c5b049",
+   "title": "Central banks signal a slower path on rate adjustments",
+   "link": "#",
+   "summary": "Policymakers pointed to uneven data across services and manufacturing.",
+   "image": "",
+   "published": "2026-09-05T02:59:15.173Z",
+   "source": "Sample Global",
+   "feedId": "sample",
+   "topic": "world",
+   "top": true
+  },
+  {
+   "id": "68ff5197910a6ae8",
+   "title": "Relief convoys reach isolated districts after week-long delay",
+   "link": "#",
+   "summary": "Aid agencies warned that access remains fragile.",
+   "image": "",
+   "published": "2026-09-05T02:22:15.173Z",
+   "source": "Sample Global",
+   "feedId": "sample",
+   "topic": "world",
+   "top": true
+  },
+  {
+   "id": "2afdd5d4c74f55bc",
+   "title": "Election commission certifies results after two recounts",
+   "link": "#",
+   "summary": "Observers reported no material irregularities in the final tally.",
+   "image": "",
+   "published": "2026-09-05T01:45:15.173Z",
+   "source": "Sample Chronicle",
+   "feedId": "sample",
+   "topic": "world",
+   "top": false
+  },
+  {
+   "id": "628871504c2a5445",
+   "title": "Summit ends with commitment on shipping emissions",
+   "link": "#",
+   "summary": "A compliance mechanism has been deferred to the next round.",
+   "image": "",
+   "published": "2026-09-05T01:08:15.173Z",
+   "source": "Sample Chronicle",
+   "feedId": "sample",
+   "topic": "world",
+   "top": false
+  },
+  {
+   "id": "c625967b56a9c4d2",
+   "title": "Archaeologists date harbour settlement earlier than assumed",
+   "link": "#",
+   "summary": "The finding shifts the accepted timeline by roughly two centuries.",
+   "image": "",
+   "published": "2026-09-05T00:31:15.173Z",
+   "source": "Sample Global",
+   "feedId": "sample",
+   "topic": "world",
+   "top": false
+  },
+  {
+   "id": "d1f72ac9772ddda5",
+   "title": "Drought pushes reservoir levels to a decade low",
+   "link": "#",
+   "summary": "Restrictions on non-essential use take effect on Monday.",
+   "image": "",
+   "published": "2026-09-04T23:54:15.173Z",
+   "source": "Sample Chronicle",
+   "feedId": "sample",
+   "topic": "world",
+   "top": false
+  },
+  {
+   "id": "938bed999046bbc8",
+   "title": "Construction order book grows on infrastructure awards",
+   "link": "#",
+   "summary": "Analysts expect margins to stay compressed through the cycle.",
+   "image": "",
+   "published": "2026-09-04T23:17:15.173Z",
+   "source": "Sample Ledger",
+   "feedId": "sample",
+   "topic": "business",
+   "top": true
+  },
+  {
+   "id": "ee4c548fcffc5b0e",
+   "title": "Bourse closes higher as plantation counters lead gains",
+   "link": "#",
+   "summary": "Turnover was thinner than the recent daily average.",
+   "image": "",
+   "published": "2026-09-04T22:40:15.173Z",
+   "source": "Sample Ledger",
+   "feedId": "sample",
+   "topic": "business",
+   "top": true
+  },
+  {
+   "id": "39037f63b609cb1d",
+   "title": "Insurer reports narrower underwriting loss",
+   "link": "#",
+   "summary": "Management attributed the improvement to repricing in the motor segment.",
+   "image": "",
+   "published": "2026-09-04T22:03:15.173Z",
+   "source": "Sample Exchange",
+   "feedId": "sample",
+   "topic": "business",
+   "top": true
+  },
+  {
+   "id": "124e485cabb5fdc1",
+   "title": "Data centre investment reshapes industrial land values",
+   "link": "#",
+   "summary": "Demand has concentrated in three corridors.",
+   "image": "",
+   "published": "2026-09-04T21:26:15.173Z",
+   "source": "Sample Exchange",
+   "feedId": "sample",
+   "topic": "business",
+   "top": false
+  },
+  {
+   "id": "4bea765505a6c8aa",
+   "title": "Bank raises provisions ahead of expected credit tightening",
+   "link": "#",
+   "summary": "The move follows a review of its commercial lending book.",
+   "image": "",
+   "published": "2026-09-04T20:49:15.173Z",
+   "source": "Sample Ledger",
+   "feedId": "sample",
+   "topic": "business",
+   "top": false
+  },
+  {
+   "id": "fbec052ccab53f70",
+   "title": "Ringgit steadies against the dollar in late trade",
+   "link": "#",
+   "summary": "Traders cited month-end flows.",
+   "image": "",
+   "published": "2026-09-04T20:12:15.173Z",
+   "source": "Sample Exchange",
+   "feedId": "sample",
+   "topic": "business",
+   "top": false
+  },
+  {
+   "id": "6280a969e92ea27d",
+   "title": "Open-source model release reopens the licensing debate",
+   "link": "#",
+   "summary": "Maintainers disagree over what counts as an open weight.",
+   "image": "",
+   "published": "2026-09-04T19:35:15.173Z",
+   "source": "Sample Circuit",
+   "feedId": "sample",
+   "topic": "tech",
+   "top": true
+  },
+  {
+   "id": "311da47875df2801",
+   "title": "Undersea cable repair restores regional capacity",
+   "link": "#",
+   "summary": "Latency had been elevated for eleven days.",
+   "image": "",
+   "published": "2026-09-04T18:58:15.173Z",
+   "source": "Sample Circuit",
+   "feedId": "sample",
+   "topic": "tech",
+   "top": true
+  },
+  {
+   "id": "72df50c5e3eb6831",
+   "title": "Regulators publish draft rules on automated decision systems",
+   "link": "#",
+   "summary": "Consultation closes in ninety days.",
+   "image": "",
+   "published": "2026-09-04T18:21:15.173Z",
+   "source": "Sample Terminal",
+   "feedId": "sample",
+   "topic": "tech",
+   "top": false
+  },
+  {
+   "id": "2223b5fde5d588fc",
+   "title": "Chipmaker brings forward its packaging capacity expansion",
+   "link": "#",
+   "summary": "Construction is already underway at two sites.",
+   "image": "",
+   "published": "2026-09-04T17:44:15.173Z",
+   "source": "Sample Terminal",
+   "feedId": "sample",
+   "topic": "tech",
+   "top": false
+  },
+  {
+   "id": "bcc958420e678454",
+   "title": "Browser vendors agree on a shared approach to passkey recovery",
+   "link": "#",
+   "summary": "Implementation is expected across the next two release cycles.",
+   "image": "",
+   "published": "2026-09-04T17:07:15.173Z",
+   "source": "Sample Circuit",
+   "feedId": "sample",
+   "topic": "tech",
+   "top": false
+  },
+  {
+   "id": "49ad4a5bbe678572",
+   "title": "Late equaliser keeps title race alive going into the final week",
+   "link": "#",
+   "summary": "The result leaves three clubs separated by a single point.",
+   "image": "",
+   "published": "2026-09-04T16:30:15.173Z",
+   "source": "Sample Sports",
+   "feedId": "sample",
+   "topic": "sport",
+   "top": true
+  },
+  {
+   "id": "b801c48c2aaf6559",
+   "title": "Badminton pair claim first senior title of the season",
+   "link": "#",
+   "summary": "They dropped only one game across the week.",
+   "image": "",
+   "published": "2026-09-04T15:53:15.173Z",
+   "source": "Sample Sports",
+   "feedId": "sample",
+   "topic": "sport",
+   "top": true
+  },
+  {
+   "id": "57ec41afb542201f",
+   "title": "Squash federation names squad for the regional championship",
+   "link": "#",
+   "summary": "Two debutants were included in the eight-player list.",
+   "image": "",
+   "published": "2026-09-04T15:16:15.173Z",
+   "source": "Sample Sports",
+   "feedId": "sample",
+   "topic": "sport",
+   "top": false
+  },
+  {
+   "id": "cb29965247c3fc16",
+   "title": "Marathon route redrawn to avoid construction works",
+   "link": "#",
+   "summary": "Organisers say the distance is unaffected.",
+   "image": "",
+   "published": "2026-09-04T14:39:15.173Z",
+   "source": "Sample Sports",
+   "feedId": "sample",
+   "topic": "sport",
+   "top": false
+  },
+  {
+   "id": "101b8ddf1176a476",
+   "title": "The quiet cost of deferring maintenance",
+   "link": "#",
+   "summary": "Underspending on upkeep is a decision, even when nobody makes it explicitly.",
+   "image": "",
+   "published": "2026-09-04T14:02:15.173Z",
+   "source": "Sample Review",
+   "feedId": "sample",
+   "topic": "opinion",
+   "top": false
+  },
+  {
+   "id": "e12e93d382052b7c",
+   "title": "What procurement reform keeps getting wrong",
+   "link": "#",
+   "summary": "Rules are rewritten far more often than they are enforced.",
+   "image": "",
+   "published": "2026-09-04T13:25:15.173Z",
+   "source": "Sample Review",
+   "feedId": "sample",
+   "topic": "opinion",
+   "top": true
+  },
+  {
+   "id": "57cb20ad6f545838",
+   "title": "Courts, delay, and the price of certainty",
+   "link": "#",
+   "summary": "Speed and correctness are not always the same virtue.",
+   "image": "",
+   "published": "2026-09-04T12:48:15.173Z",
+   "source": "Sample Review",
+   "feedId": "sample",
+   "topic": "opinion",
+   "top": false
+  },
+  {
+   "id": "534e9c793ff3ef70",
+   "title": "Reading the fine print on infrastructure guarantees",
+   "link": "#",
+   "summary": "Contingent liabilities have a way of becoming ordinary ones.",
+   "image": "",
+   "published": "2026-09-04T12:11:15.173Z",
+   "source": "Sample Commentary",
+   "feedId": "sample",
+   "topic": "opinion",
+   "top": false
+  },
+  {
+   "id": "0f19778e40e93c71",
+   "title": "Against the tyranny of the dashboard",
+   "link": "#",
+   "summary": "Not everything worth managing survives being measured.",
+   "image": "",
+   "published": "2026-09-04T11:34:15.173Z",
+   "source": "Sample Commentary",
+   "feedId": "sample",
+   "topic": "opinion",
+   "top": false
+  }
+ ]
+}

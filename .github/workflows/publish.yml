@@ -1,0 +1,76 @@
+name: Refresh feeds and publish
+
+on:
+  schedule:
+    # Hourly, at 20 past, to avoid the top-of-hour crush on GitHub's scheduler.
+    - cron: '20 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'data/**'
+      - 'docs/**'
+      - 'README.md'
+
+# Only one publish at a time; a queued run supersedes a waiting one.
+concurrency:
+  group: kertas-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  refresh:
+    name: Fetch feeds
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Fetch and normalise feeds
+        env:
+          # Optional. Leave unset and the site runs on RSS alone.
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+          NEWS_API_PROVIDER: ${{ vars.NEWS_API_PROVIDER }}
+          NEWS_API_COUNTRY: ${{ vars.NEWS_API_COUNTRY }}
+        run: node scripts/fetch-feeds.mjs
+
+      - name: Commit refreshed data
+        run: |
+          if git diff --quiet -- data/articles.json; then
+            echo "No change in data/articles.json — nothing to commit."
+            exit 0
+          fi
+          git config user.name  "kertas-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/articles.json
+          git commit -m "data: refresh feeds ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+          for attempt in 1 2 3 4; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push && exit 0
+            echo "Push attempt ${attempt} failed; retrying."
+            sleep $((2 ** attempt))
+          done
+          echo "Could not push refreshed data after 4 attempts." >&2
+          exit 1
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    name: Deploy to Pages
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

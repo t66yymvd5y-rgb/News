@@ -1,0 +1,494 @@
+#!/usr/bin/env node
+/**
+ * Kertas feed ingestion.
+ *
+ * Reads config/sources.json, fetches every enabled RSS/Atom feed, normalises the
+ * items and writes data/articles.json for the static site to consume.
+ *
+ * Design notes:
+ *  - Zero dependencies. Node 20+ (global fetch, no npm install in CI).
+ *  - Fails soft. A dead feed logs a warning and falls back to whatever that feed
+ *    contributed to the previous data/articles.json. The build never publishes an
+ *    empty site because one publisher moved a URL.
+ *  - Stores headline, excerpt, publisher, timestamp and the publisher's own image
+ *    URL only. Never full article text.
+ */
+
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+const CONFIG_PATH = resolve(ROOT, 'config/sources.json');
+const OUTPUT_PATH = resolve(ROOT, 'data/articles.json');
+
+const USER_AGENT =
+  'KertasBot/1.0 (+https://github.com/t66yymvd5y-rgb/news; static news aggregator; contact via repo issues)';
+
+/* ------------------------------------------------------------------ XML bits */
+
+const ENTITIES = {
+  amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ',
+  ldquo: '“', rdquo: '”', lsquo: '‘', rsquo: '’',
+  hellip: '…', mdash: '—', ndash: '–', eacute: 'é',
+  pound: '£', euro: '€', copy: '©', trade: '™', deg: '°'
+};
+
+function decodeEntities(str) {
+  if (!str) return '';
+  return str
+    .replace(/&#x([0-9a-f]+);/gi, (_, hex) => safeCodePoint(parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, dec) => safeCodePoint(parseInt(dec, 10)))
+    .replace(/&([a-z]+[0-9]*);/gi, (m, name) => {
+      const key = name.toLowerCase();
+      return Object.prototype.hasOwnProperty.call(ENTITIES, key) ? ENTITIES[key] : m;
+    });
+}
+
+function safeCodePoint(code) {
+  try {
+    return Number.isFinite(code) ? String.fromCodePoint(code) : '';
+  } catch {
+    return '';
+  }
+}
+
+const TAG = /<\/?[a-zA-Z][^>]*>/g;
+
+function stripTags(s) {
+  return s
+    .replace(/<br\s*\/?>/gi, ' ')
+    .replace(/<\/(p|div|li|h\d)>/gi, ' ')
+    .replace(TAG, '');
+}
+
+/**
+ * Reduce feed markup to plain text.
+ *
+ * Tags are stripped, entities decoded, then tags stripped once more: Atom
+ * <content type="html"> arrives entity-escaped, so its markup only becomes
+ * markup after the decode step. The tag pattern requires a letter after the
+ * angle bracket, so prose such as "5 < 10" survives.
+ */
+function toText(raw) {
+  if (!raw) return '';
+  let s = String(raw).replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1');
+  s = stripTags(s);
+  s = decodeEntities(s);
+  if (TAG.test(s)) {
+    TAG.lastIndex = 0;
+    s = stripTags(s);
+  }
+  TAG.lastIndex = 0;
+  return s.replace(/\s+/g, ' ').trim();
+}
+
+/** All occurrences of <tag ...>...</tag>, returning the raw inner content. */
+function findAll(xml, tag) {
+  const out = [];
+  const re = new RegExp(`<${tag}(\\s[^>]*)?>([\\s\\S]*?)<\\/${tag}>`, 'gi');
+  let m;
+  while ((m = re.exec(xml)) !== null) out.push({ attrs: m[1] || '', inner: m[2] });
+  return out;
+}
+
+function firstTag(xml, tag) {
+  const all = findAll(xml, tag);
+  return all.length ? all[0] : null;
+}
+
+/** Self-closing or attribute-only elements, e.g. <media:content url="..."/>. */
+function findSelfClosing(xml, tag) {
+  const out = [];
+  const re = new RegExp(`<${tag}(\\s[^>]*?)\\/?>`, 'gi');
+  let m;
+  while ((m = re.exec(xml)) !== null) out.push(m[1] || '');
+  return out;
+}
+
+function attr(attrString, name) {
+  const m = new RegExp(`${name}\\s*=\\s*["']([^"']*)["']`, 'i').exec(attrString || '');
+  return m ? decodeEntities(m[1]) : '';
+}
+
+/** Split a document into <item> (RSS) or <entry> (Atom) blocks. */
+function splitEntries(xml) {
+  const items = findAll(xml, 'item');
+  if (items.length) return { kind: 'rss', blocks: items.map((i) => i.inner) };
+  const entries = findAll(xml, 'entry');
+  if (entries.length) return { kind: 'atom', blocks: entries.map((e) => e.inner) };
+  return { kind: 'unknown', blocks: [] };
+}
+
+/* -------------------------------------------------------------- field pickers */
+
+function pickLink(block, kind) {
+  if (kind === 'atom') {
+    const links = findSelfClosing(block, 'link');
+    const alternate = links.find(
+      (a) => (attr(a, 'rel') || 'alternate') === 'alternate' && attr(a, 'href')
+    );
+    if (alternate) return attr(alternate, 'href');
+    const anyHref = links.map((a) => attr(a, 'href')).find(Boolean);
+    if (anyHref) return anyHref;
+  }
+  const linkTag = firstTag(block, 'link');
+  if (linkTag) {
+    const text = toText(linkTag.inner);
+    if (text) return text;
+    const href = attr(linkTag.attrs, 'href');
+    if (href) return href;
+  }
+  const guid = firstTag(block, 'guid');
+  if (guid) {
+    const text = toText(guid.inner);
+    if (/^https?:\/\//i.test(text)) return text;
+  }
+  return '';
+}
+
+const DATE_TAGS = ['pubDate', 'published', 'updated', 'dc:date', 'date'];
+
+function pickDate(block) {
+  for (const tag of DATE_TAGS) {
+    const found = firstTag(block, tag.replace(':', '\\:'));
+    if (!found) continue;
+    const parsed = Date.parse(toText(found.inner));
+    if (Number.isFinite(parsed)) return new Date(parsed).toISOString();
+  }
+  return null;
+}
+
+const IMAGE_EXT = /\.(jpe?g|png|webp|avif|gif)(\?|$)/i;
+
+function pickImage(block) {
+  // Preferred: explicit media elements, largest declared width first.
+  const media = [
+    ...findSelfClosing(block, 'media:content'),
+    ...findAll(block, 'media:content').map((m) => m.attrs),
+    ...findSelfClosing(block, 'media:thumbnail'),
+    ...findAll(block, 'media:thumbnail').map((m) => m.attrs)
+  ];
+  const candidates = [];
+  for (const a of media) {
+    const url = attr(a, 'url');
+    const type = attr(a, 'type');
+    const medium = attr(a, 'medium');
+    if (!url) continue;
+    if (type && !type.startsWith('image/')) continue;
+    if (medium && medium !== 'image') continue;
+    candidates.push({ url, width: parseInt(attr(a, 'width'), 10) || 0 });
+  }
+
+  for (const a of findSelfClosing(block, 'enclosure')) {
+    const url = attr(a, 'url');
+    const type = attr(a, 'type');
+    if (url && (type.startsWith('image/') || IMAGE_EXT.test(url))) {
+      candidates.push({ url, width: parseInt(attr(a, 'length'), 10) ? 0 : 0 });
+    }
+  }
+
+  const itunes = findSelfClosing(block, 'itunes:image').map((a) => attr(a, 'href')).filter(Boolean);
+  for (const url of itunes) candidates.push({ url, width: 0 });
+
+  if (candidates.length) {
+    candidates.sort((a, b) => b.width - a.width);
+    return normaliseImageUrl(candidates[0].url);
+  }
+
+  // Fallback: first <img> inside the description/content HTML.
+  for (const tag of ['content:encoded', 'description', 'summary', 'content']) {
+    const found = firstTag(block, tag.replace(':', '\\:'));
+    if (!found) continue;
+    const html = found.inner.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1');
+    const img = /<img[^>]+src\s*=\s*["']([^"']+)["']/i.exec(html);
+    if (img) return normaliseImageUrl(decodeEntities(img[1]));
+  }
+  return '';
+}
+
+function normaliseImageUrl(url) {
+  if (!url) return '';
+  const clean = url.trim();
+  if (clean.startsWith('//')) return `https:${clean}`;
+  if (!/^https?:\/\//i.test(clean)) return '';
+  // Only ever hotlink over https; http images are blocked as mixed content on Pages.
+  return clean.replace(/^http:\/\//i, 'https://');
+}
+
+function pickSummary(block) {
+  for (const tag of ['description', 'summary', 'content:encoded', 'content', 'subtitle']) {
+    const found = firstTag(block, tag.replace(':', '\\:'));
+    if (!found) continue;
+    const text = toText(found.inner);
+    if (text) return truncate(text, 260);
+  }
+  return '';
+}
+
+function truncate(text, max) {
+  if (text.length <= max) return text;
+  const cut = text.slice(0, max);
+  const lastSpace = cut.lastIndexOf(' ');
+  return `${(lastSpace > max * 0.6 ? cut.slice(0, lastSpace) : cut).trimEnd()}…`;
+}
+
+/* ------------------------------------------------------------------ pipeline */
+
+/** Strip tracking noise so the same article from two feeds dedupes to one key. */
+function canonicalLink(link) {
+  try {
+    const u = new URL(link);
+    u.hash = '';
+    for (const key of [...u.searchParams.keys()]) {
+      if (/^(utm_|fbclid|gclid|mc_cid|mc_eid|ref|cmpid|at_)/i.test(key)) u.searchParams.delete(key);
+    }
+    u.hostname = u.hostname.replace(/^www\./i, '');
+    return u.toString().replace(/\/$/, '');
+  } catch {
+    return link;
+  }
+}
+
+function titleKey(title) {
+  return title.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+}
+
+function hash(value) {
+  return createHash('sha1').update(value).digest('hex').slice(0, 16);
+}
+
+function parseFeed(xml, feed) {
+  const { kind, blocks } = splitEntries(xml);
+  if (!blocks.length) throw new Error('no <item> or <entry> elements found');
+
+  const articles = [];
+  for (const block of blocks) {
+    const titleTag = firstTag(block, 'title');
+    const title = toText(titleTag ? titleTag.inner : '');
+    const link = pickLink(block, kind).trim();
+    if (!title || !link) continue;
+
+    const canonical = canonicalLink(link);
+    articles.push({
+      id: hash(canonical),
+      title,
+      link,
+      canonical,
+      summary: pickSummary(block),
+      image: pickImage(block),
+      published: pickDate(block),
+      source: feed.source,
+      feedId: feed.id,
+      topic: feed.topic
+    });
+  }
+  return articles;
+}
+
+async function fetchFeed(feed, timeoutMs) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const res = await fetch(feed.url, {
+      signal: controller.signal,
+      redirect: 'follow',
+      headers: {
+        'user-agent': USER_AGENT,
+        accept: 'application/rss+xml, application/atom+xml, application/xml, text/xml;q=0.9, */*;q=0.8'
+      }
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+    const body = await res.text();
+    if (!body.trim()) throw new Error('empty response body');
+    return parseFeed(body, feed);
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+/* ------------------------------------------------- optional API supplement */
+
+/**
+ * Optional enrichment. Off unless NEWS_API_KEY is present in the environment
+ * (a repository secret consumed by the workflow, never committed and never
+ * exposed to the browser — the key is used here, at build time, and only the
+ * resulting headlines are published).
+ *
+ *   NEWS_API_KEY       the key
+ *   NEWS_API_PROVIDER  "gnews" (default) or "newsapi"
+ *   NEWS_API_COUNTRY   ISO country code, default "my"
+ */
+async function fetchApiSupplement(timeoutMs) {
+  const key = process.env.NEWS_API_KEY;
+  if (!key) return [];
+
+  const provider = (process.env.NEWS_API_PROVIDER || 'gnews').toLowerCase();
+  const country = process.env.NEWS_API_COUNTRY || 'my';
+  const url =
+    provider === 'newsapi'
+      ? `https://newsapi.org/v2/top-headlines?country=${encodeURIComponent(country)}&pageSize=40&apiKey=${encodeURIComponent(key)}`
+      : `https://gnews.io/api/v4/top-headlines?country=${encodeURIComponent(country)}&lang=en&max=25&apikey=${encodeURIComponent(key)}`;
+
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const res = await fetch(url, { signal: controller.signal, headers: { 'user-agent': USER_AGENT } });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const body = await res.json();
+    const items = body.articles || [];
+    const mapped = items
+      .map((item) => {
+        const link = item.url || '';
+        const title = (item.title || '').trim();
+        if (!link || !title) return null;
+        const canonical = canonicalLink(link);
+        return {
+          id: hash(canonical),
+          title,
+          link,
+          canonical,
+          summary: truncate((item.description || '').replace(/\s+/g, ' ').trim(), 260),
+          image: normaliseImageUrl(item.image || item.urlToImage || ''),
+          published: item.publishedAt ? new Date(item.publishedAt).toISOString() : null,
+          source: (item.source && (item.source.name || item.source.title)) || 'Wire',
+          feedId: `api:${provider}`,
+          topic: 'malaysia'
+        };
+      })
+      .filter(Boolean);
+    console.log(`  ok    ${`api:${provider}`.padEnd(18)} ${mapped.length} items`);
+    return mapped;
+  } catch (err) {
+    console.warn(`  FAIL  ${`api:${provider}`.padEnd(18)} ${err.message}`);
+    return [];
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function readPrevious() {
+  try {
+    return JSON.parse(await readFile(OUTPUT_PATH, 'utf8'));
+  } catch {
+    return null;
+  }
+}
+
+function scoreArticle(article, now) {
+  // Top Stories ranking: recency, with a nudge for items that carry imagery
+  // (a mosaic built entirely of text tiles reads badly) and for Malaysian desks.
+  const published = article.published ? Date.parse(article.published) : now - 36e5 * 12;
+  const ageHours = Math.max(0, (now - published) / 36e5);
+  let score = 100 - ageHours * 2.5;
+  if (article.image) score += 12;
+  if (article.topic === 'malaysia') score += 10;
+  if (article.topic === 'opinion') score -= 8;
+  return score;
+}
+
+async function main() {
+  const config = JSON.parse(await readFile(CONFIG_PATH, 'utf8'));
+  const { maxItemsPerFeed, maxAgeDays, timeoutMs, topStoriesSize } = config.fetch;
+  const enabled = config.feeds.filter((f) => f.enabled !== false);
+  const previous = await readPrevious();
+  const now = Date.now();
+  const cutoff = now - maxAgeDays * 864e5;
+
+  console.log(`Kertas: fetching ${enabled.length} feeds`);
+
+  const results = await Promise.all(
+    enabled.map(async (feed) => {
+      try {
+        const articles = await fetchFeed(feed, timeoutMs);
+        console.log(`  ok    ${feed.id.padEnd(18)} ${articles.length} items`);
+        return { feed, articles, ok: true };
+      } catch (err) {
+        const carried = previous
+          ? previous.articles.filter((a) => a.feedId === feed.id)
+          : [];
+        console.warn(
+          `  FAIL  ${feed.id.padEnd(18)} ${err.message}` +
+            (carried.length ? ` — carrying ${carried.length} previous items` : '')
+        );
+        return { feed, articles: carried, ok: false };
+      }
+    })
+  );
+
+  const failures = results.filter((r) => !r.ok).map((r) => r.feed.id);
+  const supplement = await fetchApiSupplement(timeoutMs);
+  if (supplement.length) results.push({ feed: { id: 'api' }, articles: supplement, ok: true });
+
+  // Trim per feed before merging so one prolific publisher cannot dominate.
+  const merged = [];
+  for (const { articles } of results) {
+    const fresh = articles
+      .filter((a) => !a.published || Date.parse(a.published) >= cutoff)
+      .sort((a, b) => (Date.parse(b.published || 0) || 0) - (Date.parse(a.published || 0) || 0))
+      .slice(0, maxItemsPerFeed);
+    merged.push(...fresh);
+  }
+
+  // De-duplicate: same canonical URL, or same headline from the same publisher.
+  const seen = new Set();
+  const deduped = [];
+  for (const article of merged.sort(
+    (a, b) => (Date.parse(b.published || 0) || 0) - (Date.parse(a.published || 0) || 0)
+  )) {
+    // Items carried forward from a previous run have had `canonical` stripped
+    // before being written, so derive it rather than trusting the field.
+    const canonical = article.canonical || canonicalLink(article.link);
+    const keys = [`u:${canonical}`, `t:${article.source}|${titleKey(article.title)}`];
+    if (keys.some((k) => seen.has(k))) continue;
+    keys.forEach((k) => seen.add(k));
+    delete article.canonical;
+    deduped.push(article);
+  }
+
+  const topIds = new Set(
+    [...deduped]
+      .sort((a, b) => scoreArticle(b, now) - scoreArticle(a, now))
+      .slice(0, topStoriesSize)
+      .map((a) => a.id)
+  );
+  for (const article of deduped) article.top = topIds.has(article.id);
+
+  const payload = {
+    generatedAt: new Date(now).toISOString(),
+    site: config.site,
+    topics: config.topics,
+    sources: [...new Set(deduped.map((a) => a.source))].sort(),
+    counts: config.topics.reduce((acc, t) => {
+      acc[t.id] = t.id === 'top'
+        ? deduped.filter((a) => a.top).length
+        : deduped.filter((a) => a.topic === t.id).length;
+      return acc;
+    }, {}),
+    failedFeeds: failures,
+    articles: deduped
+  };
+
+  // Only a total wipeout is a build failure; partial outages are normal. Fail
+  // before writing, so a wipeout leaves the previous data file untouched
+  // rather than replacing a stale site with an empty one.
+  if (!deduped.length) {
+    console.error('Kertas: no articles produced — leaving the existing data in place.');
+    process.exitCode = 1;
+    return;
+  }
+
+  await mkdir(dirname(OUTPUT_PATH), { recursive: true });
+  await writeFile(OUTPUT_PATH, `${JSON.stringify(payload, null, 1)}\n`, 'utf8');
+
+  console.log(
+    `Kertas: wrote ${deduped.length} articles from ${payload.sources.length} sources` +
+      (failures.length ? ` (${failures.length} feed(s) failed: ${failures.join(', ')})` : '')
+  );
+}
+
+main().catch((err) => {
+  console.error('Kertas: fatal', err);
+  process.exitCode = 1;
+});
