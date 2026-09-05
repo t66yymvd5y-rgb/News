@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-05T11:25:55.387Z",
+ "generatedAt": "2026-09-05T11:33:12.795Z",
  "site": {
   "name": "Kertas",
   "tagline": "Malaysia first. The world next.",
@@ -70,11 +70,61 @@
   "sport": 24,
   "opinion": 48
  },
- "failedFeeds": [
-  "register"
- ],
+ "failedFeeds": [],
  "withBody": 228,
  "articles": [
+  {
+   "id": "5cb102e8fe7ee437",
+   "title": "Flick hoping Barca's Yamal can face Valencia after knock",
+   "link": "https://www.nst.com.my/sports/football/2026/09/1526324/flick-hoping-barcas-yamal-can-face-valencia-after-knock",
+   "summary": "BARCELONA: Barcelona coach Hansi Flick is hoping teenage star Lamine Yamal is fit to face Valencia in La Liga on Sunday after taking a knock.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/E8BC5CB0EAC23120259981CF0405A3FF_data.jpg",
+   "published": "2026-09-05T11:32:09.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "52a77112e98feb6a",
+   "title": "Farage and Jenrick to speak on final day of Reform conference marred by scandal and protests – UK politics live",
+   "link": "https://www.theguardian.com/politics/live/2026/sep/05/nigel-farage-robert-jenrick-reform-uk-politics-latest-news-updates",
+   "summary": "Farage, who had earlier suspended two close aides, had his keynote speech interrupted multiple times by protesters on Friday No real mention by Anderson of the problems that overshadowed events yesterday. He ended his opening speech saying: \"Yesterday was…",
+   "image": "https://i.guim.co.uk/img/media/ff798d47182bd44a2a839c9d41e02e5f52812bbe/97_0_3836_3070/master/3836.jpg?width=700&quality=85&auto=format&fit=max&s=dcec116d2f7764bab70cbfe48a1f429b",
+   "published": "2026-09-05T11:27:55.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-world",
+   "topic": "world",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "98dc4a4ebc95b854",
+   "title": "John Healey warns of tough first budget as Middle East war puts pressure on economy",
+   "link": "https://www.theguardian.com/politics/2026/sep/05/john-healey-warns-of-tough-first-budget-as-middle-east-war-puts-pressure-on-economy",
+   "summary": "Chancellor told Financial Times he would ensure country had ‘buffer’ against uncertainty as global bond yields hit 18-year high The chancellor has indicated that the UK will face a tough budget next month due to Trump’s war in the Middle East. In an interview…",
+   "image": "https://i.guim.co.uk/img/media/feb9c88177581160f921205e47175bc1ec1ef119/862_0_4583_3667/master/4583.jpg?width=700&quality=85&auto=format&fit=max&s=abc9e3a7f4eb1d2f0d35199d9565ed47",
+   "published": "2026-09-05T11:26:50.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-world",
+   "topic": "world",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "218cb66e72482a35",
+   "title": "Rescuers in Nepal find two more people alive after flood disaster",
+   "link": "https://www.theguardian.com/world/2026/sep/05/rescuers-nepal-find-two-more-people-alive-flood-disaster",
+   "summary": "Chinese man at Trishuli hydropower project and Nepali woman in Nuwakot found 10 days into rescue operation Emergency responders rescued a Chinese man and a Nepali woman in two separate operations on Saturday, as authorities continued to search for thousands…",
+   "image": "https://i.guim.co.uk/img/media/356053e87dbc439eb0b994c9d15f52080395bb6b/15_0_1970_1575/master/1970.jpg?width=700&quality=85&auto=format&fit=max&s=173709d1ed522dd24804686d9d56d458",
+   "published": "2026-09-05T11:26:30.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-world",
+   "topic": "world",
+   "hasBody": true,
+   "top": false
+  },
   {
    "id": "3df50bd2ea408664",
    "title": "Ops Vulture arrests two in Teluk Intan, police seize five ATM cards, gold jewellery",
@@ -124,19 +174,6 @@
    "source": "The Verge",
    "feedId": "theverge",
    "topic": "tech",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "52a77112e98feb6a",
-   "title": "Farage and Jenrick to speak on final day of Reform conference marred by scandal and protests – UK politics live",
-   "link": "https://www.theguardian.com/politics/live/2026/sep/05/nigel-farage-robert-jenrick-reform-uk-politics-latest-news-updates",
-   "summary": "Farage, who had earlier suspended two close aides, had his keynote speech interrupted multiple times by protesters on Friday Police are appealing for a woman who was among the climate activists protesting during Nigel Farage’s speech at Reform’s conference to…",
-   "image": "https://i.guim.co.uk/img/media/ff798d47182bd44a2a839c9d41e02e5f52812bbe/97_0_3836_3070/master/3836.jpg?width=700&quality=85&auto=format&fit=max&s=dcec116d2f7764bab70cbfe48a1f429b",
-   "published": "2026-09-05T11:08:58.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-world",
-   "topic": "world",
    "hasBody": true,
    "top": false
   },
@@ -1074,7 +1111,7 @@
    "feedId": "malaymail",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "327bc3242555347c",
@@ -1410,19 +1447,6 @@
    "published": "2026-09-05T08:54:04.000Z",
    "source": "Malay Mail",
    "feedId": "malaymail",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "58e6674bd5d5eb61",
-   "title": "Four held over cable thefts in Kampar and Kuala Kangsar",
-   "link": "https://www.nst.com.my/news/regional/2026/09/1526247/four-held-over-cable-thefts-kampar-and-kuala-kangsar",
-   "summary": "IPOH: Police detained four local men early yesterday morning in connection with two separate cable theft cases in Kampar and Kuala Kangsar.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/36E604EA20516D00A486FB508C07DF48_data_0.jpg",
-   "published": "2026-09-05T08:48:14.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
    "top": false
@@ -2230,19 +2254,6 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "4316a9eafc5ffa62",
-   "title": "Beekeepers warn of Asian hornet threat and call for UK awareness campaign",
-   "link": "https://www.theguardian.com/environment/2026/sep/05/beekeepers-asian-hornet-threat-uk-awareness-campaign",
-   "summary": "Experts say invasive species are creating ‘pollinator deserts’ and could have serious impact on food security British beekeepers have called for a national awareness campaign about the impact of Asian hornets as they warned the invasive species was creating…",
-   "image": "https://i.guim.co.uk/img/media/50ec3bea7d2087d6aecc41f12c9a2fb7c0857d04/1257_0_6545_5236/master/6545.jpg?width=700&quality=85&auto=format&fit=max&s=5b52cd8174ea882facd6af54a6a69be2",
-   "published": "2026-09-05T05:00:29.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-world",
-   "topic": "world",
    "hasBody": true,
    "top": false
   },
@@ -3794,19 +3805,6 @@
    "top": false
   },
   {
-   "id": "254e178d8a22c2e4",
-   "title": "Nicol David, Mercy Malaysia among 2026 Merdeka Award recipients",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBqWEtIZzZRSXp6TFc0ZEZNRXI1R1lWaENsR1EtVW9kYjlCOVVLWGRvekZCM29rdWYwUk54RTFDdndDZDR2dnM1N2pxd242d3It?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-04T16:28:54.000Z",
-   "source": "The Edge Malaysia",
-   "feedId": "gnews-edge",
-   "topic": "business",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "e67330c4dd88d890",
    "title": "Second complete map of a fruit fly brain completed",
    "link": "https://arstechnica.com/science/2026/09/brain-of-a-male-fly-completely-mapped-joins-earlier-map-of-a-female-brain/",
@@ -4210,25 +4208,25 @@
    "top": false
   },
   {
-   "id": "bc9b312d6703840d",
-   "title": "Colombia president provokes disgust by posing with bodies of ‘terrorists’",
-   "link": "https://www.theguardian.com/world/2026/sep/04/colombia-president-posts-video-guerrillas-body-bags-abelardo-de-la-espriella",
-   "summary": "Abelardo De La Espriella posts video of himself with rows of body bags as performative populism continues to sweep Americas Colombia’s hardline president, Abelardo De La Espriella, has provoked outrage after posting a video on social media in which he strides…",
-   "image": "https://i.guim.co.uk/img/media/e66dc78abdb116c7bee63700a5eb8d8467e98743/436_0_1997_1598/master/1997.jpg?width=700&quality=85&auto=format&fit=max&s=d421d392fc19a4e9c322ce3549205f04",
-   "published": "2026-09-04T13:50:43.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-world",
-   "topic": "world",
-   "hasBody": true,
-   "top": false
-  },
-  {
    "id": "ab73dd0534078f8d",
    "title": "Aumas Resources reports maiden gold estimate of 110,000 ounces in Tawau project",
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1LNWFzQURwNEIzNUY1U1hmVVMzZVYyUkFFSDI4Q3hYUm5GN2dxMlViNEZNRGZvWjlvMGJEREpMODJVNThOV1hRVEpvd0VENlRf?oc=5",
    "summary": "",
    "image": "",
    "published": "2026-09-04T13:46:22.000Z",
+   "source": "The Edge Malaysia",
+   "feedId": "gnews-edge",
+   "topic": "business",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "2a4ef08fe760723f",
+   "title": "Wall Street ends lower as solid jobs data fuels hawkish Fed bets",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBSb2puSU5OcG45UU1NVkZESGlvcjFOdjk3N0dxRERnaUp1ZXF0YkdiNVBaVVk4VWN6aWk3VDFONUduVU9KdlJJMEJtTXNuWkl5?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-04T13:45:12.000Z",
    "source": "The Edge Malaysia",
    "feedId": "gnews-edge",
    "topic": "business",
