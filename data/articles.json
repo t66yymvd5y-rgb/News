@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-05T11:33:12.795Z",
+ "generatedAt": "2026-09-05T11:45:08.398Z",
  "site": {
   "name": "Kertas",
   "tagline": "Malaysia first. The world next.",
@@ -63,7 +63,7 @@
  ],
  "counts": {
   "top": 40,
-  "malaysia": 133,
+  "malaysia": 132,
   "world": 95,
   "business": 34,
   "tech": 128,
@@ -73,6 +73,110 @@
  "failedFeeds": [],
  "withBody": 228,
  "articles": [
+  {
+   "id": "a50fe108f8e8b51b",
+   "title": "Puspakom eyes 24-hour operations from January",
+   "link": "https://www.nst.com.my/news/nation/2026/09/1526328/puspakom-eyes-24-hour-operations-january",
+   "summary": "KLANG: The Computerised Vehicle Inspection Centre (Puspakom) plans to operate 24 hours a day from next January to provide greater convenience to the public for vehicle inspections.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/2F9F23A4E9E914674C9C16B63EDE62F2_data.jpg",
+   "published": "2026-09-05T11:44:09.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "3d5f9ccd6319b584",
+   "title": "Liverpool sporting director Hughes steps down after transfer window",
+   "link": "https://www.channelnewsasia.com/sport/liverpool-sporting-director-hughes-steps-down-after-transfer-window-6364636",
+   "summary": "",
+   "image": "https://dam.mediacorp.sg/image/upload/s--bQ_V3MLX--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-09-05T114317Z_1_LYNXMPEM8408A_RTROPTP_3_SOCCER-ENGLAND-LIV-SUN.JPG?itok=sWu3rNgE",
+   "published": "2026-09-05T11:43:17.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "644a9f7e0097f8f3",
+   "title": "Two more survivors, including Chinese national, rescued 10 days after devastating Nepal floods",
+   "link": "https://www.nst.com.my/world/world/2026/09/1526326/two-more-survivors-including-chinese-national-rescued-10-days-after",
+   "summary": "KATHMANDU: A Chinese national was pulled alive from a tunnel in Nepal on Saturday, authorities said, 10 days after a wall of ice, rock and mud tore through a Himalayan valley, killing more than 1,300 people.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/5E3E81CF836040AF160E71046BFD1093_data_0.jpg",
+   "published": "2026-09-05T11:39:51.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "ba81897f14a1a37a",
+   "title": "US envoy on West Bank visit says Israel has responsibility for Palestinians",
+   "link": "https://www.malaymail.com/news/world/2026/09/05/us-envoy-on-west-bank-visit-says-israel-has-responsibility-for-palestinians/234071",
+   "summary": "TURMUS AYYA (Palestinian Territories), Sept 5 — The US ambassador said Saturday that Israel’s government bor...",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/05/360868.jpg",
+   "published": "2026-09-05T11:39:27.000Z",
+   "source": "Malay Mail",
+   "feedId": "malaymail",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "65865178a47f1d03",
+   "title": "FIA appeal court asserts impartiality and integrity after Briatore targets judge",
+   "link": "https://www.channelnewsasia.com/sport/fia-appeal-court-asserts-impartiality-and-integrity-after-briatore-targets-judge-6364631",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-05T11:38:05.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "dee1923818645bde",
+   "title": "Two Nepal rescues revive hopes 10 days after flood",
+   "link": "https://www.malaymail.com/news/world/2026/09/05/two-nepal-rescues-revive-hopes-10-days-after-flood/234072",
+   "summary": "KATHMANDU, Sept 5 — Rescuers in Nepal pulled alive today a Chinese national from a tunnel and a local woman from h...",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/05/360867.jpg",
+   "published": "2026-09-05T11:37:48.000Z",
+   "source": "Malay Mail",
+   "feedId": "malaymail",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "3b2a0e5cf178cef1",
+   "title": "Sarawak haze crisis prompts nationwide plea to stop open burning, shield schools and businesses",
+   "link": "https://www.malaymail.com/news/malaysia/2026/09/05/sarawak-haze-crisis-prompts-nationwide-plea-to-stop-open-burning-shield-schools-and-businesses/234070",
+   "summary": "SARIKEI, Sept 5 — All parties are urged to refrain from open burning activities to prevent the haze situation in S...",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/05/360866.jpg",
+   "published": "2026-09-05T11:36:39.000Z",
+   "source": "Malay Mail",
+   "feedId": "malaymail",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "ba6ec3eea7250c0a",
+   "title": "Oasis fans gather in Venice for band reunion film",
+   "link": "https://www.malaymail.com/news/showbiz/2026/09/05/oasis-fans-gather-in-venice-for-band-reunion-film/234073",
+   "summary": "VENICE, Sept 5 — Fans of British rock band Oasis gathered in Venice today ahead of the premiere of a behind-the-sc...",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/05/360865.jpg",
+   "published": "2026-09-05T11:32:50.000Z",
+   "source": "Malay Mail",
+   "feedId": "malaymail",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
   {
    "id": "5cb102e8fe7ee437",
    "title": "Flick hoping Barca's Yamal can face Valencia after knock",
@@ -85,6 +189,19 @@
    "topic": "malaysia",
    "hasBody": true,
    "top": true
+  },
+  {
+   "id": "caea7c7e0ed51250",
+   "title": "LIVE: India vs Pakistan – Women’s T20 Asia Cup",
+   "link": "https://www.aljazeera.com/sports/liveblog/2026/9/5/live-india-vs-pakistan-womens-t20-asia-cup?traffic_source=rss",
+   "summary": "Follow the updates from our live build-up to our text commentary stream coverage of the Group A match in Dubai.",
+   "image": "",
+   "published": "2026-09-05T11:32:07.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
   },
   {
    "id": "52a77112e98feb6a",
@@ -997,6 +1114,19 @@
    "top": false
   },
   {
+   "id": "2658e39a92273778",
+   "title": "Latest",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE14Y1NDQVhkQ1VJZXdxOE11NzZwSmVhdFVYQUpyTEZmWXJ6MEFNdnpTczh4Z2s4ejhhT2NiUjhGQndPZ2JVZHh4QVh0UVNLRmozUDRIek1sX0xva0NSdm9iaVRfQ2hHLVNFalFva0FmZ2xDUURXOEktQkJUWGpFUQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-05T09:25:45.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "04da09bb0561caf3",
    "title": "El Salvador president denies transferring govt’s bitcoin reserves to private operator",
    "link": "https://www.malaymail.com/news/money/2026/09/05/el-salvador-president-denies-transferring-govts-bitcoin-reserves-to-private-operator/234061",
@@ -1020,7 +1150,7 @@
    "feedId": "malaymail",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "b4a14298340b23a4",
@@ -1033,7 +1163,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "f040bf1df5ac20b4",
@@ -1046,7 +1176,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "0e03e9c655d1537c",
@@ -1059,7 +1189,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "001a612f0356983e",
@@ -1072,7 +1202,7 @@
    "feedId": "malaymail",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "9c8a4eade5c57ae9",
@@ -1098,7 +1228,7 @@
    "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "ee04bb30cab2c37a",
@@ -1413,32 +1543,6 @@
    "top": false
   },
   {
-   "id": "c385cf4a9b360ca0",
-   "title": "Six areas in Sarawak record very unhealthy air quality as of 1pm",
-   "link": "https://www.nst.com.my/news/nation/2026/09/1526251/six-areas-sarawak-record-very-unhealthy-air-quality-1pm",
-   "summary": "KUALA LUMPUR: Six areas in Sarawak recorded very unhealthy air quality, with Serian registering the country’s highest Air Pollutant Index (API) reading of 287 as of 1pm today.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/CD194E5530783AC6249696C8F403BF2B_data_0_0.jpg",
-   "published": "2026-09-05T08:55:29.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "cee5d8019c861713",
-   "title": "Melaka eyes RM2,500 basic salary for workers",
-   "link": "https://www.nst.com.my/news/nation/2026/09/1526249/melaka-eyes-rm2500-basic-salary-workers",
-   "summary": "MELAKA: The Melaka government will study a proposal to make the state one of the earliest in Malaysia to set a basic salary of between RM2,500 and RM2,800 before submitting its recommendation to the Federal Government.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/D7E33098D31390062A6736587CFA350B_data_0.jpg",
-   "published": "2026-09-05T08:54:28.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
    "id": "ff18c53a382ec604",
    "title": "United fever grips Matta Fair as fans flock to Pavilion KL meet football club legends (VIDEO)",
    "link": "https://www.malaymail.com/news/sports/2026/09/05/united-fever-grips-matta-fair-as-fans-flock-to-pavilion-kl-meet-football-club-legends-video/234051",
@@ -1712,45 +1816,6 @@
    "top": false
   },
   {
-   "id": "0ecd5acf73cb1f17",
-   "title": "Malaysia sends families’ DNA samples to Nepal to help identify 55 missing Malaysians, says Tok Mat",
-   "link": "https://www.malaymail.com/news/malaysia/2026/09/05/malaysia-sends-families-dna-samples-to-nepal-to-help-identify-55-missing-malaysians-says-tok-mat/234042",
-   "summary": "SEREMBAN, Sept 5 — All DNA samples from the next-of-kin of 55 Malaysians still unaccounted for following floods an...",
-   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/05/360834.jpg",
-   "published": "2026-09-05T07:55:59.000Z",
-   "source": "Malay Mail",
-   "feedId": "malaymail",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "2abe30e3fbaf3afd",
-   "title": "Chinese national skips S$560,000 fine for smuggling 30,000 bottles of beer in Singapore, heads to jail instead",
-   "link": "https://www.malaymail.com/news/singapore/2026/09/05/chinese-national-skips-s560000-fine-for-smuggling-30000-bottles-of-beer-in-singapore-heads-to-jail-instead/234041",
-   "summary": "SINGAPORE, Sept 5 — A Chinese national has been slapped with a record S$560,000 (RM1.74 million) fine for mastermi...",
-   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/05/360835.jpg",
-   "published": "2026-09-05T07:52:56.000Z",
-   "source": "Malay Mail",
-   "feedId": "malaymail",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "28ea9a9d2078b6b0",
-   "title": "Chew Jetty heritage site unaffected by blaze, Penang govt to help owners of five destroyed premises, says CM",
-   "link": "https://www.malaymail.com/news/malaysia/2026/09/05/chew-jetty-heritage-site-unaffected-by-blaze-penang-govt-to-help-owners-of-five-destroyed-premises-says-cm/234039",
-   "summary": "GEORGE TOWN, Sept 5 — The historic Chew Jetty here was unaffected by a fire that broke out about 20 metres away an...",
-   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/05/360833.jpg",
-   "published": "2026-09-05T07:47:06.000Z",
-   "source": "Malay Mail",
-   "feedId": "malaymail",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
    "id": "e919f6d4e7aef9b7",
    "title": "Angka korban Nepal capai 1,344",
    "link": "https://www.freemalaysiatoday.com/category/bahasa/dunia/2026/09/05/angka-korban-nepal-capai-1-344",
@@ -1774,19 +1839,6 @@
    "feedId": "aljazeera",
    "topic": "world",
    "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "81a77f99034e39f9",
-   "title": "Singapore pushes back new flu jab rollout to mid Oct even as infections rise",
-   "link": "https://www.malaymail.com/news/singapore/2026/09/05/singapore-pushes-back-new-flu-jab-rollout-to-mid-oct-even-as-infections-rise/234040",
-   "summary": "SINGAPORE, Sept 5 — Singapore’s updated influenza vaccine for the Northern Hemisphere season will arrive abo...",
-   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/09/05/360830.jpg",
-   "published": "2026-09-05T07:33:23.000Z",
-   "source": "Malay Mail",
-   "feedId": "malaymail",
-   "topic": "malaysia",
-   "hasBody": true,
    "top": false
   },
   {
@@ -2492,19 +2544,6 @@
    "top": false
   },
   {
-   "id": "f7cb546a31bf1f32",
-   "title": "Trump sends envoys to Russia, Ukraine with new peace plan",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/5/trump-sends-envoys-to-russia-ukraine-with-new-peace-plan?traffic_source=rss",
-   "summary": "Al Jazeera’s Kimberly Halkett reports that US President Donald Trump is sending envoys Jared Kushner and Steve Witkoff.",
-   "image": "",
-   "published": "2026-09-05T03:25:46.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "69396172aa556e7b",
    "title": "Women In Gautham Menon’s Life Inspire His Female Characters",
    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1uSVBUQks5R2RxVDE3Q2Ria3RRWEdLUndRdjJiSkJnWFhFQXdNd09wZ1ZGdWxJYWh5UHVTa2ZjUDNuMzBuOVRuWmFsUUNON3FjSTFMUmd4Q0lnWXFWRkR3NXJ3?oc=5",
@@ -3038,38 +3077,12 @@
    "top": false
   },
   {
-   "id": "4a9893e7a0f6f553",
-   "title": "Latest",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1TDl1cmQtV2lVOVhwSUNlcElGdHdJQWVZWDhGN1ZXSjBxYWdkMGNiNmVqSmw5ZnkxRXQ4TG5tWk5uNC1pcGdFN3hSVkdibEpZTDloRkJWWjd1dEJ0MGJFaU9ET0RVeFFBUlFwY1RfWWhDR29IM1dyVTRhZkE?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-04T23:35:36.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "94f521fa7cc79067",
    "title": "Is motion sickness preventable? What works and what doesn't",
    "link": "https://www.channelnewsasia.com/wellness/motion-sickness-prevention-treatment-6345526",
    "summary": "Experts say there are ways to stave off that dreaded queasy feeling.",
    "image": "https://dam.mediacorp.sg/image/upload/s--fKVO5ZrM--/c_crop,h_993,w_1767,x_1,y_93/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/08/31/woman_motion_sickness_istock-894194572.jpg?itok=Z0h1aSvu",
    "published": "2026-09-04T23:33:02.000Z",
-   "source": "Channel NewsAsia",
-   "feedId": "cna",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "54dbce58d9f11c41",
-   "title": "At this decades-old Chinatown antiques shop, a father and son cast old objects in a new light",
-   "link": "https://www.channelnewsasia.com/living/east-inspirations-chinatown-antique-shop-table-lamps-6346976",
-   "summary": "PK and Jacob Cheong are the father-and-son duo behind East Inspirations, an antiques and lifestyle shop in Chinatown known for transforming imperfect antiques and unexpected vintage objects – from biscuit moulds to an old iron – into table lamps.",
-   "image": "https://dam.mediacorp.sg/image/upload/s--f5W0F7jS--/c_crop,h_1125,w_2000,x_0,y_303/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/08/28/east_inspirations_pk_and_jacob_cheong_hero_photo_credit_joyee_koo.png?itok=bwFfNHA1",
-   "published": "2026-09-04T23:31:25.000Z",
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
@@ -3177,19 +3190,6 @@
    "source": "The Edge Malaysia",
    "feedId": "gnews-edge",
    "topic": "business",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "376aec1dd5c9b1f5",
-   "title": "Haze in Singapore: Air quality at unhealthy range in central region",
-   "link": "https://www.channelnewsasia.com/singapore/haze-singapore-unhealthy-range-psi-sep-5-6362856",
-   "summary": "Air quality in three regions of Singapore started the day in the unhealthy range on Saturday (Sep 5), before improving as the day progressed.",
-   "image": "https://dam.mediacorp.sg/image/upload/s--FZMsrdSR--/c_crop,h_1125,w_2000,x_0,y_238/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/09/04/59548.jpg?itok=_y2JjUsx",
-   "published": "2026-09-04T22:54:00.000Z",
-   "source": "Channel NewsAsia",
-   "feedId": "cna",
-   "topic": "world",
    "hasBody": false,
    "top": false
   },
@@ -3789,19 +3789,6 @@
    "feedId": "arstechnica",
    "topic": "tech",
    "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "5f3d35e8f4acf46a",
-   "title": "ESG View Issue",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5DdjhBcV9LYjJKdGNGa3hKZDNqQ2QtbWs4X0p1aS1Gd0RQeEwyVzZqMHU4S0FBR05RdEZXemFEWEVZNmk1andxUHd5ZVp6NTd6dUcwV3dUdVVOcW8?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-04T16:42:15.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
-   "hasBody": false,
    "top": false
   },
   {
