@@ -25,8 +25,10 @@
   --gap: clamp(8px, 0.9vw, 16px);
   --radius: 3px;
 
-  --flip-ms: 620ms;
-  --flip-ease: cubic-bezier(0.32, 0.05, 0.16, 1);
+  /* A turned page is slow to lift, quick through the middle, and settles
+     rather than stopping. */
+  --flip-ms: 720ms;
+  --flip-ease: cubic-bezier(0.42, 0.02, 0.22, 1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -222,8 +224,13 @@ button { font: inherit; color: inherit; }
 .deck__stage {
   position: relative;
   width: 100%; height: 100%;
-  perspective: 2400px;
+  perspective: 2200px;
   perspective-origin: 50% 50%;
+  /* A turning page comes towards the reader and so grows under perspective.
+     Keep it inside the deck instead of letting it sweep across the margins.
+     Safe here: the clip is on the perspective element itself, not on a
+     transformed element inside a 3D context. */
+  overflow: hidden;
 }
 
 /* A page is a full-stage magazine grid. */
@@ -245,14 +252,12 @@ button { font: inherit; color: inherit; }
 }
 .half--top { top: 0; }
 .half--bottom { top: 50%; }
-.half > .page,
-.leaf__face > .page {
+.half > .page {
   position: absolute;
   left: 0; right: 0; bottom: auto;
   height: 200%;
 }
-.half--top > .page,
-.leaf__face--front > .page { top: 0; }
+.half--top > .page    { top: 0; }
 .half--bottom > .page { top: -100%; }
 
 /* A leaf is half a page that turns about the fold line. Each leaf clips its
@@ -264,7 +269,6 @@ button { font: inherit; color: inherit; }
   overflow: hidden;
   backface-visibility: hidden;
   background: var(--paper);
-  will-change: transform;
   z-index: 3;
 }
 .leaf--top    { top: 0;   transform-origin: bottom center; }

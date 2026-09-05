@@ -358,10 +358,15 @@ function goTo(target) {
 
   // Going forward the lower half lifts up and over; going back the upper half
   // folds down. The incoming leaf starts flipped away and lands flat.
+  //
+  // Sign matters and is easy to get backwards. Under CSS's axes a positive
+  // rotateX brings the edge below the hinge towards the reader, so the outgoing
+  // lower half lifts off the page the way a hand turns it. Negative angles fold
+  // it away into the screen, which reads as the page falling over backwards.
   const outRegion = forward ? 'bottom' : 'top';
   const inRegion = forward ? 'top' : 'bottom';
-  const outEnd = forward ? -180 : 180;
-  const inStart = forward ? 180 : -180;
+  const outEnd = forward ? 180 : -180;
+  const inStart = forward ? -180 : 180;
 
   const leafOut = makeLeaf(outRegion, from, 0, 0);
   const leafIn = makeLeaf(inRegion, next, inStart, 0.34);
@@ -379,8 +384,17 @@ function goTo(target) {
   leafOut.querySelector('.leaf__shade').style.opacity = '0.34';
   leafIn.querySelector('.leaf__shade').style.opacity = '0';
 
+  // Hand the incoming leaf's page to the static half of the same region rather
+  // than re-rendering the stage. The node is already laid out and its images
+  // already decoded, so the turn ends without the flash that rebuilding both
+  // halves produced. The two leaf wrappers are all that need removing; the
+  // other half was rendered with the incoming page when the turn began.
   const settle = () => {
-    paintStatic(state.index);
+    const landing = inRegion === 'top' ? staticTop : staticBottom;
+    const arrived = leafIn.querySelector('.page');
+    if (arrived) landing.replaceChildren(arrived);
+    leafOut.remove();
+    leafIn.remove();
     state.busy = false;
   };
   leafIn.addEventListener('transitionend', (e) => {
@@ -591,12 +605,15 @@ function wireEvents() {
     }
   });
 
-  // Wheel: one page per gesture, not one per tick.
+  // Wheel: one page per gesture, not one per tick. The quiet period is tied to
+  // the turn itself, so a trackpad's momentum tail cannot queue up further
+  // turns behind the one already running.
   let wheelLock = 0;
   dom.stage.parentElement.addEventListener('wheel', (e) => {
+    if (state.busy) return;
     if (Math.abs(e.deltaY) < 12) return;
     const now = Date.now();
-    if (now - wheelLock < 480) return;
+    if (now - wheelLock < flipDuration() + 120) return;
     wheelLock = now;
     goTo(state.index + (e.deltaY > 0 ? 1 : -1));
   }, { passive: true });
