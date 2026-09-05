@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-05T10:28:27.319Z",
+ "generatedAt": "2026-09-05T10:41:30.698Z",
  "site": {
   "name": "Kertas",
   "tagline": "Malaysia first. The world next.",
@@ -66,6 +66,71 @@
  ],
  "withBody": 178,
  "articles": [
+  {
+   "id": "6987e9fa6f411c2d",
+   "title": "Antonelli 'disrupting rules of fandom' in Ferrari's Italy",
+   "link": "https://www.bbc.co.uk/sport/formula1/articles/cj03m124lp3o?at_medium=RSS&at_campaign=rss",
+   "summary": "BBC Sport heads to Monza to find out if Italians want Kimi Antonelli to win the F1 title or if it is all about Ferrari.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f337/live/88ad9d50-a877-11f1-824a-0fc4c5d895ae.png",
+   "published": "2026-09-05T10:37:00.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "17b8d827485f8d5e",
+   "title": "NKVE collapse: RSEA wants safety audit of highway structures",
+   "link": "https://www.nst.com.my/news/nation/2026/09/1526307/nkve-collapse-rsea-wants-safety-audit-highway-structures",
+   "summary": "KUALA LUMPUR: The Road Safety Expert Association (RSEA) has called for an immediate structural safety audit of potentially hazardous structures along Malaysia's major expressways following the collapse of a large structure onto the New Klang Valley Expressway…",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/CA576D786B9A8A1DB0F316AF7FA0B0E0_data_0.jpg",
+   "published": "2026-09-05T10:34:58.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "93c2c905a2c3866c",
+   "title": "Trump envoys arrive in Moscow ahead of Ukraine talks, reports say",
+   "link": "https://www.bbc.co.uk/news/articles/cx2zqp46g8eo?at_medium=RSS&at_campaign=rss",
+   "summary": "Steve Witkoff and Jared Kushner are due to hold talks with Russia before travelling to Ukraine on Sunday.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a17/live/0cde6b70-a910-11f1-9eff-150801023722.jpg",
+   "published": "2026-09-05T10:34:08.000Z",
+   "source": "BBC News",
+   "feedId": "bbc-world",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "d3cc71180b3e137a",
+   "title": "Sarawak remains worst hit as six areas record very unhealthy air quality",
+   "link": "https://www.nst.com.my/news/nation/2026/09/1526304/sarawak-remains-worst-hit-six-areas-record-very-unhealthy-air-quality",
+   "summary": "KUALA LUMPUR: Six areas in Sarawak recorded very unhealthy Air Pollutant Index (API) readings as of 6pm, with the state remaining the worst affected by the haze.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/C397B34BDCC6A17B3FE9A1AD31BC9C32_data_0_0.jpg",
+   "published": "2026-09-05T10:31:46.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "52a77112e98feb6a",
+   "title": "Farage and Jenrick to speak on final day of Reform conference marred by scandal and protests – UK politics live",
+   "link": "https://www.theguardian.com/politics/live/2026/sep/05/nigel-farage-robert-jenrick-reform-uk-politics-latest-news-updates",
+   "summary": "Farage, who had earlier suspended two close aides, had his keynote speech interrupted multiple times by protesters on Friday Meanwhile, police are dealing with an apparent protest by groups of masked men in Dover, which a local councillor said appeared to be…",
+   "image": "https://i.guim.co.uk/img/media/446559159038ca8e544e7bcfedb7307e96d94214/520_0_5912_4732/master/5912.jpg?width=700&quality=85&auto=format&fit=max&s=2ea2be592a0ff1d2f22177bd2db7e154",
+   "published": "2026-09-05T10:29:06.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-world",
+   "topic": "world",
+   "hasBody": true,
+   "top": false
+  },
   {
    "id": "ad313b76a687a701",
    "title": "Emergency remains: Uggah says Serian still under haze alert despite API improvement",
@@ -156,19 +221,6 @@
    "topic": "malaysia",
    "hasBody": true,
    "top": true
-  },
-  {
-   "id": "52a77112e98feb6a",
-   "title": "Farage and Jenrick to speak on final day of Reform conference marred by scandal and protests – UK politics live",
-   "link": "https://www.theguardian.com/politics/live/2026/sep/05/nigel-farage-robert-jenrick-reform-uk-politics-latest-news-updates",
-   "summary": "Farage, who had earlier suspended two close aides, had his keynote speech interrupted multiple times by protesters on Friday Robert Jenrick is set to unveil a major tax-cutting pledge at Reform UK’s conference today, as the party seeks to shift the focus back…",
-   "image": "https://i.guim.co.uk/img/media/446559159038ca8e544e7bcfedb7307e96d94214/520_0_5912_4732/master/5912.jpg?width=700&quality=85&auto=format&fit=max&s=2ea2be592a0ff1d2f22177bd2db7e154",
-   "published": "2026-09-05T10:09:11.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-world",
-   "topic": "world",
-   "hasBody": true,
-   "top": false
   },
   {
    "id": "1fb27e4ffeade16d",
@@ -461,7 +513,7 @@
    "title": "Royal Johor target title with Tunku Mahkota Ismail leading charge",
    "link": "https://www.nst.com.my/sports/others/2026/09/1526269/royal-johor-target-title-tunku-mahkota-ismail-leading-charge",
    "summary": "JOHOR BARU: Korea Polo finished third in the Johor Super Crown Polo Tournament (JSCPT) after edging JCorp 5-4 in the third-place playoff at the Royal Johor Polo Club, Istana Pasir Pelangi, here today.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/F08CF1797893CBCCD4748BEF76908FC8_data_0_1.jpg",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/F08CF1797893CBCCD4748BEF76908FC8_data_0_2.jpg",
    "published": "2026-09-05T09:30:08.000Z",
    "source": "New Straits Times",
    "feedId": "nst",
@@ -876,7 +928,7 @@
    "id": "fac6894ef4fef26b",
    "title": "Black-clad protesters in balaclavas block road at port of Dover in Kent",
    "link": "https://www.theguardian.com/uk-news/2026/sep/05/black-clad-protesters-balaclavas-block-road-port-of-dover-kent",
-   "summary": "Traffic on A20 in and out of port grinds to halt as Kent police say they are in attendance and engaging with group A large group of people dressed in black and wearing balaclavas have blocked the road at the port of Dover in Kent, forcing closures in both…",
+   "summary": "Traffic on A20 in and out of port grinds to halt as Kent police say they are in attendance and engaging with group Dozens of people dressed in black and wearing balaclavas have blocked the road at the port of Dover in Kent, forcing closures in both…",
    "image": "https://i.guim.co.uk/img/media/65221c4d71bb8f0a612a43c5a17d4f810e567007/54_0_994_795/master/994.jpg?width=700&quality=85&auto=format&fit=max&s=07c37b07a2fdab3c1fe2c373365f665b",
    "published": "2026-09-05T08:57:37.000Z",
    "source": "The Guardian",
@@ -922,7 +974,7 @@
    "feedId": "malaymail",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "58e6674bd5d5eb61",
@@ -935,7 +987,7 @@
    "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "d79835d0b2967d7b",
@@ -1089,32 +1141,6 @@
    "published": "2026-09-05T08:29:00.000Z",
    "source": "Free Malaysia Today",
    "feedId": "fmt",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "78abcb740b124a58",
-   "title": "Fadhlina recounts ordeal of child abuse by caregiver, loss of another to SIDS",
-   "link": "https://www.nst.com.my/news/nation/2026/09/1526234/fadhlina-recounts-ordeal-child-abuse-caregiver-loss-another-sids",
-   "summary": "BUTTERWORTH: Education Minister Datuk Seri Fadhlina Sidek said her personal experiences of child abuse and loss had strengthened her commitment to improving caregiver support for working mothers.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/715532D4DA56262A66C7FFF0279FEBA1_data_0_0.jpg",
-   "published": "2026-09-05T08:26:21.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "dc7b6329e213cd0e",
-   "title": "27 illegal snares destroyed in Selangor, Perak wildlife operation",
-   "link": "https://www.nst.com.my/news/nation/2026/09/1526232/27-illegal-snares-destroyed-selangor-perak-wildlife-operation",
-   "summary": "KUALA LUMPUR: A total of 27 illegal snares were destroyed during the Integrated Khazanah Operation (OBK) at several wildlife crime hotspots in forests in Selangor and Perak recently.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/8B68C343FC842B338F3ED36EC0819BC5_data_0.jpg",
-   "published": "2026-09-05T08:25:28.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
    "top": false
@@ -1406,6 +1432,19 @@
    "top": false
   },
   {
+   "id": "691d7396aa2d61df",
+   "title": "Tate brothers officially indicted with trafficking and sex crimes in Romania",
+   "link": "https://www.bbc.co.uk/news/articles/c7v4npv1m22o?at_medium=RSS&at_campaign=rss",
+   "summary": "Andrew and Tristan Tate are currently in a Miami jail fighting extradition to the UK over separate charges and deny all the allegations.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cea0/live/53ea8800-a8a7-11f1-b9ae-958b89fa84e3.jpg",
+   "published": "2026-09-05T07:20:17.000Z",
+   "source": "BBC News",
+   "feedId": "bbc-world",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "fa80ef9ea38c0078",
    "title": "Alcaraz, Sabalenka into US Open last 16 as Williams sisters lose on return",
    "link": "https://www.aljazeera.com/sports/2026/9/5/alcaraz-sabalenka-into-us-open-last-16-as-williams-sisters-lose-on-return?traffic_source=rss",
@@ -1597,19 +1636,6 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "6987e9fa6f411c2d",
-   "title": "Antonelli 'disrupting rules of fandom' in Ferrari's Italy",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/cj03m124lp3o?at_medium=RSS&at_campaign=rss",
-   "summary": "BBC Sport heads to Monza to find out if Italians want Kimi Antonelli to win the F1 title or if it is all about Ferrari.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f337/live/88ad9d50-a877-11f1-824a-0fc4c5d895ae.png",
-   "published": "2026-09-05T06:32:23.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
    "hasBody": false,
    "top": false
   },
@@ -1895,19 +1921,6 @@
    "published": "2026-09-05T04:29:33.000Z",
    "source": "Al Jazeera",
    "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "6f9faad31446856f",
-   "title": "Trump's peace envoys to visit Moscow and Kyiv over weekend",
-   "link": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&at_campaign=rss",
-   "summary": "Steve Witkoff and Jared Kushner have led President Donald Trump's efforts to end the Russia-Ukraine war - but talks have stalled.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e39/live/bcf0df00-a86d-11f1-bbad-43eaf67b94b6.jpg",
-   "published": "2026-09-05T04:28:21.000Z",
-   "source": "BBC News",
-   "feedId": "bbc-world",
    "topic": "world",
    "hasBody": false,
    "top": false
@@ -3431,19 +3444,6 @@
    "feedId": "guardian-opinion",
    "topic": "opinion",
    "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "2694f094959b0d34",
-   "title": "'Layer upon layer of miracles' to find tunnel survivors, Nepal rescue adviser tells BBC",
-   "link": "https://www.bbc.co.uk/news/articles/c9dwjv96qyqo?at_medium=RSS&at_campaign=rss",
-   "summary": "From searching for a buried tunnel entrance to blowing up rocks the size of cars, rescuers had to surmount multiple challenges to reach survivors.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4f9c/live/c6815740-a83e-11f1-a291-b542ee92de7c.jpg",
-   "published": "2026-09-04T08:23:05.000Z",
-   "source": "BBC News",
-   "feedId": "bbc-world",
-   "topic": "world",
-   "hasBody": false,
    "top": false
   },
   {
