@@ -1,0 +1,525 @@
+/* =========================================================================
+   Kertas — magazine-style news reader
+   Layout model: the deck is a fixed-height stage holding one page at a time.
+   Pages do not scroll; they turn along a horizontal fold. Everything inside a
+   page is sized in viewport-relative units so a page always fits its stage.
+   ========================================================================= */
+
+:root {
+  --paper:      #faf8f4;
+  --paper-2:    #ffffff;
+  --ink:        #16130f;
+  --ink-2:      #4a443c;
+  --ink-3:      #7d766c;
+  --rule:       #e2dcd1;
+  --rule-2:     #cec6b7;
+  --accent:     #b3122b;
+  --accent-ink: #ffffff;
+  --shade:      #ede8df;
+
+  --serif: ui-serif, Georgia, "Iowan Old Style", "Times New Roman", serif;
+  --sans:  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --masthead-h: 92px;
+  --pager-h: 56px;
+  --gap: clamp(8px, 0.9vw, 16px);
+  --radius: 3px;
+
+  --flip-ms: 620ms;
+  --flip-ease: cubic-bezier(0.32, 0.05, 0.16, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper:   #121110;
+    --paper-2: #1c1a18;
+    --ink:     #f3efe8;
+    --ink-2:   #bdb5a9;
+    --ink-3:   #8b8378;
+    --rule:    #2e2b27;
+    --rule-2:  #454039;
+    --accent:  #e8506a;
+    --shade:   #23211e;
+  }
+}
+
+:root[data-theme="dark"] {
+  --paper:   #121110;
+  --paper-2: #1c1a18;
+  --ink:     #f3efe8;
+  --ink-2:   #bdb5a9;
+  --ink-3:   #8b8378;
+  --rule:    #2e2b27;
+  --rule-2:  #454039;
+  --accent:  #e8506a;
+  --shade:   #23211e;
+}
+
+* { box-sizing: border-box; }
+
+/* Components below set their own display, which would otherwise defeat the
+   UA rule for [hidden]. Keep the attribute authoritative. */
+[hidden] { display: none !important; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto auto;
+  height: 100dvh;
+}
+
+button { font: inherit; color: inherit; }
+
+.skip-link {
+  position: fixed; inset-inline-start: 8px; top: -60px; z-index: 90;
+  background: var(--accent); color: var(--accent-ink);
+  padding: 10px 16px; border-radius: var(--radius); text-decoration: none;
+  transition: top 140ms ease;
+}
+.skip-link:focus { top: 8px; }
+
+:where(a, button, input, select):focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* ---------------------------------------------------------- masthead ---- */
+
+.masthead {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: clamp(8px, 2vw, 28px);
+  padding: 10px clamp(12px, 2.4vw, 34px) 0;
+  border-bottom: 1px solid var(--rule);
+  background: var(--paper);
+}
+
+.masthead__brand { display: flex; align-items: baseline; gap: 12px; min-width: 0; }
+
+.wordmark {
+  font-family: var(--serif);
+  font-size: clamp(24px, 2.6vw, 34px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0;
+  line-height: 1;
+}
+.wordmark__k { color: var(--accent); }
+
+.masthead__tagline {
+  margin: 0;
+  font-size: 12px;
+  color: var(--ink-3);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.masthead__tools { display: flex; align-items: center; gap: 4px; }
+
+.iconbtn {
+  position: relative;
+  display: inline-grid; place-items: center;
+  width: 38px; height: 38px;
+  background: none; border: 0; border-radius: 50%;
+  cursor: pointer; color: var(--ink-2);
+  transition: background 140ms ease, color 140ms ease;
+}
+.iconbtn:hover { background: var(--shade); color: var(--ink); }
+.iconbtn svg {
+  width: 20px; height: 20px;
+  fill: none; stroke: currentColor; stroke-width: 1.7;
+  stroke-linecap: round; stroke-linejoin: round;
+}
+.iconbtn.is-on { color: var(--accent); }
+
+/* The icon shows the theme in force, so it must track the system setting in
+   the unstamped case as well as an explicit choice. */
+#btn-theme .icon-moon { display: none; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) #btn-theme .icon-sun { display: none; }
+  :root:not([data-theme="light"]) #btn-theme .icon-moon { display: block; }
+}
+:root[data-theme="dark"] #btn-theme .icon-sun { display: none; }
+:root[data-theme="dark"] #btn-theme .icon-moon { display: block; }
+:root[data-theme="light"] #btn-theme .icon-sun { display: block; }
+:root[data-theme="light"] #btn-theme .icon-moon { display: none; }
+
+.badge {
+  position: absolute; top: 3px; right: 2px;
+  min-width: 16px; height: 16px; padding: 0 4px;
+  border-radius: 8px;
+  background: var(--accent); color: var(--accent-ink);
+  font-size: 10px; font-weight: 700; line-height: 16px; text-align: center;
+}
+
+/* ---------------------------------------------------------- sections ---- */
+
+.sections { min-width: 0; }
+
+.sections__list {
+  display: flex; gap: clamp(10px, 1.6vw, 26px);
+  margin: 0; padding: 0 0 2px;
+  list-style: none;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.sections__list::-webkit-scrollbar { display: none; }
+
+.sections__btn {
+  position: relative;
+  background: none; border: 0; padding: 8px 0 12px;
+  cursor: pointer; white-space: nowrap;
+  font-size: 13px; font-weight: 600; letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  transition: color 140ms ease;
+}
+.sections__btn:hover { color: var(--ink); }
+.sections__btn[aria-current="true"] { color: var(--ink); }
+.sections__btn[aria-current="true"]::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0;
+  height: 2px; background: var(--accent);
+}
+.sections__btn .n {
+  font-size: 10px; color: var(--ink-3);
+  margin-inline-start: 5px; font-weight: 500;
+}
+
+/* ------------------------------------------------------------ notice ---- */
+
+.notice {
+  padding: 7px clamp(12px, 2.4vw, 34px);
+  background: var(--shade);
+  border-bottom: 1px solid var(--rule);
+  font-size: 12px; color: var(--ink-2);
+}
+.notice strong { color: var(--ink); }
+
+/* -------------------------------------------------------------- deck ---- */
+
+.deck {
+  position: relative;
+  min-height: 0;
+  padding: var(--gap) clamp(12px, 2.4vw, 34px);
+}
+
+/* Perspective lives on the direct parent of the folding leaves, and nothing
+   here uses transform-style: preserve-3d. A clipped, transformed element
+   inside a preserve-3d ancestor is not painted by Chrome, and every leaf has
+   to clip — it shows exactly half a page. */
+.deck__stage {
+  position: relative;
+  width: 100%; height: 100%;
+  perspective: 2400px;
+  perspective-origin: 50% 50%;
+}
+
+/* A page is a full-stage magazine grid. */
+.page {
+  position: absolute; inset: 0;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  gap: var(--gap);
+  background: var(--paper);
+}
+
+/* Half-pages used by the fold. Each clips a full-size copy of a page. */
+.half {
+  position: absolute; left: 0; right: 0; height: 50%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  background: var(--paper);
+}
+.half--top { top: 0; }
+.half--bottom { top: 50%; }
+.half > .page,
+.leaf__face > .page {
+  position: absolute;
+  left: 0; right: 0; bottom: auto;
+  height: 200%;
+}
+.half--top > .page,
+.leaf__face--front > .page { top: 0; }
+.half--bottom > .page { top: -100%; }
+
+/* A leaf is half a page that turns about the fold line. Each leaf clips its
+   own content, so the outgoing and incoming halves are two separate leaves
+   rather than two faces of one card; backface-visibility hides each of them
+   for the half of the sweep in which it is facing away. */
+.leaf {
+  position: absolute; left: 0; right: 0; height: 50%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  background: var(--paper);
+  will-change: transform;
+  z-index: 3;
+}
+.leaf--top    { top: 0;   transform-origin: bottom center; }
+.leaf--bottom { top: 50%; transform-origin: top center; }
+
+.leaf > .page {
+  position: absolute;
+  left: 0; right: 0; bottom: auto;
+  height: 200%;
+}
+.leaf--top > .page    { top: 0; }
+.leaf--bottom > .page { top: -100%; }
+
+/* Shade that deepens as a leaf turns away and lifts as one turns towards you. */
+.leaf__shade {
+  position: absolute; inset: 0; z-index: 2;
+  background: #000; pointer-events: none;
+  transition: opacity var(--flip-ms) var(--flip-ease);
+}
+
+.leaf.is-animating { transition: transform var(--flip-ms) var(--flip-ease); }
+
+.deck__empty {
+  position: absolute; inset: 0;
+  display: grid; place-content: center; text-align: center; gap: 6px;
+}
+.deck__empty-title { font-family: var(--serif); font-size: 26px; margin: 0; }
+.deck__empty-body { margin: 0; color: var(--ink-3); font-size: 14px; max-width: 36ch; }
+
+/* -------------------------------------------------------------- tile ---- */
+
+.tile {
+  position: relative;
+  overflow: hidden;
+  background: var(--paper-2);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+}
+
+.tile__link {
+  display: flex; flex-direction: column;
+  height: 100%; text-decoration: none; color: inherit;
+}
+
+.tile__art {
+  position: relative; flex: 1 1 auto; min-height: 0;
+  background: var(--shade);
+  overflow: hidden;
+}
+.tile__art img {
+  width: 100%; height: 100%;
+  object-fit: cover; display: block;
+}
+/* Imageless tiles: a deterministic tint stands in for art and the headline
+   takes the space instead. Feeds without images must still look composed. */
+.tile.no-art .tile__art { display: none; }
+.tile.no-art { background: var(--tint, var(--paper-2)); }
+/* In a tall slot with no art, the headline sits at the foot of the tile the
+   way a caption does, rather than floating in a half-empty rectangle. */
+.tile.no-art .tile__body { height: 100%; justify-content: flex-end; }
+.tile.no-art .tile__kicker { margin-bottom: 0.15em; }
+
+.tile__body {
+  flex: 0 0 auto;
+  display: flex; flex-direction: column; gap: 0.35em;
+  padding: clamp(8px, 0.9vw, 16px);
+  min-height: 0;
+}
+
+.tile__kicker {
+  display: flex; align-items: center; gap: 7px;
+  margin: 0;
+  font-size: clamp(9px, 0.66vw, 11px);
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--ink-3);
+  white-space: nowrap; overflow: hidden;
+}
+.tile__source { color: var(--accent); font-weight: 700; }
+.tile__time::before { content: "·"; margin-inline-end: 7px; color: var(--rule-2); }
+
+.tile__title {
+  font-family: var(--serif);
+  font-weight: 700;
+  line-height: 1.13;
+  letter-spacing: -0.014em;
+  margin: 0;
+  display: -webkit-box; -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.tile__summary {
+  margin: 0;
+  color: var(--ink-2);
+  line-height: 1.42;
+  display: -webkit-box; -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Typographic scale by slot size. */
+.tile--xl .tile__title { font-size: clamp(24px, 2.9vw, 52px); -webkit-line-clamp: 4; }
+.tile--xl .tile__summary { font-size: clamp(13px, 1.02vw, 17px); -webkit-line-clamp: 3; }
+.tile--lg .tile__title { font-size: clamp(19px, 1.85vw, 32px); -webkit-line-clamp: 3; }
+.tile--lg .tile__summary { font-size: clamp(12px, 0.86vw, 15px); -webkit-line-clamp: 2; }
+.tile--md .tile__title { font-size: clamp(15px, 1.28vw, 22px); -webkit-line-clamp: 3; }
+.tile--md .tile__summary { font-size: clamp(11px, 0.76vw, 13px); -webkit-line-clamp: 2; }
+.tile--sm .tile__title { font-size: clamp(13px, 1.0vw, 17px); -webkit-line-clamp: 3; }
+.tile--sm .tile__summary { display: none; }
+
+/* On a big slot with art, the text sits over the image. */
+.tile--xl.has-art .tile__link, .tile--lg.has-art .tile__link { position: relative; }
+.tile--xl.has-art .tile__art, .tile--lg.has-art .tile__art { position: absolute; inset: 0; }
+.tile--xl.has-art .tile__body, .tile--lg.has-art .tile__body {
+  position: relative; margin-top: auto;
+  color: #fff;
+  background: linear-gradient(to top, rgba(0,0,0,0.88) 12%, rgba(0,0,0,0.55) 55%, rgba(0,0,0,0) 100%);
+  padding-top: clamp(28px, 5vw, 80px);
+}
+.tile--xl.has-art .tile__summary, .tile--lg.has-art .tile__summary { color: rgba(255,255,255,0.86); }
+.tile--xl.has-art .tile__kicker, .tile--lg.has-art .tile__kicker { color: rgba(255,255,255,0.75); }
+.tile--xl.has-art .tile__source, .tile--lg.has-art .tile__source { color: #fff; }
+
+.tile__art img { transition: transform 700ms cubic-bezier(0.2,0.6,0.2,1); }
+.tile:hover .tile__art img { transform: scale(1.035); }
+
+.tile__save {
+  position: absolute; top: 6px; right: 6px; z-index: 2;
+  width: 32px; height: 32px;
+  display: grid; place-items: center;
+  border: 0; border-radius: 50%;
+  background: color-mix(in srgb, var(--paper) 78%, transparent);
+  backdrop-filter: blur(6px);
+  color: var(--ink-2); cursor: pointer;
+  opacity: 0; transition: opacity 140ms ease, color 140ms ease;
+}
+.tile:hover .tile__save,
+.tile__save:focus-visible,
+.tile__save.is-saved { opacity: 1; }
+.tile__save svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linejoin: round; }
+.tile__save.is-saved { color: var(--accent); }
+.tile__save.is-saved svg { fill: currentColor; }
+
+/* ------------------------------------------------------------- pager ---- */
+
+.pager {
+  display: flex; align-items: center; justify-content: center; gap: 18px;
+  padding: 6px 0 2px;
+}
+.pager__btn {
+  width: 34px; height: 34px;
+  display: grid; place-items: center;
+  border: 1px solid var(--rule); border-radius: 50%;
+  background: var(--paper); cursor: pointer; color: var(--ink-2);
+  transition: background 140ms ease, color 140ms ease, opacity 140ms ease;
+}
+.pager__btn:hover:not(:disabled) { background: var(--shade); color: var(--ink); }
+.pager__btn:disabled { opacity: 0.3; cursor: default; }
+.pager__btn svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.pager__count {
+  margin: 0; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--ink-3); font-variant-numeric: tabular-nums; min-width: 12ch; text-align: center;
+}
+
+.colophon {
+  padding: 0 clamp(12px, 2.4vw, 34px) 10px;
+  text-align: center;
+  color: var(--ink-3);
+  font-size: 11px;
+  line-height: 1.5;
+}
+.colophon p { margin: 0; }
+.colophon__legal { opacity: 0.72; }
+
+/* ------------------------------------------------------ search panel ---- */
+
+.scrim {
+  position: fixed; inset: 0; z-index: 40;
+  background: rgba(0,0,0,0.42);
+  backdrop-filter: blur(2px);
+}
+
+.panel {
+  position: fixed; z-index: 50;
+  top: 0; right: 0; bottom: 0;
+  width: min(460px, 100%);
+  display: flex; flex-direction: column;
+  background: var(--paper);
+  border-inline-start: 1px solid var(--rule);
+  box-shadow: -20px 0 60px rgba(0,0,0,0.18);
+}
+
+.panel__head {
+  display: flex; align-items: center; gap: 8px;
+  padding: 12px 12px 10px;
+  border-bottom: 1px solid var(--rule);
+}
+.panel__field {
+  flex: 1; display: flex; align-items: center; gap: 8px;
+  padding: 8px 12px;
+  background: var(--shade); border-radius: 999px;
+}
+.panel__icon { width: 17px; height: 17px; flex: none; fill: none; stroke: var(--ink-3); stroke-width: 1.8; stroke-linecap: round; }
+.panel__field input {
+  flex: 1; min-width: 0;
+  border: 0; background: none; color: var(--ink);
+  font-size: 14px; outline: none;
+}
+.panel__field input::-webkit-search-cancel-button { filter: grayscale(1); }
+
+.panel__filters {
+  display: flex; align-items: flex-end; gap: 10px; flex-wrap: wrap;
+  padding: 12px; border-bottom: 1px solid var(--rule);
+}
+.field { display: flex; flex-direction: column; gap: 4px; flex: 1 1 150px; }
+.field > span { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
+.field select {
+  padding: 7px 9px;
+  border: 1px solid var(--rule-2); border-radius: var(--radius);
+  background: var(--paper-2); color: var(--ink); font-size: 13px;
+}
+.panel__tally { flex: 1 1 100%; margin: 0; font-size: 11px; color: var(--ink-3); }
+
+.results { flex: 1; margin: 0; padding: 0; list-style: none; overflow-y: auto; }
+.results li { border-bottom: 1px solid var(--rule); }
+.results a {
+  display: grid; grid-template-columns: 1fr auto; gap: 10px;
+  padding: 12px 14px; text-decoration: none; color: inherit;
+}
+.results a:hover { background: var(--shade); }
+.results__meta { font-size: 10px; letter-spacing: 0.07em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 3px; }
+.results__meta b { color: var(--accent); }
+.results__title { font-family: var(--serif); font-size: 15px; font-weight: 600; line-height: 1.3; margin: 0; }
+.results__thumb { width: 62px; height: 46px; object-fit: cover; border-radius: 2px; background: var(--shade); }
+.results__none { padding: 30px 14px; text-align: center; color: var(--ink-3); font-size: 13px; }
+
+/* ------------------------------------------------------- responsive ---- */
+
+@media (max-width: 1000px) {
+  /* Brand and tools share the first row; the sections rail takes the second.
+     Placed explicitly, because auto-placement pushes the tools onto a third
+     row once the rail spans the full width. */
+  .masthead { grid-template-columns: 1fr auto; padding-bottom: 0; }
+  .masthead__tagline { display: none; }
+  .masthead__brand { grid-area: 1 / 1 / 2 / 2; }
+  .masthead__tools { grid-area: 1 / 2 / 2 / 3; }
+  .sections        { grid-area: 2 / 1 / 3 / 3; }
+}
+
+@media (max-width: 640px) {
+  .masthead { padding-inline: 12px; }
+  .wordmark { font-size: 22px; }
+  .colophon__legal { display: none; }
+  .tile__save { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .leaf.is-animating, .leaf__shade { transition: none; }
+  .tile__art img { transition: none; }
+  .deck__stage.is-fading > .half { transition: opacity 180ms linear; }
+}

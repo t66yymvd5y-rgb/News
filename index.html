@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en-MY">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kertas — Malaysia first. The world next.</title>
+<meta name="description" content="Kertas is a magazine-style news reader over public RSS feeds. Malaysian desks lead, international sources follow.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#faf8f4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121110" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23b3122b'/%3E%3Cpath d='M9 8h4v7l6-7h5l-7 8 7 9h-5l-6-8v8H9z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#deck">Skip to the stories</a>
+
+<header class="masthead">
+  <div class="masthead__brand">
+    <h1 class="wordmark"><span class="wordmark__k">K</span>ertas</h1>
+    <p class="masthead__tagline">Malaysia first. The world next.</p>
+  </div>
+
+  <nav class="sections" id="sections" aria-label="Sections">
+    <ul class="sections__list" id="sections-list"></ul>
+  </nav>
+
+  <div class="masthead__tools">
+    <button class="iconbtn" id="btn-search" aria-label="Search stories" aria-expanded="false" aria-controls="search-panel">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M16.5 16.5 21 21"/></svg>
+    </button>
+    <button class="iconbtn" id="btn-saved" aria-label="Show saved stories">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-5-6 5z"/></svg>
+      <span class="badge" id="saved-count" hidden>0</span>
+    </button>
+    <button class="iconbtn" id="btn-theme" aria-label="Switch theme">
+      <svg viewBox="0 0 24 24" aria-hidden="true" class="icon-sun"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.6M12 19.4V22M2 12h2.6M19.4 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8"/></svg>
+      <svg viewBox="0 0 24 24" aria-hidden="true" class="icon-moon"><path d="M20 14.5A8.2 8.2 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5z"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="notice" id="notice" hidden></div>
+
+<main id="deck" class="deck" tabindex="-1" aria-label="Story pages">
+  <div class="deck__stage" id="stage"></div>
+
+  <div class="deck__empty" id="empty" hidden>
+    <p class="deck__empty-title">Nothing here yet</p>
+    <p class="deck__empty-body" id="empty-body"></p>
+  </div>
+</main>
+
+<div class="pager" id="pager">
+  <button class="pager__btn" id="btn-prev" aria-label="Previous page">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg>
+  </button>
+  <p class="pager__count" id="pager-count" aria-live="polite"></p>
+  <button class="pager__btn" id="btn-next" aria-label="Next page">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+  </button>
+</div>
+
+<footer class="colophon">
+  <p id="colophon-line"></p>
+  <p class="colophon__legal">Headlines and excerpts are shown under each publisher's own feed. Every story links back to its source.</p>
+</footer>
+
+<!-- Search -------------------------------------------------------------- -->
+<div class="panel" id="search-panel" hidden role="dialog" aria-modal="true" aria-label="Search stories">
+  <div class="panel__head">
+    <div class="panel__field">
+      <svg viewBox="0 0 24 24" aria-hidden="true" class="panel__icon"><circle cx="11" cy="11" r="7"/><path d="M16.5 16.5 21 21"/></svg>
+      <input type="search" id="search-input" placeholder="Search headlines and sources" autocomplete="off" spellcheck="false" aria-label="Search headlines">
+    </div>
+    <button class="iconbtn" id="btn-search-close" aria-label="Close search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <div class="panel__filters">
+    <label class="field">
+      <span>Section</span>
+      <select id="filter-topic"><option value="">All sections</option></select>
+    </label>
+    <label class="field">
+      <span>Source</span>
+      <select id="filter-source"><option value="">All sources</option></select>
+    </label>
+    <p class="panel__tally" id="search-tally"></p>
+  </div>
+  <ul class="results" id="search-results"></ul>
+</div>
+
+<div class="scrim" id="scrim" hidden></div>
+
+<!-- Tile template ------------------------------------------------------- -->
+<template id="tpl-tile">
+  <article class="tile">
+    <a class="tile__link" target="_blank" rel="noopener noreferrer">
+      <div class="tile__art"><img alt="" loading="lazy" referrerpolicy="no-referrer"></div>
+      <div class="tile__body">
+        <p class="tile__kicker"><span class="tile__source"></span><span class="tile__time"></span></p>
+        <h2 class="tile__title"></h2>
+        <p class="tile__summary"></p>
+      </div>
+    </a>
+    <button class="tile__save" aria-label="Save this story">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-5-6 5z"/></svg>
+    </button>
+  </article>
+</template>
+
+<script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
