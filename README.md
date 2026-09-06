@@ -150,9 +150,22 @@ cache publisher pages, or work around paywalls.
 `assets/js/app.js` holds a set of grid templates over a 12-column, 8-row page,
 one set per breakpoint. Pagination walks the article list, assigns each page a
 template in rotation, and within a page sorts slots by area so stories with
-imagery land in the largest ones. Stories without an image get a deterministic
-tint and larger type instead of an empty frame — many feeds carry no images, and
-that path has to look deliberate rather than broken.
+imagery land in the largest ones.
+
+Every tile is one design: a dark ground carrying knocked-out type. A story with
+a photograph gets the photograph and a scrim over its foot; a story without one
+gets a colour block drawn from the five editorial grounds in the stylesheet, and
+its headline is set about a third larger to take the room the image would have
+had. Many feeds carry no images at all — Business and Opinion are entirely
+imageless — so that path is a finished design rather than a fallback, and a
+mixed page still reads as one family. Grounds are seeded from the article id, so
+a story keeps its colour, but a repeat is nudged to the next colour when it would
+land beside its twin.
+
+Tiles clamp their own text against the slot they were given, through container
+queries on the tile itself: a short slot drops the summary, and then a headline
+line, rather than letting the body run past the tile and slice a line of type in
+half.
 
 The fold is three layers: two static clipped half-pages, and a rotating leaf
 whose front face is the outgoing half and whose back face is the incoming one.

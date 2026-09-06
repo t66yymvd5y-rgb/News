@@ -17,6 +17,16 @@
   --accent-ink: #ffffff;
   --shade:      #ede8df;
 
+  /* Grounds for text pieces. A story without a photograph is not a story with
+     a hole in it: it becomes a colour block carrying its headline, which is
+     the same object as a photo tile with its scrim. Deep enough that the
+     knocked-out type clears 12:1 on every one of them. */
+  --ground-1:   #5c1220;
+  --ground-2:   #16263f;
+  --ground-3:   #14342a;
+  --ground-4:   #4a2a15;
+  --ground-5:   #341a3a;
+
   --serif: ui-serif, Georgia, "Iowan Old Style", "Times New Roman", serif;
   /* Display face, loaded for the wordmark alone. The fallback is a real
      stack, not a placeholder: if Google Fonts is blocked or slow the
@@ -26,7 +36,10 @@
 
   --masthead-h: 92px;
   --pager-h: 56px;
-  --gap: clamp(8px, 0.9vw, 16px);
+  /* Tiles are dark blocks now, so the gap is the only place the paper shows
+     on a full page. Too tight and the ground reads as grout between cards
+     rather than as the sheet the stories are printed on. */
+  --gap: clamp(11px, 1.5vw, 22px);
   --radius: 3px;
 
   /* A turned page is slow to lift, quick through the middle, and settles
@@ -46,6 +59,11 @@
     --rule-2:  #454039;
     --accent:  #e8506a;
     --shade:   #23211e;
+    --ground-1: #832635;
+    --ground-2: #284066;
+    --ground-3: #215745;
+    --ground-4: #714322;
+    --ground-5: #542c5d;
   }
 }
 
@@ -59,6 +77,11 @@
   --rule-2:  #454039;
   --accent:  #e8506a;
   --shade:   #23211e;
+  --ground-1: #832635;
+  --ground-2: #284066;
+  --ground-3: #215745;
+  --ground-4: #714322;
+  --ground-5: #542c5d;
 }
 
 * { box-sizing: border-box; }
@@ -317,42 +340,52 @@ button { font: inherit; color: inherit; }
 
 /* -------------------------------------------------------------- tile ---- */
 
+/* One tile design, not two. Every tile is a dark ground carrying knocked-out
+   type: a story with a photograph gets the photograph and a scrim, a story
+   without one gets a colour block. That keeps a page of mixed stories reading
+   as a single family, and it means an imageless feed — Business and Opinion
+   are entirely imageless — composes rather than emptying out.
+
+   size containment lets the tile clamp its own text against the slot it was
+   given, which is what stops a long headline spilling past the fold line. */
 .tile {
   position: relative;
   overflow: hidden;
-  background: var(--paper-2);
-  border: 1px solid var(--rule);
+  container-type: size;
+  background: var(--ground, var(--shade));
   border-radius: var(--radius);
+  color: #fff;
 }
 
 .tile__link {
+  position: relative;
   display: flex; flex-direction: column;
   height: 100%; text-decoration: none; color: inherit;
 }
 
 .tile__art {
-  position: relative; flex: 1 1 auto; min-height: 0;
-  background: var(--shade);
+  position: absolute; inset: 0;
+  background: var(--ground, var(--shade));
   overflow: hidden;
 }
 .tile__art img {
   width: 100%; height: 100%;
   object-fit: cover; display: block;
 }
-/* Imageless tiles: a deterministic tint stands in for art and the headline
-   takes the space instead. Feeds without images must still look composed. */
 .tile.no-art .tile__art { display: none; }
-.tile.no-art { background: var(--tint, var(--paper-2)); }
-/* In a tall slot with no art, the headline sits at the foot of the tile the
-   way a caption does, rather than floating in a half-empty rectangle. */
-.tile.no-art .tile__body { height: 100%; justify-content: flex-end; }
-.tile.no-art .tile__kicker { margin-bottom: 0.15em; }
 
 .tile__body {
-  flex: 0 0 auto;
+  position: relative;
+  margin-top: auto;
   display: flex; flex-direction: column; gap: 0.35em;
   padding: clamp(8px, 0.9vw, 16px);
   min-height: 0;
+}
+/* The scrim only has work to do over a photograph. On a colour block the
+   ground already carries the type, and a second darkening just muddies it. */
+.tile.has-art .tile__body {
+  background: linear-gradient(to top, rgba(0,0,0,0.88) 12%, rgba(0,0,0,0.55) 55%, rgba(0,0,0,0) 100%);
+  padding-top: clamp(28px, 5vw, 80px);
 }
 
 .tile__kicker {
@@ -360,11 +393,11 @@ button { font: inherit; color: inherit; }
   margin: 0;
   font-size: clamp(9px, 0.66vw, 11px);
   letter-spacing: 0.08em; text-transform: uppercase;
-  color: var(--ink-3);
+  color: rgba(255,255,255,0.75);
   white-space: nowrap; overflow: hidden;
 }
-.tile__source { color: var(--accent); font-weight: 700; }
-.tile__time::before { content: "·"; margin-inline-end: 7px; color: var(--rule-2); }
+.tile__source { color: #fff; font-weight: 700; }
+.tile__time::before { content: "·"; margin-inline-end: 7px; color: rgba(255,255,255,0.5); }
 
 .tile__title {
   font-family: var(--serif);
@@ -372,41 +405,59 @@ button { font: inherit; color: inherit; }
   line-height: 1.13;
   letter-spacing: -0.014em;
   margin: 0;
+  color: #fff;
   display: -webkit-box; -webkit-box-orient: vertical;
+  /* Default lives in the fallback, not on .tile, so the zero-specificity
+     size-class rules below can set it and the container queries can win. */
+  -webkit-line-clamp: var(--clamp-title, 3);
   overflow: hidden;
 }
 .tile__summary {
   margin: 0;
-  color: var(--ink-2);
+  color: rgba(255,255,255,0.86);
   line-height: 1.42;
   display: -webkit-box; -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
-/* Typographic scale by slot size. */
-.tile--xl .tile__title { font-size: clamp(24px, 2.9vw, 52px); -webkit-line-clamp: 4; }
-.tile--xl .tile__summary { font-size: clamp(13px, 1.02vw, 17px); -webkit-line-clamp: 3; }
-.tile--lg .tile__title { font-size: clamp(19px, 1.85vw, 32px); -webkit-line-clamp: 3; }
-.tile--lg .tile__summary { font-size: clamp(12px, 0.86vw, 15px); -webkit-line-clamp: 2; }
-.tile--md .tile__title { font-size: clamp(15px, 1.28vw, 22px); -webkit-line-clamp: 3; }
-.tile--md .tile__summary { font-size: clamp(11px, 0.76vw, 13px); -webkit-line-clamp: 2; }
-.tile--sm .tile__title { font-size: clamp(13px, 1.0vw, 17px); -webkit-line-clamp: 3; }
-.tile--sm .tile__summary { display: none; }
+/* Typographic scale by slot size. Held at zero specificity so the container
+   queries below, which know the slot's real height, can override them. */
+:where(.tile--xl) .tile__title { font-size: clamp(24px, 2.9vw, 52px); }
+:where(.tile--xl) { --clamp-title: 4; }
+:where(.tile--xl) .tile__summary { font-size: clamp(13px, 1.02vw, 17px); -webkit-line-clamp: 3; }
+:where(.tile--lg) .tile__title { font-size: clamp(19px, 1.85vw, 32px); }
+:where(.tile--lg) .tile__summary { font-size: clamp(12px, 0.86vw, 15px); -webkit-line-clamp: 2; }
+:where(.tile--md) .tile__title { font-size: clamp(15px, 1.28vw, 22px); }
+:where(.tile--md) .tile__summary { font-size: clamp(11px, 0.76vw, 13px); -webkit-line-clamp: 2; }
+:where(.tile--sm) .tile__title { font-size: clamp(13px, 1.0vw, 17px); }
+:where(.tile--sm) .tile__summary { display: none; }
+
+/* A text piece has no photograph competing for the slot, so the headline takes
+   the room the image would have had. This is the "larger type" the imageless
+   path always claimed: roughly a third up on the same slot with art. */
+:where(.tile.no-art.tile--xl) .tile__title { font-size: clamp(30px, 3.8vw, 68px); }
+:where(.tile.no-art.tile--xl) { --clamp-title: 5; }
+:where(.tile.no-art.tile--lg) .tile__title { font-size: clamp(23px, 2.4vw, 42px); }
+:where(.tile.no-art.tile--lg) { --clamp-title: 4; }
+:where(.tile.no-art.tile--md) .tile__title { font-size: clamp(17px, 1.7vw, 29px); }
+:where(.tile.no-art.tile--md) { --clamp-title: 4; }
+:where(.tile.no-art.tile--sm) .tile__title { font-size: clamp(14px, 1.2vw, 21px); }
+:where(.tile.no-art.tile--sm) { --clamp-title: 4; }
+
 /* Bridged feeds carry no summary; an empty paragraph should not hold space. */
 .tile__summary:empty { display: none; }
 
-/* On a big slot with art, the text sits over the image. */
-.tile--xl.has-art .tile__link, .tile--lg.has-art .tile__link { position: relative; }
-.tile--xl.has-art .tile__art, .tile--lg.has-art .tile__art { position: absolute; inset: 0; }
-.tile--xl.has-art .tile__body, .tile--lg.has-art .tile__body {
-  position: relative; margin-top: auto;
-  color: #fff;
-  background: linear-gradient(to top, rgba(0,0,0,0.88) 12%, rgba(0,0,0,0.55) 55%, rgba(0,0,0,0) 100%);
-  padding-top: clamp(28px, 5vw, 80px);
+/* Short slots drop the parts that will not fit rather than letting the body
+   run past the tile and clip a line of type through the middle. */
+@container (max-height: 205px) {
+  .tile .tile__summary { display: none; }
 }
-.tile--xl.has-art .tile__summary, .tile--lg.has-art .tile__summary { color: rgba(255,255,255,0.86); }
-.tile--xl.has-art .tile__kicker, .tile--lg.has-art .tile__kicker { color: rgba(255,255,255,0.75); }
-.tile--xl.has-art .tile__source, .tile--lg.has-art .tile__source { color: #fff; }
+@container (max-height: 150px) {
+  .tile { --clamp-title: 3; }
+}
+@container (max-height: 108px) {
+  .tile { --clamp-title: 2; }
+}
 
 .tile__art img { transition: transform 700ms cubic-bezier(0.2,0.6,0.2,1); }
 .tile:hover .tile__art img { transform: scale(1.035); }
@@ -416,16 +467,18 @@ button { font: inherit; color: inherit; }
   width: 32px; height: 32px;
   display: grid; place-items: center;
   border: 0; border-radius: 50%;
-  background: color-mix(in srgb, var(--paper) 78%, transparent);
+  /* The tile beneath is always dark now, so the control is knocked out of it
+     rather than sitting on a pale disc. */
+  background: rgba(0,0,0,0.34);
   backdrop-filter: blur(6px);
-  color: var(--ink-2); cursor: pointer;
+  color: #fff; cursor: pointer;
   opacity: 0; transition: opacity 140ms ease, color 140ms ease;
 }
 .tile:hover .tile__save,
 .tile__save:focus-visible,
 .tile__save.is-saved { opacity: 1; }
 .tile__save svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linejoin: round; }
-.tile__save.is-saved { color: var(--accent); }
+.tile__save.is-saved { color: #fff; }
 .tile__save.is-saved svg { fill: currentColor; }
 
 /* ------------------------------------------------------------- pager ---- */

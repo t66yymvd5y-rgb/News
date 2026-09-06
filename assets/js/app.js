@@ -180,13 +180,40 @@ function relativeTime(iso) {
   return rtf.format(Math.round(mins / 1440), 'day');
 }
 
-/** Deterministic tint so an imageless tile still reads as a designed object. */
-function tintFor(id) {
-  let h = 0;
-  for (let i = 0; i < id.length; i += 1) h = (h * 31 + id.charCodeAt(i)) % 360;
-  return `linear-gradient(155deg,
-    color-mix(in oklab, hsl(${h} 42% 62%) 22%, var(--paper-2)),
-    color-mix(in oklab, hsl(${(h + 48) % 360} 46% 52%) 13%, var(--paper-2)))`;
+const GROUNDS = 5;
+
+/* Grounds come from the five editorial colours in the stylesheet rather than
+   from anywhere on the hue circle: a page of text pieces should look like one
+   publication, not a paint chart.
+
+   The seed is the article id, so a story keeps its colour, but the low bits of
+   a plain rolling hash are too regular to pick one of five evenly — hence the
+   avalanche step before the modulo. */
+function groundSeed(id) {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < id.length; i += 1) {
+    h = Math.imul(h ^ id.charCodeAt(i), 0x01000193);
+  }
+  h ^= h >>> 16; h = Math.imul(h, 0x7feb352d);
+  h ^= h >>> 15; h = Math.imul(h, 0x846ca68b);
+  h ^= h >>> 16;
+  return (h >>> 0) % GROUNDS;
+}
+
+/* An even hash still lets two neighbours land on the same colour, and a page
+   carrying four identical blocks looks like a mistake rather than a palette.
+   Walk the page in reading order and push a repeat on to the next colour. */
+function assignGrounds(slots) {
+  const recent = [];
+  for (const slot of slots) {
+    if (!slot.article) continue;
+    let g = groundSeed(slot.article.id);
+    let tries = 0;
+    while (recent.includes(g) && tries < GROUNDS) { g = (g + 1) % GROUNDS; tries += 1; }
+    recent.push(g);
+    if (recent.length > 2) recent.shift();
+    slot.ground = g + 1;
+  }
 }
 
 /* --------------------------------------------------------- page build --- */
@@ -237,7 +264,7 @@ function paginate(articles) {
   return pages;
 }
 
-function buildTile({ area, size, article }) {
+function buildTile({ area, size, article, ground }) {
   const node = dom.tpl.content.firstElementChild.cloneNode(true);
   const [r1, c1, r2, c2] = area;
   node.style.gridArea = `${r1} / ${c1} / ${r2} / ${c2}`;
@@ -251,18 +278,22 @@ function buildTile({ area, size, article }) {
     link.setAttribute('aria-disabled', 'true');
   }
 
+  // Every tile carries a ground: it backs a photograph while it loads, and it
+  // is the whole design of a tile that has none. Held as a custom property
+  // reference so the colour follows a theme change without a re-render.
+  node.style.setProperty('--ground', `var(--ground-${ground || 1})`);
+
   const img = node.querySelector('img');
   if (article.image) {
     img.src = article.image;
     img.alt = '';
     // A dead hotlink must not leave a grey rectangle in the middle of a page.
+    // Dropping to no-art turns it into a text piece, which is a finished
+    // design rather than a fallback.
     img.addEventListener('error', () => {
       node.classList.remove('has-art');
       node.classList.add('no-art');
-      node.style.setProperty('--tint', tintFor(article.id));
     }, { once: true });
-  } else {
-    node.style.setProperty('--tint', tintFor(article.id));
   }
 
   node.querySelector('.tile__source').textContent = article.source;
@@ -289,6 +320,7 @@ function renderPage(i) {
   const page = document.createElement('div');
   page.className = 'page';
   const slots = state.pages[i] || [];
+  assignGrounds(slots);
   for (const slot of slots) {
     if (slot.article) page.appendChild(buildTile(slot));
   }
