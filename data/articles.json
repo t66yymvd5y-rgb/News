@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-05T23:59:46.457Z",
+ "generatedAt": "2026-09-06T00:34:48.296Z",
  "site": {
   "name": "Kertas",
   "tagline": "Malaysia first. The world next.",
@@ -63,18 +63,265 @@
  ],
  "counts": {
   "top": 40,
-  "malaysia": 131,
+  "malaysia": 130,
   "world": 95,
   "business": 33,
   "tech": 125,
   "sport": 25,
-  "opinion": 44
+  "opinion": 43
  },
  "failedFeeds": [
   "ai-news"
  ],
- "withBody": 219,
+ "withBody": 218,
  "articles": [
+  {
+   "id": "b1b5d6fadd228dcd",
+   "title": "Sivasangari, Eain Yow bow out but gain Asian Games boost",
+   "link": "https://www.nst.com.my/sports/racquet-sports/2026/09/1526577/sivasangari-eain-yow-bow-out-gain-asian-games-boost",
+   "summary": "KUALA LUMPUR: Malaysia's challenge ended at the London Classic after S. Sivasangari and Ng Eain Yow bowed out in the semi-finals on Saturday.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/8A010C7BD068AB4A94764353E859C729_data_0.jpg",
+   "published": "2026-09-06T00:28:13.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "74bc69b3d7fe524b",
+   "title": "Alcaraz excited to face 'dangerous' Paul for US Open quarter-final berth",
+   "link": "https://www.nst.com.my/sports/racquet-sports/2026/09/1526575/alcaraz-excited-face-dangerous-paul-us-open-quarter-final",
+   "summary": "NEW YORK: Defending champion Carlos Alcaraz will be under the microscope again on Sunday as he takes on 20th-seeded American Tommy Paul for a place in the US Open quarter-finals.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/FA411BC4BA1B87AD40C5EB3544A98F6F_data_0.jpg",
+   "published": "2026-09-06T00:26:09.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "be15c2e9aee3a6f6",
+   "title": "Germany's far-right AfD seeks landmark state victory as Saxony-Anhalt votes",
+   "link": "https://www.nst.com.my/world/world/2026/09/1526571/germanys-far-right-afd-seeks-landmark-state-victory-saxony-anhalt-votes",
+   "summary": "BERLIN, (Germany): Voters in the eastern German state of Saxony-Anhalt will go to the polls on Sunday in a closely watched election that could see the Alternative for Germany (AfD) become the first far-right party to take power at a state level since the…",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/0227083D557A11F2CE10E9F1CBB40F51_data_0.jpg",
+   "published": "2026-09-06T00:22:58.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "b116770d06338c93",
+   "title": "Manhunt after alleged axe attack in Victoria leaves three people with serious injuries",
+   "link": "https://www.theguardian.com/australia-news/2026/sep/06/manhunt-after-alleged-axe-attack-in-victoria-leaves-three-people-with-life-threatening-injuries-ntwnfb",
+   "summary": "Police search for alleged attacker, in his 50s, after incident in Gippsland town of Tyers Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Three people have been taken to hospital with…",
+   "image": "https://i.guim.co.uk/img/media/ef2e93a75b1dafa7f48da0d8a83bb02bcb7f381a/445_0_1409_1128/master/1409.jpg?width=700&quality=85&auto=format&fit=max&s=c0852bf41020e430d48650d62a67a6f7",
+   "published": "2026-09-06T00:22:11.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-world",
+   "topic": "world",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "592b546b96454ee4",
+   "title": "Australia news live: Taylor proposes laws against flag burning and to lock in 26 January as Australia Day",
+   "link": "https://www.theguardian.com/australia-news/live/2026/sep/06/australia-news-live-albanese-labor-party-coaltion-liberal-party-nepal-floods-ntwnfb",
+   "summary": "Follow today’s news live Get our breaking news email, free app or daily news podcast Duniam targets ‘frivolous’ asylum seeker claims The opposition is “very close” to “having a full migration package”, Duniam says. He says they’re willing to work with the…",
+   "image": "https://i.guim.co.uk/img/media/5de832df53ecec3d5738f6fedea5ea02e55e6674/1060_0_5278_4225/master/5278.jpg?width=700&quality=85&auto=format&fit=max&s=6df169e6551ffa11e68c5cc009bf3de1",
+   "published": "2026-09-06T00:18:56.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-world",
+   "topic": "world",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "da50af8e899c901e",
+   "title": "'He was a lifeline' - Families at a loss after Haitian caregivers let go in US",
+   "link": "https://www.bbc.co.uk/news/articles/cg491zp13qqo?at_medium=RSS&at_campaign=rss",
+   "summary": "Haitian immigrants make up a large portion of the already overburdened home-care workforce.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c348/live/40b9b1f0-a7a5-11f1-a7ad-37a1f7dc081c.jpg",
+   "published": "2026-09-06T00:17:05.000Z",
+   "source": "BBC News",
+   "feedId": "bbc-world",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "7f56840fc5778d45",
+   "title": "A tough Raya, a livestream and a fresh start with banana chips",
+   "link": "https://www.freemalaysiatoday.com/category/leisure/2026/09/06/a-tough-raya-a-livestream-and-a-fresh-start-with-banana-chips",
+   "summary": "After losing nearly RM400,000 in a previous business, a Sabak Bernam couple found an unlikely route back to entrepreneurial success.",
+   "image": "https://media.freemalaysiatoday.com/v3/2026/09/4594be29-4f57-4d2a-8825-4aaf21547029-Nekyahh-Kerepek-the-banana-chip-Bernama-pic-5926.webp",
+   "published": "2026-09-06T00:15:00.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "9a6430c99ade6331",
+   "title": "Pakar saran model ‘hub-and-spoke’ tangani cabaran komunikasi kerajaan",
+   "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/09/06/pakar-saran-model-hub-and-spoke-tangani-cabaran-komunikasi-kerajaan",
+   "summary": "Pakar juga menyoal sejauh mana struktur sedia ada diberikan autonomi, kemampuan dan hala tuju strategik untuk berfungsi dengan lebih berkesan.",
+   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2025/05/5204f507-malaysia-citizen-orang-awam-30525.webp",
+   "published": "2026-09-06T00:15:00.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "740aaed278f279aa",
+   "title": "Argentina threatens to sanction oil projects around Falklands",
+   "link": "https://www.nst.com.my/world/world/2026/09/1526567/argentina-threatens-sanction-oil-projects-around-falklands",
+   "summary": "BUENOS AIRES: Argentina has announced that it will investigate and sanction oil companies working near the Falkland Islands without authorisation, after President Javier Milei said the “winds of change” favour his country’s claim to the archipelago.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/D7ACEA6B285EBE49F7993FFBA6AC830B_data_0.jpg",
+   "published": "2026-09-06T00:09:02.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "64461302acc4bb61",
+   "title": "Swiatek happy to swap noisy Ashe spotlight for intimate Grandstand",
+   "link": "https://www.nst.com.my/sports/racquet-sports/2026/09/1526565/swiatek-happy-swap-noisy-ashe-spotlight-intimate-grandstand",
+   "summary": "NEW YORK: Arthur Ashe Stadium’s noise and spectacle are a big part of the US Open’s appeal but Iga Swiatek said on Saturday that she did not mind swapping the tournament’s biggest, most boisterous venue for the more intimate surroundings of the Grandstand.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/E14AB2A89D254A943D668F7EC2696ED7_data_0.jpg",
+   "published": "2026-09-06T00:05:14.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "51a9a2f92198858a",
+   "title": "West Ham win again as Championship leaders Swansea held",
+   "link": "https://www.nst.com.my/sports/football/2026/09/1526563/west-ham-win-again-championship-leaders-swansea-held",
+   "summary": "LONDON: West Ham beat Derby 3-0 on Saturday to make it back-to-back Championship wins after a sluggish start to their campaign as leaders Swansea were held 0-0 by Welsh rivals Wrexham.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/93F42475179B464CCD65E7AA3D4A2BC9_data_0.jpg",
+   "published": "2026-09-06T00:01:57.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "86109ce28482483d",
+   "title": "Former Brazil coach Parreira cleared to leave hospital",
+   "link": "https://www.freemalaysiatoday.com/category/sports/2026/09/06/former-brazil-coach-parreira-cleared-to-leave-hospital",
+   "summary": "The 83-year-old World Cup winner was admitted with pneumonia on June 16 and underwent surgery after his condition worsened.",
+   "image": "https://media.freemalaysiatoday.com/v3/2026/09/1733bae0-72ea-4abe-a903-8607f76684e3-EPA-Images---Brazil---Carlos-Alberto-Parreira---06092026.webp",
+   "published": "2026-09-06T00:01:01.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "3681075d6154c5bc",
+   "title": "#SHOWBIZ: Stories of the week: Filem Negara legacy, 'Madu Atau Racun' controversy, kung fu icon dies [WATCH]",
+   "link": "https://www.nst.com.my/lifestyle/groove/2026/09/1526561/showbiz-stories-week-filem-negara-legacy-madu-atau-racun",
+   "summary": "Welcome to \"The Sunday Spill: Weekly Beats\", highlighting the top entertainment stories of the week so far.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/F8AEEA9B50E640E73D590CDBB2FD3E8E_data_0.jpg",
+   "published": "2026-09-06T00:00:26.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "aee50047401f9870",
+   "title": "Century-old Penang coffee shop to close [WATCH]",
+   "link": "https://www.nst.com.my/news/nst-special/2026/09/1526558/century-old-penang-coffee-shop-close-watch",
+   "summary": "GEORGE TOWN: A 106-year-old Hainanese coffee shop will close on Sept 26 as no family member is willing to carry its three-generation legacy into the future.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/ACA1CDD97D4D9755C08690BE19311C7C_data_0_0.jpg",
+   "published": "2026-09-06T00:00:17.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "e40d14fa69f37b3a",
+   "title": "AI chip-smuggling cases a major warning sign, says criminologist",
+   "link": "https://www.freemalaysiatoday.com/category/nation/2026/09/06/ai-chip-smuggling-cases-a-major-warning-sign-says-criminologist",
+   "summary": "While seizures mean enforcement is working, P Sundramoorthy says they also show that 'organised actors' are eyeing Malaysia as a potential hub to circumvent curbs on China.",
+   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2025/11/e719a4d5-semiconductor-chip-envato-elements-pic-091125-2.webp",
+   "published": "2026-09-06T00:00:00.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "6c815b2475d3e18a",
+   "title": "Kes rampasan cip AI petanda amaran besar, kata pakar kriminologi",
+   "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/09/06/kes-rampasan-cip-ai-petanda-amaran-besar-kata-pakar-kriminologi",
+   "summary": "Walaupun rampasan buktikan penguatkuasaan berkesan namun P Sundramoorthy berkata ia juga menunjukkan kumpulan terancang sasar Malaysia jadi hab berpotensi elak sekatan terhadap China.",
+   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2025/11/e719a4d5-semiconductor-chip-envato-elements-pic-091125-2.webp",
+   "published": "2026-09-06T00:00:00.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "75b575797cf59f4b",
+   "title": "Iran war live: IRGC claims new attacks on US warships over naval blockade",
+   "link": "https://www.aljazeera.com/news/liveblog/2026/9/6/iran-war-live-irgc-claims-new-attacks-on-us-warships-over-naval-blockade?traffic_source=rss",
+   "summary": "IRGC says it fired ballistic missiles at US aircraft carrier and destroyer as standoff intensifies in Strait of Hormuz.",
+   "image": "",
+   "published": "2026-09-06T00:00:00.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "e9443173da501393",
+   "title": "Silent Syphilis",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNY0ROR0lzbk9PS0ExMTZNbUxRS2xOLUlGM2F4ZW8zZ2hiN0phM1dzbHA2MTRfNjY1V3p5SjdpclZDR3lBUFlHSzVoUEdWdXhHNTcydGxGd3UzU3h2UGFoYTRVbFpIUkhLT1dQbmRsVFdBaFVQSXExdjNqeEZRUWo0eU14ZzZJTDhqTXpBb2hIUFd1OElEMzdISDFkSW8wQQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-06T00:00:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "4aa326028876b76f",
+   "title": "What’s the best way to treat heartburn? How to choose the right treatment",
+   "link": "https://www.channelnewsasia.com/wellness/heartburn-otc-treatement-options-6342901",
+   "summary": "Over-the-counter medications can reduce symptoms in different ways. Here’s how to find the ideal one for you.",
+   "image": "https://dam.mediacorp.sg/image/upload/s--82JY50UL--/c_crop,h_899,w_1599,x_1,y_94/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/08/31/smarter_living_treat_heartburn-0.jpg?itok=cZVQkBhV",
+   "published": "2026-09-05T23:58:53.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
   {
    "id": "87d478a33c1ad2cd",
    "title": "Everyone needs a death to-do list – here are 25 things to sort out while you're alive",
@@ -86,7 +333,7 @@
    "feedId": "cna",
    "topic": "world",
    "hasBody": false,
-   "top": true
+   "top": false
   },
   {
    "id": "2e9a1613115027a5",
@@ -112,7 +359,7 @@
    "feedId": "bbc-world",
    "topic": "world",
    "hasBody": false,
-   "top": true
+   "top": false
   },
   {
    "id": "858d27730e8c3931",
@@ -125,6 +372,19 @@
    "feedId": "bbc-sport",
    "topic": "sport",
    "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "f6243da3de7aacc2",
+   "title": "Malaysia’s Taanusiya Chetty is second runner-up at Miss World 2026 pageant",
+   "link": "https://www.freemalaysiatoday.com/category/nation/2026/09/06/malaysia-s-taanusiya-chetty-is-second-runner-up-at-miss-world-2026-pageant",
+   "summary": "The 26-year-old beauty impressed judges and audiences in various segments of the contest held in Nha Trang, Vietnam.",
+   "image": "https://media.freemalaysiatoday.com/v3/2026/09/d7d701b0-e532-4e09-acff-dfde9fb79806-Taanusiya-Chetty-igpic-060926.jpg",
+   "published": "2026-09-05T23:46:33.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
    "top": true
   },
   {
@@ -141,6 +401,19 @@
    "top": true
   },
   {
+   "id": "8817560f98cb7ccd",
+   "title": "Daughter of ‘pakcik air balang’ carries on her father’s legacy",
+   "link": "https://www.freemalaysiatoday.com/category/leisure/2026/09/06/daughter-of-pakcik-air-balang-carries-on-her-father-s-legacy",
+   "summary": "Siti Nur Aliah hopes to keep her late father’s business alive while holding on to her own dream of entering university next year.",
+   "image": "https://media.freemalaysiatoday.com/v3/2026/09/d940f030-7615-4a7d-95a7-17472e9b3465-main-pic.webp",
+   "published": "2026-09-05T23:45:00.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
    "id": "0ffc70a14d743120",
    "title": "Two dead, 14 missing after Bolivia army base blasts",
    "link": "https://www.nst.com.my/world/world/2026/09/1526552/two-dead-14-missing-after-bolivia-army-base-blasts",
@@ -150,19 +423,6 @@
    "source": "New Straits Times",
    "feedId": "nst",
    "topic": "malaysia",
-   "hasBody": true,
-   "top": true
-  },
-  {
-   "id": "592b546b96454ee4",
-   "title": "Australia news live: Taylor proposes laws against flag burning and to lock in 26 January as Australia Day",
-   "link": "https://www.theguardian.com/australia-news/live/2026/sep/06/australia-news-live-albanese-labor-party-coaltion-liberal-party-nepal-floods-ntwnfb",
-   "summary": "Follow today’s news live Get our breaking news email, free app or daily news podcast Duniam targets ‘frivolous’ asylum seeker claims The opposition is “very close” to “having a full migration package”, Duniam says. He says they’re willing to work with the…",
-   "image": "https://i.guim.co.uk/img/media/5de832df53ecec3d5738f6fedea5ea02e55e6674/1060_0_5278_4225/master/5278.jpg?width=700&quality=85&auto=format&fit=max&s=6df169e6551ffa11e68c5cc009bf3de1",
-   "published": "2026-09-05T23:40:18.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-world",
-   "topic": "world",
    "hasBody": true,
    "top": true
   },
@@ -193,6 +453,32 @@
    "top": true
   },
   {
+   "id": "33fcc0fa465b65cc",
+   "title": "Greek PM rolls out major aid package ahead of elections",
+   "link": "https://www.freemalaysiatoday.com/category/world/2026/09/06/greek-pm-rolls-out-major-aid-package-ahead-of-elections",
+   "summary": "Measures include lower social security contributions, a higher minimum wage, a €400 annual pensioner allowance and a 30% cut in electricity prices by 2029.",
+   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2025/09/aff71644-13325011_1_1600x1000_1.webp",
+   "published": "2026-09-05T23:37:29.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "1205466491d52633",
+   "title": "Bangsar Boy’s journey to British academia",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdWpSUjNfbjZfWVFuODBBOGR4SDRtRVZHbm1nbnFSdHJsV05HX3lXQURrN2M5cXdKQmRGTDhmTHFLN05CZUFaU3BMUzZVUlY5Ql9DbWxpMlFaMXpKR1N6ZG5PWUFlTlNsLTMyZTJIdkFRWHU0UlRWRXA1N1o3Q0pmcGpCSm5CWlZtYURJLTZSUmxWcTdaSXNhVw?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-05T23:34:46.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "34e61b78872d9c3d",
    "title": "Haaland heads unconvincing Man City top of Premier League",
    "link": "https://www.nst.com.my/sports/football/2026/09/1526544/haaland-heads-unconvincing-man-city-top-premier-league",
@@ -214,6 +500,45 @@
    "published": "2026-09-05T23:32:01.000Z",
    "source": "New Straits Times",
    "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "239475893c194910",
+   "title": "Start planning now to meet extreme weather, urban planners told",
+   "link": "https://www.freemalaysiatoday.com/category/nation/2026/09/06/start-planning-now-to-meet-extreme-weather-urban-planners-told",
+   "summary": "A former director of Singapore’s Urban Redevelopment Authority says cities need to plan for rising temperatures and sea levels.",
+   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2025/09/8c05b9c4-kampung-baru-resize-fmt-100925.webp",
+   "published": "2026-09-05T23:30:00.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "74f47ccfc032ccbd",
+   "title": "Living longer is one thing, ageing well is another",
+   "link": "https://www.freemalaysiatoday.com/category/leisure/2026/09/06/living-longer-is-one-thing-ageing-well-is-another",
+   "summary": "As Malaysia grows older, physical strength, oral health and human connection could make all the difference to quality of life.",
+   "image": "https://media.freemalaysiatoday.com/v3/2026/09/ac8af49b-c4f5-4c54-9e45-27a112cf8394-healthy-ageing-helping-older-adults-Envato-Elements-pic-5926.webp",
+   "published": "2026-09-05T23:30:00.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "51f264d164534a08",
+   "title": "Mula perancangan sekarang untuk hadapi cuaca ekstrem, nasihat perancang bandar",
+   "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/09/06/mula-perancangan-sekarang-untuk-hadapi-cuaca-ekstrem-nasihat-perancang-bandar",
+   "summary": "Seorang bekas pengarah Pihak Berkuasa Pembangunan Semula Bandar Singapura berkata bandar perlu merancang bagi menghadapi peningkatan suhu dan paras laut.",
+   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2025/09/8c05b9c4-kampung-baru-resize-fmt-100925.webp",
+   "published": "2026-09-05T23:30:00.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
    "top": true
@@ -271,48 +596,9 @@
    "top": false
   },
   {
-   "id": "08530d4655e1af6f",
-   "title": "Golf: Woods’ apparel brand widens its Malaysian footprint",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQWJMWUg0WkRjWXpyR0JFODcydEhvcWxLNXhiNnNhMkhaVHhtQkpMRnU3THJnRkRSSEJLaTFPV3FydF9obHRMOXNfMEpZSzlYM2ZENU9oNzJvMjVSeFFzX191RlQwVVcySG9QcklYNFJReGY0cVN6OWFCc0xKd1VwNzBrd0JSR1Q2Q0pMcnVWTFU3WE9DRjNwMWtHWEFadng1?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-05T23:21:14.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "b621534c7f59b569",
-   "title": "Golf: Liyana will be at the LPGA showdown next month",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLUkxZFVUNWFqSmdvdTRyblNmTnBReEpqQjJqZ2lIV1JaUXgzQklrTEp1SHhHczVxOHJaZGh2YXlzU044UWdxZDhWRXU0LUtyaVhNTWdQQ0pPTUQ2Q08tdGM2YjE4V1JfUTZzQm85cGRYb2xlNnp1dFp1UWVFd2lpSklnd2ZrYV92bVkxRDNoSW9qdW5sTmozX3Zxbw?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-05T23:21:14.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "849d4fdcb75ff882",
    "title": "Golf: Maybank lifts golf tourism",
    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRXpoRllFVjhBakl0amlDWnVieDR4bUdhU3NxLUZUUFY5SzRzQTVvWkRobExlSGhLUlhON3VyRENJbTU0S1E0YWRidWI1YWhoQ3Q1MllmR0sxYzdGZE5ocDBGLWFIR19BdUxadU1RX1B1RG95cVRHa0Y2TmhValJsXw?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-05T23:20:14.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "013e07cb4b47e198",
-   "title": "Golf: Good Good Golf CEO out amid ad controversy",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdVlTVUowSGtySkpFQ3ZXYURORUJObml6Mi1BS1hxaXgwQTY0QjBRRmtRcnRjR3RrRVAtTEdQZU5HcUdoSXFaSWplb3I4anQ2SmFFdk51b0Q5QWJ4cFdNVGJ6bm1jTVRNbDhQR2FmUk93TmJzQ2wwcXFfTTZWU2Z3VmFSVmtTVjZubXNvdlNFdThKWHg2aEE?oc=5",
    "summary": "",
    "image": "",
    "published": "2026-09-05T23:20:14.000Z",
@@ -379,7 +665,7 @@
    "title": "US, Iranian forces fire at vessels in waters near Iran",
    "link": "https://www.nst.com.my/world/world/2026/09/1526522/us-iranian-forces-fire-vessels-waters-near-iran",
    "summary": "DUBAI: US and Iranian forces fired at vessels in waters around Iran on Saturday, including three Iranian oil carriers struck by the Americans and three tankers that Iran said it targeted while on unauthorised routes in the Strait of Hormuz.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/731E8504642EB7C90C97B389A43A8D21_data_0.jpg",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/731E8504642EB7C90C97B389A43A8D21_data_0_0.jpg",
    "published": "2026-09-05T23:08:30.000Z",
    "source": "New Straits Times",
    "feedId": "nst",
@@ -401,6 +687,19 @@
    "top": false
   },
   {
+   "id": "f1a81957cfc919ec",
+   "title": "When political sweetness turns sour",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaHhRZGR4ei15cEVBQ3d4SklUMkhjOTZNbmlVT0NlTWNNSlFqLWI0M0d2X3NUU29pVVpJV08wUkxIYmNRdFN1S2FUemtzb2xRVmlxS2h6bXQwWEJaUmg0eFhfUW5sV2xETXl1aGNzcHR4S3NRUktTbkh3akxxOUFVNTN1bkNDN2M3RHJuYS1pRW5qTzAwcDloVWlUZGo0X3NNcjFrZHMyUFR0OHg2bGQ4?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-05T23:07:29.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "bdae6fa3092f9607",
    "title": "Swiatek happy to swap noisy Ashe spotlight for intimate Grandstand",
    "link": "https://www.channelnewsasia.com/sport/swiatek-happy-swap-noisy-ashe-spotlight-intimate-grandstand-6365191",
@@ -410,19 +709,6 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "f1a81957cfc919ec",
-   "title": "When political sweetness turns sour",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaHhRZGR4ei15cEVBQ3d4SklUMkhjOTZNbmlVT0NlTWNNSlFqLWI0M0d2X3NUU29pVVpJV08wUkxIYmNRdFN1S2FUemtzb2xRVmlxS2h6bXQwWEJaUmg0eFhfUW5sV2xETXl1aGNzcHR4S3NRUktTbkh3akxxOUFVNTN1bkNDN2M3RHJuYS1pRW5qTzAwcDloVWlUZGo0X3NNcjFrZHMyUFR0OHg2bGQ4?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-05T23:05:37.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -684,7 +970,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "4495768841a404cf",
@@ -710,7 +996,7 @@
    "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "8f42c35b26d6aa15",
@@ -723,7 +1009,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "8ff1860225fa9d8e",
@@ -736,7 +1022,7 @@
    "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "bfe31c5cf4a4dbaa",
@@ -749,7 +1035,7 @@
    "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "207a408656d1af15",
@@ -762,7 +1048,7 @@
    "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "b3eb4779b6c833e2",
@@ -788,7 +1074,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "0b3cb87b823237fa",
@@ -892,7 +1178,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "885beb970dafc0b8",
@@ -931,7 +1217,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "d302fb3bd5662fdf",
@@ -943,19 +1229,6 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "4afb62316d97e77e",
-   "title": "Strong momentum to drive Malaysia’s economy to 5% growth in 2026 — Akmal Nasrullah",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBwSWFHRWxBNUdTb2p5czY5eVRGdzdjQzlaR3E5TW53Qkl0aXo4Ykl3YnJnaHFfMjJ0SUwtbU5hbDZmakdYYmQxbUVhSWhpMk50?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-05T21:58:10.000Z",
-   "source": "The Edge Malaysia",
-   "feedId": "gnews-edge",
-   "topic": "business",
    "hasBody": false,
    "top": false
   },
@@ -983,7 +1256,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "447c99ecec6107ec",
@@ -996,7 +1269,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "b9e7f561241d3f5c",
@@ -1035,7 +1308,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "ec955a4c4488e8ed",
@@ -1100,7 +1373,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "c40937db9cea6c6f",
@@ -1220,19 +1493,6 @@
    "top": false
   },
   {
-   "id": "f0d10e5c5eec74e9",
-   "title": "Haaland leads unconvincing Man City top of Premier League",
-   "link": "https://www.freemalaysiatoday.com/category/sports/2026/09/06/haaland-heads-unconvincing-man-city-top-of-premier-league",
-   "summary": "Enzo Maresca's men were made to sweat for a 1-0 victory over newly-promoted Coventry.",
-   "image": "https://media.freemalaysiatoday.com/v3/2026/09/f10a6894-4877-454d-9cd4-bffc5c2c4d99-14264968.webp",
-   "published": "2026-09-05T21:27:27.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": true
-  },
-  {
    "id": "58a45340736dfcec",
    "title": "US envoys Witkoff, Kushner meet Putin for talks on Ukraine war",
    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/5/us-envoys-witkoff-kushner-meet-putin-for-talks-on-ukraine-war?traffic_source=rss",
@@ -1257,19 +1517,6 @@
    "topic": "malaysia",
    "hasBody": false,
    "top": false
-  },
-  {
-   "id": "6e0485db4ebf6623",
-   "title": "Athletic Bilbao crush Simeone’s flat Atletico",
-   "link": "https://www.freemalaysiatoday.com/category/sports/2026/09/06/athletic-bilbao-crush-simeone-s-flat-atletico",
-   "summary": "Nico Williams, Robert Navarro and Oihan Sancet's goals gave the Basque hosts a 3-0 victory over Atletico Madrid.",
-   "image": "https://media.freemalaysiatoday.com/v3/2026/09/eab0abc8-20e0-4ff1-8845-3e00f48cc791-14264995.webp",
-   "published": "2026-09-05T21:20:24.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": true
   },
   {
    "id": "208bc9b5936be23c",
@@ -1831,19 +2078,6 @@
    "top": false
   },
   {
-   "id": "62149b6e6827d57d",
-   "title": "Keys, Anisimova crash out in blow to home hopes at US Open",
-   "link": "https://www.channelnewsasia.com/sport/keys-anisimova-crash-out-in-blow-home-hopes-us-open-6365056",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-05T18:49:11.000Z",
-   "source": "Channel NewsAsia",
-   "feedId": "cna",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "123a3ff9718ddd19",
    "title": "Two pilots killed after Greek fighter jet crashes during an air show",
    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/5/two-pilots-killed-after-greek-fighter-jet-crashes-during-an-air-show?traffic_source=rss",
@@ -1948,32 +2182,6 @@
    "top": false
   },
   {
-   "id": "1a5b19a61033e692",
-   "title": "Putin says US-Russia contacts beneficial as talks begin with Witkoff and Kushner",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc2tuQjJZdkZ4MkdOWFdKVWRRMkUxMXNfMUNlOTZ6YVgxalhfbTJjWFl5TzhYSENMZUYxd3U5Y3NlNmFlV3RDUEJfblJEZm0tN1pyMGFiLVlsN0RCSlJENm1UWWVPTWxGbGxuQW1VLVZYUW9ONVhVNjRrYlBlLVdkcjJHbUxxeVc4Q2M4R0czSGFDUlZ0akdnY284NENSRG1Pd0lfSTRhM0NsYkFOLXlWU2dJSHVWemp4TnV0bTAzY2hkLWFRZk5ncQ?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-05T18:00:00.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "0d901ecdcaeb4e8b",
-   "title": "Thailand puts 49 data centres on hold over resource strain",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5VX3NLMlF1eURRaURBUTFxMGMyQWppT18tNkp6blljMzZ4UkNacDJmaS1fbXVtbU5wVWtVdzZfV3E3Wl9teUI1Q2xmTHRRWVZr?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-05T17:32:29.000Z",
-   "source": "The Edge Malaysia",
-   "feedId": "gnews-edge",
-   "topic": "business",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "8a3c359533c3cf37",
    "title": "Tabung Haji RCI: Several individuals to be charged later this week — MACC chief",
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9pOWlHR3lTRWRWSThyR2hLZTM3Rk9LVkZ5Skl4WTZtTGJrZW1EQUhoZHlkTGNtZzFZN2xibW1zR0RLN3F2VF9yMjlhYml5SVR4?oc=5",
@@ -1984,19 +2192,6 @@
    "feedId": "gnews-edge",
    "topic": "business",
    "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "8277c270b7ff35b8",
-   "title": "Malaysia's Taanusiya Chetty wins second runner-up at Miss World 2026",
-   "link": "https://www.nst.com.my/news/nation/2026/09/1526496/malaysias-taanusiya-chetty-wins-second-runner-miss-world-2026",
-   "summary": "KUALA LUMPUR: Teacher and activist Taanusiya Chetty has been crowned the second runner-up at the 2026 Miss World pageant, which was held in Vietnam today.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/E6BE2CC1D37DDF33644FFEAA35E14231_data_0_0.jpg",
-   "published": "2026-09-05T17:04:12.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
-   "hasBody": true,
    "top": false
   },
   {
@@ -2039,16 +2234,16 @@
    "top": false
   },
   {
-   "id": "54b36fdc5225a376",
-   "title": "Alpine's Gasly takes shock pole for Italian Grand Prix",
-   "link": "https://www.nst.com.my/sports/motor-sports/2026/09/1526493/alpines-gasly-takes-shock-pole-italian-grand-prix",
-   "summary": "MONZA, Italy: Frenchman Pierre Gasly snatched a surprise pole position for Alpine in qualifying on Saturday for the Italian Grand Prix at Monza, the first of his career at the 191st attempt.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/8F7285F18EDD7F19F0006B913CAF41B3_data_0_0.jpg",
-   "published": "2026-09-05T16:56:50.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
+   "id": "ed00d9041734248a",
+   "title": "2nd LD Writethru: 2 pilots killed in Greek fighter jet crash during Athens air show",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONGZQVUQ0T2p3RnRrX29WVmdXR0lYLTBnUUYwTTBkQ0JMekJwOXc0SUFsUVd2VUx1Z3lNM0YwcVZsMVd2anNsdFhkVDVPWG9sTnBmLWsyczJZbmNsVDhNSEJUcDVDVmJBN3N0LWVLWHoxWHhXTlQ2TjF4QmtNVm1KM3hRcjg5Y0RVa2hod2t6cUdBY0ItTTJwNGtXOHM3Z25MZFBnVjZsQnBuTm96ck5BVmdPcndvcElBc0hvcGV4RTV6R3Nja0JfVngwWQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-05T16:55:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
    "topic": "malaysia",
-   "hasBody": true,
+   "hasBody": false,
    "top": false
   },
   {
@@ -2075,19 +2270,6 @@
    "feedId": "aljazeera",
    "topic": "world",
    "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "e0cd46df43746c0f",
-   "title": "Dismantle the corruption 'gravy train' to end systemic corruption",
-   "link": "https://www.nst.com.my/opinion/columnists/2026/09/1526490/dismantle-corruption-gravy-train-end-systemic-corruption",
-   "summary": "THE NST editorial by Sharanjit Singh, “The rot has to stop: Time to end the plunder of the gravy train,” is timely and deserves serious public attention.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/377D1E038435BEA1C48A9549F0E7BE3D_data.jpg",
-   "published": "2026-09-05T16:42:45.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
-   "hasBody": true,
    "top": false
   },
   {
@@ -2143,19 +2325,6 @@
    "top": false
   },
   {
-   "id": "32c27333e6183f61",
-   "title": "BERNAMA - Malaysian National News Agency",
-   "link": "https://news.google.com/rss/articles/CBMiN0FVX3lxTFB3Mi04YmE0Y3doNVd1bFhOaHVmNENEc0xlajJISGRDZnRiMXNJaGtIbF9QajVqTDg?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-05T16:20:29.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "92b563a376f524d3",
    "title": "Gaza teams recover remains of 55 people nearly 3 years after Israeli strike",
    "link": "https://www.aljazeera.com/news/2026/9/5/gaza-teams-recover-remains-of-55-people-nearly-3-years-after-israeli-strike?traffic_source=rss",
@@ -2208,19 +2377,6 @@
    "top": false
   },
   {
-   "id": "0fd6dbe1b8c10b6f",
-   "title": "Torino fight back to beat struggling Fiorentina for first win",
-   "link": "https://www.freemalaysiatoday.com/category/sports/2026/09/06/torino-fight-back-at-struggling-fiorentina-for-first-win",
-   "summary": "A late Che Adams strike sealed Torino's 2-1 comeback win over Fiorentina as the Florence club's nightmare start to the season continued.",
-   "image": "https://media.freemalaysiatoday.com/v3/2026/09/47767db7-407e-48e6-ae91-426a0a4e8648-14264790_cropped_1.webp",
-   "published": "2026-09-05T16:09:59.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
    "id": "f03db4af96db9917",
    "title": "Israel claims control of Lebanon’s key Ali al-Taher ridge: What that means",
    "link": "https://www.aljazeera.com/news/2026/9/5/israel-claims-control-of-lebanons-key-ali-al-taher-ridge-what-that-means?traffic_source=rss",
@@ -2231,84 +2387,6 @@
    "feedId": "aljazeera",
    "topic": "world",
    "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "82ba6d2466474f30",
-   "title": "Schools in two Bintulu districts closed due to haze",
-   "link": "https://www.freemalaysiatoday.com/category/nation/2026/09/06/schools-in-two-bintulu-districts-closed-due-to-haze",
-   "summary": "The closure from Sept 7 to Sept 11 affects 22,476 pupils in primary schools and 17,268 in secondary schools.",
-   "image": "https://media.freemalaysiatoday.com/v3/2026/09/c1417daf-94ad-4455-922f-d76e20827766-school-children-face-mask-resize-050926.jpg",
-   "published": "2026-09-05T16:04:00.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "5d630cf048a45b9e",
-   "title": "Haze shuts 63 schools in Bintulu, Tatau and Sebauh",
-   "link": "https://www.nst.com.my/news/nation/2026/09/1526481/haze-shuts-63-schools-bintulu-tatau-and-sebauh",
-   "summary": "KUCHING: A total of 63 schools in Bintulu, Tatau and Sebauh will be closed from Sept 7 to 11 after the air pollutant index (API) reading in Bintulu reached the \"very unhealthy\" level.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/34A2BF8567996E1CBE206972DB5253BB_data_0.jpg",
-   "published": "2026-09-05T16:01:56.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "3dfec70866afa4d9",
-   "title": "NST Leader: Were 'foxes' in charge of Tabung Haji?",
-   "link": "https://www.nst.com.my/opinion/leaders/2026/09/1526479/nst-leader-were-foxes-charge-tabung-haji",
-   "summary": "TABUNG HAJI is cash-rich, but as the Royal Commission of Inquiry (RCI) found out, it was governance-poor.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/B8DC4E568D90FA0E4DDE2ECF56FB7354_data.jpg",
-   "published": "2026-09-05T16:01:10.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "da11789cdc967930",
-   "title": "Sarawak shelves plans for ‘mini Putrajaya’ due to land issues, delays",
-   "link": "https://www.freemalaysiatoday.com/category/nation/2026/09/06/sarawak-shelves-plans-for-mini-putrajaya-due-to-land-issues-delays",
-   "summary": "Deputy minister Abdul Rahman Junaidi says the project in Rambungan could not proceed despite related infrastructure having been planned.",
-   "image": "https://media.freemalaysiatoday.com/v3/2026/09/6ef39179-3871-4425-b149-4373f1e41d15-Abdul-Rahman-Junaidi-fb-050926-1.jpg",
-   "published": "2026-09-05T16:01:00.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "1a5f06a9e69fdc86",
-   "title": "US military says it destroyed 3 Iranian oil tankers",
-   "link": "https://www.freemalaysiatoday.com/category/world/2026/09/05/us-military-says-it-destroyed-3-iranian-oil-tankers",
-   "summary": "Central Command permanently disabled the Islamic Revolutionary Guard Corps' crude oil carriers M/T Downy off Kharg Island and M/T Stark 1 near Jask.",
-   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2026/06/a8a25f9b-oil-tanker-strait-of-hormuz-epa-images-pic-280626-1.webp",
-   "published": "2026-09-05T15:52:38.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "4c0b7b7ef5d38db3",
-   "title": "Haze forces last-minute cancellation of PJ Half Marathon",
-   "link": "https://www.nst.com.my/news/nation/2026/09/1526475/haze-forces-last-minute-cancellation-pj-half-marathon",
-   "summary": "KUALA LUMPUR: The Petaling Jaya Half Marathon, which was expected to draw 10,000 participants tomorrow, has been cancelled due to the haze.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/791698D2ECE9E94A8CDCCFE768E0399B_data_0_0.jpg",
-   "published": "2026-09-05T15:51:23.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
-   "hasBody": true,
    "top": false
   },
   {
@@ -2335,32 +2413,6 @@
    "feedId": "aljazeera",
    "topic": "world",
    "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "7b81085b02696937",
-   "title": "Grief on Chinese Internet as wait for Tibet flood news drags on",
-   "link": "https://www.nst.com.my/opinion/columnists/2026/09/1526472/grief-chinese-internet-wait-tibet-flood-news-drags",
-   "summary": "PHOTOS of sons, daughters, uncles and husbands pepper Chinese social media, shared by people hoping for news about relatives missing since deadly floods on the border with Nepal on Aug 26.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/33F3363B94AEAA75919212E133533492_data_0.jpg",
-   "published": "2026-09-05T15:44:53.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "d7327d05cdbf1c27",
-   "title": "Bosnian Mujagic destroys his former club Sabah",
-   "link": "https://www.nst.com.my/sports/football/2026/09/1526468/bosnian-mujagic-destroys-his-former-club-sabah",
-   "summary": "KUALA LUMPUR: Striker Ajdin Mujagic returned to haunt his former employers, scoring two goals in Kuching City’s 2-0 victory over Sabah in the Borneo Derby at the Likas Stadium on Saturday.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/C48C86FEF7FB95F11D9C5CD42A7AD2CB_data_0_0.jpg",
-   "published": "2026-09-05T15:42:40.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
-   "hasBody": true,
    "top": false
   },
   {
@@ -2403,19 +2455,6 @@
    "top": false
   },
   {
-   "id": "5a178b44f2504111",
-   "title": "Both Malaysia’s doubles pairs bow out at China Masters",
-   "link": "https://www.freemalaysiatoday.com/category/nation/2026/09/05/both-malaysia-s-doubles-pairs-bow-out-at-china-masters",
-   "summary": "Tee Kai Wun-Yap Roy King and Nur Azriyn Ayub-Tan Wee Kiong were defeated in the semi-finals but take home US$17,500 (RM71,400) each as semi-finalists at the World Tour Super 750 championships.",
-   "image": "https://media.freemalaysiatoday.com/v3/2026/09/e313e7c5-d350-4807-87fd-e3a9bdbee3be-tee-kai-wun-yap-roy-king-050926.jpg",
-   "published": "2026-09-05T15:33:00.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
    "id": "612c4e68aab55a33",
    "title": "At least two dead in blast at Bolivia military barracks",
    "link": "https://www.bbc.co.uk/news/articles/c3v45xy67g5o?at_medium=RSS&at_campaign=rss",
@@ -2429,19 +2468,6 @@
    "top": false
   },
   {
-   "id": "c07cc146b4752758",
-   "title": "Masked anti-migrant protesters disrupt UK’s Dover port",
-   "link": "https://www.freemalaysiatoday.com/category/world/2026/09/05/masked-anti-migrant-protesters-disrupt-uk-s-dover-port",
-   "summary": "Britain has been grappling with how to curb small-boat crossings, which have seen tens of thousands of migrants arriving annually on the shores of southeast England.",
-   "image": "https://media.freemalaysiatoday.com/v3/2026/09/421741b1-61df-40f5-b625-c0bca67903c2-resized-image_28.webp",
-   "published": "2026-09-05T15:18:52.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
    "id": "261d4ea31809b2e0",
    "title": "Tesla’s Cybercab has been deployed, and it’s already under investigation",
    "link": "https://arstechnica.com/cars/2026/09/teslas-cybercab-has-been-deployed-and-its-already-under-investigation/",
@@ -2451,32 +2477,6 @@
    "source": "Ars Technica",
    "feedId": "arstechnica",
    "topic": "tech",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "39eedd9ec3272767",
-   "title": "Siasat dakwaan Hadi tawaran negara asing jatuhkan kerajaan, kata Rayer",
-   "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/09/05/siasat-dakwaan-hadi-tawaran-negara-asing-jatuhkan-kerajaan-kata-rayer",
-   "summary": "Ahli Parlimen Jelutong berkata perkara itu libat keselamatan negara dan bukan perkara patut dibanggakan di muktamar.",
-   "image": "https://media.freemalaysiatoday.com/v3/2026/09/7d19b059-cbb6-4417-a7db-b5d29d795941-rayer-hadi-awang-tile-resize-050926.jpg",
-   "published": "2026-09-05T15:11:50.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "e4508fbc0f357b22",
-   "title": "Families of missing pilgrims in Tibet demand answers from China",
-   "link": "https://www.freemalaysiatoday.com/category/world/2026/09/05/families-of-missing-pilgrims-in-tibet-demand-answers-from-china",
-   "summary": "Families say they have received little information from Beijing as search and victim identification efforts continue along the Nepal-Tibet border.",
-   "image": "https://media.freemalaysiatoday.com/v3/2026/09/03d59e10-2aae-4b09-9460-5d60336b0ba8-14248601_cropped_1.webp",
-   "published": "2026-09-05T15:00:31.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
    "hasBody": true,
    "top": false
   },
@@ -2507,32 +2507,6 @@
    "top": false
   },
   {
-   "id": "ee04d041ed58a108",
-   "title": "Probe Hadi’s claim of foreign anti-govt offer, says Rayer",
-   "link": "https://www.freemalaysiatoday.com/category/nation/2026/09/05/probe-hadi-s-claim-of-foreign-anti-govt-offer-says-rayer",
-   "summary": "The Jelutong MP says the public deserves to know what was discussed and whether a representative of a foreign government was involved.",
-   "image": "https://media.freemalaysiatoday.com/v3/2026/09/7d19b059-cbb6-4417-a7db-b5d29d795941-rayer-hadi-awang-tile-resize-050926.jpg",
-   "published": "2026-09-05T14:55:00.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "7eef23dc4ed5e825",
-   "title": "Multipolarity gives middle powers more choices, but fewer guarantees",
-   "link": "https://www.aljazeera.com/opinions/2026/9/5/multipolarity-gives-middle-powers-more-choices-but-fewer-guarantees?traffic_source=rss",
-   "summary": "BRICS, SCO and other organisations can offer relief from great power pressure but do not provide collective defence.",
-   "image": "",
-   "published": "2026-09-05T14:51:08.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "ed3758270e969ebd",
    "title": "Guan Chong warns El Niño to spur global cocoa deficit",
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE51eml2WlpJX1Vuc0NjRkFvTlprc2Njb2RMNnp5WWRoWVhkV09fWHI2TWZrQ1I0RU5Jc2tuWUxsVzZrUGp5M1FoQW5hSHdyN2tt?oc=5",
@@ -2559,12 +2533,12 @@
    "top": false
   },
   {
-   "id": "82e6218adda1de7c",
-   "title": "US military strikes three Iranian crude oil carriers, Central Command says",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZFpEXzBRYmFnY0t5VDFaMjE3aTZrUWl0bG1sLVhOYW53QkIxU1Uxc0R4RXFKU2pId2w0XzJTUTNFaW1NdUVfdjdGN29FbVo0U1o3SU05Q0oyQXlPTk1pclotU2YxVzZlNDdEZGc4RWVpeGE2dlZ0QXJzejQ3WjV0R0tMMzh1UHRxUjhqUS1JUHh1SUZjRHdKS0hQQmhkX1cyNnpLOHdwOGl0VUp0TUNub2s4UkdBWURaSlNRT01qZw?oc=5",
+   "id": "3c1ea3b0ce88732f",
+   "title": "US military hits Iranian oil tankers after saying Navy warships were targeted with missiles",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQSnpzcUhWWGV4czJDOGdfbHpUMl9CQTVScVFOOV83aDkydGJjM3VtYk1Gb2IwRm5Ca25aQUpyaXRsQjB6clF1Qkk5M3VGZ1VaV2tDVVNlY1JmYzd3YnlfU3VSNXpSS0JRNWJLT3lmTUlvOUllU0VXZm9OZjhLY3c0MkR2VXJpWVFVUkZTTWQ1T2pEWUltZUpET0tsN3JOb0Z5WkppN2VyMHRhVHo5S0xfbUVaUGRQX2VRczBuT3lubTBlb1pSNDdKLUZkWl9wWjhLNmVJT3RZNHNWQmc5d2xjS2VLWGdsNHl3cExlWlNOWQ?oc=5",
    "summary": "",
    "image": "",
-   "published": "2026-09-05T14:01:00.000Z",
+   "published": "2026-09-05T14:05:00.000Z",
    "source": "The Star",
    "feedId": "gnews-star",
    "topic": "malaysia",
@@ -2624,6 +2598,19 @@
    "top": false
   },
   {
+   "id": "58a24aeece72c3d6",
+   "title": "PogaČar Out For Season After Vuelta Crash",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1odXFuejFRdXJtY2hlNTlXMkd5OUpkSEJOREZMSXd0MnV3RGZoWGZRQzhRVVROaEpQdWp2RkZ5Snh3clY5Vm9MZHYta2YwRmhQbExmdDVlMnJUZ1VpNnZ0R0x3?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-05T13:31:09.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "2e27529b67730321",
    "title": "Merdeka Award honours Nicol David, Mercy Malaysia and national icons shaping Malaysia’s future",
    "link": "https://www.malaymail.com/news/life/2026/09/05/merdeka-award-honours-nicol-david-mercy-malaysia-and-national-icons-shaping-malaysias-future/234018",
@@ -2673,6 +2660,19 @@
    "feedId": "theverge",
    "topic": "tech",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "6e33a6e1a9abfa98",
+   "title": "Puspakom plans to operate 24 hours next year",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNS0JjUm5kQmZQMnIweHZ5aVRnM0o5V1BpdGZtUmJMbG1lbmxaRmpHa2k4V1FTY191aHVhSWdINjhMc2stTld1bk5rVHdGeUFTeWZySUVzOE9IRlRqMFZ4YW15Tjlpa1JZVFFxYTBMb3Zqc1RxY2NsYlhXZDZDYjF1UU9MYl9sR2tISjluaTR3YUlhYUNY?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-05T12:34:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
+   "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2965,7 +2965,7 @@
    "id": "b4f1b8eefb24f2cd",
    "title": "SNAPSHOT | Malacca mulls RM2.5k minimum wage; DAP MP questions planned SST-GST hybrid system",
    "link": "https://www.malaysiakini.com/news/783617",
-   "summary": "What’s going on in the news today, with updates at 11am, 2pm, and 6pm.",
+   "summary": "What's going on in the news today, with updates at 11am, 2pm, and 6pm.",
    "image": "",
    "published": "2026-09-05T10:41:12.000Z",
    "source": "Malaysiakini",
@@ -3027,19 +3027,6 @@
    "top": false
   },
   {
-   "id": "48883b29cbe40b16",
-   "title": "MOH strengthens strategic cooperation to curb medicine smuggling — Dzulkefly",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5SM05KcTUzTkc5aTRhbi1uSEU2Z1JNZDhPSXlSWkdLc1FtV3VfQXZmUGxlWDg4VjNjSmZfUTZmLXYzclFQZ2RzaTRaS28tTGlv?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-05T10:23:47.000Z",
-   "source": "The Edge Malaysia",
-   "feedId": "gnews-edge",
-   "topic": "business",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "ad313b76a687a701",
    "title": "Emergency remains: Uggah says Serian still under haze alert despite API improvement",
    "link": "https://www.malaymail.com/news/malaysia/2026/09/05/emergency-remains-uggah-says-serian-still-under-haze-alert-despite-api-improvement/234064",
@@ -3066,19 +3053,6 @@
    "top": false
   },
   {
-   "id": "af82e444da3d2783",
-   "title": "Six areas in Sarawak record very unhealthy air pollutant index readings as of 4pm",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9kcXJ4aloyc1gzMXQwVFB2T1hDdnpaWTBYM1VVdGtYaGVTbk5uVFJGLUZYUGpUbkRiektuOV9hY2Jha0V6VzVuRzFwajVKU0FB?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-05T10:15:46.000Z",
-   "source": "The Edge Malaysia",
-   "feedId": "gnews-edge",
-   "topic": "business",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "a85dd94d69b3f76c",
    "title": "Malaysia’s strong fundamentals support capital market opportunities — Treasury sec-gen",
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE16QlhieGZLWWhHT1dXQWMwazA0bEVPcjNFME9Vem9FWGdfYmdhY2plbTQ3RWxQN01rc2tJTmtZMlRKcUxVUDYxUzdKQ3NvUHhw?oc=5",
@@ -3088,6 +3062,19 @@
    "source": "The Edge Malaysia",
    "feedId": "gnews-edge",
    "topic": "business",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "dcb1ce08d78edef4",
+   "title": "Badminton: Plenty of positives for Soon Huat-Shevon after loss to China's world No. 1",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcUdFVkpnQXJjbUEtSlVXZEVFYXZLN0x2QW9ldUhqV2o5dS1BYW1Lc3BaVGJVY19MWDJDSkhZRkZjcklCZWdoSDI4LUhTdTdKa0VlQlJOUmFTSFZ2LUVJdGxBLUZENXplU3A5NTRsS1lEUDhkX3RTOWw2ZGdPZHR4RWVwY0JrRmRkY2RGV0pFOGQ0Y1RQbF84YmFmeGduZGVqcHd4NzY3a1o3MVI1M1BTRTh0aV9oNG9sNV83dFI0ZFo5LWlram1IUQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-05T10:07:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
+   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -3127,19 +3114,6 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "a2c5a7acebbb9ef3",
-   "title": "Gaza refugee says sister-in-law ‘would be alive’ if Home Office had let her come to UK",
-   "link": "https://www.theguardian.com/uk-news/2026/sep/05/gaza-refugee-visa-refusal-home-office",
-   "summary": "Anwar, who lives in Glasgow, says Home Office refused visa application despite Maryam having cancer A man living in the UK has said he believes his sister-in-law who died from cancer in Gaza would still be alive today if the Home Office had agreed to bring…",
-   "image": "https://i.guim.co.uk/img/media/9ac708749be218885612be0edce28f76ab14d983/223_0_6815_5452/master/6815.jpg?width=700&quality=85&auto=format&fit=max&s=14226e3ed8eb69eb56a7b1e4ae6f9ebb",
-   "published": "2026-09-05T10:00:33.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-world",
-   "topic": "world",
    "hasBody": true,
    "top": false
   },
@@ -3339,19 +3313,6 @@
    "top": false
   },
   {
-   "id": "5ab61f6b5d696434",
-   "title": "Designworks: Ombak KLCC: A structure with growth in mind",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE15Qmtvb0htS2ZGeGNRcWtwR0FxeGlUTlNyLXhpYjBvdHpkWkpSTVU4Mlp3QXVhbXpnc1J2QVU2eV9JaGxBRUJPeHNTemJldE4x?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-05T08:00:00.000Z",
-   "source": "The Edge Malaysia",
-   "feedId": "gnews-edge",
-   "topic": "business",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "812d8294731efc87",
    "title": "Melaka mulls increasing minimum wage to RM2,500",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdVdqZU1pYmVQMUdpaE1IYTd6ZG9OZFJEbWFxMXRpUW44eVk4aS1XUUlFWFpCQzRTTnVOZnJjTF85WkJJU3MweDZBUDdZeThlVTdCbjlRVHBrbzhRUmp2UHI2eFNqc3FIVkdmUVAyYWdrOFI4aTdnRjFYNWtpYlczTktRMG14S0NTTWQ3SGMyYW00MmRYekJsbFNhcHE?oc=5",
@@ -3469,6 +3430,19 @@
    "top": false
   },
   {
+   "id": "7b828313499c1426",
+   "title": "Serian haze emergency: Workplaces may continue operations with health precautions — Uggah",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBXVmQ5WVZvWEhXZm0xQ3FuWEQyQ01jZ0x3ZHUwWVZtWmxSQTRhVmJqSEd4UmZUb2YxSkpZZmhGS3U5cVNLMHUyS2xOWE55QUcw?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-05T05:35:39.000Z",
+   "source": "The Edge Malaysia",
+   "feedId": "gnews-edge",
+   "topic": "business",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "1d3700e4531d816f",
    "title": "Midnight fire destroys five businesses in George Town, historic Chew Jetty unharmed",
    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZ0V3UVY0NVJDZWdaWElfLW9WVzdsREJYdXQ4R3FGOGZhcklJeVRxOUJkcDE0M3Y1V3lXZE1FS0ljTEM3MGhUNmRFS3RRcFk5a1F0RmNIVG9Ra3dDaURKUnVKSFFXQjRzdHp3OURhSkVoeTRwdE5jaXhSazRMdWttWk9KalVDWXNzMUZMaWVfQmYtXzVEYzV6VFl0eHNGUjhOQWZPMW84WlJNb1VYTE92VlJ5M1RDVi1pTUFZMktBMTQ1TnAwMTRIMTJiVXc?oc=5",
@@ -3521,6 +3495,19 @@
    "top": false
   },
   {
+   "id": "13eb09d38fc187f6",
+   "title": "Court of Appeal allows Najib and son to pause RM1.69 bil bankruptcy proceedings",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9VXzhLTTBPQkZRQnNfT1p6ZUtNTTRfdVNEWUdEWURocHNFYVZZbHJDdnBpaVVIRVd2c2Ztekk4X28yQXlkblN3dmdSOUVlTmNn?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-05T04:28:50.000Z",
+   "source": "The Edge Malaysia",
+   "feedId": "gnews-edge",
+   "topic": "business",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "7aeb23cb34d5e6e7",
    "title": "Is Russia proving better at protecting friends than fighting enemies in West Africa?",
    "link": "https://www.bbc.co.uk/news/articles/cx2z75keq58o?at_medium=RSS&at_campaign=rss",
@@ -3543,6 +3530,19 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "bef1764c94c319f2",
+   "title": "My Say: The hidden question behind private healthcare expansion",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9OS3VEakcwdmVMMnd4aW81blpCTEdkdDBLeUVEdElrQ2htdDVzbXVXdXp1RXdhcFlkOE1WS0VZVDl5T3BZY1VOZkE1ZGVjdk9r?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-05T03:30:00.000Z",
+   "source": "The Edge Malaysia",
+   "feedId": "gnews-edge",
+   "topic": "business",
    "hasBody": false,
    "top": false
   },
@@ -3599,19 +3599,6 @@
    "top": false
   },
   {
-   "id": "17ced0dbca0f277a",
-   "title": "When your gut influences your feelings",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRW93R2FBV0lETVQ2ZklobGM2TVMwZGdTWlZwUlpybXc2RWo2cmNwWW92V00xazNOeVdEbkw0OE9sQ29neFA2UF9MSXJEZGkxazJHWjE1bmRxakt5bzZJeFBoVTczREJqVmliMTZSODE2NGRIR0xscW1UN1FJb3cxeHlfRDB0NjliT2ViZW0wQmUtbF9yUWZhNA?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-05T02:00:00.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "4171810777cf23c7",
    "title": "Why are European countries moving their gold out of North America?",
    "link": "https://www.bbc.co.uk/news/articles/cvgyn8q8gqxo?at_medium=RSS&at_campaign=rss",
@@ -3621,19 +3608,6 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "651ca59baf5009dd",
-   "title": "Death toll from Tibet mudslide rises to 31: Chinese state media",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdkRBODZhWFhhMHhTdy03cTVqYlZuSnNnaktneTEyS2RpUU5iOEZlZ2ktbkpCSC16Q1NVVWNJN1RrVWg0UndNd0NHQlVGeFk3amVYMXRxNnI2NVN2SEJLRDhrRW1jQjktZUthSUhfVVNGb0IwSHJ1UUdOR2N5VFhjRXVpdDZzQ1NLSkxYajA5UXhOcTlxcjZHNTFjM0lYMnVwSGg0b0RBeXdrY3RCZFVkRDFiWlRWVk95d0NkOUxNV1Y3QnM?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-05T01:39:00.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -3725,6 +3699,32 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "106dc01cb35541ed",
+   "title": "Double cover: Balancing TOD growth with housing for all + Tech stocks face high bar as AI boom lifts expectations",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBXXzY0SEV6NlBqR3hZXzBySnVVYVlZc3dJNW1FNkNRT3JxN1dxTkx2ZkVmVklBU2M2QTUtY0Fqcll5RWV4dGozV3duUGRiYWhC?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-05T00:38:44.000Z",
+   "source": "The Edge Malaysia",
+   "feedId": "gnews-edge",
+   "topic": "business",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "7f69fcae9fc51aad",
+   "title": "Dr Charles Chow",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVV3VKT0EtakQ3YnhVVDFGUXJHYlVfdl92RDJpU3JTREQweDlQQlFlQm1BNW9tSWRURzNUcXN2U3Q1QVNuVGQtbHpGeGdBSzVPdGdveUswblFTbDRBS1Z0SXllZFdWb3dpcG9sV0Fn?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-05T00:37:40.000Z",
+   "source": "The Edge Malaysia",
+   "feedId": "gnews-edge",
+   "topic": "business",
    "hasBody": false,
    "top": false
   },
@@ -4194,19 +4194,6 @@
    "feedId": "tc-ai",
    "topic": "tech",
    "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "680032f35d444f31",
-   "title": "Russia hits Ukrainian security headquarters in drone attack, Zelensky says",
-   "link": "https://www.bbc.co.uk/news/articles/c5yep7y48x2o?at_medium=RSS&at_campaign=rss",
-   "summary": "The unmanned aerial vehicle struck without warning in the heart of the Ukrainian capital.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1829/live/70faa890-a888-11f1-b109-879e35c24276.jpg",
-   "published": "2026-09-04T16:02:32.000Z",
-   "source": "BBC News",
-   "feedId": "bbc-world",
-   "topic": "world",
-   "hasBody": false,
    "top": false
   },
   {
@@ -5945,19 +5932,6 @@
    "summary": "The non-Muslim electorate's assessment of PAS isn't predicated on manifesto promises or superficial reforms, but from state-level policy outcomes and the rhetorical consistency of the party's elite.",
    "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2025/09/59718fda-hadi-awang-muktamar-pas-160925-4.webp",
    "published": "2026-09-01T01:00:00.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt-opinion",
-   "topic": "opinion",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "80da8f6999ea9811",
-   "title": "Elite highway nightmare shows need for forward planning",
-   "link": "https://www.freemalaysiatoday.com/category/opinion/2026/09/01/elite-highway-nightmare-shows-need-for-forward-planning",
-   "summary": "The question now is whether we are prepared to redesign the network around the realities of today and the demands of tomorrow.",
-   "image": "https://media.freemalaysiatoday.com/v3/2026/08/d95366ba-71e3-4946-956b-3744909d460a-lebuhraya-traffic-bernama-resize-310826.jpg",
-   "published": "2026-09-01T00:00:00.000Z",
    "source": "Free Malaysia Today",
    "feedId": "fmt-opinion",
    "topic": "opinion",
