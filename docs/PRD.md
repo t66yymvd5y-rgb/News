@@ -37,6 +37,8 @@ magazine-style reader over feeds we choose.
 - Save for later, stored in browser localStorage. No accounts, no server.
 - Search across fetched headlines; filter by source and by topic.
 - Light/dark theme following the system setting, with a manual override.
+- Manual refresh of the story file, plus an automatic one when an installed
+  copy is brought back from suspension with data older than ten minutes.
 
 ### Out of scope (v1)
 - User accounts, sync across devices, comments, sharing back to a server.

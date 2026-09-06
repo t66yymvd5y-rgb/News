@@ -15,6 +15,12 @@ const BODIES_URL = 'data/bodies.json';
 const STORE_SAVED = 'kertas.saved.v1';
 const STORE_THEME = 'kertas.theme.v1';
 
+/* How old the loaded story file may be before a return to the app re-reads it.
+   The feed job publishes a few times a day; ten minutes is short enough that a
+   suspended copy never comes back visibly stale and long enough that flicking
+   between apps does not put the network to work on every switch. */
+const STALE_MS = 10 * 60 * 1000;
+
 /* ---------------------------------------------------- layout templates ---
 
    Each template is a list of grid areas over a 12-column / 8-row page, given
@@ -66,6 +72,8 @@ const state = {
   pages: [],
   index: 0,
   busy: false,
+  fetchedAt: 0,
+  refreshing: false,
   saved: loadSaved(),
   bp: breakpoint()
 };
@@ -81,6 +89,7 @@ const dom = {
   searchTally: el('search-tally'),
   filterTopic: el('filter-topic'), filterSource: el('filter-source'),
   savedCount: el('saved-count'), btnSaved: el('btn-saved'),
+  btnRefresh: el('btn-refresh'),
   tpl: el('tpl-tile'),
   reader: el('reader'), readerSheet: document.querySelector('.reader__sheet'),
   readerArt: el('reader-art'), readerImage: el('reader-image'),
@@ -193,6 +202,8 @@ function tintFor(id) {
 
 function articlesForView() {
   if (state.view === 'saved') return state.saved;
+  // The story file can be missing at boot and arrive later, by refresh.
+  if (!state.data) return [];
   const all = state.data.articles;
   return state.topic === 'top'
     ? all.filter((a) => a.top)
@@ -513,7 +524,26 @@ function markCurrentSection() {
   });
 }
 
+let flashTimer = null;
+
+/**
+ * A transient line in the notice bar: what a refresh found, and nothing more.
+ * The standing notice — sample data, failed feeds — comes back when it lapses.
+ */
+function flashNotice(html, ms = 4500) {
+  clearTimeout(flashTimer);
+  dom.notice.innerHTML = html;
+  dom.notice.hidden = false;
+  flashTimer = setTimeout(() => {
+    flashTimer = null;
+    if (state.data) renderNotice();
+    else dom.notice.hidden = true;
+  }, ms);
+}
+
 function renderNotice() {
+  clearTimeout(flashTimer);
+  flashTimer = null;
   const bits = [];
   if (state.data.sample) {
     bits.push(
@@ -540,6 +570,95 @@ function renderColophon() {
   const n = state.data.articles.length;
   const s = state.data.sources.length;
   dom.colophon.textContent = `Kertas · ${n} stories from ${s} sources · last refreshed ${stamp} (MYT)`;
+}
+
+/** Rebuilt on every load: sections and sources change between refreshes. */
+function renderFilters() {
+  const topic = dom.filterTopic.value;
+  const source = dom.filterSource.value;
+
+  dom.filterTopic.replaceChildren(new Option('All sections', ''));
+  for (const t of state.data.topics) {
+    if (t.id === 'top') continue;
+    dom.filterTopic.appendChild(new Option(t.label, t.id));
+  }
+
+  dom.filterSource.replaceChildren(new Option('All sources', ''));
+  for (const s of state.data.sources) dom.filterSource.appendChild(new Option(s, s));
+
+  // A filter the new file no longer offers falls back to no filter rather than
+  // to a select showing nothing at all.
+  dom.filterTopic.value = topic;
+  if (!dom.filterTopic.value) dom.filterTopic.value = '';
+  dom.filterSource.value = source;
+  if (!dom.filterSource.value) dom.filterSource.value = '';
+}
+
+/* -------------------------------------------------------------- refresh --- */
+
+async function fetchData() {
+  // no-store rather than no-cache: a web app the OS suspended for hours must
+  // go to the network, not revalidate against the copy it was holding.
+  const res = await fetch(DATA_URL, { cache: 'no-store' });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return res.json();
+}
+
+function applyData(data, { keepIndex = false } = {}) {
+  state.data = data;
+  state.fetchedAt = Date.now();
+
+  // A section can go away between refreshes; that reader lands back on Top.
+  if (!data.topics.some((t) => t.id === state.topic)) state.topic = 'top';
+
+  renderSections();
+  renderNotice();
+  renderColophon();
+  renderFilters();
+  build({ keepIndex });
+  if (!dom.panel.hidden) runSearch();
+}
+
+/**
+ * Re-read the story file in place, without reloading the page.
+ *
+ * Installed to a home screen, Kertas is suspended rather than closed: the same
+ * document is handed back hours later, still showing whatever was current when
+ * it was last opened. The masthead button makes that recoverable by hand, and
+ * the hooks in wireEvents do it unprompted when a suspended copy comes back
+ * with a story file this old.
+ */
+async function refresh({ manual = false } = {}) {
+  if (state.refreshing) return;
+  state.refreshing = true;
+  dom.btnRefresh.classList.add('is-busy');
+  dom.btnRefresh.disabled = true;
+
+  try {
+    const data = await fetchData();
+    const fresh = !state.data || data.generatedAt !== state.data.generatedAt;
+    if (fresh) {
+      // Bodies belong to the story file they shipped with.
+      bodiesPromise = null;
+      // A manual tap is a reader asking for the new front page; an automatic
+      // one happens under them, so it holds their place in the deck.
+      applyData(data, { keepIndex: !manual });
+    }
+    if (manual) {
+      flashNotice(fresh
+        ? '<strong>Updated.</strong> Showing the latest refresh.'
+        : '<strong>Already up to date.</strong> No newer refresh has been published yet.');
+    }
+  } catch (err) {
+    console.error('Kertas: refresh failed', err);
+    if (manual) {
+      flashNotice('<strong>Could not reach the story file.</strong> Check the connection and try again.', 6000);
+    }
+  } finally {
+    state.refreshing = false;
+    dom.btnRefresh.classList.remove('is-busy');
+    dom.btnRefresh.disabled = false;
+  }
 }
 
 /* ---------------------------------------------------------------- build --- */
@@ -914,6 +1033,8 @@ function wireEvents() {
       e.preventDefault(); goTo(state.pages.length - 1);
     } else if (e.key === '/') {
       e.preventDefault(); openSearch();
+    } else if (e.key === 'r' || e.key === 'R') {
+      e.preventDefault(); refresh({ manual: true });
     }
   });
 
@@ -960,6 +1081,20 @@ function wireEvents() {
     build();
   });
 
+  dom.btnRefresh.addEventListener('click', () => refresh({ manual: true }));
+
+  // Coming back to a suspended copy must not leave yesterday's front page on
+  // screen. pageshow covers a restore from the back/forward cache, where no
+  // visibility change is fired; online covers a return from a dead connection.
+  const refreshIfStale = () => {
+    if (document.visibilityState !== 'visible') return;
+    if (Date.now() - state.fetchedAt < STALE_MS) return;
+    refresh();
+  };
+  document.addEventListener('visibilitychange', refreshIfStale);
+  window.addEventListener('pageshow', refreshIfStale);
+  window.addEventListener('online', refreshIfStale);
+
   el('btn-theme').addEventListener('click', () => {
     const next = effectiveTheme() === 'dark' ? 'light' : 'dark';
     try { localStorage.setItem(STORE_THEME, next); } catch { /* ignore */ }
@@ -988,35 +1123,21 @@ async function boot() {
   applyTheme(storedTheme());
   persistSaved();
 
+  // Wired before the fetch, so the refresh button is live even if the first
+  // load fails: a reader who was offline can tap it once they are back.
+  wireEvents();
+
   try {
-    const res = await fetch(DATA_URL, { cache: 'no-cache' });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    state.data = await res.json();
+    applyData(await fetchData());
   } catch (err) {
     dom.notice.innerHTML =
       '<strong>Could not load the story file.</strong> ' +
-      'If you are opening index.html directly from disk, serve the folder over HTTP instead — ' +
-      'browsers block file:// fetches.';
+      'Tap the refresh arrow to try again. If you are opening index.html directly from disk, ' +
+      'serve the folder over HTTP instead — browsers block file:// fetches.';
     dom.notice.hidden = false;
     dom.pagerCount.textContent = '';
     console.error('Kertas: failed to load', DATA_URL, err);
-    return;
   }
-
-  renderSections();
-  renderNotice();
-  renderColophon();
-
-  for (const t of state.data.topics) {
-    if (t.id === 'top') continue;
-    dom.filterTopic.appendChild(new Option(t.label, t.id));
-  }
-  for (const s of state.data.sources) {
-    dom.filterSource.appendChild(new Option(s, s));
-  }
-
-  wireEvents();
-  build();
 }
 
 boot();

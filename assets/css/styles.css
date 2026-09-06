@@ -169,6 +169,15 @@ button { font: inherit; color: inherit; }
 }
 .iconbtn.is-on { color: var(--accent); }
 
+/* The arrow turns while the story file is being re-read, so a tap on a slow
+   connection reads as work in progress rather than a button that did nothing. */
+#btn-refresh.is-busy svg { animation: kertas-spin 900ms linear infinite; }
+#btn-refresh:disabled { cursor: default; }
+@keyframes kertas-spin { to { transform: rotate(1turn); } }
+@media (prefers-reduced-motion: reduce) {
+  #btn-refresh.is-busy svg { animation: none; opacity: 0.5; }
+}
+
 /* The icon shows the theme in force, so it must track the system setting in
    the unstamped case as well as an explicit choice. */
 #btn-theme .icon-moon { display: none; }

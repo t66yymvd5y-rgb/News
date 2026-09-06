@@ -123,9 +123,15 @@ node scripts/fetch-feeds.mjs    # Node 22+, no dependencies to install
 | --- | --- | --- |
 | Next / previous page | `↓` `↑`, space, scroll, or the pager | Swipe up / down |
 | First / last page | `Home` / `End` | — |
+| Refresh the stories | `R` or the refresh icon | Refresh icon |
 | Search | `/` or the search icon | Search icon |
 | Save a story | Bookmark icon on any tile | Bookmark icon |
 | Light / dark | Theme icon (follows the system by default) | Theme icon |
+
+Kertas re-reads the story file whenever it is brought back after ten minutes
+away, so an installed copy on a home screen — which the phone suspends rather
+than closes — does not come back showing the stories from hours ago. The refresh
+icon does the same on demand and says what it found.
 
 Saved stories are kept in the browser's own storage as a snapshot of the
 headline, so they survive the feed rotating them out. Nothing is sent anywhere;
