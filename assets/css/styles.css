@@ -103,8 +103,14 @@ body {
   font-family: var(--sans);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  display: grid;
-  grid-template-rows: auto auto 1fr auto auto;
+  /* A column, not a five-row grid. Positional rows silently mis-assign
+     themselves the moment an optional child is absent: .notice carries the
+     failed-feed banner and is [hidden] whenever every feed came back, which
+     dropped it out of the grid and slid the deck onto the row meant for the
+     pager — the deck collapsed to its padding and the stories vanished. In a
+     column only the deck grows, so a hidden child changes nothing. */
+  display: flex;
+  flex-direction: column;
   height: 100dvh;
 }
 
@@ -253,6 +259,10 @@ button { font: inherit; color: inherit; }
 
 .deck {
   position: relative;
+  /* The one child that takes the leftover height. min-height keeps it able to
+     shrink below its content, so the stage clips rather than pushing the pager
+     and colophon off the bottom. */
+  flex: 1 1 auto;
   min-height: 0;
   padding: var(--gap) clamp(12px, 2.4vw, 34px);
 }
@@ -618,6 +628,11 @@ button { font: inherit; color: inherit; }
   backdrop-filter: blur(3px);
 }
 
+/* While a pull-to-close drag is live the sheet's offset and the scrim's opacity
+   are written frame by frame from the touch handler, so the entrance animation
+   must not fight it for the transform. */
+.reader.is-pulling .reader__sheet { animation: none; }
+
 .reader__sheet {
   position: relative;
   justify-self: center;
@@ -726,9 +741,27 @@ button { font: inherit; color: inherit; }
   :root:not([data-theme="light"]) .btn--primary { color: #1a0a0e; }
 }
 
+/* A second way out, at the end of the story, so a long read does not have to be
+   scrolled back to the top to be closed. */
+.reader__dismiss {
+  display: flex; width: 100%;
+  justify-content: center;
+  margin-top: clamp(18px, 2.4vw, 26px);
+  padding-block: 13px;
+  color: var(--ink-2);
+}
+.reader__dismiss svg {
+  width: 15px; height: 15px;
+  fill: none; stroke: currentColor; stroke-width: 1.8;
+  stroke-linecap: round; stroke-linejoin: round;
+}
+
 @media (max-width: 640px) {
   .reader__sheet { width: 100%; max-height: 100dvh; border-radius: 0; }
   .reader__art { aspect-ratio: 4 / 3; }
+  /* Room for the drag: the sheet can be pulled down from here without the
+     button ending up under a phone's home indicator. */
+  .reader__dismiss { padding-block: 15px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
