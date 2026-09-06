@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-06T17:08:51.068Z",
+ "generatedAt": "2026-09-06T19:17:44.571Z",
  "site": {
   "name": "Kertas",
   "tagline": "Malaysia first. The world next.",
@@ -66,13 +66,611 @@
   "malaysia": 135,
   "world": 95,
   "business": 33,
-  "tech": 119,
-  "sport": 23,
+  "tech": 118,
+  "sport": 25,
   "opinion": 44
  },
  "failedFeeds": [],
  "withBody": 216,
  "articles": [
+  {
+   "id": "18338701293de137",
+   "title": "German far-right set for big win in eastern state, projections show",
+   "link": "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o?at_medium=RSS&at_campaign=rss",
+   "summary": "Germany's AfD has hailed a \"historic result\" and is projected to win more than 44% of the vote, far ahead of the conservative CDU on 18.4%.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41a1/live/92680d00-aa0f-11f1-aed2-8d6da8d75094.jpg",
+   "published": "2026-09-06T19:13:51.000Z",
+   "source": "BBC News",
+   "feedId": "bbc-world",
+   "topic": "world",
+   "hasBody": false,
+   "top": true
+  },
+  {
+   "id": "38b7bcad20e6f535",
+   "title": "Kimi is in control of title race and deserves to be, says Russell",
+   "link": "https://www.channelnewsasia.com/sport/kimi-in-control-title-race-and-deserves-be-says-russell-6365906",
+   "summary": "",
+   "image": "https://dam.mediacorp.sg/image/upload/s--jlruCisk--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-09-06T191211Z_1_LYNXMPEM850K1_RTROPTP_3_MOTOR-F1-ITALY.JPG?itok=mt23_84Y",
+   "published": "2026-09-06T19:12:11.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna",
+   "topic": "world",
+   "hasBody": false,
+   "top": true
+  },
+  {
+   "id": "5f08776c514cb059",
+   "title": "After transfer worries, Everton have an unlikely new hero",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cd79g72r7q7o?at_medium=RSS&at_campaign=rss",
+   "summary": "Not even Ainsley Maitland-Niles could have imagined his Premier League return for Everton would have played out like it did.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/189b/live/90c7da70-aa23-11f1-8046-e7e0d3946c1a.jpg",
+   "published": "2026-09-06T19:09:59.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": true
+  },
+  {
+   "id": "4a826f0794cf8ae4",
+   "title": "Israel's Netanyahu orders West Bank settler outposts to be removed, sources say",
+   "link": "https://www.channelnewsasia.com/world/israels-netanyahu-orders-west-bank-settler-outposts-be-removed-sources-say-6365756",
+   "summary": "",
+   "image": "https://dam.mediacorp.sg/image/upload/s--5p-L3BjS--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-09-01T140734Z_2_LYNXMPEM803BG_RTROPTP_3_ISRAEL-PALESTINIANS-HEBRON-SETTLERS.JPG?itok=Zdn8aaVo",
+   "published": "2026-09-06T19:08:04.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna",
+   "topic": "world",
+   "hasBody": false,
+   "top": true
+  },
+  {
+   "id": "40ec3d4a7a30a9fe",
+   "title": "Europe has its first commercial orbital rocket",
+   "link": "https://www.theverge.com/science/990906/isar-aerospace-europe-orbital-rocket-launch",
+   "summary": "German company Isar Aerospace has successfully launched Europe's first entirely commercial orbital rocket. It attempted to achieve the feat last March, but that lasted all of 30 seconds before the vehicle crashed into the sea and exploded. This time the…",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/c-Isar-Aerospace-Flight-2_2026-09-05-224332_ylbv.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-09-06T19:04:22.000Z",
+   "source": "The Verge",
+   "feedId": "theverge",
+   "topic": "tech",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "7dd0062721face85",
+   "title": "Woman laid to rest in coffin made from mushrooms in Australian first",
+   "link": "https://www.theguardian.com/australia-news/2026/sep/07/australian-woman-buried-in-mushroom-coffin-blue-mountains",
+   "summary": "The casket, grown from mycelium and hemp fibres, takes just 45 days to break down, enriching the soil in the process Get our breaking news email, free app or daily news podcast A woman has been buried in a coffin made from mushrooms in New South Wales in an…",
+   "image": "https://i.guim.co.uk/img/media/decca5c97cd9355e54501230b725d5eb392a637a/502_30_5505_4404/master/5505.jpg?width=700&quality=85&auto=format&fit=max&s=0cbdce84135016190927f734c9903437",
+   "published": "2026-09-06T19:00:12.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-world",
+   "topic": "world",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "06110f13ce39f5bd",
+   "title": "Indonesia volcano eruption disrupts hundreds of flights",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/6/indonesia-volcano-eruption-disrupts-hundreds-of-flights?traffic_source=rss",
+   "summary": "Two new eruptions were recorded as Indonesia’s Anak Krakatau continued to spew volcanic ash.",
+   "image": "",
+   "published": "2026-09-06T18:58:35.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "a96bc39e3e1ed74d",
+   "title": "Last-gasp Maitland-Niles stunner rescues point for Everton",
+   "link": "https://www.bbc.co.uk/sport/football/videos/cq63715m0reo?at_medium=RSS&at_campaign=rss",
+   "summary": "Ainsley Maitland-Niles marked his return to English football by scoring a stunning stoppage-time equaliser as a resilient Everton came from behind twice to draw with Manchester United in the Premier League.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9e8e/live/293cb9c0-aa05-11f1-a291-b542ee92de7c.jpg",
+   "published": "2026-09-06T18:58:33.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": true
+  },
+  {
+   "id": "95ecbd8900f0ac02",
+   "title": "Champions Arsenal come from behind to beat Chelsea",
+   "link": "https://www.bbc.co.uk/sport/football/videos/c4gm2y4ll5vo?at_medium=RSS&at_campaign=rss",
+   "summary": "Reigning champions Arsenal came from behind to beat big-spending Chelsea in a pulsating London derby at Emirates Stadium.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce40/live/0bbdd2d0-aa19-11f1-b109-879e35c24276.jpg",
+   "published": "2026-09-06T18:58:27.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": true
+  },
+  {
+   "id": "3a435192b2c8ff51",
+   "title": "Adidas faces boycott calls over campaign featuring former Israeli soldier",
+   "link": "https://www.aljazeera.com/sports/2026/9/6/adidas-faces-boycott-calls-over-campaign-featuring-former-israeli-soldier?traffic_source=rss",
+   "summary": "Activists slam campaign showing soldier while over 5,000 Palestinians faced amputations due to Israeli attacks in Gaza.",
+   "image": "",
+   "published": "2026-09-06T18:56:25.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "bb699086154349b9",
+   "title": "Liverpool beat newly-promoted Charlton 4-0",
+   "link": "https://www.bbc.co.uk/sport/football/videos/ckgvx2y657go?at_medium=RSS&at_campaign=rss",
+   "summary": "Grace Fisk scores twice as Liverpool beat newly promoted Charlton in the Women's Super League at The Valley.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aafc/live/af124660-aa1d-11f1-aed2-8d6da8d75094.jpg",
+   "published": "2026-09-06T18:53:52.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": true
+  },
+  {
+   "id": "9c1a48c1eb9948ca",
+   "title": "Nepali rescuers buoyed by miracle finds but tough conditions persist",
+   "link": "https://www.channelnewsasia.com/asia/nepali-rescuers-buoyed-miracle-finds-tough-conditions-persist-6365891",
+   "summary": "",
+   "image": "https://dam.mediacorp.sg/image/upload/s--NNg12TbF--/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/Nepal_Floods_39_35.jpg?itok=5VMjJDYf",
+   "published": "2026-09-06T18:50:50.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna",
+   "topic": "world",
+   "hasBody": false,
+   "top": true
+  },
+  {
+   "id": "d20772c23e66093c",
+   "title": "Arsenal reacted in an amazing way - Arteta",
+   "link": "https://www.bbc.co.uk/sport/football/videos/cge4nv8j0w4o?at_medium=RSS&at_campaign=rss",
+   "summary": "Arsenal manager Mikel Arteta is thrilled with his side's comeback victory against Chelsea at the Emirates.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8559/live/c2e965e0-aa1f-11f1-aed2-8d6da8d75094.jpg",
+   "published": "2026-09-06T18:49:00.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": true
+  },
+  {
+   "id": "321421d275f446c3",
+   "title": "US envoys Kushner and Witkoff visit Kyiv for first time after Putin talks",
+   "link": "https://www.theguardian.com/world/2026/sep/06/us-envoys-jared-kushner-steve-witkoff-arrive-kyiv-talks-on-ending-war",
+   "summary": "Witkoff says he hopes trilateral talks involving the US, Ukraine and Europe will be announced ‘in short order’ The US negotiators Jared Kushner and Steve Witkoff travelled to Ukraine for the first time on Sunday for talks with Volodymyr Zelenskyy in an…",
+   "image": "https://i.guim.co.uk/img/media/894e23975128a19a89301a4a3b5ecf0390ebfe14/533_0_3692_2955/master/3692.jpg?width=700&quality=85&auto=format&fit=max&s=2fb6fc3fe854803920f661fc3b9d9fb5",
+   "published": "2026-09-06T18:47:59.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-world",
+   "topic": "world",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "2c28946f20753628",
+   "title": "Shaw double leads Man City to victory over Birmingham",
+   "link": "https://www.bbc.co.uk/sport/football/videos/c9v9e0e1pvro?at_medium=RSS&at_campaign=rss",
+   "summary": "Manchester City's defence of their Women's Super League title gets off to the perfect start with victory over newly promoted Birmingham City.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1068/live/523f2b30-aa16-11f1-aed2-8d6da8d75094.jpg",
+   "published": "2026-09-06T18:47:15.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": true
+  },
+  {
+   "id": "ca94d8d43b9a5d04",
+   "title": "Trump administration appeals again to US Supreme Court over mail-in voting",
+   "link": "https://www.aljazeera.com/news/2026/9/6/trump-administration-appeals-again-to-us-supreme-court-over-mail-in-voting?traffic_source=rss",
+   "summary": "How the nation's highest court rules could have major implications in this year’s midterm elections.",
+   "image": "",
+   "published": "2026-09-06T18:47:03.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "59540bc0367de364",
+   "title": "Hamilton wants written rules of engagement at Ferrari after Leclerc clash",
+   "link": "https://www.channelnewsasia.com/sport/hamilton-wants-written-rules-engagement-ferrari-after-leclerc-clash-6365901",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-06T18:40:53.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "29ca7da9632b40cf",
+   "title": "Why is Argentina reviving the Falklands dispute?",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/6/why-is-argentina-reviving-the-falklands-dispute?traffic_source=rss",
+   "summary": "More than 44 years after Britain and Argentina went to war over the Falkland Islands, Argentina is reasserting its claim",
+   "image": "",
+   "published": "2026-09-06T18:36:40.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "4c4780c5ecfeb3b0",
+   "title": "Chelsea defeat by Arsenal hurts - Alonso",
+   "link": "https://www.bbc.co.uk/sport/football/videos/c4gj7y52393o?at_medium=RSS&at_campaign=rss",
+   "summary": "Chelsea manager Xabi Alonso reacts to their 2-1 defeat by rivals Arsenal in a thrilling London derby at the Emirates Stadium.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/001f/live/a9d02f90-aa1e-11f1-b109-879e35c24276.jpg",
+   "published": "2026-09-06T18:35:26.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": true
+  },
+  {
+   "id": "616e5c07cde6052a",
+   "title": "New contenders emerge on WSL return - but Man City start strong",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cj9x3wlg11po?at_medium=RSS&at_campaign=rss",
+   "summary": "The Women’s Super League returned this weekend and with it a host of new signings, improved squads and unexpected results.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce0e/live/69e4fd90-aa26-11f1-a291-b542ee92de7c.jpg",
+   "published": "2026-09-06T18:34:54.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": true
+  },
+  {
+   "id": "3088b657ef357d66",
+   "title": "Zelensky says he expects war to continue into winter after talks with US envoys",
+   "link": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss",
+   "summary": "Talks finished without an announcement of a major breakthrough, after Steve Witkoff and Jared Kushner travelled to Kyiv.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7828/live/f5ab4970-a9ee-11f1-921b-6365210e1c9d.jpg",
+   "published": "2026-09-06T18:33:50.000Z",
+   "source": "BBC News",
+   "feedId": "bbc-world",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "ed9b50456110b23d",
+   "title": "Witkoff says peace talks have been ‘very meaningful’ in Ukraine",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/6/witkoff-says-peace-talks-have-been-very-meaningful-in-ukraine?traffic_source=rss",
+   "summary": "Witkoff says peace talks have been ‘very meaningful’ in Ukraine",
+   "image": "",
+   "published": "2026-09-06T18:28:27.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "2265efab428f7eb4",
+   "title": "Sabalenka overcomes tricky Townsend test at US Open",
+   "link": "https://www.bbc.co.uk/sport/tennis/articles/c780729e703o?at_medium=RSS&at_campaign=rss",
+   "summary": "Two-time defending champion Aryna Sabalenka emulates Serena Williams by overcoming Taylor Townsend to reach a sixth straight US Open quarter-final.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/798d/live/d016d700-aa1c-11f1-8046-e7e0d3946c1a.jpg",
+   "published": "2026-09-06T18:26:00.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "f345854cdc31d6b3",
+   "title": "Far too late for title fight priority - Hamilton",
+   "link": "https://www.bbc.co.uk/sport/formula1/articles/c5y4k1v7gryo?at_medium=RSS&at_campaign=rss",
+   "summary": "Lewis Hamilton says it is \"far too late\" for Ferrari to give him priority over team-mate Charles Leclerc in the championship fight.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f67c/live/588bb050-aa19-11f1-bbe8-51444f709166.jpg",
+   "published": "2026-09-06T18:22:00.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "ec6fc70d3f4ac4cc",
+   "title": "Antonelli extraordinary as Gasly has superb weekend - driver ratings",
+   "link": "https://www.bbc.co.uk/sport/formula1/articles/c8xkgx74xyxo?at_medium=RSS&at_campaign=rss",
+   "summary": "BBC Radio 5 Live F1 commentator Harry Benjamin rates how the drivers performed during the Italian Grand Prix.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3e5e/live/8220c2a0-aa1b-11f1-b109-879e35c24276.png",
+   "published": "2026-09-06T18:18:12.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "ca41481ac16dc574",
+   "title": "Thailand Deputy PM Sihasak Arrives In Malaysia For Working Visit",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JN0VRV0FwRldjUHpOY1c2aXMybVFZQUxEejFwNEhNUzFZRGxSQVRwdnVBdjFTaGtjVlB6a2xIcGZ3MGQ1RUYyV1pCZW0yOC1BclVUSzFEdWhNbmhIWGFtNC02ZnA?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-06T18:17:27.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "b04d59b64d747847",
+   "title": "Far-right AfD wins key German state election but may fail to secure majority",
+   "link": "https://www.theguardian.com/world/2026/sep/06/saxony-anhalt-germany-afd-exit-poll-ulrich-siegmund",
+   "summary": "Exit poll shows Alternative für Deutschland on 44.4% of vote in Saxony-Anhalt after huge turnout, with votes still being counted The populist, far-right, anti-immigration Alternative für Deutschland (AfD) has emerged as the winner in a crucial state election…",
+   "image": "https://i.guim.co.uk/img/media/eabad25ad64cbcb78ce194592dff54c12e76611f/357_0_4806_3847/master/4806.jpg?width=700&quality=85&auto=format&fit=max&s=6f6b24d3f41ef5cb0907b39528a654c8",
+   "published": "2026-09-06T18:13:29.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-world",
+   "topic": "world",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "5ffe18d462fbb5f7",
+   "title": "Sabalenka through to US Open quarterfinals",
+   "link": "https://www.aljazeera.com/sports/2026/9/6/sabalenka-through-to-us-open-quarterfinals?traffic_source=rss",
+   "summary": "Tennis's two-time defending champion Aryna Sabalenka into last-eight at US Open after beating Taylor Townsend 6-4, 6-3.",
+   "image": "",
+   "published": "2026-09-06T18:12:06.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "e8902e31c539a545",
+   "title": "Algerian boy found dead after four days trapped in a well",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/6/algerian-boy-found-dead-after-four-days-trapped-in-a-well?traffic_source=rss",
+   "summary": "Rescuers in Algeria have recovered the body of 10-year-old Ayoub, who died after being trapped in a well.",
+   "image": "",
+   "published": "2026-09-06T18:10:49.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "95006bd660662136",
+   "title": "US envoys make first Kyiv visit amid Ukraine war peace push",
+   "link": "https://www.channelnewsasia.com/world/us-envoys-make-first-kyiv-visit-amid-ukraine-war-peace-push-6365591",
+   "summary": "",
+   "image": "https://dam.mediacorp.sg/image/upload/s--NK69SDak--/c_crop,h_1125,w_2000,x_0,y_208/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/09/07/000_c7h38t6.jpg?itok=7Pi59dFW",
+   "published": "2026-09-06T18:08:00.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "0f73e27d1f3b3296",
+   "title": "Mainz thrash Hamburg, Augsburg go top with win in Frankfurt",
+   "link": "https://www.channelnewsasia.com/sport/mainz-thrash-hamburg-augsburg-go-top-win-in-frankfurt-6365871",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-06T17:57:52.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "60f0612c9374f11f",
+   "title": "Like a walk on water: Wolff hails Antonelli's Monza miracle",
+   "link": "https://www.channelnewsasia.com/sport/walk-water-wolff-hails-antonellis-monza-miracle-6365876",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-06T17:56:51.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "d7b1863e780c6ea1",
+   "title": "Arsenal come from behind to beat Chelsea 2-1 and maintain perfect start",
+   "link": "https://www.aljazeera.com/sports/2026/9/6/arsenal-come-from-behind-to-beat-chelsea-2-1-and-maintain-perfect-start?traffic_source=rss",
+   "summary": "Gunners pass ⁠stiffest test so far in the defence of their Premier ⁠League title as they hit back after going behind.",
+   "image": "",
+   "published": "2026-09-06T17:56:13.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "4969489cd6e7bc98",
+   "title": "Photos: UN urges global aid after China, Nepal floods kill over 1,300",
+   "link": "https://www.aljazeera.com/gallery/2026/9/6/photos-nepal-flood-survivors-face-overwhelming-devastation?traffic_source=rss",
+   "summary": "UN launches $50m appeal to aid over 84,000 flood survivors in Nepal amid cholera threat and sanitation challenges.",
+   "image": "",
+   "published": "2026-09-06T17:50:17.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "9d16d8dd6f48db17",
+   "title": "Sabalenka fights past Townsend into US Open quarters",
+   "link": "https://www.channelnewsasia.com/sport/sabalenka-fights-past-townsend-us-open-quarters-6365866",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-06T17:48:26.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "fb71e606b70a136a",
+   "title": "F1 leader Kimi Antonelli wins Italian GP after epic charge from the back",
+   "link": "https://www.aljazeera.com/sports/2026/9/6/f1-leader-kimi-antonelli-wins-italian-gp-after-epic-charge-from-the-back?traffic_source=rss",
+   "summary": "Antonelli's sensational race from 19th to the win at Monza makes him the first Italian to claim the title in 60 years.",
+   "image": "",
+   "published": "2026-09-06T17:40:41.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "73094ce77d0b7fab",
+   "title": "Arsenal pass Chelsea test in style with comeback win",
+   "link": "https://www.channelnewsasia.com/sport/arsenal-pass-chelsea-test-in-style-comeback-win-6365861",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-06T17:39:14.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "73b1c2747f6a539e",
+   "title": "Energy secretary says US might not reach nuclear agreement with Iran",
+   "link": "https://www.theguardian.com/world/2026/sep/06/us-iran-nuclear-agreement-chris-wright",
+   "summary": "Chris Wright tells ABC there ‘may not’ be an agreement that would prevent Iran from having nuclear weapons US energy secretary Chris Wright said on Sunday morning that the US may not be able to reach a nuclear agreement with Iran that would prevent the…",
+   "image": "https://i.guim.co.uk/img/media/ccc6df5c5160ccabf5586177abf886151fbfd850/617_0_4583_3668/master/4583.jpg?width=700&quality=85&auto=format&fit=max&s=46f0ce2227ff31e10a5f717e687322ff",
+   "published": "2026-09-06T17:39:10.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-world",
+   "topic": "world",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "edef9e167ea5bb6b",
+   "title": "Odegaard and Saka star - player ratings for Arsenal v Chelsea",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c4gr71gygg8o?at_medium=RSS&at_campaign=rss",
+   "summary": "How Arsenal and Chelsea's players rated following their Premier League match.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/483b/live/7d606320-aa15-11f1-bbe8-51444f709166.jpg",
+   "published": "2026-09-06T17:31:56.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "d7961fa2304da043",
+   "title": "Man Utd cannot ignore more dropped points despite positives",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c17jr44d7kro?at_medium=RSS&at_campaign=rss",
+   "summary": "Manchester United boss Michael Carrick remains optimistic despite his side dropping another two points at Everton.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a736/live/b70d9ab0-aa25-11f1-aed2-8d6da8d75094.jpg",
+   "published": "2026-09-06T17:18:32.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "4aa8b47c4746c7b9",
+   "title": "Casey beaten on fourth play-off hole in Switzerland",
+   "link": "https://www.bbc.co.uk/sport/golf/articles/cgqd3x9lz34o?at_medium=RSS&at_campaign=rss",
+   "summary": "England's Paul Casey is beaten by South Africa's defending champion Thriston Lawrence on the fourth play-off hole at the European Masters in Switzerland.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/abc9/live/9e3296f0-aa05-11f1-afb5-a367f96884d3.jpg",
+   "published": "2026-09-06T17:11:51.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "f51cc8ed6df4e158",
+   "title": "Three killed, others trapped in India building collapse",
+   "link": "https://www.nst.com.my/world/world/2026/09/1527172/three-killed-others-trapped-india-building-collapse",
+   "summary": "NEW DELHI: A building collapse in the Indian capital New Delhi killed at least three people on Sunday, local media reports said, as authorities worked to rescue those trapped in the rubble.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/07DB33E7B01C7C099A8D0169A48891BA_data_0.jpg",
+   "published": "2026-09-06T17:10:00.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "9666aee2a3373bee",
+   "title": "Dunkley century helps England seal ODI series sweep over Ireland",
+   "link": "https://www.bbc.co.uk/sport/cricket/videos/cvgyp363rp9o?at_medium=RSS&at_campaign=rss",
+   "summary": "Sophia Dunkley's century helped secure England's comprehensive 114-run win in the third and final one-day international against Ireland at Worcester. The victory completes a 3-0 series sweep for the hosts, on a day that also saw Ireland's Arlene Kelly receive…",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f64/live/902baa30-aa12-11f1-a291-b542ee92de7c.jpg",
+   "published": "2026-09-06T17:09:50.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "9b693cf525f13870",
+   "title": "Jamaican delegates arrive in UK to hand slavery reparations petition to King Charles",
+   "link": "https://www.theguardian.com/news/2026/sep/06/jamaica-slavery-reparations-petition-king-charles",
+   "summary": "Slavery’s legacy continues ‘to deprive our country and our people’, says minister, as group prepares to appeal to Jamaica’s head of state A landmark petition is to be handed to King Charles by Jamaica over slavery reparations, aiming to confront historical…",
+   "image": "https://i.guim.co.uk/img/media/514934ca4b4e8c7dba4e71b2c01cec9431eddf58/0_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=b148674b12d3e870a29521f8d0df14af",
+   "published": "2026-09-06T17:05:11.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-world",
+   "topic": "world",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "272244a0164e376a",
+   "title": "Carrick hurt by stoppage-time blow in Man United draw at Everton",
+   "link": "https://www.channelnewsasia.com/sport/carrick-hurt-stoppage-time-blow-in-man-united-draw-everton-6365841",
+   "summary": "",
+   "image": "https://dam.mediacorp.sg/image/upload/s--vba_TWYt--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-09-06T170437Z_1_LYNXMPEM850GN_RTROPTP_3_SOCCER-ENGLAND-EVE-MUN.JPG?itok=1B9rh_6O",
+   "published": "2026-09-06T17:04:37.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "8aa32432e62ed95a",
+   "title": "Palestinian farmers battle settler sabotage to save Hebron crops, livestock",
+   "link": "https://www.aljazeera.com/features/2026/9/6/palestinian-farmers-battle-settler-sabotage-to-save-hebron-crops-livestock?traffic_source=rss",
+   "summary": "West Bank farmers defy daily settler attacks, sheep theft, and military restrictions to protect their land.",
+   "image": "",
+   "published": "2026-09-06T17:03:20.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
   {
    "id": "d62ca903b8d37966",
    "title": "Cape Verde in mourning after children killed in bus crash",
@@ -85,6 +683,19 @@
    "topic": "malaysia",
    "hasBody": true,
    "top": true
+  },
+  {
+   "id": "344ef6e49b38e048",
+   "title": "Iran warns of 'faster, heavier, more painful response' to US attacks",
+   "link": "https://www.bbc.co.uk/news/articles/cp8d56w7d9po?at_medium=RSS&at_campaign=rss",
+   "summary": "The comments came a day after Washington said it had struck Iranian oil tankers in response to Tehran's attacks on US warships in the region.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4169/live/c55f7eb0-aa0e-11f1-9220-c38a4a0d51b4.jpg",
+   "published": "2026-09-06T17:00:56.000Z",
+   "source": "BBC News",
+   "feedId": "bbc-world",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
   },
   {
    "id": "49eb1ab3e988cd4d",
@@ -100,14 +711,14 @@
    "top": false
   },
   {
-   "id": "18338701293de137",
-   "title": "German far-right set for big win in eastern state - projections",
-   "link": "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o?at_medium=RSS&at_campaign=rss",
-   "summary": "Germany's AfD has hailed a \"historic result\" and is projected to win 44.5% of the vote, far ahead of the conservative CDU on 18.5%.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41a1/live/92680d00-aa0f-11f1-aed2-8d6da8d75094.jpg",
-   "published": "2026-09-06T16:59:25.000Z",
-   "source": "BBC News",
-   "feedId": "bbc-world",
+   "id": "3c1b77e5aa46902e",
+   "title": "Trump official says ‘there may not be a nuclear agreement’ with Iran",
+   "link": "https://www.aljazeera.com/news/2026/9/6/trump-official-says-there-may-not-be-a-nuclear-agreement-with-iran?traffic_source=rss",
+   "summary": "US Energy Secretary Chris Wright's comments could signal that US hopes for a nuclear deal are dimming.",
+   "image": "",
+   "published": "2026-09-06T16:59:04.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
    "topic": "world",
    "hasBody": false,
    "top": false
@@ -126,6 +737,19 @@
    "top": false
   },
   {
+   "id": "204dda535ed6c69f",
+   "title": "Lamine Yamal and Fermin Lopez star as Barcelona run riot at Valencia",
+   "link": "https://www.aljazeera.com/sports/2026/9/6/lamine-yamal-and-fermin-lopez-star-as-barcelona-run-riot-at-valencia?traffic_source=rss",
+   "summary": "Lamine Yamal scored twice and Fermin Lopez shone as Barcelona romped to a 5-0 win at La Liga strugglers Valencia.",
+   "image": "",
+   "published": "2026-09-06T16:55:38.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "247c9208dd09619a",
    "title": "Dozens feared trapped in collapsed building in Delhi",
    "link": "https://www.bbc.co.uk/news/articles/c8r6ezx1jmro?at_medium=RSS&at_campaign=rss",
@@ -135,6 +759,19 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "791f43c0af9f38a1",
+   "title": "22 Killed In Wedding Venue Fire In DR Congo: Mayor",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA1REZQWnlUd0YyNFc5ek8wVHFEOXFSR1R6VV9wRmFVMkhnSENJRDU2NzJmM1l4WXJMb1FzN0I1VkJnY3pNMV96QTkta1NCWHFMUERQeGxxN3c0ZnpFaTdxQlJ3?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-06T16:54:02.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -158,19 +795,6 @@
    "summary": "",
    "image": "",
    "published": "2026-09-06T16:53:53.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "32e1be2d7722fb3e",
-   "title": "US Forces Redirect 92 Vessels Amid Maritime Blockade Against Iran",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1RX0NrODY2MW9id3Y0OG5teTBmdXRuTGFyYnBwNzFmNU9sdEo0MkZHYXVTTUxJWTQ0Z0hVVmR0YThKSU1LOUNSX0s3WHFTVjA0czB4dzNieXRTYXM2SDEtMTBn?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-06T16:53:48.000Z",
    "source": "Bernama",
    "feedId": "gnews-bernama",
    "topic": "malaysia",
@@ -230,11 +854,24 @@
    "top": false
   },
   {
+   "id": "f165b746cf7ca5f4",
+   "title": "Fermin shines for Barcelona in thumping win at Valencia",
+   "link": "https://www.channelnewsasia.com/sport/fermin-shines-barcelona-in-thumping-win-valencia-6365816",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-06T16:38:35.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "daac80be80527da1",
    "title": "Minister to meet Jaguar Land Rover boss as thousands of job cuts expected",
    "link": "https://www.bbc.co.uk/news/articles/crer948xq00o?at_medium=RSS&at_campaign=rss",
    "summary": "The company is struggling with the impact of tariffs as well as the fallout from a major cyber attack last year.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ded7/live/5b81c800-a9db-11f1-803f-7f2a9199ddc4.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/29df/live/f5cf25f0-984e-11f0-b742-5374a6e86615.jpg",
    "published": "2026-09-06T16:32:59.000Z",
    "source": "BBC News",
    "feedId": "bbc-business",
@@ -254,6 +891,19 @@
    "topic": "malaysia",
    "hasBody": true,
    "top": true
+  },
+  {
+   "id": "750f6485a79c63ce",
+   "title": "KKR Applies For Higher District Engineer Allocation In Budget 2027",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1WSTBIQWp3UlVmZE9jcHd2QVNSNFBnTlhUVEFIVW1WT2ZxeXBzZFRFSWtUZXpVb3h3eURBamRRd28xMWl4LXhTamlOeDhnNjAwM1JkTDJ6SDJSdGZ0QU9IZkNR?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-06T16:31:16.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
   },
   {
    "id": "157f2bfe67828b9c",
@@ -301,19 +951,6 @@
    "summary": "Legal fight continues as states begin sending out ballots for voters to vote by mail in November’s midterm elections The Trump administration renewed its appeal to the US supreme court on Sunday to allow restrictions on mail-in voting, after a federal judge…",
    "image": "https://i.guim.co.uk/img/media/3f384f89bef7e9e74d066a3ab9aa76ecf2a3faa4/792_0_7920_6336/master/7920.jpg?width=700&quality=85&auto=format&fit=max&s=0d353b1c1264331a71df24e18ac2e353",
    "published": "2026-09-06T16:23:02.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-world",
-   "topic": "world",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "b04d59b64d747847",
-   "title": "Far-right AfD wins key German state election but may fail to secure majority",
-   "link": "https://www.theguardian.com/world/2026/sep/06/saxony-anhalt-germany-afd-exit-poll-ulrich-siegmund",
-   "summary": "Exit poll shows Alternative für Deutschland on 44.5% of vote in Saxony-Anhalt after huge turnout, with votes still being counted The populist far-right, anti-immigration Alternative für Deutschland has emerged as the winner in a crucial state election in…",
-   "image": "https://i.guim.co.uk/img/media/eabad25ad64cbcb78ce194592dff54c12e76611f/357_0_4806_3847/master/4806.jpg?width=700&quality=85&auto=format&fit=max&s=6f6b24d3f41ef5cb0907b39528a654c8",
-   "published": "2026-09-06T16:17:39.000Z",
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
@@ -415,7 +1052,7 @@
    "id": "79089eda7a26c168",
    "title": "Far-right AfD wins vote in Germany’s Saxony-Anhalt state: Exit polls",
    "link": "https://www.aljazeera.com/news/2026/9/6/far-right-afd-wins-vote-in-germanys-saxony-anhalt-state-exit-polls?traffic_source=rss",
-   "summary": "The party hails 'historic' result, but it is not immediately clear whether it will be able to form a government.",
+   "summary": "Party hails 'historic' result, but it is not immediately clear whether it will be able to form a government.",
    "image": "",
    "published": "2026-09-06T16:07:08.000Z",
    "source": "Al Jazeera",
@@ -555,6 +1192,19 @@
    "top": false
   },
   {
+   "id": "0b6cf8413db75dfd",
+   "title": "Differing views Between KKDW And MoF Won’t Affect PH-BN Cooperation - AMK Chief",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE13SUc1NWZIVGdrTWNfc2JJa1RiZHNoc19GN0h0a05xNUZYSjlGZ2cyZFNDRzJNLXFsOXR1U3lkeDF2WDAwcU9YX0FpWGJCSEFnUEpxa2E0aHdmMU5GQWtvOVlXSWE?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-06T15:35:00.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "e5d58cbd567e72cf",
    "title": "Shaw strikes second-half double as Manchester City beat Birmingham 3-1 in WSL",
    "link": "https://www.channelnewsasia.com/sport/shaw-strikes-second-half-double-manchester-city-beat-birmingham-3-1-in-wsl-6365786",
@@ -563,19 +1213,6 @@
    "published": "2026-09-06T15:34:28.000Z",
    "source": "Channel NewsAsia",
    "feedId": "cna",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "3088b657ef357d66",
-   "title": "US envoys hold talks with Zelensky in Kyiv after meeting Putin",
-   "link": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss",
-   "summary": "Steve Witkoff tells reporters the US team feels \"encouraged\" by a \"substantive\" and important discussion.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7828/live/f5ab4970-a9ee-11f1-921b-6365210e1c9d.jpg",
-   "published": "2026-09-06T15:32:27.000Z",
-   "source": "BBC News",
-   "feedId": "bbc-world",
    "topic": "world",
    "hasBody": false,
    "top": false
@@ -590,6 +1227,19 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "912fd2157f6c6b18",
+   "title": "Super League: Tabinas Secures Selangor's Win Over Melaka With Injury-Time Goal",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tY3BhcGlwOGVlRU02aGpRdC0xVTF6MERRQzQwd0JUU1E2NUx5V3NiTnh3a2l0Ny1xS3ZLRktCWnJ4TXQzUUx5QzBzcGdKbDFIeUw1OFkybHB2Zw?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-06T15:32:00.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -611,7 +1261,7 @@
    "title": "Motorcyclist arrested for blocking woman, faking accident claim to extort her",
    "link": "https://www.nst.com.my/news/nation/2026/09/1527146/motorcyclist-arrested-blocking-woman-faking-accident-claim-extort-her",
    "summary": "JOHOR BARU: A 38-year-old man, who allegedly extorted and restrained a motorist in Taman Universiti, Skudai, has been remanded for four days until Sept 8 to assist investigations.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/3F991E8B042391367C3E60E6EE58A25B_data_0.jpg",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/3F991E8B042391367C3E60E6EE58A25B_data_0_0.jpg",
    "published": "2026-09-06T15:29:34.000Z",
    "source": "New Straits Times",
    "feedId": "nst",
@@ -698,11 +1348,11 @@
    "top": false
   },
   {
-   "id": "d7ac5b3fd0872e34",
-   "title": "Maitland-Niles screamer earns Everton 2-2 draw with Man Utd",
-   "link": "https://www.nst.com.my/sports/football/2026/09/1527142/maitland-niles-screamer-earns-everton-2-2-draw-man-utd",
-   "summary": "LIVERPOOL, England: Ainsley Maitland-Niles scored a brilliant equaliser on his debut as Everton rescued a point in a 2-2 Premier League draw with Manchester United at the Hill Dickinson Stadium on Sunday.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/A60320AFFB86B23DD4755E02A25ACB36_data_0.jpg",
+   "id": "90d148301b9175df",
+   "title": "[UPDATED] Maitland-Niles screamer earns Everton 2-2 draw with Man Utd",
+   "link": "https://www.nst.com.my/sports/football/2026/09/1527142/updated-maitland-niles-screamer-earns-everton-2-2-draw-man-utd",
+   "summary": "LIVERPOOL, England: Ainsley Maitland-Niles scored a brilliant equaliser on his debut with virtually the last kick of the game as Everton rescued a point in a 2-2 Premier League draw with Manchester United at the Hill Dickinson Stadium on Sunday.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/A60320AFFB86B23DD4755E02A25ACB36_data_0_0.jpg",
    "published": "2026-09-06T15:14:17.000Z",
    "source": "New Straits Times",
    "feedId": "nst",
@@ -880,19 +1530,6 @@
    "top": true
   },
   {
-   "id": "aa24b2df16ceef10",
-   "title": "22 Killed In Wedding Venue Fire In DR Congo: Mayor",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fMmdUMmtkUXhRUml0OWJ6VVpHM0swVUpJLUMydVpTMmhxMWlVc1dZTEZUd290ZUxBWHNRZXpzQnFSd0ZObDZqOVBfeW4yNnlGYVZRSVdpTDF6UQ?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-06T14:57:39.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "91cabf5a99de6410",
    "title": "Man arrested for alleged sexual assault of two daughters",
    "link": "https://www.nst.com.my/news/regional/2026/09/1527130/man-arrested-alleged-sexual-assault-two-daughters",
@@ -1023,6 +1660,19 @@
    "top": false
   },
   {
+   "id": "32e1be2d7722fb3e",
+   "title": "US Forces Redirect 92 Vessels Amid Maritime Blockade Against Iran",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1RX0NrODY2MW9id3Y0OG5teTBmdXRuTGFyYnBwNzFmNU9sdEo0MkZHYXVTTUxJWTQ0Z0hVVmR0YThKSU1LOUNSX0s3WHFTVjA0czB4dzNieXRTYXM2SDEtMTBn?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-06T14:33:00.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "84ad0fb9a207812c",
    "title": "Nepal rescuers search hydropower tunnels for survivors",
    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/6/nepal-rescuers-search-hydropower-tunnels-for-survivors?traffic_source=rss",
@@ -1046,7 +1696,7 @@
    "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "92bbea2caa9decca",
@@ -1059,7 +1709,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "ab04f788c0e21baa",
@@ -1072,7 +1722,7 @@
    "feedId": "nst",
    "topic": "malaysia",
    "hasBody": false,
-   "top": true
+   "top": false
   },
   {
    "id": "30d6ec3862ff385a",
@@ -1085,7 +1735,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "6d10c962e9125dda",
@@ -1098,7 +1748,7 @@
    "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "7128b488dda179d1",
@@ -1111,7 +1761,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "6a0757743d233fae",
@@ -1150,19 +1800,6 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
-  },
-  {
-   "id": "8c9febf0a299453d",
-   "title": "China, Nepal race to find thousands still missing 12 days after floods",
-   "link": "https://www.aljazeera.com/news/2026/9/6/china-nepal-race-to-find-thousands-still-missing-12-days-after-floods?traffic_source=rss",
-   "summary": "More than 5,500 people are still missing in China and Nepal after catastrophic floods across the two countries.",
-   "image": "",
-   "published": "2026-09-06T14:14:07.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
    "top": false
   },
   {
@@ -1176,19 +1813,6 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
-  },
-  {
-   "id": "0bbef27e576dc593",
-   "title": "What the US militarisation of Latin America could look like",
-   "link": "https://www.aljazeera.com/opinions/2026/9/6/what-the-us-militarisation-of-latin-america-could-look-like?traffic_source=rss",
-   "summary": "More US military involvement and larger regional defence budgets mean less social spending and worse democracy outcomes.",
-   "image": "",
-   "published": "2026-09-06T14:10:35.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
    "top": false
   },
   {
@@ -1202,31 +1826,18 @@
    "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
-  },
-  {
-   "id": "b4ca6faa790717f8",
-   "title": "Vardy joins Burnley on season-long contract",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cdx5v3405k3o?at_medium=RSS&at_campaign=rss",
-   "summary": "Former Leicester City and England striker Jamie Vardy joins Burnley until the end of the season.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/164d/live/5a01edb0-a9fa-11f1-921b-6365210e1c9d.jpg",
-   "published": "2026-09-06T14:01:54.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
-   "hasBody": false,
    "top": false
   },
   {
-   "id": "f11bc3e4a04dbb23",
-   "title": "Reform UK says Britain is broken. Birmingham tells another story",
-   "link": "https://www.aljazeera.com/opinions/2026/9/6/reform-uk-says-britain-is-broken-birmingham-tells-another-story?traffic_source=rss",
-   "summary": "The party's gains in Britain's most diverse major city are real, but they are not a verdict against multiculturalism.",
+   "id": "cd6785afcc359d3a",
+   "title": "1.6 Pct Unemployment Rate Proof Of Melaka's Effective Planning - Ahmad Zahid",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA5eTJlQ19BUnlpSU12UG5Hb3kwcWU0Sm4xMnAxNUJJT1ZqVUp4WmdPLS1peWhlN2NYZWNTdlZJYVh4OElOSGdsVGY1c3hOdTFqNGdnY3Yyd3RvNWNZYUV4Umd5bXM?oc=5",
+   "summary": "",
    "image": "",
-   "published": "2026-09-06T14:01:39.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
+   "published": "2026-09-06T14:00:00.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -1254,7 +1865,20 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
+  },
+  {
+   "id": "e414e81e2cbb5f98",
+   "title": "Pahang Sultan, Tengku Ampuan Advise Public To Be Cautious During Hot Weather, Haze",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzOGlmbGZFbW40ZjFtX2NKV2FWbXpCYVk4Nm1zRjZRLU1RNk54dFN4UWtfSU0wVEltZEFQLXI5dU9zQVFONTA1dFB5a1AyN2FibFo1aWg5aWR0czJMY3MtWWlyams?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-06T13:57:00.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
   },
   {
    "id": "844c98d8336e9f4e",
@@ -1267,7 +1891,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "35b044d140d1a926",
@@ -1280,7 +1904,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "13f7e77e048c9308",
@@ -1293,7 +1917,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "b35356628c7f2ef6",
@@ -1306,7 +1930,7 @@
    "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "aba8504b1b2db999",
@@ -1319,7 +1943,7 @@
    "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "057860d1d11a9dd7",
@@ -1335,15 +1959,15 @@
    "top": false
   },
   {
-   "id": "f2301bd3ec394593",
-   "title": "How significant are the Yemeni government’s military gains against Houthis?",
-   "link": "https://www.aljazeera.com/news/2026/9/6/how-significant-are-the-yemeni-governments-military-gains-against-the-houthis?traffic_source=rss",
-   "summary": "Government forces make gains as fighting escalates, raising fears of a return to full-scale war.",
+   "id": "f1a81957cfc919ec",
+   "title": "When political sweetness turns sour",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaHhRZGR4ei15cEVBQ3d4SklUMkhjOTZNbmlVT0NlTWNNSlFqLWI0M0d2X3NUU29pVVpJV08wUkxIYmNRdFN1S2FUemtzb2xRVmlxS2h6bXQwWEJaUmg0eFhfUW5sV2xETXl1aGNzcHR4S3NRUktTbkh3akxxOUFVNTN1bkNDN2M3RHJuYS1pRW5qTzAwcDloVWlUZGo0X3NNcjFrZHMyUFR0OHg2bGQ4?oc=5",
+   "summary": "",
    "image": "",
-   "published": "2026-09-06T13:41:25.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
+   "published": "2026-09-06T13:36:09.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
+   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -1371,7 +1995,7 @@
    "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "2529163428335315",
@@ -1452,19 +2076,6 @@
    "top": false
   },
   {
-   "id": "5506280dfffabe3a",
-   "title": "Seven mouths, one meal: Feeding a family through Gaza’s food crisis",
-   "link": "https://www.aljazeera.com/features/2026/9/6/seven-mouths-one-meal-feeding-a-family-through-gazas-food-crisis?traffic_source=rss",
-   "summary": "Families across Gaza struggle to secure food as community kitchens operate irregularly and prices rise.",
-   "image": "",
-   "published": "2026-09-06T13:15:46.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "415847a4b22f54cd",
    "title": "President Infantino will seek re-election in March, FIFA says",
    "link": "https://www.channelnewsasia.com/sport/president-infantino-will-seek-re-election-in-march-fifa-says-6365691",
@@ -1473,19 +2084,6 @@
    "published": "2026-09-06T13:14:56.000Z",
    "source": "Channel NewsAsia",
    "feedId": "cna",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "076d94591fb81084",
-   "title": "How the West’s promise of freedom created a world of anger",
-   "link": "https://www.aljazeera.com/video/deja-vu-2/2026/9/6/how-the-wests-promise-of-freedom-created-a-world-of-anger?traffic_source=rss",
-   "summary": "In Deja Vu’s next episode, Pankaj Mishra traces today’s political anger to the Enlightenment and empire.",
-   "image": "",
-   "published": "2026-09-06T13:14:33.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
    "topic": "world",
    "hasBody": false,
    "top": false
@@ -1504,32 +2102,6 @@
    "top": false
   },
   {
-   "id": "7de92caccb6fe977",
-   "title": "Palestinians mourn loved ones in mass funeral in Gaza City",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/6/palestinians-mourn-loved-ones-in-mass-funeral-in-gaza-city?traffic_source=rss",
-   "summary": "Thousands attended a mass funeral for 100 Palestinians whose bodies were recovered from rubble in Gaza City.",
-   "image": "",
-   "published": "2026-09-06T13:13:36.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "91f402d61563eb6a",
-   "title": "Helicopter SAR operation to launch tomorrow for six missing hikers in Gua Musang",
-   "link": "https://www.nst.com.my/news/nation/2026/09/1527073/helicopter-sar-operation-launch-tomorrow-six-missing-hikers-gua-musang",
-   "summary": "KUALA LUMPUR: A search and rescue (SAR) operation to locate six people, including four family members and two mountain guides feared lost in the Gua Musang jungle, will begin tomorrow with helicopter assistance.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/E89ABF3CF6AA192B7102F40994446688_data_0_0.jpg",
-   "published": "2026-09-06T13:12:06.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
    "id": "c3eeed99eae16634",
    "title": "Ab Rauf gets the nod to negotiate with election allies",
    "link": "https://www.freemalaysiatoday.com/category/nation/2026/09/06/ab-rauf-gets-the-nod-to-negotiate-with-election-allies",
@@ -1539,45 +2111,6 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "321421d275f446c3",
-   "title": "US envoys Kushner and Witkoff arrive in Kyiv after talks with Putin",
-   "link": "https://www.theguardian.com/world/2026/sep/06/us-envoys-jared-kushner-steve-witkoff-arrive-kyiv-talks-on-ending-war",
-   "summary": "Arrival marks first visit to Ukraine and comes day after ‘substantive plans’ on ending war discussed in Moscow The US negotiators Jared Kushner and Steve Witkoff have arrived in Kyiv for a second day of talks on how to end the war in Ukraine. Ukraine’s…",
-   "image": "https://i.guim.co.uk/img/media/894e23975128a19a89301a4a3b5ecf0390ebfe14/533_0_3692_2955/master/3692.jpg?width=700&quality=85&auto=format&fit=max&s=2fb6fc3fe854803920f661fc3b9d9fb5",
-   "published": "2026-09-06T13:05:46.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-world",
-   "topic": "world",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "333e28176f653893",
-   "title": "Fifa president Infantino will stand for re-election",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c99d1dlpkp4o?at_medium=RSS&at_campaign=rss",
-   "summary": "Fifa president Gianni Infantino will stand for re-election in March, the world governing body has confirmed.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/96b8/live/e7bc1650-a9ee-11f1-921b-6365210e1c9d.jpg",
-   "published": "2026-09-06T13:01:17.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "9b693cf525f13870",
-   "title": "Jamaican delegates arrive in UK to hand slavery reparations petition to King Charles",
-   "link": "https://www.theguardian.com/news/2026/sep/06/jamaica-slavery-reparations-petition-king-charles",
-   "summary": "Slavery’s legacy continues ‘to deprive our country and our people’, says minister, as group prepares to appeal to Jamaica’s head of state A landmark petition is to be handed to King Charles by Jamaica over slavery reparations, aiming to confront historical…",
-   "image": "https://i.guim.co.uk/img/media/514934ca4b4e8c7dba4e71b2c01cec9431eddf58/0_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=b148674b12d3e870a29521f8d0df14af",
-   "published": "2026-09-06T13:00:07.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-world",
-   "topic": "world",
    "hasBody": true,
    "top": false
   },
@@ -1634,19 +2167,6 @@
    "top": false
   },
   {
-   "id": "a4d2dc655f72331f",
-   "title": "Algeria civil defence recovers body of 10-year-old boy from well",
-   "link": "https://www.aljazeera.com/news/2026/9/6/algeria-civil-defence-recovers-body-of-10-year-old-boy-from-well?traffic_source=rss",
-   "summary": "Child found dead after four-day rescue effort in Algeria's western province of el-Bayadh.",
-   "image": "",
-   "published": "2026-09-06T12:55:06.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "bd036b5afa843113",
    "title": "Six flights from Penang cancelled after Jakarta airport closed",
    "link": "https://www.freemalaysiatoday.com/category/nation/2026/09/06/six-flights-from-penang-cancelled-after-jakarta-airport-closed",
@@ -1686,19 +2206,6 @@
    "top": false
   },
   {
-   "id": "88088f2b1ac16bf8",
-   "title": "Bangladesh protesters demand action over rising costs",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/6/bangladesh-protesters-demand-action-over-rising-costs?traffic_source=rss",
-   "summary": "Bangladesh sees its first major protests under PM Tarique Rahman, with thousands marching over rising living costs.",
-   "image": "",
-   "published": "2026-09-06T12:45:36.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "faad480ba86e4168",
    "title": "Indonesia closes 8 airports as Anak Krakatau ash disrupts flights",
    "link": "https://www.freemalaysiatoday.com/category/highlight/2026/09/06/indonesia-closes-8-airports-as-anak-krakatau-ash-disrupts-flights",
@@ -1709,6 +2216,19 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "f207a9b29325333f",
+   "title": "Baltic Exchange shipping updates: Sept 4, 2026",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA5Q2d1ZjFreENMeUUwcHRDVjN0S3NzMU5QYlFqSWR5RTAyeWlmNno5RU5oSVJqNTNoUkFNQjl6bHRDRmNYMDhrV0szUDE2Zmpi?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-06T12:38:08.000Z",
+   "source": "The Edge Malaysia",
+   "feedId": "gnews-edge",
+   "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1725,19 +2245,6 @@
    "top": false
   },
   {
-   "id": "1166701e15b80ff6",
-   "title": "Opec+ keeps oil output policy unchanged for October",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE05N1h3NnIxeUZpYjBzOWU5ZllnZ0I3X3hzTlFfeXRfZVlzUUFfMVFGR0xLdHNXVThKMVJVYzZQTlJFWEhMaG9hSmYzWlRLYXJf?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-06T12:32:10.000Z",
-   "source": "The Edge Malaysia",
-   "feedId": "gnews-edge",
-   "topic": "business",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "19d615b256b1edfa",
    "title": "4 ahli keluarga, 2 malim gunung dikhuatiri hilang",
    "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/09/06/4-ahli-keluarga-2-malim-gunung-dikhuatiri-hilang",
@@ -1748,19 +2255,6 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "309490b1e07b66f0",
-   "title": "LIVE: Arsenal vs Chelsea – Premier League",
-   "link": "https://www.aljazeera.com/sports/liveblog/2026/9/6/live-arsenal-vs-chelsea-premier-league-2?traffic_source=rss",
-   "summary": "Follow live updates from the London derby - including the build-up, analysis and live text commentary of the game.",
-   "image": "",
-   "published": "2026-09-06T12:30:49.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
    "top": false
   },
   {
@@ -1816,19 +2310,6 @@
    "top": false
   },
   {
-   "id": "bc9344341c4e3ef4",
-   "title": "Police investigate Bielik fan clash at Portsmouth",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5ym8mx573yo?at_medium=RSS&at_campaign=rss",
-   "summary": "Police are investigating an incident between Cardiff defender Krystian Bielik and a Portsmouth supporter during Pompey's 2-0 home win on Saturday.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e3c8/live/5ea2eae0-a9eb-11f1-aed2-8d6da8d75094.jpg",
-   "published": "2026-09-06T12:22:31.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "945e6d97b6d82c51",
    "title": "Another Volcano Erupts Simultaneously With Anak Krakatau - Geological Agency",
    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1uajNtTWk5SjFPbnRRZWdyb0NpQVFQVUkzZ0xSaW0zRU1ERXB5SkNUQnpSbTBZSWgwSHJPaVJ5bGkxWVRZemRHcEJWVmpiNHdyRG5jRHVUYUxyVlBTMWg0U1h3?oc=5",
@@ -1868,19 +2349,6 @@
    "top": false
   },
   {
-   "id": "96956a1a2f879215",
-   "title": "Sabah To Receive Three New Mobile Dental Clinics By Year-End - Dr Dzulkefly",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAyRnNvUENxSFpkZEwwZUFFdVJoN1dEUUlyX1AwZ2pPaTlEQ0ExMW1EQ0dMblFrSTdsU1pfN2xRd1FVMkZYc1ptdXhhdUQydFYtV0VXenk4TFAtbl81NVdB?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-06T12:14:48.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "7f5a4b9f58dd0734",
    "title": "At anti‑bullying event, Sabah Education Dept urges victims to stand firm, report abuse and seek help",
    "link": "https://www.malaymail.com/news/malaysia/2026/09/06/at-antibullying-event-sabah-education-dept-urges-victims-to-stand-firm-report-abuse-and-seek-help/234204",
@@ -1894,58 +2362,6 @@
    "top": false
   },
   {
-   "id": "1c6b910595d3b585",
-   "title": "Seven UiTM Students Still Hospitalised, All Outdoor KKEC 2026 Activities Cancelled",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vNURMbXBnQlZqZ0VEbWpTMU13NzBoNENZNFpiV3NUV1JFbXQ3UHV4azJndVQ0eEhnVmZ0enhjX2lBeUxRZ3hLN0dEZGtlNU5nVHExY1VaV05YSFZkTkxr?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-06T12:14:11.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "1cdf36918021a386",
-   "title": "UMPSA Strengthens Role As Talent Development Platform Through Sports",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IbGo0M0hDSjlaSWphdWZOWVVabFJXQk1ndThCRFd0SjNnTE81WmZ6Q09tREY4NGNSN2J4X1dLSFJrd2I3RkRuY3Z4VzNzSkRKYW9zSmlHaFJzeUhpZHc?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-06T12:13:58.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "d0f7002c4d723cdd",
-   "title": "KKR Applies For Higher District Engineer Allocation In Budget 2027",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1hUjdwLU5pSkV3clFDdzRDOXBtTjJkWnFheVE1WUZ5ekpqN25DUHRkektyMk40eFVUT2xsVF9zYWJYdXhFdm5nVDBQTFBhTl9EcW4xajdtNTlaOWUzc253?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-06T12:11:13.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "f6bd60127df7d9be",
-   "title": "Para SUKMA : Shaban Honours Late Father With First Of Three Promised Golds",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1vM0pnUk9RYWlTNDJCdHVyVkJiSVptRjRpcUgzN084MmxEcHNycXdPRkVlbVVqMHJOVVEtal9LVWw5UWRseERfNGVwYnNoLWprS1NUMnlnWlNrY29SY0E?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-06T12:10:00.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "1d865e4f6f9f998c",
    "title": "What different world maps get right - and what they get wrong",
    "link": "https://www.bbc.co.uk/news/articles/cly5r60v4mro?at_medium=RSS&at_campaign=rss",
@@ -1955,19 +2371,6 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "6152336137ea6527",
-   "title": "Kedah Appeals For Continued Cloud Seeding To Raise Dam Water Levels",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE51S3c2Q29oTFN6N1dnQ2FKcEV1MV9ha0tRMGE2MC0wOXNTVk5zM0QxNE1VMV9Eb0JuYkJEYy14ZjhMXzR1bWZTNXVQT1p0N1FPbkF4Y09hMmJHWVo3UXZj?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-06T12:08:00.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -2063,6 +2466,19 @@
    "top": false
   },
   {
+   "id": "e419b5b2dbf0635c",
+   "title": "Sunny Side Up: Good days, bad days, coping days",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPODV2TzktZmVNMTE2ZXd3X1l1Y25naW83all5OHc3Q3ZfVTdGQUVxa0NjUFhDVFFuT19QZ3hzUnFwSUl1NHZLUHktblU4bkUzUDdocmU2dUJxU0tlaUxmbHFzRjRsTXRuTFVUSXdLV2dvTVktX2pZRmVseXZ1Sk5uMnpXRkJ2WkZaNDdUdVg5TG4yQ1dzSnBjTElhbklpMFlqOXQxc2lWUGJmd05lUGhqS0h3Yw?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-06T11:41:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "fea5bfc445e89a4b",
    "title": "Don’t be deceived by RM2,500 deposit scam involving unofficial Kampung Jelutong SPK house offers, warns Jepak rep",
    "link": "https://www.malaymail.com/news/malaysia/2026/09/06/dont-be-deceived-by-rm2500-deposit-scam-involving-unofficial-kampung-jelutong-spk-house-offers-warns-jepak-rep/234200",
@@ -2102,19 +2518,6 @@
    "top": false
   },
   {
-   "id": "96596cbcfb810d07",
-   "title": "Jovic moved to tears after beating ‘incredible’ friend Eala in US Open epic",
-   "link": "https://www.aljazeera.com/sports/2026/9/6/jovic-moved-to-tears-after-beating-incredible-friend-eala-in-us-open-epic?traffic_source=rss",
-   "summary": "Iva Jovic outlasted the fellow young tennis sensation from the Philippines, Alex Eala, in an epic three-hour showdown.",
-   "image": "",
-   "published": "2026-09-06T11:28:40.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "26fb50015c4b26c0",
    "title": "Singapore air quality remains in moderate range",
    "link": "https://www.channelnewsasia.com/singapore/haze-air-quality-sep-6-moderate-range-psi-6365571",
@@ -2138,32 +2541,6 @@
    "feedId": "malaymail",
    "topic": "malaysia",
    "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "a12ceabba94fa911",
-   "title": "Can you guess the real size of each country on the new world map?",
-   "link": "https://www.aljazeera.com/news/2026/9/6/can-you-guess-the-real-size-of-each-country-on-the-new-world-map?traffic_source=rss",
-   "summary": "Pick which country is bigger, then watch it morph from Mercator to Equal Earth projection to see how close you were.",
-   "image": "",
-   "published": "2026-09-06T11:15:09.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "fe7768853f206916",
-   "title": "Photos: Gaza holds funeral for 100 Palestinians recovered from rubble",
-   "link": "https://www.aljazeera.com/gallery/2026/9/6/photos-gaza-holds-funeral-for-100-palestinians-recovered-from-rubble?traffic_source=rss",
-   "summary": "Gaza families hold mass funeral for 100 people recovered from rubble in Zeitoun neighbourhood.",
-   "image": "",
-   "published": "2026-09-06T11:13:50.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
    "top": false
   },
   {
@@ -2193,19 +2570,6 @@
    "top": false
   },
   {
-   "id": "fa2de99592733307",
-   "title": "How much will Celtic miss Asian Games-bound Yang?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx2zr7jjpero?at_medium=RSS&at_campaign=rss",
-   "summary": "Yang Hyun-jun illustrated his importance to Celtic with a vital goal against St Mirren before heading off for the Asian Games.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/742c/live/81049e20-a974-11f1-b6ca-99ea24dda2b9.jpg",
-   "published": "2026-09-06T11:02:04.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "4b3d38698279ea33",
    "title": "Prediction markets have become America’s new national pastime | Dave Schilling",
    "link": "https://www.theguardian.com/commentisfree/2026/sep/06/prediction-markets-gambling-american-pastime",
@@ -2232,19 +2596,6 @@
    "top": false
   },
   {
-   "id": "392c401894016758",
-   "title": "Fans furious with Robinson, but what is going wrong at Aberdeen?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ced7257g7l0o?at_medium=RSS&at_campaign=rss",
-   "summary": "After a fourth straight Scottish Premiership game without a goal and just one league win this season, what is wrong with Aberdeen?",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44a6/live/a8e2dd70-a9de-11f1-803f-7f2a9199ddc4.jpg",
-   "published": "2026-09-06T10:57:44.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "3a1043dc8bbd8ebf",
    "title": "It felt as if the world had tired of rock music, yet Geese are the perfect soundtrack for this age of disquiet | John Harris",
    "link": "https://www.theguardian.com/commentisfree/2026/sep/06/geese-rock-music-perfect-soundtrack-age-of-disquiet-cameron-winter",
@@ -2255,19 +2606,6 @@
    "feedId": "guardian-opinion",
    "topic": "opinion",
    "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "c75c6d31a0cf050f",
-   "title": "Tibet death toll from Himalayas flood now 43 with 519 missing: Chinese media",
-   "link": "https://www.channelnewsasia.com/east-asia/tibet-death-toll-himalayas-flood-now-43-519-missing-chinese-media-6365566",
-   "summary": "The huge gap between the death toll and the number of people missing highlights the immense challenge facing rescuers as they push deeper into the devastated border area.",
-   "image": "https://dam.mediacorp.sg/image/upload/s--vOEyT5R1--/c_crop,h_562,w_1000,x_0,y_51/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/China_Nepal_Flash_Floods_82695.jpg?itok=uid0olM4",
-   "published": "2026-09-06T10:31:34.000Z",
-   "source": "Channel NewsAsia",
-   "feedId": "cna",
-   "topic": "world",
-   "hasBody": false,
    "top": false
   },
   {
@@ -2401,19 +2739,6 @@
    "top": false
   },
   {
-   "id": "432bfce8f8783fe7",
-   "title": "Travel chaos hits Changi and Jakarta airports as volcanic ash grounds flights between the two hubs",
-   "link": "https://www.channelnewsasia.com/singapore/travel-chaos-changi-airport-soekarno-hatta-volcano-6365516",
-   "summary": "Conflicting airline notices meant some travellers turned up at Changi Airport to find out that their flights were grounded, while passengers in Indonesia found themselves turned away after clearing immigration.",
-   "image": "https://dam.mediacorp.sg/image/upload/s--MoGgo8dR--/c_crop,h_1125,w_2000,x_0,y_104/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/09/06/ayt_4947.jpg?itok=H9uTXgI3",
-   "published": "2026-09-06T09:59:00.000Z",
-   "source": "Channel NewsAsia",
-   "feedId": "cna",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "88db502f23f6c071",
    "title": "Don’t link salvation in the hereafter to politics, says religious affairs minister",
    "link": "https://www.malaymail.com/news/malaysia/2026/09/06/dont-link-salvation-in-the-hereafter-to-politics-says-religious-affairs-minister/234194",
@@ -2449,19 +2774,6 @@
    "source": "Wired",
    "feedId": "wired",
    "topic": "tech",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "5fd205c439ede67b",
-   "title": "US aircraft carrier departs Thailand after port call",
-   "link": "https://www.channelnewsasia.com/asia/us-thailand-navy-port-call-aircraft-carrier-depart-6365541",
-   "summary": "",
-   "image": "https://dam.mediacorp.sg/image/upload/s--gKtJJecp--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/09/06/000_c7g94cx.jpg?itok=NLW7Vi2c",
-   "published": "2026-09-06T09:41:00.000Z",
-   "source": "Channel NewsAsia",
-   "feedId": "cna",
-   "topic": "world",
    "hasBody": false,
    "top": false
   },
@@ -2531,19 +2843,6 @@
    "top": false
   },
   {
-   "id": "745555a33b4950bc",
-   "title": "Singapore must never allow prejudice against any community to become accepted or normalised: PM Wong",
-   "link": "https://www.channelnewsasia.com/singapore/pm-lawrence-wong-racist-comments-shanmugam-nepal-tibet-sia-6365481",
-   "summary": "\"We can and should have robust debates. But we should never use seemingly legitimate arguments as a cover to fuel prejudice against any community or hostility towards foreigners,\" says Prime Minister Lawrence Wong.",
-   "image": "https://dam.mediacorp.sg/image/upload/s--gCDGujyx--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/08/23/lawrence_wong_ndr_2026_english.jpg?itok=Ohan87pB",
-   "published": "2026-09-06T09:14:37.000Z",
-   "source": "Channel NewsAsia",
-   "feedId": "cna",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "ef10eb5f03457048",
    "title": "China to pump US$54b into state banks, insurers in capital-boosting push",
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE03ZjVseUZoa3A2cUppWEpUZWNYZ0R1ejllUndkaF9UVHU2N0JZQjhqcEFUZnNwWkdJSEd0cWpvQjZMVjdiVjBJa1pkZjlNYU1R?oc=5",
@@ -2553,6 +2852,19 @@
    "source": "The Edge Malaysia",
    "feedId": "gnews-edge",
    "topic": "business",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "fe2b1af47af179d6",
+   "title": "There's No Limit to How Bad Code Can Get",
+   "link": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
+   "summary": "My comment on There&#x27;s No Limit to How Bad Code Can Get &mdash; Lobste.rs. [In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming] In my experience it's so rare for that to work. You announce the old…",
+   "image": "",
+   "published": "2026-09-06T09:08:06.000Z",
+   "source": "Simon Willison",
+   "feedId": "simonw",
+   "topic": "tech",
    "hasBody": false,
    "top": false
   },
@@ -2674,19 +2986,6 @@
    "top": false
   },
   {
-   "id": "83ecd5e7699f0f94",
-   "title": "Is Bain on course to be Scotland's number one?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c62jn6n0rvlo?at_medium=RSS&at_campaign=rss",
-   "summary": "With Sebastien Pocognoli looking to change the way Scotland play, might Scott Bain be the answer to his goalkeeping problems?",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d89e/live/eb2ef630-a94f-11f1-ae8c-2528accc9a1a.jpg",
-   "published": "2026-09-06T07:56:52.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "fb9bc280b6827e2d",
    "title": "Shin Yang Group to acquire Kuching industrial site for RM34 mil in related-party transaction",
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0yZVdaMDBqcUdjeGVLUl9tYzdzSXhWbzkzUDdQVzlobUtHWTNyTmRRSk1Fb2FBYW5neklIWER4MjduVGJuQ0FsTUh5cEpnUmt3?oc=5",
@@ -2696,19 +2995,6 @@
    "source": "The Edge Malaysia",
    "feedId": "gnews-edge",
    "topic": "business",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "ab77f32bf5214f6c",
-   "title": "Farewell win at Croke park 'highlight of my career' - Taylor",
-   "link": "https://www.bbc.co.uk/sport/boxing/videos/c17jryd1npjo?at_medium=RSS&at_campaign=rss",
-   "summary": "Katie Taylor reflects on a 'dream' career beating Flora Pili by unanimous decision at a sold-out Croke Park to become a three-time undisputed world champion in her final fight before retirement.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6d19/live/0cfd14c0-a9c5-11f1-b109-879e35c24276.jpg",
-   "published": "2026-09-06T07:46:04.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
    "hasBody": false,
    "top": false
   },
@@ -2726,19 +3012,6 @@
    "top": false
   },
   {
-   "id": "6a667c716c4a52ff",
-   "title": "SCDF NSF dies after incident at Marina Bay Fire Station",
-   "link": "https://www.channelnewsasia.com/singapore/scdf-muhammad-nur-ilham-mohammed-iswadi-death-full-time-ns-man-6365471",
-   "summary": "Police investigations are ongoing.",
-   "image": "https://dam.mediacorp.sg/image/upload/s--boLJ4tHw--/c_crop,h_506,w_900,x_0,y_0/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/09/06/image.png?itok=_Psj3kRE",
-   "published": "2026-09-06T07:28:00.000Z",
-   "source": "Channel NewsAsia",
-   "feedId": "cna",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "c48bc642045f227c",
    "title": "Brunei's Belait PSI climbs to 136 while Temburong air quality continues to improve",
    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNN0U0bjV4bTFFaC0wUlJCX09wT3hhN1Bxb21KQ3RMcmxrTmRFVmE1QWNMQWZhSVM4VVlWUkpibHJIX2VKN0ZwcWpLcGhlcDY1THc2b1hyUjFFTFVXTXo4UnpQZWJkLXh1N1Faa3EwLU5lOEpYR2pEN0dMMEx5N2R4WUlFUGtnajU4T0xqaV96V19ZTmpWYThPRmFlOUFIaVBocHI1blFFMExYdEpzR2JGdjVzZ3VXdy1BXzR2Q2JOYjd4N09DRjZuX0ZmSWtmdEJIZlg0TWJLTWoxZnpnbWxuMA?oc=5",
@@ -2748,19 +3021,6 @@
    "source": "The Star",
    "feedId": "gnews-star",
    "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "64cd52494d63d00b",
-   "title": "All Blacks suffer another injury setback",
-   "link": "https://www.channelnewsasia.com/sport/all-blacks-suffer-another-injury-setback-6365466",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-06T07:17:32.000Z",
-   "source": "Channel NewsAsia",
-   "feedId": "cna",
-   "topic": "world",
    "hasBody": false,
    "top": false
   },
@@ -2843,19 +3103,6 @@
    "top": false
   },
   {
-   "id": "df4f5e2de5b4404d",
-   "title": "Taylor's place among greats set in stone after extraordinary swansong",
-   "link": "https://www.bbc.co.uk/sport/boxing/articles/c5yjr8pp0jwo?at_medium=RSS&at_campaign=rss",
-   "summary": "Fairytale endings in boxing are a rarity, but Irish icon Katie Taylor sails off into the sunset after the most perfect of farewells at Dublin's towering Croke Park.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/378d/live/c16f6a80-a9e7-11f1-b109-879e35c24276.jpg",
-   "published": "2026-09-06T06:24:34.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "c8f847ff1746454a",
    "title": "Four more Indonesian airports closed as volcanic ash disrupts flight operations",
    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWmM1V3dpU1BaWXc4TWVJLXk3VlliLUZxR2NzemxzQWNHSDhtTUhEblpHNDdMVWFkSHpTLU1aTGJrS0FtSC10TG9kWWF4ODl0bWk5bHRaczVndFBDalN5U0IyTkZjNzVCcHlWOEFYNEZ5dXh5eXZuR1hiQllEMWhLRG5vVzUzMV9nQllUSXdrVk81bHAtd05yZ0FpV0RncHFubGZGemwzWW5MOHFBdHo2TG1wb1RDRW5PZVVNbGhKRUlVa1VXNUdPU1VlQmhvMVZhbmxHd1VrN0Nndw?oc=5",
@@ -2882,6 +3129,19 @@
    "top": false
   },
   {
+   "id": "13254b05feb2e15d",
+   "title": "Transport Ministry pushes for women-only e-hailing rides",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQczE3TXQxbnFzY2dHUjg5azR6aHRZM1FzRUJDTUFhS2cyZV9pd0g2N0VUZ2dNODNyRFFtTTA1b2tpNFdZYkVQdUhjbTZmSVR3Sm9MX2FOMl9weGh1WlZhNFA0RHgtU21XbWdPMU1UUHFmUGJ5UTNpUjJsQ0dSdm02anQ5NnkwVHp2eURwQloyMEVndUx4YS1sWGpUUkJyU0YyYXN2Z0FtR0RpZw?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-09-06T06:08:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "d5a73e1223e778e6",
    "title": "Why a famous Montreal sandwich shop has been forced to swap its soda",
    "link": "https://www.bbc.co.uk/news/videos/c99dpd083v9o?at_medium=RSS&at_campaign=rss",
@@ -2891,19 +3151,6 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "f3bcf5a265318b62",
-   "title": "Flex your football brain with our daily quizzes",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cgmrgl3zerpo?at_medium=RSS&at_campaign=rss",
-   "summary": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ada7/live/27df4c70-9658-11f1-b2ab-0dd01740f9f6.jpg",
-   "published": "2026-09-06T06:02:35.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
    "hasBody": false,
    "top": false
   },
@@ -2931,19 +3178,6 @@
    "feedId": "guardian-world",
    "topic": "world",
    "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "f1a81957cfc919ec",
-   "title": "When political sweetness turns sour",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaHhRZGR4ei15cEVBQ3d4SklUMkhjOTZNbmlVT0NlTWNNSlFqLWI0M0d2X3NUU29pVVpJV08wUkxIYmNRdFN1S2FUemtzb2xRVmlxS2h6bXQwWEJaUmg0eFhfUW5sV2xETXl1aGNzcHR4S3NRUktTbkh3akxxOUFVNTN1bkNDN2M3RHJuYS1pRW5qTzAwcDloVWlUZGo0X3NNcjFrZHMyUFR0OHg2bGQ4?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-06T05:36:18.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
-   "hasBody": false,
    "top": false
   },
   {
@@ -2986,54 +3220,15 @@
    "top": false
   },
   {
-   "id": "eceb506a28816deb",
-   "title": "Zverev reaches US Open fourth round with win over Tabilo",
-   "link": "https://www.channelnewsasia.com/sport/zverev-reaches-us-open-fourth-round-win-over-tabilo-6365421",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-06T05:21:51.000Z",
-   "source": "Channel NewsAsia",
-   "feedId": "cna",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "50bb89e4dcc1d9a1",
-   "title": "‘A lot more difficult’: On the ground with Singapore police working to identify Nepal’s flood dead",
-   "link": "https://www.channelnewsasia.com/asia/singapore-missing-persons-nepal-tibet-floods-6365286",
-   "summary": "With nearly 4,900 people still missing after Nepal’s devastating floods, Singapore police forensic specialists are helping local authorities identify the dead and bring answers to families desperately searching for loved ones.",
-   "image": "https://dam.mediacorp.sg/image/upload/s--MEUw15pX--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/09/06/flood_victims-2.jpg?itok=NDMWrDie",
-   "published": "2026-09-06T05:20:00.000Z",
-   "source": "Channel NewsAsia",
-   "feedId": "cna",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "e33c8de04ae2522c",
+   "id": "d5cfd0fa2dfa899f",
    "title": "Ex-minister remanded for two more days over Tabung Haji RCI probe",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR1RoZE9VRkhBdzVFSENNaXpTUUlPT0w5eTRNNEY4WWNSTTRHUENKaDRrM1hsLVlpMkQzNTdVOWVrMExiSTdjNURFbTJNNUdaS1NUQ1NsSEJsM0ZLRTUtYndyYkFCeE9zSE05QU5RdzhidWFoZ2pKcWR6c3F5RGlwOUNxMUtTWjQ3dHdiTGs4Mnl2dHljdkliaTR0TlNMb1Z3WnRqUHI0SjBycWhBT1ltTFItOFFqdw?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQeWV3R0J3TEhEVWczQnRhb0lrYnVDY0xFbzMtZkMzeTYtaWo2OVZGNnhkbmhHc1dYS0ltUnBBOTVYajZLcEZQS1dib3hqb19oc0RoMnJPNDkxX21DdEQ0RENqMGxlcEtIaURQM2lINHl0TlhFX2twSmtQR1B6emJZd3VyOWRmRlpmZ051VnNIdHRZcHBGMFloRk1EWlpnRDUwTVZ1dGJyR0FrSmRjWGxyZDZnMFNENXo3OUc4blB2RnREWG1OcGRnZ3VtNUN4Qk5qcmRKS1hIY2dWeEY1QWZTZFh6UC0xVXdO?oc=5",
    "summary": "",
    "image": "",
    "published": "2026-09-06T05:19:00.000Z",
    "source": "The Star",
    "feedId": "gnews-star",
    "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "c6cfe48c3bcf42cb",
-   "title": "'I don't really want to talk' - Fritz and Cobolli shocked as seeds tumble",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/cdr7531m7xjo?at_medium=RSS&at_campaign=rss",
-   "summary": "Taylor Fritz and Flavio Cobolli lose in the third round as six top-10 seeds are knocked out of the men's singles in the first week at the US Open.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7bc8/live/7497b450-a96b-11f1-b850-096ea2f533db.jpg",
-   "published": "2026-09-06T05:16:35.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
    "hasBody": false,
    "top": false
   },
@@ -3077,19 +3272,6 @@
    "top": false
   },
   {
-   "id": "592b546b96454ee4",
-   "title": "Up to 6,000 tradies to get free qualifications under Labor scheme – as it happened",
-   "link": "https://www.theguardian.com/australia-news/live/2026/sep/06/australia-news-live-albanese-labor-party-coaltion-liberal-party-nepal-floods-ntwnfb",
-   "summary": "This blog is now closed. Get our breaking news email, free app or daily news podcast Duniam targets ‘frivolous’ asylum seeker claims The opposition is “very close” to “having a full migration package”, Duniam says. He says they’re willing to work with the…",
-   "image": "https://i.guim.co.uk/img/media/75a1c5446f424c71e43f225adb33cad39eb3c56a/411_0_4111_3289/master/4111.jpg?width=700&quality=85&auto=format&fit=max&s=0c4e1be945ccbaa741eef0be91b4b765",
-   "published": "2026-09-06T04:25:37.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-world",
-   "topic": "world",
-   "hasBody": true,
-   "top": false
-  },
-  {
    "id": "7615cc491b1a664a",
    "title": "Sabah study shows oil palm plantations offer inadequate shelter for Sunda pangolins",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQV9CbVdiSkdwZzFFbFNPb2tpVkJONzdlSE5aaE9SeVJzY1dONG9LdnNUU3NLZ0hCNkxNN2VzZ3JFdW9FWTZIN3hzVUJwajQ3VXJCOUg0TVQ5MFprNi0zckNGbndDOUZEWVhPTlVta21tTFZmWFBrQlhPM3I4M2dKWHF5VEE1UTEwcDcwX2Y1V2dOQ1Y3T3BVUlk0blgzZWozOUNuYXJRUkFQYnhMSkJ6UWxGQUdfOFlnVm1wZU5fLXB6dXVSVDdXRkhtRlRfdw?oc=5",
@@ -3112,19 +3294,6 @@
    "source": "The Edge Malaysia",
    "feedId": "gnews-edge",
    "topic": "business",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "3aa9eec1a70588eb",
-   "title": "Messi sets up Miami goal in first game since Argentina retirement",
-   "link": "https://www.channelnewsasia.com/sport/messi-sets-up-miami-goal-in-first-game-argentina-retirement-6365356",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-06T03:43:40.000Z",
-   "source": "Channel NewsAsia",
-   "feedId": "cna",
-   "topic": "world",
    "hasBody": false,
    "top": false
   },
@@ -3220,19 +3389,6 @@
    "top": false
   },
   {
-   "id": "32ef0e633ed5155e",
-   "title": "Gauff wins but mixed fortunes for home hopes at US Open",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/cvgy7jxwzg6o?at_medium=RSS&at_campaign=rss",
-   "summary": "Coco Gauff reaches the US Open fourth round but last year's finalist Amanda Anisimova and Madison Keys go out on a mixed day for home hopes.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/714c/live/0d78e1d0-a980-11f1-a8a3-d556f3843dc8.jpg",
-   "published": "2026-09-06T03:01:33.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "551c4e4fce7129e8",
    "title": "Miss Malaysia Taanusiya Chetty finishes third in Miss World 2026",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMVo2ODdBM3VWblZvNlJLeEJPSDAzZ3Zrc0NES0FfNkw5bERSVEwyUzBVcWlUaGhfRjZDUVFiX1lXck5yVTNLaTZyNE54NlBzUDZ6OHBhUDdLTFRRN0YzRWJnRW5ScXRUWG5JZm56Qi1vYzJsbzRIVm9adXpPRnZzZzNkREtzZURuQVhUTDFiZHdUUFdvMFREajNjQk9weDNJZXExTUdOUWJSN08yS2NZcGxXNzBMaVR6N1E?oc=5",
@@ -3242,19 +3398,6 @@
    "source": "The Star",
    "feedId": "gnews-star",
    "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "d55c816e66a41bf6",
-   "title": "Jovic puts friendship with Eala on hold to win three-hour battle at US Open",
-   "link": "https://www.channelnewsasia.com/sport/jovic-puts-friendship-eala-hold-win-three-hour-battle-us-open-6365336",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-06T02:56:45.000Z",
-   "source": "Channel NewsAsia",
-   "feedId": "cna",
-   "topic": "world",
    "hasBody": false,
    "top": false
   },
@@ -3294,19 +3437,6 @@
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
    "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "32eca13b8529476b",
-   "title": "From boardroom chic to battling win, Osaka reaches US Open last 16",
-   "link": "https://www.channelnewsasia.com/sport/boardroom-chic-battling-win-osaka-reaches-us-open-last-16-6365296",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-06T02:05:55.000Z",
-   "source": "Channel NewsAsia",
-   "feedId": "cna",
-   "topic": "world",
    "hasBody": false,
    "top": false
   },
@@ -3376,32 +3506,6 @@
    "top": false
   },
   {
-   "id": "cda017f9e7f9ac09",
-   "title": "US refutes Hadi's claim of attempt to influence Malaysian politics",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObmpqb3FsMGZmbFRXQjlnZlJXdDFDeWY1aFpBbHpRSUZpdGM0SlZZQU91ZVhabWt3WHQ4SHpTTkM1WHNRR3d0ZFZUcjNjX3dJWGI5V1RNV2RyVEpUazFfWWJ6SXVJaGJYUXJFODZsbWNkWUtDZ3E5ZktzR1BxLTJla1JBeFJHd0pGcTE3cjhTY3lCclhkN1VVOU9vYjc2MjJURnZlcXNiZTZfLWdUalYzdXZNWEF0RVpVemc?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-06T00:39:00.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "43a9fc0b0611d15d",
-   "title": "Haze: Two areas nationwide remain at very unhealthy levels early Sept 6",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT1BuQ01iZ2duNmFKYWQ2eTlhdGxHUmwtcC1JSVAwYmtrRXppZmR5X2V3SU5TcThVZ2luM3FOeEoyOXhTbndPV1RueW9GOVZfNF9Ob1I0QkhrVnljTjVRTWxicFpOYU43WXMzaVhKVVppUUJoSWtFenJOeVgtdkR6TUdKRW5wVzhhWTY3cGJBUU1mNTd2aWxhakdEWE9IcUU0MjBrQ3ZMaFNiNDFyWlpPY1hSTFFKQ1FhMFhiXw?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-09-06T00:37:00.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "da50af8e899c901e",
    "title": "'He was a lifeline' - Families at a loss after Haitian caregivers let go in US",
    "link": "https://www.bbc.co.uk/news/articles/cg491zp13qqo?at_medium=RSS&at_campaign=rss",
@@ -3424,19 +3528,6 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "858d27730e8c3931",
-   "title": "'One of the best' - boxing world reacts to Taylor's farewell win",
-   "link": "https://www.bbc.co.uk/sport/boxing/articles/czxzygrgd19o?at_medium=RSS&at_campaign=rss",
-   "summary": "Some of the biggest names in women's boxing pay tribute to Katie Taylor after the Irish great ended her career with victory over Flora Pili at Croke Park.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bf73/live/598dbda0-a982-11f1-bc2e-61004864d4a3.jpg",
-   "published": "2026-09-05T23:48:55.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
    "hasBody": false,
    "top": false
   },
@@ -3480,19 +3571,6 @@
    "top": false
   },
   {
-   "id": "ed1a4e6848b1871a",
-   "title": "How Crystal Palace exposed Fulham's defence",
-   "link": "https://www.bbc.co.uk/sport/football/videos/c5y5qpnjgglo?at_medium=RSS&at_campaign=rss",
-   "summary": "BBC pundit and ex-Fulham midfielder Danny Murphy gives his analysis on Fulham's performance against Crystal Palace at Craven Cottage.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d74/live/699b3de0-a977-11f1-aed2-8d6da8d75094.jpg",
-   "published": "2026-09-05T23:03:57.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "1d3d4d76fcdcf806",
    "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
    "link": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
@@ -3506,38 +3584,12 @@
    "top": false
   },
   {
-   "id": "4495768841a404cf",
-   "title": "US and Iran trade retaliatory attacks on ships as conflict flares",
-   "link": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
-   "summary": "The US says it hit three Iranian oil tankers, while Iran says it targeted three US-linked ships.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9613/live/a1c35120-a93c-11f1-a291-b542ee92de7c.png",
-   "published": "2026-09-05T22:44:07.000Z",
-   "source": "BBC News",
-   "feedId": "bbc-world",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "0b3cb87b823237fa",
    "title": "Trump’s pique with UK could lead to favor to acolyte Milei over Falklands",
    "link": "https://www.theguardian.com/us-news/2026/sep/04/trump-argentina-falklands-uk",
    "summary": "US president suggests he might support his Argentinian ally’s drive to reclaim sovereignty of disputed islands Donald Trump has long embraced vengeance. “I am your retribution,” he declared to an admiring audience at the 2023 Conservative Political Action…",
    "image": "https://i.guim.co.uk/img/media/7d2459a3317f9883ce74703ba281d9cbe990e2cd/0_0_4021_3216/master/4021.jpg?width=700&quality=85&auto=format&fit=max&s=4a9b943cae2db73d7cf6f25afe3493aa",
    "published": "2026-09-05T22:19:40.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-world",
-   "topic": "world",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "54351db80d9b3e47",
-   "title": "Drone attack blamed on guerrillas kills at least three soldiers in Colombia",
-   "link": "https://www.theguardian.com/world/2026/sep/05/drone-attack-guerrillas-kills-soldiers-colombia",
-   "summary": "Officials accuse National Liberation Army of launching strike followed by clash inside military compound An attack involving explosives dropped from drones followed by a clash inside a military compound in north-eastern Colombia has killed at least three…",
-   "image": "https://i.guim.co.uk/img/media/8a56c6bc67eb59b4558674f0cf8f37b1d1b6ec45/0_0_3362_2691/master/3362.jpg?width=700&quality=85&auto=format&fit=max&s=e467bf2e692e43860252609cda2caea7",
-   "published": "2026-09-05T22:16:55.000Z",
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
@@ -3763,19 +3815,6 @@
    "feedId": "bbc-business",
    "topic": "business",
    "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "078ec9bd29250c6e",
-   "title": "The weird and wonderful headphones of CanJam 2026",
-   "link": "https://www.theverge.com/tech/990706/a-day-at-canjam-socal-2026",
-   "summary": "I've been reviewing headphones for a long time, and I've listened to everything from the barely serviceable to multi-thousand-dollar open-back headphones. But recently I've been uninspired by the state of mainstream options. Most are perfectly good - great,…",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/canjam-socal-2026-show-floor.jpg?quality=90&strip=all&crop=0,0,100,100",
-   "published": "2026-09-05T13:00:00.000Z",
-   "source": "The Verge",
-   "feedId": "theverge",
-   "topic": "tech",
-   "hasBody": true,
    "top": false
   },
   {
@@ -5742,19 +5781,6 @@
    "top": false
   },
   {
-   "id": "7c32fbb7723eb736",
-   "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
-   "link": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
-   "summary": "Anthropic publish the system prompts for their Claude consumer applications (Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to…",
-   "image": "",
-   "published": "2026-09-02T14:16:42.000Z",
-   "source": "Simon Willison",
-   "feedId": "simonw",
-   "topic": "tech",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "6a052858f31dc1af",
    "title": "Facilitating AI integration with simplicity at scale",
    "link": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
@@ -5895,19 +5921,6 @@
    "feedId": "google-ai",
    "topic": "tech",
    "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "389667d1ba014a14",
-   "title": "How AI plotted an interstellar journey to Alpha Centauri",
-   "link": "https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/",
-   "summary": "A nonprofit organization called the Fermi Explorer Mission announced today that it intends to launch a spacecraft to our nearest star system by the end of 2029. It’s a hugely ambitious mission—if all goes well, the spacecraft could take up to 80,000 years to…",
-   "image": "",
-   "published": "2026-09-01T19:10:36.000Z",
-   "source": "MIT Technology Review",
-   "feedId": "mittr",
-   "topic": "tech",
-   "hasBody": true,
    "top": false
   }
  ]
