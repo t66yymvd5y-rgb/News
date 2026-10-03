@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-03T16:31:12.849Z",
+ "generatedAt": "2026-10-03T19:59:50.025Z",
  "site": {
   "name": "Kertas",
   "tagline": "Malaysia first. The world next.",
@@ -62,11 +62,11 @@
  ],
  "counts": {
   "top": 40,
-  "malaysia": 117,
+  "malaysia": 116,
   "world": 95,
   "business": 33,
-  "tech": 122,
-  "sport": 21,
+  "tech": 121,
+  "sport": 23,
   "opinion": 46
  },
  "failedFeeds": [
@@ -74,6 +74,513 @@
  ],
  "withBody": 226,
  "articles": [
+  {
+   "id": "6a468f70a022a31e",
+   "title": "Federal judge calls Flock ‘indiscriminate mass surveillance’",
+   "link": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
+   "summary": "A federal judge ruled that a sheriff’s deputy violated a woman’s Fourth Amendment rights when using Flock to search for her license plate without a warrant.",
+   "image": "",
+   "published": "2026-10-03T19:33:15.000Z",
+   "source": "TechCrunch",
+   "feedId": "techcrunch",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "2627b3de0e6f9bc0",
+   "title": "Gloucester thrash sorry Quins to go top of the Prem",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cw305gm8j591o?at_medium=RSS&at_campaign=rss",
+   "summary": "Gloucester thrash a limp Harlequins at Kingsholm to go to the top of the early Prem standings.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2d4e/live/e73dbdd0-bf53-11f1-a84d-81c67bc2828e.jpg",
+   "published": "2026-10-03T19:29:51.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": true
+  },
+  {
+   "id": "bfd53e883e199575",
+   "title": "Robertson's Scotland career in numbers as he wins 100th cap",
+   "link": "https://www.bbc.co.uk/sport/football/articles/crgjqjg1l740o?at_medium=RSS&at_campaign=rss",
+   "summary": "Andy Robertson has become only the second man ever to play 100 times for Scotland. BBC Sport Scotland charts his international career in numbers.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8a5/live/99c8f0b0-bd8c-11f1-a64c-550be9e3c66b.jpg",
+   "published": "2026-10-03T19:22:45.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": true
+  },
+  {
+   "id": "71a1bc32337bb477",
+   "title": "Remains of Bulgaria’s Czar Samuel return ‘home’ after 1,000 years",
+   "link": "https://www.aljazeera.com/news/2026/10/3/remains-of-bulgarias-czar-samuel-return-home-after-1000-years?traffic_source=rss",
+   "summary": "The emperor is a symbol of Bulgarian national identity whose repatriation stoked tensions with Greece.",
+   "image": "",
+   "published": "2026-10-03T19:14:43.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "f73641bc62f637a8",
+   "title": "Wakefield beat Warrington to win Super League",
+   "link": "https://www.bbc.co.uk/sport/rugby-league/articles/c39w4w7pzqv4o?at_medium=RSS&at_campaign=rss",
+   "summary": "Wakefield Trinity end a 58-year wait to be champions as they claim a deserved Grand Final success over Warrington Wolves at Old Trafford.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bafe/live/fff484a0-bf5b-11f1-bf94-5355097afbf2.jpg",
+   "published": "2026-10-03T19:02:55.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": true
+  },
+  {
+   "id": "45ec80e51a325370",
+   "title": "Fernandes rejects talk of Portugal rift after Ronaldo's abrupt departure",
+   "link": "https://www.channelnewsasia.com/sport/fernandes-rejects-talk-portugal-rift-after-ronaldos-abrupt-departure-6430141",
+   "summary": "",
+   "image": "https://dam.mediacorp.sg/image/upload/s--HKDVaua0--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-10-03T190045Z_1_LYNXMPEM920K7_RTROPTP_3_SOCCER-WORLDCUP-POR-CRO.JPG?itok=PnlfQg71",
+   "published": "2026-10-03T19:00:45.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna",
+   "topic": "world",
+   "hasBody": false,
+   "top": true
+  },
+  {
+   "id": "15797144d9189df4",
+   "title": "OpenAI safety employee quits, says 'time for trial and error is over'",
+   "link": "https://www.channelnewsasia.com/business/openai-safety-employee-quits-says-time-trial-and-error-over-6430136",
+   "summary": "",
+   "image": "https://dam.mediacorp.sg/image/upload/s--2Z6nuajX--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-10-03T190019Z_1_LYNXMPEM920K4_RTROPTP_3_GLOBAL-ECONOMY-AI.JPG?itok=5-C4pKIi",
+   "published": "2026-10-03T19:00:19.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna",
+   "topic": "world",
+   "hasBody": false,
+   "top": true
+  },
+  {
+   "id": "c53df9bbb1729aa7",
+   "title": "The interest rate rise is the wrong medicine and an even worse alibi | Yanis Varoufakis",
+   "link": "https://www.theguardian.com/commentisfree/2026/oct/04/yanis-varoufakis-australia-interest-rate-rise",
+   "summary": "Inflation is again being used as an excuse for acts of vandalism on some of Australia’s important institutions Get our new political email, free app or daily news podcast When the Reserve Bank of Australia lifted its cash rate on Tuesday, with more rate rises…",
+   "image": "https://i.guim.co.uk/img/media/a40face85a0568ac77d4fba4952f6995a46ebd1a/1244_0_6880_5504/master/6880.jpg?width=700&quality=85&auto=format&fit=max&s=747f1fe00dacd1fc974f415bc2e37080",
+   "published": "2026-10-03T19:00:09.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-opinion",
+   "topic": "opinion",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "001f4e70487233a4",
+   "title": "Australia’s wealth gap is growing and so is the anger over it. How do we fix this absolutely hopeless state of affairs? | Zoe Daniel",
+   "link": "https://www.theguardian.com/commentisfree/2026/oct/04/australia-government-cost-of-living-wealth-gap",
+   "summary": "Prices beyond our control, climate change, big tech, crime, the government itself. It’s no wonder people are so furious Get our new political email, free app or daily news podcast Who’s feeling overwhelmed? Going to the supermarket and petrol station was…",
+   "image": "https://i.guim.co.uk/img/media/9b880f6280a894e98885e6ab46dac8993a231abd/432_0_4320_3456/master/4320.jpg?width=700&quality=85&auto=format&fit=max&s=5a80a969fdf616d645a35d8c39e4ec86",
+   "published": "2026-10-03T19:00:08.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-opinion",
+   "topic": "opinion",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "61eb57387da0a2b5",
+   "title": "Is the CJP changing India’s political landscape?",
+   "link": "https://www.aljazeera.com/video/inside-story/2026/10/3/is-the-cjp-changing-indias-political-landscape?traffic_source=rss",
+   "summary": "Youth-led movement demands resignation of chief election commissioner.",
+   "image": "",
+   "published": "2026-10-03T19:00:01.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "9dacb02b9f362729",
+   "title": "Ronaldo 'greatest symbol' of Portugal - Fernandes",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckq5nd1g14v4o?at_medium=RSS&at_campaign=rss",
+   "summary": "Portugal midfielder Bruno Fernandes says Cristiano Ronaldo remains the country's greatest footballing figure despite leaving the squad this week after finding out he would not start a match.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8140/live/6ff772e0-bf51-11f1-a84d-81c67bc2828e.jpg",
+   "published": "2026-10-03T18:57:50.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": true
+  },
+  {
+   "id": "8f37efc83702ad91",
+   "title": "Al Jazeera speaks to Palestinian schoolboy from viral photograph",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/3/al-jazeera-speaks-to-palestinian-schoolboy-from-viral-photograph?traffic_source=rss",
+   "summary": "A photo went viral of a Palestinian boy hiding from Israeli forces on his way home from class in the occupied West Bank.",
+   "image": "",
+   "published": "2026-10-03T18:49:03.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "2e5b2d774539e28a",
+   "title": "England's Jordan in contention at Alfred Dunhill Links",
+   "link": "https://www.bbc.co.uk/sport/golf/articles/ck0j0pyn63j8o?at_medium=RSS&at_campaign=rss",
+   "summary": "England's Matthew Jordan is two shots off the lead heading into the final round of the Alfred Dunhill Links Championship.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b6fa/live/45aad6c0-bf57-11f1-88d1-a5a9c4da291e.jpg",
+   "published": "2026-10-03T18:44:51.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": true
+  },
+  {
+   "id": "d442265d45586f0c",
+   "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+   "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+   "summary": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.",
+   "image": "",
+   "published": "2026-10-03T18:43:57.000Z",
+   "source": "TechCrunch",
+   "feedId": "techcrunch",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "a224fe099a960e01",
+   "title": "Glasgow and Ulster play out thrilling draw in URC",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cqwy752wpz9yo?at_medium=RSS&at_campaign=rss",
+   "summary": "George Horne's late penalty hits the post as Glasgow Warriors and Ulster play out a thrilling 33-33 draw in the United Rugby Championship.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d83/live/1b910740-bf59-11f1-88d1-a5a9c4da291e.jpg",
+   "published": "2026-10-03T18:38:20.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": true
+  },
+  {
+   "id": "818452440a8856c5",
+   "title": "Fernandes hails Ronaldo and calls for Portugal unity ahead of Norway game",
+   "link": "https://www.aljazeera.com/sports/2026/10/3/fernandes-hails-ronaldo-and-calls-for-portugal-unity-ahead-of-norway-game?traffic_source=rss",
+   "summary": "Cristiano Ronaldo withdrew from the Portugal squad, but Bruno Fernandes says forward remains team's 'greatest symbol'.",
+   "image": "",
+   "published": "2026-10-03T18:23:29.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "6913e9e095848708",
+   "title": "England trounce Croatia 7-0 in Nations League as Kane goal run continues",
+   "link": "https://www.aljazeera.com/sports/2026/10/3/england-trounce-croatia-7-0-in-nations-league-as-kane-goal-run-continues?traffic_source=rss",
+   "summary": "Harry Kane scores in sixth successive away game for England as Bukayo Saka also scores twice in Nations League thumping.",
+   "image": "",
+   "published": "2026-10-03T18:20:51.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "4f7fc60eacc4b450",
+   "title": "Portugal vs Norway: UEFA Nations League – Ronaldo latest, Haaland, teams",
+   "link": "https://www.aljazeera.com/sports/2026/10/3/portugal-vs-norway-uefa-nations-league-ronaldo-latest-haaland-teams?traffic_source=rss",
+   "summary": "Nations League title holders Portugal hosts Erling Haaland's Norway, days after Cristiano Ronaldo's exit from the camp.",
+   "image": "",
+   "published": "2026-10-03T18:13:41.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "d6c2eb57a593887e",
+   "title": "Medical plane with 6 on board missing off Massachusetts coast",
+   "link": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss",
+   "summary": "The aircraft lost communication with flight controllers after significantly dropping in altitude, according to flight data.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5084/live/3748e6a0-bf41-11f1-8acc-0bb5649ca116.jpg",
+   "published": "2026-10-03T18:06:47.000Z",
+   "source": "BBC News",
+   "feedId": "bbc-world",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "7df154ba9b2362d2",
+   "title": "Doubles from Kane and Saka power England to 7-0 rout of Croatia",
+   "link": "https://www.channelnewsasia.com/sport/doubles-kane-and-saka-power-england-7-0-rout-croatia-6429971",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-03T18:06:46.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "509f9eff50a14896",
+   "title": "Algeria sent fighter jets to Niger to thwart ‘coup attempt’, president says",
+   "link": "https://www.aljazeera.com/news/2026/10/3/algeria-sent-fighter-jets-to-niger-to-thwart-coup-attempt-president-says?traffic_source=rss",
+   "summary": "President Abdelmadjid Tebboune says Algiers deployed warplanes to Niamey in late August following an attack by mutineers.",
+   "image": "",
+   "published": "2026-10-03T18:03:08.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "52d8e32b3411d5f5",
+   "title": "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike",
+   "link": "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/",
+   "summary": "The price of anything with memory is skyrocketing thanks to AI. Aging streaming devices are no exception.",
+   "image": "https://media.wired.com/photos/6ac00d9bc910b804171a679e/master/pass/GettyImages-474968764.jpg",
+   "published": "2026-10-03T18:00:00.000Z",
+   "source": "Wired",
+   "feedId": "wired",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "f1324467a04b051f",
+   "title": "Who was the best player on the pitch? - England player ratings",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cq4g1x8znyd0o?at_medium=RSS&at_campaign=rss",
+   "summary": "England produce one of their best performances in recent times as they thump Croatia 6-0 in Rijeka. How did our report rate the players' performances?",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70d1/live/36cf3a10-bf52-11f1-a84d-81c67bc2828e.jpg",
+   "published": "2026-10-03T17:58:13.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "19a6e54c57b6a584",
+   "title": "Rees-Zammit stars as Bristol power past Northampton",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cqm27ln49devo?at_medium=RSS&at_campaign=rss",
+   "summary": "Louis Rees-Zammit scores a double as Bristol edge past reigning champions Northampton in a pulsating Prem tussle.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1fee/live/fd621f20-bf49-11f1-a84d-81c67bc2828e.jpg",
+   "published": "2026-10-03T17:57:17.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "f73f3a30bb92e90f",
+   "title": "Anwar Visits SIC For Pit Tour, Welcome Dinner",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9aVzg3TmtkRmNHcW1WV2dzbWRfVTBfQkl1a0hHdnlDSFk1SThoSTNpMDlvb3ZCWXNiZHE5QjhaTV9RWVA0U2RLUXJZYnJtbTQ0TGlYTg?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-03T17:55:03.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "bac04ab9f9d5eb6e",
+   "title": "Tennessee prison chief to resign after Christa Pike's failed execution",
+   "link": "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss",
+   "summary": "Pike's lawyers said the failure \"goes far beyond any one person\". Pike is in critical condition after surviving two lethal injections.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a5d3/live/7d12d1b0-bf45-11f1-babe-4199b0e7ccea.jpg",
+   "published": "2026-10-03T17:48:42.000Z",
+   "source": "BBC News",
+   "feedId": "bbc-world",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "456745129bb49e31",
+   "title": "Authors",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9KamNFVVlhV3pqeW81TzNVc05hVWZnMGh1OHlSRkVjNHVkTnBvemlwZUdheWZLWC0tQVh3OVUzQXRtVHVNQnoxcDBhbWtTODZLVTlRekxpUmtiLWU3?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-03T17:39:26.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "5579df921d2f9075",
+   "title": "Sinfield completes final ultramarathon challenge",
+   "link": "https://www.bbc.co.uk/news/articles/cwgkvy047gkno?at_medium=RSS&at_campaign=rss",
+   "summary": "Sir Kevin Sinfield crosses the finish line at Old Trafford after seven ultramarathons in seven days.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b9c/live/0c43cbc0-bf4e-11f1-a84d-81c67bc2828e.jpg",
+   "published": "2026-10-03T17:38:56.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "d7f0b295f1658652",
+   "title": "Tennessee prisons official resigns after Christa Pike’s failed US execution",
+   "link": "https://www.aljazeera.com/news/2026/10/3/tennessee-prisons-official-resigns-after-christa-pikes-failed-us-execution?traffic_source=rss",
+   "summary": "The state's governor said Frank Strada would step down as an independent review examines what went wrong.",
+   "image": "",
+   "published": "2026-10-03T17:31:54.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "1031b1a62eb40629",
+   "title": "Israeli reporter’s ‘verbal attack’ ends Ireland football news conference",
+   "link": "https://www.aljazeera.com/sports/2026/10/3/israeli-reporters-verbal-attack-ends-ireland-football-news-conference?traffic_source=rss",
+   "summary": "Israeli journalists asked coach Hallgrimsson about the Flydubai attack and alleged racist abuse by Ireland's players.",
+   "image": "",
+   "published": "2026-10-03T17:25:28.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "ed40cc3abdf3139d",
+   "title": "Tennessee’s top prison official resigning after botched execution of Christa Pike",
+   "link": "https://www.theguardian.com/us-news/2026/oct/03/tennessee-christa-pike-frank-strada",
+   "summary": "Frank Strada leaving position as state launches independent investigation into what went wrong Tennessee’s top prison official is stepping down in the aftermath of the failed execution of death row prisoner Christa Pike, the state’s governor Bill Lee…",
+   "image": "https://i.guim.co.uk/img/media/0c200f21448e17a4a9d68a1be552144f63db1aff/0_38_2012_1609/master/2012.jpg?width=700&quality=85&auto=format&fit=max&s=99af17986bebdbcb74b21987d1fff39e",
+   "published": "2026-10-03T17:09:05.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-world",
+   "topic": "world",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "7c52e957a63b825c",
+   "title": "Latvia PM's United List ahead in election, exit poll shows",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdXhaRG9HX1ZRekFUb3VhY29hVmg2RHNLUFFYSHBMOExjR0NLVUZyWTZObkZlRHZLUFhvc09sMXR5VS1SRkxBelh1MThITk9nQkpYUl9vN01YcGNQalgtTW9LZV8yYjlQRXRiV29PYS1wWml4LWhST3FjR3lDMkdJME9weWF5eDRVNmFYaERoMFo3bFdIakRJU2M1Z0V5VjNvekU4S25SbkRKSHVs?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-03T17:05:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "8149a4efe6771a43",
+   "title": "US Coast Guard searches for missing air ambulance off coast of Massachusetts",
+   "link": "https://www.theguardian.com/us-news/2026/oct/03/us-coast-guard-missing-air-ambulance-massachusetts",
+   "summary": "The plane was undertaking a medical evacuation from Bermuda with six people onboard when it lost contact The US Coast Guard is searching for an air ambulance jet with six people onboard that lost contact with the Federal Aviation Administration (FAA) during a…",
+   "image": "https://i.guim.co.uk/img/media/c72e4c08a553f2f02138a8eb41356396a9108d22/408_0_2436_1949/master/2436.jpg?width=700&quality=85&auto=format&fit=max&s=c537690e83a12e4b021c2c9910fa6c01",
+   "published": "2026-10-03T17:03:54.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-world",
+   "topic": "world",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "33624faf6ea25c73",
+   "title": "Qatar and Abu Dhabi F1 Grand Prix to go ahead: F1 boss",
+   "link": "https://www.channelnewsasia.com/sport/qatar-and-abu-dhabi-f1-grand-prix-go-ahead-f1-boss-6429611",
+   "summary": "",
+   "image": "https://dam.mediacorp.sg/image/upload/s--DBpHwBGj--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-10-03T111938Z_1_LYNXMPEM92094_RTROPTP_3_MOTOR-F1-BAHRAIN.JPG?itok=Fk-90vF3",
+   "published": "2026-10-03T17:02:00.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "90413c4de8e56932",
+   "title": "Wu thrashes Trump to set up Yuan final in Shenzhen",
+   "link": "https://www.bbc.co.uk/sport/snooker/articles/cm1exp2nj1y9o?at_medium=RSS&at_campaign=rss",
+   "summary": "Chinese world champion Wu Yize wins six consecutive frames to beat Judd Trump 6-1 at the Shenzhen Open and set up a final against countryman Yuan Sijun.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f9f/live/1c9276e0-bf47-11f1-a84d-81c67bc2828e.jpg",
+   "published": "2026-10-03T16:56:14.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "c87d5f628b0a50a7",
+   "title": "Capcom is preparing for a ‘future where we create games together with AI’",
+   "link": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
+   "summary": "Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't seem so down on the tech. During the Capcom Open Conference RE: 2026 programmer Satoshi Ishida gave a presentation with the mouthful of a title: \"The Outlook and Future…",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/RE9_SS_08.png?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-03T16:49:10.000Z",
+   "source": "The Verge",
+   "feedId": "theverge",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "ed83fed15fa1c780",
+   "title": "Florida jury finds ex-sheriff’s deputy not guilty in shooting death of Black air force airman",
+   "link": "https://www.theguardian.com/us-news/2026/oct/03/florida-ex-sheriff-deputy-not-guilty-shooting-death-black-air-force-airman",
+   "summary": "Roger Fortson was shot by deputy when he opened door with gun in hand after a false domestic disturbance call A Florida jury recently found former sheriff’s deputy Eddie Duran not guilty of manslaughter with a firearm in the fatal shooting of Roger Fortson, a…",
+   "image": "https://i.guim.co.uk/img/media/3431cd50972da76d6b2aefbfbd97b74ec8dcad7f/334_0_3331_2666/master/3331.jpg?width=700&quality=85&auto=format&fit=max&s=d0e3a9d5ff83944d847bc2ad8c7a6a2c",
+   "published": "2026-10-03T16:44:21.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-world",
+   "topic": "world",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "77cc4730989280e6",
+   "title": "Protests over housing flare in Spain after relief measures rejected",
+   "link": "https://www.channelnewsasia.com/world/protests-over-housing-flare-in-spain-after-relief-measures-rejected-6429581",
+   "summary": "Spain housing protests swell after lawmakers reject tenant relief, with 70,000 to 500,000 marching as anger over soaring rents deepens.",
+   "image": "https://dam.mediacorp.sg/image/upload/s--RRMb0KYX--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/10/04/000_c9l337w.jpg?itok=cVmTm5Ly",
+   "published": "2026-10-03T16:37:00.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "173203d6eea0f225",
+   "title": "CPO Futures May Ease Next Week On Higher Stocks Expectations, Weaker Oil Prices",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB3TkdQVGQtMEZDV1Z5Z2pDWXR6V2xHYWFxS3MxcWZVY2JXcXpKTEg4Y2lTd2ppTGRqQjdRdjE1UXlzU1Y3NGU5YWp5dTVyQkVKbDJOVG56RTYzYlowMXc?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-03T16:35:16.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
   {
    "id": "f143fce070e10faa",
    "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
@@ -88,6 +595,58 @@
    "top": false
   },
   {
+   "id": "fc422745e99bc32a",
+   "title": "Sepang CEO seen handing out water to F1 fans waiting for buses",
+   "link": "https://www.freemalaysiatoday.com/category/nation/2026/10/04/sepang-ceo-seen-handing-out-water-to-f1-fans-waiting-for-buses",
+   "summary": "Some social media users said there were now smoother queues, dedicated lanes for shuttle buses and a stronger presence of staff, marshals and police.",
+   "image": "https://media.freemalaysiatoday.com/v3/2026/10/465e9958-1da0-4099-b477-506a95f292d5-Azhan-Shafriman-Hanif-bagi-air-threads-pic-031026-1.jpg",
+   "published": "2026-10-03T16:25:11.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "d1becd4b559a93d1",
+   "title": "Somalia won’t accept Israeli presence ‘under any circumstances’: President",
+   "link": "https://www.aljazeera.com/news/2026/10/3/somalia-wont-accept-israeli-presence-under-any-circumstances-president?traffic_source=rss",
+   "summary": "In exclusive Al Jazeera interview, President Hassan Sheikh Mohamud says Israel planning a naval base in Berbera.",
+   "image": "",
+   "published": "2026-10-03T16:25:03.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "fec99b009ef4dd61",
+   "title": "Desmond targeted by Celtic fan protest at Alfred Dunhill",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c60qke217knjo?at_medium=RSS&at_campaign=rss",
+   "summary": "Celtic's largest shareholder Dermot Desmond is targeted in a protest at the Alfred Dunhill Links golf tournament in St Andrews as tennis balls were thrown towards him.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/94e2/live/cf56a740-bf44-11f1-8acc-0bb5649ca116.jpg",
+   "published": "2026-10-03T16:24:56.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "027067a61d467186",
+   "title": "The best early October Prime Day deals happening now",
+   "link": "https://www.theverge.com/gadgets/999447/best-early-amazon-prime-day-big-deals-sale-october",
+   "summary": "It’s not even October yet and Amazon is already offering some Prime Big Deal Day discounts on its own hardware, along with plenty of other popular products. It’s all to hype up October Prime Day, which starts October 6th at 3AM ET and lasts through 3AM ET on…",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268775_October_Prime_Day_art_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
+   "published": "2026-10-03T16:22:40.000Z",
+   "source": "The Verge",
+   "feedId": "theverge",
+   "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "a0eb47f46d712965",
    "title": "Brazil tame India in 4-0 friendly win",
    "link": "https://www.channelnewsasia.com/sport/brazil-tame-india-in-4-0-friendly-win-6429591",
@@ -96,19 +655,6 @@
    "published": "2026-10-03T16:18:55.000Z",
    "source": "Channel NewsAsia",
    "feedId": "cna",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "bac04ab9f9d5eb6e",
-   "title": "Tennessee prison chief to resign after Christa Pike's failed execution, governor says",
-   "link": "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss",
-   "summary": "Pike survived two lethal injections on Wednesday and is currently in critical condition in hospital.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a5d3/live/7d12d1b0-bf45-11f1-babe-4199b0e7ccea.jpg",
-   "published": "2026-10-03T16:18:04.000Z",
-   "source": "BBC News",
-   "feedId": "bbc-world",
    "topic": "world",
    "hasBody": false,
    "top": false
@@ -166,6 +712,32 @@
    "top": false
   },
   {
+   "id": "f9b228d04c36b52d",
+   "title": "Group has 'exploded' after Wales win - Bellamy",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cmkgewx77521o?at_medium=RSS&at_campaign=rss",
+   "summary": "Craig Bellamy says Wales' win over Norway has \"thrown a hand grenade\" into their Nations League group as they go in search of another victory against Denmark in Cardiff on Sunday.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d544/live/cd3b0f80-bf1e-11f1-9b47-174f268aae1d.jpg",
+   "published": "2026-10-03T16:11:50.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "d10053e180e1ea29",
+   "title": "Health ministry approves relocation claims for doctors posted to East Malaysia",
+   "link": "https://www.freemalaysiatoday.com/category/nation/2026/10/04/health-ministry-approves-relocation-claims-for-doctors-posted-to-east-malaysia",
+   "summary": "The payments will be made beginning with permanent appointees from the 2025 cohort, and will be extended to appointments made in 2026 and beyond.",
+   "image": "https://media.freemalaysiatoday.com/v3/2026/10/31b003ef-e6bd-453f-8c3d-dc393ad9a145-kk-sabah-bernama-011026.jpg",
+   "published": "2026-10-03T16:11:00.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
    "id": "13ba4fc2c65e4a18",
    "title": "16-year-old student found dead at Yong Peng school",
    "link": "https://www.nst.com.my/news/regional/2026/10/1547028/16-year-old-student-found-dead-yong-peng-school",
@@ -174,6 +746,19 @@
    "published": "2026-10-03T16:06:40.000Z",
    "source": "New Straits Times",
    "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "e56c836b99631a82",
+   "title": "China slams US ‘lie’ over Starbucks stores in Xinjiang",
+   "link": "https://www.freemalaysiatoday.com/category/business/2026/10/04/china-slams-us-lie-over-starbucks-stores-in-xinjiang",
+   "summary": "The chairman of the US House Select Committee on China called the decision to open stores in Urumqi 'morally bankrupt' and urged Starbucks to close the cafes.",
+   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2026/06/72995ce0-starbucks.jpg",
+   "published": "2026-10-03T16:05:00.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
    "top": true
@@ -216,19 +801,6 @@
    "topic": "malaysia",
    "hasBody": true,
    "top": true
-  },
-  {
-   "id": "d6c2eb57a593887e",
-   "title": "Medical plane with 6 on board missing off Massachusetts coast",
-   "link": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss",
-   "summary": "The aircraft lost communication with flight controllers after significantly dropping in altitude, according to flight data.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5084/live/3748e6a0-bf41-11f1-8acc-0bb5649ca116.jpg",
-   "published": "2026-10-03T15:56:14.000Z",
-   "source": "BBC News",
-   "feedId": "bbc-world",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
   },
   {
    "id": "d82a8cccc8b0fbe4",
@@ -868,6 +1440,19 @@
    "top": false
   },
   {
+   "id": "7bb593781d692150",
+   "title": "Malaysia News: National, Regional and World News",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IWV9hdDdYaE9DZ3JvVDJvYVF0T2U3cnhhRGx4Uzc4MjN0czVZZ1lGTkN6amNROXFieGdEZjlZeEVXN2h4OWxLZGx5c2xoNHlzejcwVkNUR0ZSZw?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-03T14:19:08.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "dceaada3eeaa2a09",
    "title": "Verstappen more concerned about the heat than thunderstorms at Sepang",
    "link": "https://www.nst.com.my/sports/motor-sports/2026/10/1546980/verstappen-more-concerned-about-heat-thunderstorms-sepang",
@@ -881,6 +1466,19 @@
    "top": true
   },
   {
+   "id": "bec46aab09ca13ed",
+   "title": "Chaotic end to Republic of Ireland news conference",
+   "link": "https://www.bbc.co.uk/sport/football/videos/cmqjnl8rjn7wo?at_medium=RSS&at_campaign=rss",
+   "summary": "Republic of Ireland manager Heimir Hallgrimsson's news conference comes to a chaotic end.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2501/live/94077f80-bf34-11f1-babe-4199b0e7ccea.jpg",
+   "published": "2026-10-03T14:17:30.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "e29680bbf1124d0d",
    "title": "Turkey’s football referee chief detained pending trial for graft",
    "link": "https://www.freemalaysiatoday.com/category/sports/2026/10/03/turkey-s-football-ref-chief-jailed-pending-trial-for-graft",
@@ -891,7 +1489,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "29265fd13ca06476",
@@ -904,7 +1502,7 @@
    "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "5c54d4a2552bbf3a",
@@ -917,7 +1515,7 @@
    "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "7b786867d5630eba",
@@ -929,19 +1527,6 @@
    "source": "New Straits Times",
    "feedId": "nst",
    "topic": "malaysia",
-   "hasBody": true,
-   "top": true
-  },
-  {
-   "id": "9c69bc32740e1379",
-   "title": "Michigan state police rule out claim that Larry Nassar was removed from sex offender registry",
-   "link": "https://www.theguardian.com/us-news/2026/oct/02/larry-nassar-michigan-sex-offender-registry-removed",
-   "summary": "Eaton county prosecuting attorney’s office had said court ruling forced removal of Nassar’s name – but he wasn’t on list because he was imprisoned out of state Michigan has removed more than 20,000 entries from its sex offender registry, but convicted serial…",
-   "image": "https://i.guim.co.uk/img/media/de4ad9413131ccc5f17af861cc6f5d565a6825b7/296_0_1641_1313/master/1641.jpg?width=700&quality=85&auto=format&fit=max&s=d2aaa1e06b03e931079fc90a1e9752ef",
-   "published": "2026-10-03T14:07:00.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-world",
-   "topic": "world",
    "hasBody": true,
    "top": false
   },
@@ -969,7 +1554,7 @@
    "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "32ba35064a43774c",
@@ -981,19 +1566,6 @@
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
-   "hasBody": true,
-   "top": true
-  },
-  {
-   "id": "6a75cf65796b42fd",
-   "title": "California’s new laws target workers’ biggest fear of AI taking their jobs",
-   "link": "https://www.theguardian.com/technology/2026/oct/03/california-ai-laws-worker-protection",
-   "summary": "The state, which is home to many AI companies, is one of the first to roll out workplace regulations targeting the technology California’s laws aimed at protecting workers from the impacts of artificial intelligence could pave the way for broader workplace…",
-   "image": "https://i.guim.co.uk/img/media/a7ae6b6345db6bcbca850fbce1224501d4714e2d/556_0_5556_4445/master/5556.jpg?width=700&quality=85&auto=format&fit=max&s=ede2db1e263304fe0eb9db05b6600e60",
-   "published": "2026-10-03T14:00:00.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-world",
-   "topic": "world",
    "hasBody": true,
    "top": false
   },
@@ -1034,7 +1606,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "5d182782b155c83a",
@@ -1047,19 +1619,6 @@
    "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
-  },
-  {
-   "id": "c6083dbe3531f954",
-   "title": "Baxter backs Slade after missed kicks at Bath",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cm93z5j252leo?at_medium=RSS&at_campaign=rss",
-   "summary": "Exeter boss Rob Baxter urges Henry Slade not to dwell on his missed kicks in their loss at Bath.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9de3/live/b3057970-bf2d-11f1-b10d-f956452c9061.jpg",
-   "published": "2026-10-03T13:53:24.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
-   "hasBody": false,
    "top": false
   },
   {
@@ -1089,19 +1648,6 @@
    "top": false
   },
   {
-   "id": "b9af61b205f40416",
-   "title": "Ospreys hit by Lions' second-half show of power",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmlyr77y45lno?at_medium=RSS&at_campaign=rss",
-   "summary": "Ospreys beaten in Johannesburg after six-try Lions turn around half-time deficit in the United Rugby Championship.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7bc9/live/9802e680-bf28-11f1-b10d-f956452c9061.jpg",
-   "published": "2026-10-03T13:49:40.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "d5e51edce494d7c1",
    "title": "PKR readmits 3 former MPs after appeals",
    "link": "https://www.freemalaysiatoday.com/category/nation/2026/10/03/pkr-readmits-3-former-mps-after-appeals",
@@ -1112,7 +1658,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "f437c4a38128f0ca",
@@ -1125,7 +1671,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "03c3dd79c2193f4a",
@@ -1142,7 +1688,7 @@
   },
   {
    "id": "faf547d0e8f7e4db",
-   "title": "Protesters across Spain demand action over housing crisis",
+   "title": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
    "link": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
    "summary": "More than 50 protests are taking place on Saturday after the government failed to get emergency legislation through parliament.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/225b/live/a58f5d00-bf24-11f1-bc2e-018d645d8d21.jpg",
@@ -1164,7 +1710,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "24d9453b448bd47c",
@@ -1310,6 +1856,19 @@
    "top": false
   },
   {
+   "id": "e43435a3570f52a0",
+   "title": "Anwar visits Sepang International Circuit for pit tour, welcome dinner",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5aVFRVYnBZUTJkbll6d1ZhZG85TFBmd0JsZlBiM3V3U1E0WF83YU9ReWo4Y184U2pUay04QkVnemE4M0JlMk0tMllnUWczTUdD?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-03T13:10:46.000Z",
+   "source": "The Edge Malaysia",
+   "feedId": "gnews-edge",
+   "topic": "business",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "b861cd5f190bba35",
    "title": "New law will protect well-being of senior citizens, says minister",
    "link": "https://www.freemalaysiatoday.com/category/nation/2026/10/03/new-law-will-protect-well-being-of-senior-citizens-says-minister",
@@ -1337,9 +1896,9 @@
   },
   {
    "id": "aa940086ad4cb461",
-   "title": "Croatia vs England live: UEFA Nations League",
+   "title": "Croatia 0-7 England: UEFA Nations League – as it happened",
    "link": "https://www.aljazeera.com/sports/liveblog/2026/10/3/live-croatia-vs-england-uefa-nations-league?traffic_source=rss",
-   "summary": "Follow the updates, with build-up, predictions, team news and full match coverage, from our live text commentary stream.",
+   "summary": "All the updates from our live text commentary stream coverage as Harry Kane and Bukayo Saka both net twice.",
    "image": "",
    "published": "2026-10-03T13:01:40.000Z",
    "source": "Al Jazeera",
@@ -1414,11 +1973,11 @@
    "top": false
   },
   {
-   "id": "8fcc22714cff54b4",
-   "title": "The dark side of El Nino: Sea levels to rise in California as coastal wave surges up west coast",
-   "link": "https://www.malaymail.com/news/world/2026/10/03/the-dark-side-of-el-nino-sea-levels-to-rise-in-california-as-coastal-wave-surges-up-west-coast/237547",
-   "summary": "LOS ANGELES, Oct 3 — Sea levels in California are set to rise by as much as a foot (30 centimetres) in the coming...",
-   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/03/366113.jpg",
+   "id": "a6327bf33f16b2e6",
+   "title": "A 1,000-year-old homecoming: Bulgaria gets possible remains of Tsar Samuel",
+   "link": "https://www.malaymail.com/news/life/2026/10/03/a-1000-year-old-homecoming-bulgaria-gets-possible-remains-of-tsar-samuel/237543",
+   "summary": "SOFIA, Oct 3 — More than a thousand years after his death, the remains of what may be Tsar Samuel, one of the last...",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/03/366111.jpg",
    "published": "2026-10-03T13:00:00.000Z",
    "source": "Malay Mail",
    "feedId": "malaymail",
@@ -1427,11 +1986,11 @@
    "top": false
   },
   {
-   "id": "a6327bf33f16b2e6",
-   "title": "A 1,000-year-old homecoming: Bulgaria gets possible remains of Tsar Samuel",
-   "link": "https://www.malaymail.com/news/life/2026/10/03/a-1000-year-old-homecoming-bulgaria-gets-possible-remains-of-tsar-samuel/237543",
-   "summary": "SOFIA, Oct 3 — More than a thousand years after his death, the remains of what may be Tsar Samuel, one of the last...",
-   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/03/366111.jpg",
+   "id": "8fcc22714cff54b4",
+   "title": "The dark side of El Nino: Sea levels to rise in California as coastal wave surges up west coast",
+   "link": "https://www.malaymail.com/news/world/2026/10/03/the-dark-side-of-el-nino-sea-levels-to-rise-in-california-as-coastal-wave-surges-up-west-coast/237547",
+   "summary": "LOS ANGELES, Oct 3 — Sea levels in California are set to rise by as much as a foot (30 centimetres) in the coming...",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/03/366113.jpg",
    "published": "2026-10-03T13:00:00.000Z",
    "source": "Malay Mail",
    "feedId": "malaymail",
@@ -1450,19 +2009,6 @@
    "feedId": "aljazeera",
    "topic": "world",
    "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "4a6940fab7ac9bcb",
-   "title": "Petros tak ganti Petronas, kata Abang Jo",
-   "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/10/03/petros-tak-ganti-petronas-kata-abang-jo",
-   "summary": "Premier Sarawak berkata kerajaan negeri akan terus bekerjasama dengan Petronas.",
-   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2026/06/bf6bf536-abang-johari-openg-resize-fmt-060626.webp",
-   "published": "2026-10-03T12:59:00.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "hasBody": true,
    "top": false
   },
   {
@@ -1505,29 +2051,16 @@
    "top": false
   },
   {
-   "id": "8a8905d3f8d4bebc",
-   "title": "I did not ‘disappear’ from PKR, says ex-MP Lee",
-   "link": "https://www.freemalaysiatoday.com/category/nation/2026/10/03/i-did-not-disappear-from-pkr-says-ex-mp-lee",
-   "summary": "Lee Chean Chung says he became less active in the party after concerns raised through internal channels were allegedly ignored.",
-   "image": "https://media.freemalaysiatoday.com/v3/2026/10/71f53e90-380a-4288-9e9a-594349be04de-Lee-Chean-Chung-fmt-31026-.jpg",
-   "published": "2026-10-03T12:51:00.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "885bad951d7af887",
-   "title": "F1 mania turns sour as fans bite into ‘exorbitant’ food prices",
-   "link": "https://www.freemalaysiatoday.com/category/nation/2026/10/03/f1-mania-turns-sour-as-fans-bite-into-exorbitant-food-prices",
-   "summary": "Social media lights up with complaints such as RM50 for a packet of fried rice and RM25 for iced Milo or juice.",
-   "image": "https://media.freemalaysiatoday.com/v3/2026/10/c24d32c8-57f3-4f18-b171-96a8474025ea-Threads-user-myk3_mash-showing-food-prices-at-Sepang-threads-pic-31026.jpg",
-   "published": "2026-10-03T12:45:00.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "hasBody": true,
+   "id": "b456e143e456b394",
+   "title": "Double cover: Insights into margins calls on Zetrix AI's TS Wong + Sime Darby Property reworks the developer model",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9LUV9nR2Q5NUtnNU5XRk1nQzIwa0h2RDAybkVLTDZ4VlR4YnR4WHlTdmNaRFZ6aXctVWFuVXhQUnhIcXRydldPRDhrVGVkVlF6?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-03T12:52:38.000Z",
+   "source": "The Edge Malaysia",
+   "feedId": "gnews-edge",
+   "topic": "business",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1635,38 +2168,12 @@
    "top": false
   },
   {
-   "id": "6a34e751a886e53a",
-   "title": "'Different' Morrison gives NI new option",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c6n9rlvr57pgo?at_medium=RSS&at_campaign=rss",
-   "summary": "Northern Ireland's Kieran Morrison hopes he has earned the trust of manager Michael O'Neill after impressing on his first international start.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c979/live/12ca4de0-bea7-11f1-a22a-011993fe1af2.jpg",
-   "published": "2026-10-03T12:23:24.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "d230f14470b4fc83",
    "title": "South Africa’s Pretorius smashes Gayle’s T20 cricket record score",
    "link": "https://www.aljazeera.com/sports/2026/10/3/south-africas-pretorius-smashes-gayles-t20-cricket-record-score?traffic_source=rss",
    "summary": "South African Lhuan-dre Pretorius hit 50 in 24 balls, needed 16 more to reach 100 and took another 18 to hit 150.",
    "image": "",
    "published": "2026-10-03T12:19:29.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "850c6ce0af831497",
-   "title": "Israeli settlers attack farmers in West Bank pogrom, soldiers hit reporters",
-   "link": "https://www.aljazeera.com/news/2026/10/3/israeli-settlers-attack-palestinian-olive-pickers-in-the-west-bank?traffic_source=rss",
-   "summary": "Israeli forces detain and assault journalists in Jabal Qamass area in Beita, south of Nablus.",
-   "image": "",
-   "published": "2026-10-03T12:18:24.000Z",
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
@@ -1684,19 +2191,6 @@
    "feedId": "malaymail",
    "topic": "malaysia",
    "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "de7ff9bbf397105e",
-   "title": "Malaysia News: National, Regional and World News",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9maFBqNWNuSUFVd2JjalJrTWpJYnNaNkNKaGJBZ1lYZDBTNklUSGY1UkswSEhLR08yajFkWEhtdUM4bTNwQnFIamFIZENHR3lneUw5bVcxbEl5UjQ3VzlfVUhXSmdIWUV5cmtzVW9rMzBfbEZF?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-03T12:14:43.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
-   "hasBody": false,
    "top": false
   },
   {
@@ -1817,19 +2311,6 @@
    "top": false
   },
   {
-   "id": "54e59f687601938d",
-   "title": "World No 1 Sinner withdraws from Shanghai Masters as knee injury lingers",
-   "link": "https://www.aljazeera.com/sports/2026/10/3/world-no-1-sinner-withdraws-from-shanghai-masters-as-knee-injury-lingers?traffic_source=rss",
-   "summary": "Italy's Jannik Sinner has not played since Wimbledon win in July, missing US Open and ongoing ATP 500 event in Beijing.",
-   "image": "",
-   "published": "2026-10-03T11:51:22.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "661519aa39274e5b",
    "title": "North Korea's Kim Yo Jong says intermediate-range missile test was conducted",
    "link": "https://www.channelnewsasia.com/east-asia/north-koreas-kim-yo-jong-says-intermediate-range-missile-test-was-conducted-6429151",
@@ -1851,19 +2332,6 @@
    "published": "2026-10-03T11:35:06.000Z",
    "source": "Channel NewsAsia",
    "feedId": "cna",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "e6f9c58f9ca6b671",
-   "title": "The double standards of a failed execution",
-   "link": "https://www.aljazeera.com/opinions/2026/10/3/the-double-standards-of-a-failed-execution?traffic_source=rss",
-   "summary": "Had Christa Pike faced the death penalty in the Middle East, there would be relentless outrage and condemnations.",
-   "image": "",
-   "published": "2026-10-03T11:32:42.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
    "topic": "world",
    "hasBody": false,
    "top": false
@@ -1934,19 +2402,6 @@
    "top": false
   },
   {
-   "id": "758c24e46bd73637",
-   "title": "Ethiopia’s government forces retake airport from Tigray rebels in Mekelle",
-   "link": "https://www.aljazeera.com/news/2026/10/3/rebels-pulling-back-as-addis-ababas-forces-advance-reports-say?traffic_source=rss",
-   "summary": "The rebels have been seen leaving the capital of the northern Tigray region, according to local sources.",
-   "image": "",
-   "published": "2026-10-03T11:16:43.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "fd447d5ccac23652",
    "title": "The dawn of the age of the exoskeleton",
    "link": "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/",
@@ -1973,19 +2428,6 @@
    "top": false
   },
   {
-   "id": "4889819c49ef6579",
-   "title": "Pakistan summons Indian diplomat over killing of two civilians at border",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVW5QTVpKNHdKdDhYVkF5Sm0wQ3paUUxYdi1NbmNMcTJySnBMYWJCQU53WGdBeDc4RTMxUmlKX3AyY1JPUWVoOHo2aTNZTnpNRkxGbFJsRE9PODl5VFN2aTAzT1lFNmV1ZmZXYTZva25BYlE0T29RUERmcUJqcV9LeGlHdlVFSFB1cmJuNkRFNHFRcklnZFdKNHFmSHYzUlQzZXpGeFdZYTJoUm92M1NEMmxSNUNpSXZ1QUJWcTBn?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-03T11:09:00.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "a2b6ea0cca86f4e3",
    "title": "Anwar’s nutmeg story: PM says grandmother’s childhood lesson on theft behind his anti-graft stance",
    "link": "https://www.malaymail.com/news/malaysia/2026/10/03/anwars-nutmeg-story-pm-says-grandmothers-childhood-lesson-on-theft-behind-his-anti-graft-stance/237570",
@@ -1999,19 +2441,6 @@
    "top": false
   },
   {
-   "id": "94428379f63f2d8a",
-   "title": "Palestinians gather for football amid Gaza’s ruins",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/3/palestinians-gather-for-football-amid-gazas-ruins?traffic_source=rss",
-   "summary": "Displaced Palestinians gathered to watch a friendly football match in Gaza’s Khan Younis.",
-   "image": "",
-   "published": "2026-10-03T11:08:17.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "607bb8528695774c",
    "title": "The Best E-Readers That Aren't a Kindle (2026): Kobo, Boox",
    "link": "https://www.wired.com/gallery/best-ereaders/",
@@ -2021,6 +2450,19 @@
    "source": "Wired",
    "feedId": "wired",
    "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "07cc91d2c937214b",
+   "title": "Sarawak Tok",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NYTM5ZnA0NF9pdVNPT3I4TWRqYm1zTXFhM2RvY3ljUmhWWm9nMkQ4aXFkYTkyX0dtazJSMW82WUIxV01NUElSSk41M3ZydHRXOEZlOU95YjlHVDctRGJKR2RoWU9FQy1tT0JQOA?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-03T11:03:09.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -2051,32 +2493,6 @@
    "top": false
   },
   {
-   "id": "59654869247977d3",
-   "title": "How AI is helping Mexico detect breast cancer earlier",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/3/10-3-mexico-ai-breast-cancer-julia-pkg?traffic_source=rss",
-   "summary": "Mexico is turning to AI to speed up breast cancer detection as long waits and a shortage of specialists hamper screening",
-   "image": "",
-   "published": "2026-10-03T10:55:32.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "7077c3d27e49a1e2",
-   "title": "Dodgers continue quest for World Series three-peat",
-   "link": "https://www.bbc.co.uk/sport/baseball/articles/c9gkvyjgzevyo?at_medium=RSS&at_campaign=rss",
-   "summary": "The Los Angeles Dodgers will begin their MLB play-off campaign on Saturday, with the defending champions playing in a double-header live on the BBC.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a59/live/b0b59dd0-beb0-11f1-b48e-15cf4ddc906e.jpg",
-   "published": "2026-10-03T10:55:23.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "c6d7df2b0e4b7d01",
    "title": "Support for New Age Movement enough to warrant deputy minister’s resignation - PAS",
    "link": "https://www.malaysiakini.com/news/886194-support-for-new-age-movement-enough-to-warrant-deputy-ministers-resignation-pas",
@@ -2103,28 +2519,15 @@
    "top": false
   },
   {
-   "id": "0845d789f8b179ba",
-   "title": "A Yemeni family spends a week on the road fleeing another Houthi offensive",
-   "link": "https://www.aljazeera.com/features/2026/10/3/a-yemeni-family-spend-a-week-on-the-road-fleeing-another-houthi-offensive?traffic_source=rss",
-   "summary": "Displaced Yemenis are fleeing again, as the Houthis capture the Red Sea coast.",
+   "id": "ce544f6b66e942f9",
+   "title": "As public fears of AI grow, Trump digs in on voluntary safeguards",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZUFYZ2s0ZEJOMWxzYmJpV1JXRmYydURnbVp0YnNrUGRweURycGpEM01maFdWSXQ4TjQxZG5nZHd6eEdxYkJaU21Wb21DTHNqVUpJSzRjbXExOThqaU9pMGpjZzZOaXgwRG5rYkVwZ0c0dVhyV0hjMjNkX1E0eXhKMG1ISHdpY0szLXlzQ0pOTlgtc0d3UjNSbHBsc1djS2RDbDd1UENqN1RrR3RJYUhfVkxSdGJ5dEV6?oc=5",
+   "summary": "",
    "image": "",
-   "published": "2026-10-03T10:48:28.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "6e2588c3bc6b4a2f",
-   "title": "Pakistan summons Indian diplomat over border killing of two Pakistanis",
-   "link": "https://www.aljazeera.com/news/2026/10/3/pakistan-summons-indian-diplomat-over-border-killing-of-two-pakistanis?traffic_source=rss",
-   "summary": "Foreign Ministry says it summoned India's ⁠charge d'affaires to lodge 'strong protest' over killing of two civilians.",
-   "image": "",
-   "published": "2026-10-03T10:46:20.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
+   "published": "2026-10-03T10:44:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
+   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -2181,32 +2584,6 @@
    "top": false
   },
   {
-   "id": "4089c734f2bcc5bf",
-   "title": "What is FC Barcelona’s Negreira case, and what are the charges?",
-   "link": "https://www.aljazeera.com/sports/2026/10/3/what-is-fc-barcelonas-negreira-case-and-what-are-the-charges?traffic_source=rss",
-   "summary": "Real Madrid accuse Barcelona of paying former refereeing official Jose Maria Enriquez Negreira between 2001 and 2018.",
-   "image": "",
-   "published": "2026-10-03T10:12:14.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "85fcb5ac95c582f9",
-   "title": "Solberg piles pressure on Evans in WRC title race",
-   "link": "https://www.bbc.co.uk/sport/motorsport/articles/c6eq350nl2x9o?at_medium=RSS&at_campaign=rss",
-   "summary": "Elfyn Evans' hopes of claiming a first World Rally Championship title are in the balance after another strong morning for rival Oliver Solberg in Sardinia.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a6e/live/abbe35e0-bf04-11f1-a64c-550be9e3c66b.jpg",
-   "published": "2026-10-03T10:11:22.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "3c7718009e0d35cc",
    "title": "SNAPSHOT | Budget to address student hunger, debt; pilot's detention extended",
    "link": "https://www.malaysiakini.com/news/886192-snapshot-budget-to-address-student-hunger-debt-pilots-detention-extended",
@@ -2215,6 +2592,19 @@
    "published": "2026-10-03T10:10:09.000Z",
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "7977ee955034b84b",
+   "title": "Prabowo revives presidential advisory board",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcXNxb2pJNUg0dVU1SUVCcnFZb3ZmeUpFUzNLd19mOFB4RjNnWFhDbXN1VWtROFhYMU1YWm9hZFEyVlRJVEE5dm9jb05TUmU1TWlBMTIzWlRtbkpZUUhPQ3dKOXk0a2Y2YmQ2TWd3eWlDdXc5WWl5dzVsMUJMU1JnOTFIc0QxSjJZMEdzUEFOUmNzY050c3IxT2o2UERuN3VMNm00Z01NQVdyQQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-03T10:09:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
    "topic": "malaysia",
    "hasBody": false,
    "top": false
@@ -2246,15 +2636,15 @@
    "top": false
   },
   {
-   "id": "67a6e6c8f4064337",
-   "title": "Red Bull’s Verstappen grabs pole position for Bahrain GP in Malaysia",
-   "link": "https://www.aljazeera.com/sports/2026/10/3/red-bulls-verstappen-grabs-pole-position-for-bahrain-gp-in-malaysia?traffic_source=rss",
-   "summary": "Lewis Hamilton of Ferrari to start second on the grid in Sepang with Red Bull's ⁠Isack Hadjar third.",
+   "id": "9b9e1369f2cf9c65",
+   "title": "Football: Captain Cools pulls out of Vietnam clash for personal reasons",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaGoyd0lRX3VzdFJCS3BheWJtMmJGak5LTVBiaUZXaWNqQWJiX2hncmhpc3BfQkxTd3RaS19uOXh2aFdWeUxMRDVmMjVsLUhWckcxSmtpRzk0eHJuZ053YXlTTkhqVHVici1nZXE5ZnpHZEM0Tm5xMVVlTFZHdEc4TGZXTC1lLTlSV1NNUUw2anVfaXhmczBSUXFqUHJvUTRPbktqanBNaEFfbmNYTGdpNURDMWo?oc=5",
+   "summary": "",
    "image": "",
-   "published": "2026-10-03T10:03:40.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
+   "published": "2026-10-03T10:04:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
+   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -2337,12 +2727,12 @@
    "top": false
   },
   {
-   "id": "623c6fde6335e222",
-   "title": "Authors",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FbF9GNXZYdU9WZWtFWWtzWkJoRWpmWUstc0d5amxlNTlsUE5HYWVPQWN6VUwyVFFEVENub3BwLUswZmxjS1BWSnNOU1U4cm1IaDliaUw3Rks5eUxEWjVLWDR6cnk?oc=5",
+   "id": "ac3792ac16f21b4d",
+   "title": "Remand extended for Malaysian co-pilot arrested for drug smuggling in Indonesia",
+   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOQWl0ZXAzS1FNeV9Ec0Jqa1dUbUZxMmFkVUdGNlpMWWtITjNXUkdHeDJMYXNUbndVRDI1bkJpZjJQbjVweTlUd1NGOXpvNEtrUHB4X0FKTTgtWW9ZV1ZoWDJ3OWdYWmN1MlZfY0Rrdm1SeGhIQnl2eC1NX3RiVDV3ZnJzaF91UzFyOXdyd0o3d1NLRk5HRHNra3pHcWFwXzVJTFQ1VlNKXzJxUVRQLXpqeTc5ODM1X1ZQRTF4WjdnVzBRZjdORlYzMFpleVh2blBNSGZ0dXFiTjdudUc0UUEtamtvY091QWgxdkVvdElTTEtteXVxZ2c?oc=5",
    "summary": "",
    "image": "",
-   "published": "2026-10-03T09:43:28.000Z",
+   "published": "2026-10-03T09:42:00.000Z",
    "source": "The Star",
    "feedId": "gnews-star",
    "topic": "malaysia",
@@ -2424,19 +2814,6 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "bc5bb686fe04735b",
-   "title": "Verstappen claims first pole of season at Bahrain GP in Malaysia",
-   "link": "https://www.channelnewsasia.com/sport/verstappen-claims-first-pole-season-bahrain-gp-in-malaysia-6429001",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-03T09:12:32.000Z",
-   "source": "Channel NewsAsia",
-   "feedId": "cna",
-   "topic": "world",
    "hasBody": false,
    "top": false
   },
@@ -2571,19 +2948,6 @@
    "top": false
   },
   {
-   "id": "c13ddf6688cd824b",
-   "title": "Eleven hurt after bar collapses in Spain",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdHlaUEwwdnlSZU5YMWxkTjJZSVIyc2FMa1dSYW1fRDU4cDhLbjNrVVpxVG9rS3N6OHNzbl82Xzc3MDY5UWYyQzItdnhncGNYSlpoV3lyYmVlcTFDQzNrRzFvV3hjUVdZMlA0WWVQUmVPTjc3clBkd2pLa0RmcmZHYm9xcHlDMXBDaVBGME1FdkxXUGM?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-03T08:49:00.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "2710d661b7e23737",
    "title": "Flydubai co-pilot attacked pilot with axe in attempted 'terrorist attack', UAE says",
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE92YU5NalZRU2VWTEVMbzlxVmRnUk1PVVRNTnJmdFRJZEp6TGRwc0c3ZjZXdi1ibW9nVGpOb1B4UU1SamJwUTJ5S3lWd1h0YUl5?oc=5",
@@ -2593,58 +2957,6 @@
    "source": "The Edge Malaysia",
    "feedId": "gnews-edge",
    "topic": "business",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "0d40438ad18433f9",
-   "title": "Philippines voices concern over Myanmar airstrike deaths, injuries",
-   "link": "https://www.channelnewsasia.com/asia/philippines-voices-concern-over-myanmar-airstrike-deaths-injuries-6428901",
-   "summary": "Monday's (Sep 28) Kyauktaw airstrike,&nbsp;Rakhine's deadliest such attack since a December hospital bombing, killed 50 people and wounded dozens more.",
-   "image": "https://dam.mediacorp.sg/image/upload/s--9o1kuzPT--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-10-03T070855Z_1_LYNXMPEM9204D_RTROPTP_3_MYANMAR-CONFLICT.JPG?itok=7WDG5dxa",
-   "published": "2026-10-03T08:34:09.000Z",
-   "source": "Channel NewsAsia",
-   "feedId": "cna",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "a606c9b2845534e4",
-   "title": "Games-Abhishek and Varma shine as India beat Pakistan to complete cricket double",
-   "link": "https://www.channelnewsasia.com/sport/games-abhishek-and-varma-shine-india-beat-pakistan-complete-cricket-double-6428951",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-03T08:28:01.000Z",
-   "source": "Channel NewsAsia",
-   "feedId": "cna",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "7334250a3b43e68c",
-   "title": "Flydubai co-pilot attacked pilot with axe, attempted 'terrorist attack', UAE says",
-   "link": "https://www.channelnewsasia.com/world/flydubai-co-pilot-attempted-terrorist-attack-uae-6428876",
-   "summary": "Emirati authorities have not publicly identified the co-pilot, but Israeli officials have previously said he is an Omani national.",
-   "image": "https://dam.mediacorp.sg/image/upload/s--3uNdkxcI--/c_crop,h_1124,w_1998,x_1,y_91/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/10/03/ap26273571271630.jpg?itok=cfWhIC-u",
-   "published": "2026-10-03T08:12:00.000Z",
-   "source": "Channel NewsAsia",
-   "feedId": "cna",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "76cae70f83a19798",
-   "title": "Transport operators to improve services after F1 fans left stranded in Sepang",
-   "link": "https://www.channelnewsasia.com/sport/transport-operators-improve-services-after-f1-fans-left-stranded-in-sepang-6428941",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-03T08:11:00.000Z",
-   "source": "Channel NewsAsia",
-   "feedId": "cna",
-   "topic": "world",
    "hasBody": false,
    "top": false
   },
@@ -2766,15 +3078,15 @@
    "top": false
   },
   {
-   "id": "8c2e7a183da50745",
-   "title": "Lewandowski, 38, hits hat-trick in 6-0 Poland win",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c6vgxe0yxpn8o?at_medium=RSS&at_campaign=rss",
-   "summary": "Robert Lewandowski, 38, scores a hat-trick in the Nations League and Edin Dzeko plays his final game for Bosnia-Herzegovina.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ec0/live/311aa970-bef2-11f1-babe-4199b0e7ccea.jpg",
-   "published": "2026-10-03T07:37:38.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
+   "id": "888dc7464a372b75",
+   "title": "Three mortar bombs found in Dengkil disposed of, says police",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNWGNYY0d0bzlqdzRja0NheVNSamFlcUI2U3ZJLUlyQU9Bd0ZWa1Vpc2NWZWhYREFzWGhpM3RNbmRBd08tQXF5ZEpyMHptS1ZlcUZHTXU2TVByUXVGUm5tSmZ2dlUxb2xBMDVtWEVWSlhNNHZURS1YQk1OQkRmX0xfT21WWVE2TWt5bEkyeVo4XzFuSURFNkFpRi1XbW1DZWh3OGFyRFZMdXFmRmlzRUdjb2VUQXFlckFCc2dGdVJNRWlpMFowdVlseHJ2VV81RDlwSEdFSzRtZnRJVW9CR3l4eA?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-03T07:30:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
+   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -2805,10 +3117,23 @@
    "top": false
   },
   {
+   "id": "34288f0878eb1b56",
+   "title": "QuickCheck: Can you fly a drone at Sepang International Circuit during the F1 weekend?",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVDd4bFcwQUVfVnpONFZUZVV1NXFNZEF2TlZzT3ZZSTdxZVpWS0JGQ1A4TTViYW9MWXpmWFBMUkhoT25QYTBSbFBNaXNHYVpCVUxwWUtPVkhoOEUwNUpKTEQ3YkpkOWFDVVVpZnJ6N1lPU2lEUDdvUFBmTWtFek43NzZNSjhFeE1ObEtSaS1reEUwdmJRLXRfXzk1ekdPYXRrQlRCZlNrUFoyMlEwV21yMEE5TG5YWXU0cTdrdHJ5S09ORFZKVTlBbldUdU4xRl83a3Q1T2JOeU0?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-03T07:09:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "e902a5fbef4216fa",
    "title": "Joker persona helps Cong 'feel the fear' in opponents",
    "link": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/ckq5x5de46ppo?at_medium=RSS&at_campaign=rss",
-   "summary": "Wang Cong dismisses critics who say she she is not deserving of facing Natalia Silva for the flyweight world title at UFC 332 on Saturday.",
+   "summary": "Wang Cong dismisses critics who say she is not deserving of facing Natalia Silva for the flyweight world title at UFC 332 on Saturday.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c2b/live/88ada930-bd03-11f1-ae73-153b8464afc4.jpg",
    "published": "2026-10-03T07:07:09.000Z",
    "source": "BBC News",
@@ -2818,15 +3143,28 @@
    "top": false
   },
   {
-   "id": "3b6bafe45fd78c1b",
-   "title": "Too quiet for too long, can McGinn recapture best for Scotland?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5398kvl77xno?at_medium=RSS&at_campaign=rss",
-   "summary": "Fifth in the all-time scoring chart for Scotland and closing in on 100 caps, John McGinn could do with finding his best stuff again, writes Tom English.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ad7/live/f03cb6d0-bea8-11f1-a22a-011993fe1af2.jpg",
-   "published": "2026-10-03T07:05:17.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
+   "id": "f8d60f0959053efd",
+   "title": "Motorsport: Antonelli tops times in final practice at Bahrain GP in SIC",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQb0Roc0tMM0k1R0F3MkN0cEF3d182dTlyekd6Z1NFZVFHalRfbmRJOUtFQVpLU0JFOTA0MnRreXRFQUVlTEtfeE5pSlc0eGx2V3JNN1FjVk1oLWtSbWlFR3prTU15eldIckcyeXpSd3BuVEt3TXJDbkxLVXRFeEl2QnM3aXVFcVJ4OFpkYVpXT3JEbzdyLU5WLW4yYVpCbjB3VG5LUVFYOHF5X0pqemc?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-03T07:07:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "e17ee8c3f8de7342",
+   "title": "Stray Kids join BTS in skipping Grammy submissions",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYXN4RFpWS0FWLU5kNkNBRUc3UWRtaFU2Y1RiM3IzeUZxNUhNWUJyV0pmenBuclVfVjdOaFo4MVpzcWNyV0tncDlzN25XMkRsbE9vczdiS0kzckF1YXV6Wno0eVZMclgzWWlrRHRZNWR3Q09BRzRRaXNkdW5lMllIR19lNThncUJkbDBveTJPM25ZMm95Vno2QzZZRlF5dGwwNnBLUENaRnVzVkEyWlpya0tjOA?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-03T07:04:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
+   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -2854,19 +3192,6 @@
    "feedId": "guardian-world",
    "topic": "world",
    "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "c69176e7f93340c6",
-   "title": "The student playing in La Liga: Introvert Rodri's unique rise to top",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ck5ywwpxe1gno?at_medium=RSS&at_campaign=rss",
-   "summary": "Rodri is already playing a key role at Barcelona after turning down Real Madrid this summer. Guillem Balague looks at his journey so far.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e99/live/1c2848d0-b9b4-11f1-929f-f1f9c2e672cb.jpg",
-   "published": "2026-10-03T06:32:05.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
-   "hasBody": false,
    "top": false
   },
   {
@@ -2909,19 +3234,6 @@
    "top": false
   },
   {
-   "id": "b6fa4b970dee2375",
-   "title": "Flex your football brain with our daily quizzes",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c64gdgp8w4ddo?at_medium=RSS&at_campaign=rss",
-   "summary": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ada7/live/27df4c70-9658-11f1-b2ab-0dd01740f9f6.jpg",
-   "published": "2026-10-03T05:43:42.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "83d144a6af56636d",
    "title": "OpenAI says its review into hacks, including on Australian government sites, is costing $500,000 a day",
    "link": "https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day",
@@ -2932,19 +3244,6 @@
    "feedId": "guardian-world",
    "topic": "world",
    "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "6290d36b351af970",
-   "title": "Gold Rush In Vientiane: 230kg Sold In Three Days, Fuels ASEAN Hub Ambition - ASEAN",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DQWJ5SnRQcWk2MHlxdGFyNHhqb0N4ZHluS05uTFRtTDFvRC0zR3lwNU1sdnN3M3RrTjA5emtuR05TR2ItRWpkWFhwbl9kX0Q5cjU3ZC11M2s?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-03T05:33:52.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
    "top": false
   },
   {
@@ -2974,19 +3273,6 @@
    "top": false
   },
   {
-   "id": "b8f1ff7753158698",
-   "title": "Arteta helped me understand the game - Wilshere",
-   "link": "https://www.bbc.co.uk/sport/football/videos/cq20v0p5xp8eo?at_medium=RSS&at_campaign=rss",
-   "summary": "Luton Town manager Jack Wilshere shares his love for coaching and explains how Arsenal boss Mikel Arteta influnced his style.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a10c/live/b474d2f0-bda3-11f1-a64c-550be9e3c66b.jpg",
-   "published": "2026-10-03T05:24:33.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "c11be9a003c9a392",
    "title": "Malaysia scraps 10% import duty on minted gold bars, business groups welcome move",
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1xZUJoN0NYRUNzNkhmMU9QbV9ERFhBbmVKUTI3Yi1vQk10dFRFRDNRc2FELXNKMm1SZzZFWVVucFVYcEo5WHZhM2UzWDVDTlZ0?oc=5",
@@ -2996,19 +3282,6 @@
    "source": "The Edge Malaysia",
    "feedId": "gnews-edge",
    "topic": "business",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "7557667cf03c182f",
-   "title": "Learning from Arteta and inspiring youngsters - Wilshere on management",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c65y51nvn24wo?at_medium=RSS&at_campaign=rss",
-   "summary": "Luton Town manager Jack Wilshere speaks about being back where he started as an eight-year-old and the lessons he learned from his time at Arsenal.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2fe4/live/ac690b50-bcd4-11f1-babe-4199b0e7ccea.png",
-   "published": "2026-10-03T05:19:13.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
    "hasBody": false,
    "top": false
   },
@@ -3039,32 +3312,6 @@
    "top": false
   },
   {
-   "id": "1a2271aad8233167",
-   "title": "20% Off Brooks Promo Code | October 2026",
-   "link": "https://www.wired.com/story/brooks-promo-code/",
-   "summary": "Enjoy 20% off your first order with a Brooks coupon code, plus top discounts and deals on our favorite Brooks running shoes.",
-   "image": "https://media.wired.com/photos/66ea076ee8502211cd1d9a42/master/pass/WIRED-Coupons-13.jpg",
-   "published": "2026-10-03T05:00:00.000Z",
-   "source": "Wired",
-   "feedId": "wired",
-   "topic": "tech",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "90612c8111096f67",
-   "title": "50% Off DoorDash Promo Code | October 2026",
-   "link": "https://www.wired.com/story/doordash-promo-code/",
-   "summary": "Explore today’s top DoorDash promo codes for $25 off your first order, free delivery, and 50% off DashPass for students and select users.",
-   "image": "https://media.wired.com/photos/66ea0770c0b39dc87b71207a/master/pass/WIRED-Coupons-10.jpg",
-   "published": "2026-10-03T05:00:00.000Z",
-   "source": "Wired",
-   "feedId": "wired",
-   "topic": "tech",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "066acafa05aff298",
    "title": "Surfshark Promo Codes: 87% Off | October 2026",
    "link": "https://www.wired.com/story/surfshark-coupon/",
@@ -3091,11 +3338,24 @@
    "top": false
   },
   {
-   "id": "d12679a04fc1b7d1",
-   "title": "Hoka Coupon Codes: 30% Off in October 2026",
-   "link": "https://www.wired.com/story/hoka-coupon-code/",
-   "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for October 2026.",
-   "image": "https://media.wired.com/photos/66ea076ea8e714f02ce0d63e/master/pass/WIRED-Coupons-15.jpg",
+   "id": "90612c8111096f67",
+   "title": "50% Off DoorDash Promo Code | October 2026",
+   "link": "https://www.wired.com/story/doordash-promo-code/",
+   "summary": "Explore today’s top DoorDash promo codes for $25 off your first order, free delivery, and 50% off DashPass for students and select users.",
+   "image": "https://media.wired.com/photos/66ea0770c0b39dc87b71207a/master/pass/WIRED-Coupons-10.jpg",
+   "published": "2026-10-03T05:00:00.000Z",
+   "source": "Wired",
+   "feedId": "wired",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "1a2271aad8233167",
+   "title": "20% Off Brooks Promo Code | October 2026",
+   "link": "https://www.wired.com/story/brooks-promo-code/",
+   "summary": "Enjoy 20% off your first order with a Brooks coupon code, plus top discounts and deals on our favorite Brooks running shoes.",
+   "image": "https://media.wired.com/photos/66ea076ee8502211cd1d9a42/master/pass/WIRED-Coupons-13.jpg",
    "published": "2026-10-03T05:00:00.000Z",
    "source": "Wired",
    "feedId": "wired",
@@ -3109,6 +3369,19 @@
    "link": "https://www.wired.com/story/chewy-promo-code/",
    "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order of $49, 50% off pet food, and more October 2026 discounts.",
    "image": "https://media.wired.com/photos/66ea077015aa1d8092e99428/master/pass/WIRED-Coupons-6.jpg",
+   "published": "2026-10-03T05:00:00.000Z",
+   "source": "Wired",
+   "feedId": "wired",
+   "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "d12679a04fc1b7d1",
+   "title": "Hoka Coupon Codes: 30% Off in October 2026",
+   "link": "https://www.wired.com/story/hoka-coupon-code/",
+   "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for October 2026.",
+   "image": "https://media.wired.com/photos/66ea076ea8e714f02ce0d63e/master/pass/WIRED-Coupons-15.jpg",
    "published": "2026-10-03T05:00:00.000Z",
    "source": "Wired",
    "feedId": "wired",
@@ -3143,32 +3416,6 @@
    "top": false
   },
   {
-   "id": "e1cdcb3e2914614b",
-   "title": "3.5 Magnitude Weak Earthquake Occurs In Ranau",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56dVJJQ0tpMmk0V3V1ajFscktJNmh3RFZzZmJFSG5NNkUxM2FiQVgwdHFTSEpXX2I1QzFCNFM3VHRYZ1NsOE9kRTFHckhhQXdiVmc3VXN6Qzc4UQ?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-03T04:20:00.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "d3a8c86cab35b2a1",
-   "title": "State Govts Urged To Gazette Padi-growing Areas Amid Decline In Rice SSR",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GMDdEMXRqMWxnbmtPcFNjelE1YUUwTXVWUDM3RTJZODZvaUlnTDJPUWtfUE1RWExBOHE3SnFYVklKUTB1RkZETXZSWmk0c2RaaVpqS0cwQTBuQWNvOVFGNVRpRWs?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-03T04:18:34.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "0e9ec5a3dd8743f6",
    "title": "Meta admits technical error affected some WhatsApp accounts — MCMC",
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5sNlpuV1NoakdhcDZDOTdSbVM3WG1kOVdQU2hGbjBtVHMyZ1kxUUtuSFdLS3JSWVJqRzlKR0l6OGhOUExIT21OcjMydHA0QTNL?oc=5",
@@ -3178,6 +3425,19 @@
    "source": "The Edge Malaysia",
    "feedId": "gnews-edge",
    "topic": "business",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "cae9b6f615c8070c",
+   "title": "Meta admits technical error caused wrong WhatsApp account suspensions, says MCMC",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPZEpiZHhMUUlyc04xNTJ0aFVfS1g5SGVSQnF2WWlYeldRNmx2clFMLTRBbS1IekVDLTlMQV9DWjAxUm45MVdiZmhkUFA1QU1yV2NBMFN0dUFOOW1CT1RZaGdCc1Z3Y3pSYXRLakVYdTJFNF80dFc3X2IyN25fbTB0XzRuLUpaYXNNM3NKY2pFM3NuWW9sWUZDOEFKc2M2MHBVV3JYMkg0SlNkZ2FKaS1laXQ2VFhsUHNacGxsNlRNQ2ZOSW15R2dLNlpvYW5MUE9tYW04OHc4cWdvaWd0cG5BNERaU3NzS19Vc1JtSzZFYjZoV1N6Nkg1LWVzWQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-03T03:48:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
+   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -3208,6 +3468,19 @@
    "top": false
   },
   {
+   "id": "9e7f2cb889927403",
+   "title": "China's durian trial crop eyes market entry amid strong consumer appetite",
+   "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPVXRULXl5U2JGS0RxYmowVmE2dHVZa0FUdk5XbExMZnR3WHF1TEJxVGdidzRxZ1o3Z1FYdWlPakNYMHZDcHQ3NHRoZXdqOGdKWUFYMXkyUjdjUkxOcFpLYUEwVXdQNnZ6MGVRekkxcW9qNnNnNWhOeFVOTVkwSFNDM0djaEF1dkpQUHpJaDRMSnBwNUo0QVRhcDdPTElfQ1ZGbmV6RnQ0VzJ5Z3RvSDhPMFNucmNhNEZlbkRCTVhwMUd1RnFZdTNMa1ZVZjBBVEgtaXpyU0pXY0NFaWlqZlZfQlZOaVR3Rk14emk5OEg3UXpiZVdEZHZlbkh3M1hvdnpGMmpIMEFsUQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-03T03:17:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "7a7d7935a57ca8b4",
    "title": "Ten injured in Australia as car crashes into crowd north of Sydney",
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9lTlpjWGFEZEJUQ3VtT0JrNDI3T1JKdjJyTUV1Yl8xTmtVZkZTbkZIemZLaTNibFZOaUw2SGo4UzhuRlVoampocWpXRXFiWk1E?oc=5",
@@ -3221,19 +3494,6 @@
    "top": false
   },
   {
-   "id": "6d45f1ccccdd7344",
-   "title": "Arms and ammunition stores intact despite officer's arrest, says armed forces",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORVY5MnZyaTlaMVpHMlN6SjFtcTJseU5sTXB3M0xJUVFkVkNDVW9MN0IyeEg0R01tRlJOWUtfdHR5LU9YMmZDR2U1c21hSnl2TDN0dG5QcXB0VGpKbHI2RHBQY01OSjJySVIwZnpIWGRaUnBTUlNURXVRU0Njb2s0bXRXSW8zSEZBYXVpa2dscVpaRWpjVVhDbXJPSVc4emZzcHZoT0pnRU5mRDJzQnhpR0ZfamdqVEJoSFp6TmVVNkhUc2NGOUh3?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-03T02:40:00.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "15ab499938dfba9b",
    "title": "EV drivers love their cars, but some passengers feel sick - this could be why",
    "link": "https://www.bbc.co.uk/news/articles/c3y0zx822wlzo?at_medium=RSS&at_campaign=rss",
@@ -3243,19 +3503,6 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "ae12668aa8d11f19",
-   "title": "Previously uncontactable Malaysian returns home safely from Nepal, says Foreign Ministry",
-   "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOQTRkcUNCUTFIcE40U0FJOTNLczZkbDFIQ043aWZyOWdmM3UwOTV0VnRTV2d4ZG15aWFNUThTR1dhZFhmZUdkWjQ5VjhYM0U0QWQyTjM2c2d0MWRCZmtZMTFDS1RKcXh3VTR3eHo0N01OWkZkN29fUUNMbHdUWkM0S0FjRE55SDFUeVRqOFdxVFY0c2g0UVFFZWNBU1JQU0RDaEQ5TFZFdUxza3BDWkxFeFE5R3NNQTkyZjgzOEVCeVlZakVleEpyVHMtdlpKTWNDMGlRaDVTNW1hSEJXZHZKS0JVVXlNLVM1UmtaTE5SRmFiSmd0Tm5pQlI1LUwxMjdNOHFURTJ3?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-03T02:31:00.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -3312,19 +3559,6 @@
    "top": false
   },
   {
-   "id": "f2149c774f6cb0bd",
-   "title": "Singapore’s trouncing by Malaysia at Asean Cup a ‘painful’ wake-up call, say observers",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONk01RVZVQkZuMXIxMDdHcFdxT2pNaUJsX3FvTFU0eEdoWUdZdGF1RGlaQlF0UDE2WlF5akRvUTFBZnBDUWQ3RjNqb3pGQmFyTXpXeWZKbmZoTGpuSUxFbkd6a2ZpWlZtNEVza2tveFcwa0R5bE1seEZ2RUNldFpYbElwUVZCa1Btd1hCMDM1c3NXU1NvWVBiU2JxTl9yUC1XU3V0WlJ0cUg3dXhWRFJNQkZ3YjNLMzJaeDNqV3MzZ0dKanhhT0hWS2pmcnRoZmlCLWhKQjQ0d2Z1VlE2N2c?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-03T01:36:00.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "c6df0ba4697c2ff2",
    "title": "Malaysian badminton: jaded and losing the plot?",
    "link": "https://www.freemalaysiatoday.com/category/opinion/2026/10/03/malaysian-badminton-jaded-and-losing-the-plot",
@@ -3335,19 +3569,6 @@
    "feedId": "fmt-opinion",
    "topic": "opinion",
    "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "b456e143e456b394",
-   "title": "Double cover: Insights into margins calls on Zetrix AI's TS Wong + Sime Darby Property reworks the developer model",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9LUV9nR2Q5NUtnNU5XRk1nQzIwa0h2RDAybkVLTDZ4VlR4YnR4WHlTdmNaRFZ6aXctVWFuVXhQUnhIcXRydldPRDhrVGVkVlF6?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-03T00:47:58.000Z",
-   "source": "The Edge Malaysia",
-   "feedId": "gnews-edge",
-   "topic": "business",
-   "hasBody": false,
    "top": false
   },
   {
@@ -3373,32 +3594,6 @@
    "source": "The Edge Malaysia",
    "feedId": "gnews-edge",
    "topic": "business",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "e1275bb0da6a0544",
-   "title": "Four areas record unhealthy API readings as of 8am",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNd3J1VEtxMFdFWk4za09KN2g4LWpRM2dacDRFdkJyaEhneG5mdG9WaWZTXzdwQk1OQUV2bHR4U2kyUjU2VEs4Slpib2xzWHoyMW5HRlRRMmR2RE1panRLMHhpUWQyaVdvSnpuTlZSQVhhei1ZY1luN2o4TVZqWHhGRWhzNHJKZVlLemlhZV9ESEFzbkZ4VF8tQ3lrdU5YaGdhRmMyRzdpY0R3cTZ2WnYtVkR6THYyMDdYcWNscmlWWE1LZ0FrbWdNT2x6U0NYWGNDQVllcg?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-03T00:32:00.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "9860163867450ff1",
-   "title": "Make care economy part of development strategy",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNXzFCX1NKR05Nd21RN2U0Nk54Z3pJekdCemNpemlmeTdSV0p0SVEzdEdiLUNRYTg3RkduVVozekw5TE4wNGVLcWROeExyRkxpc0hHVENsay1aTXFyYkFFV2Jqa2V4aEZnYlVmU0hUUXFaak51QzlQemlOWmI1dDBIU1I4UWRNbXFoVkJHOHZudmp0ZnMtLWEweVlTSUhVV18xcVE?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-03T00:29:12.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -3468,45 +3663,6 @@
    "top": false
   },
   {
-   "id": "5a0bcbeb9c9ffbcc",
-   "title": "Crude oil tanker struck by unknown projectile off Oman, UKMTO says",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNFNjb0l2RzZRNWZjeTBVeXYzeWtxR0VVc2FvalZwVkN3ay1pcHhKNEVUX2JmWGxWaFVLV19EWlIxb2xMSjBieGxZTmJqTXhCWlhqMGRaNHBRNThnbm9LM09kM2VSXzJTOXFfSTc3YUgyd2RxQ2VCekdOV0JOdEJobnFkeERHLUNmMGpjNzlQQnhEVFZzTXlHUnlYVXhDa3NNZkhPdklPdnl5d3FGdUtXMHNZWkE?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-02T23:36:00.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "1a171291698c72a3",
-   "title": "Many docs quit after postings",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPd2p0VERUNjZHQ0hONGY1R01XeTVYaHNQWDFiWnhvLTBNbEZiaGhmSzRpVHRmeS1yVnNFSkR0TzVkaWRibUhDbTRLUzMzT2VRUi1qczZ0SDN5Slh2d05QSXFzNGNoYWVWSDVRV1VDSTRWRkFicXUtUDJOVlFpcWpUY1RNVFJaQQ?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-02T23:25:43.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "86803f3412da3c13",
-   "title": "No gift too small to count",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWDhjOU1Ob0JMV1RUZV9tSkVJU2J0Si1QN2ViSkRnLWhlSkxxcEFfZk0yRnpHZXdheFptMzRncjBZbThYbkxSTnRVTWI4Q3Uza2UyZ0pkaGtickFtcDVvajdWazQ0ZHdqaVZvaXRJeENrb1otb2t0U0kyMmtLQmk1VmJB?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-02T23:18:24.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "9b3ffb582aa567d0",
    "title": "Women given shorts at Oktoberfest to prevent upskirting",
    "link": "https://www.bbc.co.uk/news/articles/cjwyzyqvx1zxo?at_medium=RSS&at_campaign=rss",
@@ -3572,15 +3728,15 @@
    "top": false
   },
   {
-   "id": "bc39e901cc1beb5f",
-   "title": "North Korea fires unidentified projectile toward sea off east coast, Seoul says",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZWphZ0sxN3dLMkJQWDZremMyQ1U1QzZ3VDhKYTRiZ2hsa0JPNXI2T0N6Yi1OeXR1TlRRZTJTZ0JwVWtabkZBYUdNSWxRVmIyR2h0Ml9MQWM4NmRDb1R5VUwybFFfdG96aFdna3NjTTVqdXowSUlLN2d1OEd5Q3lTajU3cUNZbnFEU21udy1QbHlLUlNNWGQxZC1DY3Y5RzRWMXd4dHR2WmhIejFnaGhGd19KRldEemZha1pOSXRvc0xXRGxPTnc?oc=5",
-   "summary": "",
+   "id": "70add7d4c3fcd601",
+   "title": "Rex's Dino Store",
+   "link": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
+   "summary": "Museum: Rex&#x27;s Dino Store Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur. The density of dinosaur puns is exceptional.…",
    "image": "",
-   "published": "2026-10-02T22:22:00.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
+   "published": "2026-10-02T22:57:38.000Z",
+   "source": "Simon Willison",
+   "feedId": "simonw",
+   "topic": "tech",
    "hasBody": false,
    "top": false
   },
@@ -3712,19 +3868,6 @@
    "feedId": "theverge",
    "topic": "tech",
    "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "c8da424a7b8776ae",
-   "title": "U.S. stocks close higher",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1CRWZ6TGpZZ3o1RGdURFk2UEVEWTEyc2JFbWdmVlMtb2lRT2xRUGtfQUZiQTc4aDZ6a2xlS0FkVGRlTkNwbFdwNHdNeDBQbTV4bnVwQzZCV2VuampJaWlsRVFvYnJ2MnFmOGFTVmtHNHdya2pLdmp0NU9qdw?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-02T20:19:00.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
-   "hasBody": false,
    "top": false
   },
   {
@@ -3975,19 +4118,6 @@
    "top": false
   },
   {
-   "id": "b1ae46572b34d531",
-   "title": "Breaking up (with Elon Musk) is hard to do",
-   "link": "https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis",
-   "summary": "In a throwback to MySpace-style internet drama, Shivon Zilis announced that she and the father of her four children, Elon Musk, had broken up on X. To do so, she quote-tweeted a post from \"Big Tech Alert,\" an account that, among other things, monitors what…",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STPK222_SHIVON_ZILIS2.jpg?quality=90&strip=all&crop=0,0,100,100",
-   "published": "2026-10-02T17:37:36.000Z",
-   "source": "The Verge",
-   "feedId": "theverge",
-   "topic": "tech",
-   "hasBody": true,
-   "top": false
-  },
-  {
    "id": "86fe561524462f91",
    "title": "OpenAI alerts 100+ orgs that its 'misaligned models' attempted to break in - or worse",
    "link": "https://www.theregister.com/security/2026/10/02/openai-alerts-100-orgs-that-its-misaligned-models-attempted-to-break-in-or-worse/5300891",
@@ -4028,26 +4158,13 @@
   },
   {
    "id": "f54865cb2ee31aeb",
-   "title": "How I kept cool with NYC's free battery program for window AC units",
+   "title": "This startup pays NYC residents to run air conditioners on free batteries",
    "link": "https://arstechnica.com/gadgets/2026/10/how-i-kept-cool-with-nycs-free-battery-program-for-window-ac-units/",
    "summary": "Bonus: Every Electric’s batteries are beloved by household cats.",
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/image2-1152x648.jpeg",
    "published": "2026-10-02T17:20:21.000Z",
    "source": "Ars Technica",
    "feedId": "arstechnica",
-   "topic": "tech",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "97ac06ac454deb95",
-   "title": "Rivian’s sales pop as the company’s big R2 bet starts to pay off",
-   "link": "https://www.theverge.com/transportation/1004127/rivian-q3-2026-production-delivery-r2",
-   "summary": "Rivian had high hopes for its more affordable R2 vehicle - and so far, those hopes appear to be paying off. The company released its third-quarter production and delivery numbers today, reporting 19,751 vehicles produced and 19,248 delivered. That represents…",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/268434_Rivian_Factory_ATahlier_0019.jpg?quality=90&strip=all&crop=0,0,100,100",
-   "published": "2026-10-02T17:15:03.000Z",
-   "source": "The Verge",
-   "feedId": "theverge",
    "topic": "tech",
    "hasBody": true,
    "top": false
@@ -4076,19 +4193,6 @@
    "feedId": "mit-ai",
    "topic": "tech",
    "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "d59cc9665b6e3461",
-   "title": "A total of 8,000 businesses renew DBKL licences in two months — Hannah",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5aQ29MajN2VXBlOERuWGxpZFVZWk9qalpCRE1lTXdtMnZYaWRzYTZFOUx5bHo0UTh2UlRDYkZ3elZtVVA3ZmNuSVdHNHh4ZVM4?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-02T16:59:21.000Z",
-   "source": "The Edge Malaysia",
-   "feedId": "gnews-edge",
-   "topic": "business",
-   "hasBody": false,
    "top": false
   },
   {
@@ -4157,32 +4261,6 @@
    "top": false
   },
   {
-   "id": "a59bf259f57e69d4",
-   "title": "These AI Experts Want to Do High-Stakes Research Out in the Open",
-   "link": "https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/",
-   "summary": "Many frontier labs keep their risky research locked away. Trillium Labs wants to show off its work when it comes to self-improvement and model behavior.",
-   "image": "https://media.wired.com/photos/6abfd54ac4eb41b65cf33011/master/pass/Trillium-Labs-Risky-AI-Research-Business-edit.jpg",
-   "published": "2026-10-02T16:00:00.000Z",
-   "source": "Wired",
-   "feedId": "wired",
-   "topic": "tech",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "61db78e1e7a9aaad",
-   "title": "Paramount and Warner Bros. Discovery to become Skydance",
-   "link": "https://techcrunch.com/2026/10/02/paramount-and-warner-bros-discovery-to-become-skydance/",
-   "summary": "The roughly $110 billion deal is expected to close October 6.",
-   "image": "",
-   "published": "2026-10-02T15:53:50.000Z",
-   "source": "TechCrunch",
-   "feedId": "techcrunch",
-   "topic": "tech",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "8802f8e40f907110",
    "title": "UK diesel prices top £2 a litre for first time, RAC says",
    "link": "https://www.bbc.co.uk/news/articles/crn8e86y5n0zo?at_medium=RSS&at_campaign=rss",
@@ -4209,19 +4287,6 @@
    "top": false
   },
   {
-   "id": "1f9a196ca4acf6a0",
-   "title": "Suicide by plane or terrorism? Speculation over motive in flight 1073 attack",
-   "link": "https://www.theguardian.com/world/2026/oct/02/aviation-security-flydubai-flight-israel",
-   "summary": "Experts sceptical flydubai co-pilot’s only motivation was to end his own life and say key question is means of radicalisation At about 9.30 on Wednesday morning local time, Tali Manes was taking her six-year-old daughter, Nina, to the toilet on the regular…",
-   "image": "https://i.guim.co.uk/img/media/b26465018bd9e0e7827709fe2ef104574d8df0ec/807_0_4840_3872/master/4840.jpg?width=700&quality=85&auto=format&fit=max&s=26bc636343f616646894bfde4b39b975",
-   "published": "2026-10-02T15:40:05.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-world",
-   "topic": "world",
-   "hasBody": true,
-   "top": false
-  },
-  {
    "id": "7170e201486369c8",
    "title": "Pope Leo XIV is not a fan of AI-generated art",
    "link": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/",
@@ -4229,7 +4294,7 @@
    "image": "",
    "published": "2026-10-02T15:39:41.000Z",
    "source": "TechCrunch",
-   "feedId": "techcrunch",
+   "feedId": "tc-ai",
    "topic": "tech",
    "hasBody": false,
    "top": false
@@ -4335,19 +4400,6 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "ddc48cc4ab40aee5",
-   "title": "TechCrunch Disrupt 2026: Clay’s Kareem Amin on the rise of the GTM engineer",
-   "link": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/",
-   "summary": "Clay Co-founder and CEO Kareem Amin joins the AI Stage to discuss the rise of GTM engineer at TechCrunch Disrupt 2026. Register for your ticket and get a second pass at 50% off.",
-   "image": "",
-   "published": "2026-10-02T14:30:00.000Z",
-   "source": "TechCrunch",
-   "feedId": "tc-ai",
-   "topic": "tech",
    "hasBody": false,
    "top": false
   },
@@ -4586,19 +4638,6 @@
    "top": false
   },
   {
-   "id": "214f7b0733829b31",
-   "title": "It's true: this is my final column. You have exactly 24 hours to complain before my inbox self-destructs | Marina Hyde",
-   "link": "https://www.theguardian.com/commentisfree/2026/oct/02/rumours-demise-exaggerated-haters-bang-on-marina-hyde-final-column",
-   "summary": "Yes, after 25 years I’m signing off, and I’ve cherished every moment – especially storming the French embassy with a (toy) AK-47 Journalism 101 – a course I have yet to complete – dictates that if you have something salient to say you should get there fast.…",
-   "image": "https://i.guim.co.uk/img/media/0cb57fe9d90d513b7d9e19a8323183616b4bc496/0_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=c724e0cffc7dd03a8ab29b8c613934a1",
-   "published": "2026-10-02T10:00:16.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-opinion",
-   "topic": "opinion",
-   "hasBody": true,
-   "top": false
-  },
-  {
    "id": "2b60d4cbc8a692f3",
    "title": "Met Police suspends use of phone-hacking software over Russian links",
    "link": "https://www.theregister.com/software/2026/10/02/met-police-suspends-use-of-phone-hacking-software-over-russian-links/5300549",
@@ -4617,19 +4656,6 @@
    "link": "https://www.theguardian.com/commentisfree/2026/oct/02/christa-pike-tennessee-execution-attempt",
    "summary": "What happened to Pike was gruesome. No one deserves what she went through, not even those who commit horrible crimes Botched executions are nothing new in US history. In the era when hangings were common, some condemned people were decapitated. Later, when…",
    "image": "https://i.guim.co.uk/img/media/056503b3330f83acb40e306776bb7a3255d8f6bd/0_307_1200_959/master/1200.jpg?width=700&quality=85&auto=format&fit=max&s=c72e5d3d8e6668253cc57277bb629f21",
-   "published": "2026-10-02T09:00:16.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-opinion",
-   "topic": "opinion",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "7d347548d75d107b",
-   "title": "For too long, only the right has expanded the boundaries of what governments can do. Can Burnham change that? | Andy Beckett",
-   "link": "https://www.theguardian.com/commentisfree/2026/oct/02/andy-burnham-labour-talk-big-changes",
-   "summary": "The PM might come across as a nice bloke but he is politically ruthless. He will need to be if he is to turn big talk into big changes How much can a Labour government change the country? According to many voters, journalists and politicians, including plenty…",
-   "image": "https://i.guim.co.uk/img/media/665b2ef557bbdb6ac17e3679c303a3acfc965db7/526_0_4949_3959/master/4949.jpg?width=700&quality=85&auto=format&fit=max&s=94867d8d13a13c7d6e1ed4cb6d934089",
    "published": "2026-10-02T09:00:16.000Z",
    "source": "The Guardian",
    "feedId": "guardian-opinion",
@@ -5686,32 +5712,6 @@
    "published": "2026-09-28T22:07:38.000Z",
    "source": "Simon Willison",
    "feedId": "simonw",
-   "topic": "tech",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "5b94c506716ceb12",
-   "title": "Quoting @joedaroo",
-   "link": "https://simonwillison.net/2026/Sep/28/joedaroo/",
-   "summary": "To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Security posture takes time to develop. It’s…",
-   "image": "",
-   "published": "2026-09-28T19:11:42.000Z",
-   "source": "Simon Willison",
-   "feedId": "simonw",
-   "topic": "tech",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "ebb851930de734e4",
-   "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-   "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
-   "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp",
-   "published": "2026-09-28T19:00:00.000Z",
-   "source": "Google",
-   "feedId": "google-ai",
    "topic": "tech",
    "hasBody": false,
    "top": false
