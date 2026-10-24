@@ -117,8 +117,9 @@ disabled.
 that syndicate whole articles, so more stories open in full in the reader. The
 thirteen that did were added: The Guardian (Business, Technology, Sport, Global
 development), The Conversation (Global, Business), Global Voices, Business Today
-Malaysia, 404 Media, Krebs on Security, Calculated Risk, A Wealth of Common
-Sense and The Big Picture. Rest of World, The Diplomat and Engadget work but
+Malaysia, 404 Media, Krebs on Security, A Wealth of Common Sense and The Big
+Picture. Calculated Risk was added too but produced no stories, so it is
+disabled. Rest of World, The Diplomat and Engadget work but
 carry only teasers; BenarNews, East Asia Forum and The Malaysian Reserve
 refused the runner.
 

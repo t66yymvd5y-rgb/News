@@ -236,8 +236,9 @@
    "source": "AI News",
    "topic": "tech",
    "url": "https://www.artificialintelligence-news.com/feed/",
-   "enabled": true,
-   "maxItems": 12
+   "enabled": false,
+   "maxItems": 12,
+   "note": "Disabled 24.10.2026: failing on every run (no items, then timeouts), which kept the 'feed unavailable' banner up."
   },
   {
    "id": "mit-ai",
@@ -433,8 +434,9 @@
    "source": "Calculated Risk",
    "topic": "finance",
    "url": "https://www.calculatedriskblog.com/feeds/posts/default",
-   "enabled": true,
-   "maxItems": 8
+   "enabled": false,
+   "maxItems": 8,
+   "note": "Disabled 24.10.2026: fetched 25 items in the probe but contributed no stories once live; switched off rather than investigated."
   },
   {
    "id": "wealth-common-sense",
