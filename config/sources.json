@@ -366,8 +366,9 @@
    "source": "MarketWatch",
    "topic": "investments",
    "url": "https://feeds.content.dowjones.io/public/rss/mw_marketpulse",
-   "enabled": true,
-   "maxItems": 12
+   "enabled": false,
+   "maxItems": 12,
+   "note": "Disabled 24.10.2026: the feed fetches and parses, but none of its items fell inside the maxAgeDays window, so it contributed no stories."
   },
   {
    "id": "malaymail-money",
@@ -398,8 +399,9 @@
    "source": "Federal Reserve",
    "topic": "finance",
    "url": "https://www.federalreserve.gov/feeds/press_all.xml",
-   "enabled": true,
-   "maxItems": 6
+   "enabled": false,
+   "maxItems": 6,
+   "note": "Disabled 24.10.2026: the feed fetches and parses, but none of its items fell inside the maxAgeDays window, so it contributed no stories."
   },
   {
    "id": "gnews-star",

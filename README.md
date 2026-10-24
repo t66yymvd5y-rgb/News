@@ -95,21 +95,23 @@ nothing more. Delete the three `gnews-` entries to drop the bridge.
 feeds some time ago.
 
 **Investments and Finance** were added on 24.10.2026. *Investments* covers
-markets and portfolios: CNBC Investing, MarketWatch, Financial Times Markets,
-Reuters Markets and StarBiz Marketwatch (Bursa Malaysia). *Finance* covers the
-economy, banking and personal finance: Malay Mail Money, FMT Business, NST
-Business, CNA Business, The Guardian (Money, Economics), CNBC Finance, The
-Economist (Finance & economics) and Federal Reserve press releases. Reuters,
-StarBiz and NST are bridged through Google News with a path-restricted `site:`
-query, with the trade-offs described above. The FT is hard-paywalled and The
-Economist is metered: headlines are free, most articles are not. These section
-feeds sit ahead of the site-wide Google News bridges in the config, so when the
-same story arrives through both, it is filed under the more specific section.
+markets and portfolios: CNBC Investing, Financial Times Markets, Reuters Markets
+and StarBiz Marketwatch (Bursa Malaysia). *Finance* covers the economy, banking
+and personal finance: Malay Mail Money, FMT Business, NST Business, CNA
+Business, The Guardian (Money, Economics), CNBC Finance and The Economist
+(Finance & economics). Reuters, StarBiz and NST are bridged through Google News
+with a path-restricted `site:` query, with the trade-offs described above. The
+FT is hard-paywalled and The Economist is metered: headlines are free, most
+articles are not. These section feeds sit ahead of the site-wide Google News
+bridges in the config, so when the same story arrives through both, it is filed
+under the more specific section.
 
-Probed on 24.10.2026 and not used: MarketWatch Personal Finance (404), Bank
+Tried on 24.10.2026 and not used: MarketWatch Personal Finance (404), Bank
 Negara (403), Nikkei Asia (works, but it is the whole publication rather than a
-finance desk), and a Bernama Business bridge (disabled: Bernama's URLs carry no
-business path for the query to match).
+finance desk), and a Bernama Business bridge (Bernama's URLs carry no business
+path for the query to match). MarketWatch Market Pulse and Federal Reserve press
+releases fetched cleanly but had nothing inside the five-day window, so both are
+disabled.
 
 ## Optional: a news API on top of RSS
 
