@@ -440,5 +440,86 @@
   "timeoutMs": 15000,
   "topStoriesSize": 40
  },
- "probe": []
+ "probe": [
+  {
+   "id": "benarnews",
+   "url": "https://www.benarnews.org/english/rss.xml"
+  },
+  {
+   "id": "benarnews-alt",
+   "url": "https://www.benarnews.org/english/rss"
+  },
+  {
+   "id": "conversation-global",
+   "url": "https://theconversation.com/global/articles.atom"
+  },
+  {
+   "id": "conversation-business",
+   "url": "https://theconversation.com/us/business/articles.atom"
+  },
+  {
+   "id": "restofworld",
+   "url": "https://restofworld.org/feed/latest"
+  },
+  {
+   "id": "eastasiaforum",
+   "url": "https://eastasiaforum.org/feed/"
+  },
+  {
+   "id": "globalvoices",
+   "url": "https://globalvoices.org/feed/"
+  },
+  {
+   "id": "thediplomat",
+   "url": "https://thediplomat.com/feed/"
+  },
+  {
+   "id": "guardian-business",
+   "url": "https://www.theguardian.com/business/rss"
+  },
+  {
+   "id": "guardian-technology",
+   "url": "https://www.theguardian.com/technology/rss"
+  },
+  {
+   "id": "guardian-sport",
+   "url": "https://www.theguardian.com/sport/rss"
+  },
+  {
+   "id": "guardian-globaldev",
+   "url": "https://www.theguardian.com/global-development/rss"
+  },
+  {
+   "id": "engadget",
+   "url": "https://www.engadget.com/rss.xml"
+  },
+  {
+   "id": "krebs",
+   "url": "https://krebsonsecurity.com/feed/"
+  },
+  {
+   "id": "404media",
+   "url": "https://www.404media.co/rss/"
+  },
+  {
+   "id": "malaysian-reserve",
+   "url": "https://themalaysianreserve.com/feed/"
+  },
+  {
+   "id": "businesstoday-my",
+   "url": "https://www.businesstoday.com.my/feed/"
+  },
+  {
+   "id": "wealth-common-sense",
+   "url": "https://awealthofcommonsense.com/feed/"
+  },
+  {
+   "id": "calculated-risk",
+   "url": "https://www.calculatedriskblog.com/feeds/posts/default"
+  },
+  {
+   "id": "ritholtz",
+   "url": "https://ritholtz.com/feed/"
+  }
+ ]
 }
