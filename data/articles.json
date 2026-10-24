@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-24T06:18:19.558Z",
+ "generatedAt": "2026-10-24T06:28:52.290Z",
  "site": {
   "name": "Kertas",
   "tagline": "Malaysia first. The world next.",
@@ -78,7 +78,7 @@
   "world": 94,
   "business": 35,
   "investments": 54,
-  "finance": 81,
+  "finance": 82,
   "tech": 127,
   "sport": 25,
   "opinion": 41
@@ -88,6 +88,84 @@
  ],
  "withBody": 261,
  "articles": [
+  {
+   "id": "33383b0005acc840",
+   "title": "Two foreigners held over dead baby found in Bangsar rubbish bin",
+   "link": "https://www.nst.com.my/news/regional/2026/10/1562515/two-foreigners-held-over-dead-baby-found-bangsar-rubbish-bin",
+   "summary": "KUALA LUMPUR: Police have detained two foreigners in connection with the discovery of a dead baby girl in a rubbish bin in Abdullah Hukum, Bangsar, yesterday.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/DDDF3550A3F80BC5C8206F596B724A32_data_2.jpg",
+   "published": "2026-10-24T06:27:16.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "784a4fd0ad3c08fe",
+   "title": "Fadillah To Deliver Keynote Address At Singapore International Energy Week On Oct 26",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12TFFiejc2YVZrX2UwUEJuQmZMQ1FWdnN6T3dhcTRSVUdLR1RBZzlwSkRHVDM2VVVsQU5DN3RDWTJVeVhDeGpxNmhydVE4ZmZocGVSUV90Sm1fQQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T06:27:14.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "1bd55b04760fa083",
+   "title": "MASOC Kicks Off Promotional Tour For 2027 SEA Games, ASEAN Para Games",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GMkdxMTNZWkVFeE5YZ1J5dzNvOG54UUMtcEhsemFWaFBVN0FieFItQjk0TGpUcnB6Q0xFYVdqZGdNT2VhbnI4SlJVUUxpUDBFLUF2UjlmQXV5UQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T06:27:13.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "0a79864fb37d4835",
+   "title": "France prepares for day of protest a week after nationwide riots",
+   "link": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
+   "summary": "Hundreds of thousands are expected to turn out, as more than 70,000 police officers are to be deployed over some may defy restrictions.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6313/live/f6761da0-cf08-11f1-b95c-310d5f3c558a.jpg",
+   "published": "2026-10-24T06:19:46.000Z",
+   "source": "BBC News",
+   "feedId": "bbc-world",
+   "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "253bf068b89120ac",
+   "title": "Malacia has 'no regrets' over Man Utd - despite having to train with kids",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cjx23d4p2v3go?at_medium=RSS&at_campaign=rss",
+   "summary": "Tyrell Malacia opens up on his time at Manchester United after moving to FC Cincinnati to restart his career in Major League Soccer.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9836/live/f24d1480-cd33-11f1-9a39-31b474234113.jpg",
+   "published": "2026-10-24T06:19:26.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "440b1e58fb362c9f",
+   "title": "Anwar contacts IGP over Cheras custodial death",
+   "link": "https://www.freemalaysiatoday.com/category/nation/2026/10/24/anwar-contacts-igp-over-cheras-custodial-death",
+   "summary": "The prime minister wants the investigation into Noorizwan Zulkefly's death to be conducted transparently with the family updated regularly.",
+   "image": "https://media.freemalaysiatoday.com/v3/2026/10/907b8014-7968-4f99-9abf-559551431636-Anwar-Ibrahim-fmt-231026-1.jpg",
+   "published": "2026-10-24T06:15:48.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
   {
    "id": "323afe83d1cfb6b6",
    "title": "US spy chief says Iran is stepping up plots targeting Americans, Trump hints at ‘another little Epic Fury’",
@@ -110,6 +188,32 @@
    "published": "2026-10-24T06:12:05.000Z",
    "source": "Malay Mail",
    "feedId": "malaymail",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "056efe5b299eca26",
+   "title": "Anwar hubungi KPN mahu siasatan kematian Noorizwan telus, menyeluruh",
+   "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/10/24/anwar-hubungi-kpn-mahu-siasatan-kematian-noorizwan-telus-menyeluruh",
+   "summary": "Perdana menteri turut menegaskan perkembangan siasatan dimaklumkan kepada keluarga mangsa.",
+   "image": "https://media.freemalaysiatoday.com/v3/2026/10/b09a45a6-c560-4443-b330-daa4fe3b92fe-keluarga-noorizham-fb-anwar-241026.jpg",
+   "published": "2026-10-24T06:09:38.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "9c0d702834645d08",
+   "title": "RM43mil Japanese anti-drone tech to be placed in Sepanggar, Labuan",
+   "link": "https://www.freemalaysiatoday.com/category/nation/2026/10/24/rm43mil-japanese-anti-drone-tech-to-be-placed-in-sepanggar-labuan",
+   "summary": "The counter-unmanned aircraft systems is part of the official security assistance programme by Japan, to bolster Malaysia's preparedness for drone attacks.",
+   "image": "https://media.freemalaysiatoday.com/v3/2026/10/46b59f1d-8f6a-4f05-ac3a-618644327285-anti-drone-system-fb-241026.jpg",
+   "published": "2026-10-24T06:06:52.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
    "top": true
@@ -288,7 +392,7 @@
    "title": "DBP honours Berita Harian, Harian Metro for strengthening use of Bahasa Melayu",
    "link": "https://www.nst.com.my/news/nation/2026/10/1562503/dbp-honours-berita-harian-harian-metro-strengthening-use-bahasa-melayu",
    "summary": "GEORGE TOWN: Berita Harian (BH) and Harian Metro (HM) have been recognised by Dewan Bahasa dan Pustaka (DBP) for their contributions to promoting and strengthening the use of Bahasa Melayu.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/661E9C930B882A2EDE51A916F519F4E3_data_0.jpg",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/661E9C930B882A2EDE51A916F519F4E3_data_0_0.jpg",
    "published": "2026-10-24T05:53:46.000Z",
    "source": "New Straits Times",
    "feedId": "nst",
@@ -308,6 +412,19 @@
    "topic": "sport",
    "hasBody": false,
    "top": false
+  },
+  {
+   "id": "d297228511833aa9",
+   "title": "Sistem antidron RM43 juta dibekal Jepun akan diletak di Sepanggar, Labuan",
+   "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/10/24/sistem-antidron-dibekal-jepun-akan-diletak-di-sepanggar-labuan",
+   "summary": "Jepun akan bekal sebuah sistem pemintas pesawat tanpa pemandu bernilai 1.65 bilion yen kepada Malaysia menerusi program Bantuan Keselamatan Rasmi bagi tahun fiskal 2026.",
+   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2026/06/12f73cee-khaled-nordin-fmt-resize-280626-1.webp",
+   "published": "2026-10-24T05:51:00.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
   },
   {
    "id": "dc82df442ee048f8",
@@ -464,6 +581,19 @@
    "topic": "malaysia",
    "hasBody": true,
    "top": true
+  },
+  {
+   "id": "fade199b162e9dfb",
+   "title": "(TACU.N) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5LYy1PRkxGSnNOakJ0TjRJVnJOT0J0NGxUa2M5aW52LTRpQWwzY3NUbVZBSDZCS05Wbjd1THlkWktfZWloU2FFbHlKV1J3VXFRQ3hSR29ZUGw?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T05:31:20.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
   },
   {
    "id": "2c288174f2815be7",
@@ -853,7 +983,7 @@
    "feedId": "malaymail",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "47d9bf1b19c85a0c",
@@ -879,7 +1009,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "c82824b0de0945c6",
@@ -892,7 +1022,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "84841100ae7e6825",
@@ -905,7 +1035,7 @@
    "feedId": "malaymail",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "1ecf0d36ac9ca7a5",
@@ -944,7 +1074,7 @@
    "feedId": "malaymail",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "5d98a3b087d77640",
@@ -996,6 +1126,19 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "afd4589f72159209",
+   "title": "(XBCI.O) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wYkVOR0ZiVXU1T1ZVZkUwQXNjSE9YUU1uS0wzTWlvN0w2S3FOOHY2RVFvWi11MGtTcU1jbnRYNHVKMXZTcUY0VnJtdXFPUFFXY2Q5SFpZYTE?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T04:29:33.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1103,6 +1246,32 @@
    "top": false
   },
   {
+   "id": "9c7d6a8488bc570d",
+   "title": "Pulau Banggi Safe, Residents Hope For Better Basic Amenities, Healthcare",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBzUTdTRlRwcndmbV9CVnJGbUlkNFJsc3NlWXI4R2VhOFVqVmlxak51VVA5Rl9YTS1yZjFMOHFlVUtaVG45c3llZTJRaFVVM1JQaTBwZXllYml0QTRzc1djdXkybWU?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T04:19:21.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "868ea69ae210c01b",
+   "title": "Malaysia Exports Fish Surplus, But Imports Certain Species - LKIM",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HRGhpcGJYRkpZMUQyVmpSSzkxYXhKZTVjVTgyOURGb2stZHJYajcxY1Q5ekl2QW5rUlpCQXVZLTYwMnJtVzN4aklZWFUtUExxQ1VHWGF0S2lVWUVUZkJXbXRGUHc?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T04:19:12.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "1ddd004a22a43723",
    "title": "(XCS6.DE) | Stock Price & Latest News",
    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNaUFIQ001QjB6T05MVTJmR1ZMcE9hUUJBc3ZBbWpuYWwzME5FbEpydW5RaENzWTFqZEUxYXFLc0JGSnU3dlFIT2ZuT25idGRKX3lpN1NDQW9xQQ?oc=5",
@@ -1112,6 +1281,19 @@
    "source": "Reuters",
    "feedId": "gnews-reuters-markets",
    "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "adbbafd72e1285ef",
+   "title": "Teenager Killed, Five Others Injured After Car Crashes Into Tree",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9DaXllRWEtZk5uT1F5MENnVjR3TEJyby04ZG5IdGhXVFRFVW1la3duNTVTbHZfX3h5YVVocTliU2ZFbFJWdy1MVzFMQV9XZUNNeUw1OVZzOVZDcmhrM3RVdnNVR1NRckxJM2JB?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T04:18:00.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -1164,19 +1346,6 @@
    "source": "Reuters",
    "feedId": "gnews-reuters-markets",
    "topic": "investments",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "0a28605dbe32abc5",
-   "title": "Pulau Banggi Safe, Residents Hope For Better Basic Amenities, Healthcare",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYb0t6R18zVUxLM3A0aWx0UGNUVi1BcmtOcndweG1Vc0JJX3Y1OWlFRXpVWVVGdU9BYnlaT0RscTJFaHpPUV9fdThGRVdBTFo4TGc3ck1RMktfdw?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T04:14:00.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -1285,19 +1454,6 @@
    "top": false
   },
   {
-   "id": "0a79864fb37d4835",
-   "title": "France prepares for day of protest a week after nationwide riots",
-   "link": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
-   "summary": "More than 70,000 police officers are to be deployed over fears protesters will defy restrictions on demonstrations.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6313/live/f6761da0-cf08-11f1-b95c-310d5f3c558a.jpg",
-   "published": "2026-10-24T04:03:46.000Z",
-   "source": "BBC News",
-   "feedId": "bbc-world",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "94afe088f99bdd87",
    "title": "Immigration raids Jalan Ampang nightclub, detains 68 foreigners",
    "link": "https://www.nst.com.my/news/nation/2026/10/1562451/immigration-raids-jalan-ampang-nightclub-detains-68-foreigners",
@@ -1350,6 +1506,19 @@
    "top": false
   },
   {
+   "id": "ce1ea568f2c8d2c1",
+   "title": "Vanuatu Hit By 7.0-magnitude Quake",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE12anBJOFdYTl8zTkVxRC1vV0Rfa3JOSkJ6YUtMTVJjSGJMUE55cjlDMThIQThQN3NwWGxRb29wLURGb3I5Zk5RbVRaVU5xVE9ybGxuc1J0ZVNEeGtVbGloZ0htMEQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T04:00:00.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "98809a656bbfda74",
    "title": "MSI Malaysia unveils the Prestige N16 Flip AI+, the world’s first Nvidia RTX Spark-powered 2-in-1 laptop",
    "link": "https://www.malaymail.com/news/tech-gadgets/2026/10/24/msi-malaysia-unveils-the-prestige-n16-flip-ai-the-worlds-first-nvidia-rtx-spark-powered-2-in-1-laptop/240403",
@@ -1360,6 +1529,19 @@
    "feedId": "malaymail",
    "topic": "malaysia",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "0fd65b5c9d68423f",
+   "title": "7.2-Magnitude Earthquake Strikes Near Vanuatu, Tsunami Warning Issued",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBtWGRWRXlVamtGY2M3RFZuTmRqejVDV0dDd0lXbmlrRGhiOC1NeGdudTR4TVI0RjVFdzFLbDk2Uk9wYnVHN2p4VC03N0tna29IU2U5Vl9pSzJ3M3hieC1kTk1B?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T03:53:59.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1406,7 +1588,7 @@
    "title": "Arrest made after fire at Hitler's Eagle's Nest retreat",
    "link": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
    "summary": "Around 200 emergency personnel are deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/89c2/live/dded51c0-cf5a-11f1-b46b-8fe3882d26eb.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d34/live/65d3d980-cf72-11f1-963f-2b7c43362d02.jpg",
    "published": "2026-10-24T03:51:25.000Z",
    "source": "BBC News",
    "feedId": "bbc-world",
@@ -1493,6 +1675,19 @@
    "top": false
   },
   {
+   "id": "9942d0a955b131e7",
+   "title": "Sultan Mizan's Brother Passes Away; Terengganu Declares Three-Day Mourning",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBRVnRBclVpQmFGWG5FWUlxdVB6UUxIdGVYUC1kLVBqa0tTRzZDQWQzNFlQV3FQWkhydWNwZ1hFLU41d0tQSnkwY0lTUzVmeGtyX1RjTjE5TEFvdlFVUTBieWRKTzc?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T03:41:00.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "1c2ecf5abe20e223",
    "title": "Rubio calls on Cubans to work with CIA",
    "link": "https://www.freemalaysiatoday.com/category/world/2026/10/24/rubio-calls-on-cubans-to-work-with-cia",
@@ -1519,19 +1714,6 @@
    "top": false
   },
   {
-   "id": "271d3ce4761c9ac8",
-   "title": "[UPDATED] Police probe drug syndicate link to ship seized in Indonesia",
-   "link": "https://www.nst.com.my/news/nation/2026/10/1562439/updated-police-probe-drug-syndicate-link-ship-seized-indonesia",
-   "summary": "KUALA LUMPUR: Malaysian police are working with their Indonesian counterparts to establish whether a drug syndicate operating in Malaysia was involved in the attempted smuggling of 1.16 tonnes of ketamine hydrochloride aboard a tanker seized in Indonesian…",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/B175748D89BC7CB8E4D9FC60D05B34C0_data_1_1.jpg",
-   "published": "2026-10-24T03:34:23.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
    "id": "4328bdb592e1d356",
    "title": "Taiwan counts 1 dead and 527 injured after Typhoon Champi sweeps past",
    "link": "https://www.channelnewsasia.com/east-asia/taiwan-counts-1-dead-and-527-injured-after-typhoon-champi-sweeps-past-6488446",
@@ -1551,19 +1733,6 @@
    "summary": "",
    "image": "",
    "published": "2026-10-24T03:33:51.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "20d5af0c32b14e18",
-   "title": "Gold Futures Expected To Trade Lower With Bearish Bias Next Week",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBOSHJQQjJ3ZjdTLTdYWl9xX2t2MEl1VTJMekVGdXpJMV9Cc21MYWZNUURnNGF6dWhybjM1Z1lIQVN6eTAyR3IxVzNsQTJJNEpvRHVJd1NNcnp3c0VVeFZjYlh4RQ?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T03:32:49.000Z",
    "source": "Bernama",
    "feedId": "gnews-bernama",
    "topic": "malaysia",
@@ -1714,19 +1883,6 @@
    "top": false
   },
   {
-   "id": "a014b2c4ff63b213",
-   "title": "22 areas still suffer unhealthy air, south of peninsula worst hit",
-   "link": "https://www.freemalaysiatoday.com/category/nation/2026/10/24/22-areas-still-suffer-unhealthy-air-south-of-peninsula-worst-hit",
-   "summary": "Most of Klang Valley continues to struggle with haze, but Banting, Johan Setia, Shah Alam and Kuala Selangor record moderate air quality.",
-   "image": "https://media.freemalaysiatoday.com/v3/2026/09/a0ce9841-baef-4f61-b537-9d9973825df7-jerebu-johor-bahru-jb-260926-bernama-pic.jpg",
-   "published": "2026-10-24T02:44:25.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
    "id": "0653ad16e34d9756",
    "title": "Takiyuddin refuses to retract 'munafik' remark, seeks mediation with Rayer",
    "link": "https://www.malaysiakini.com/news/887770-takiyuddin-refuses-to-retract-munafik-remark-seeks-mediation-with-rayer",
@@ -1735,71 +1891,6 @@
    "published": "2026-10-24T02:41:24.000Z",
    "source": "Malaysiakini",
    "feedId": "malaysiakini",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "8e67a051bbe2718b",
-   "title": "UMT Repository Houses 20 Stingless Bee Species, Including Rare Finds",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE03RXJvWTYwYllJZVUwc0lFOU9NcE1jd1d6bFlpbjItTy1FWEg0UWFrTGFlWUVRY0dLQmJVelMzdkJvcGUwalNaMFUxUFVEZjNFNzd0bjVNLXphZw?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T02:34:55.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "3329b6f21b508c57",
-   "title": "CelcomDigi Turns Customer Insights Into Action To Elevate Service Delivery",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBKWmVFaEE4YjZ3ZTZqNDBYUERrckxZVjZTbGFxVEJPRVBSX1RCNS1Rdll0UGRRc2s5VWhiM09odmRPTTlJb3BvQWhBZ1ZDMVpndlZqN3h5NXZDdw?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T02:34:52.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "cd59aeab0f594260",
-   "title": "Sukar bukti kes bukan alasan tiada akta jerebu, kata pakar",
-   "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/10/24/sukar-bukti-kes-bukan-alasan-tiada-akta-jerebu-kata-pakar",
-   "summary": "Kerajaan digesa gubal undang-undang khusus dan perkukuh kerjasama dengan Indonesia bagi mengenal pasti pihak bertanggungjawab.",
-   "image": "https://media.freemalaysiatoday.com/v3/2026/10/e9bdc8e3-88bf-47df-be06-7c653ec91fdf-PEMANDANGAN-BANGUNAN-DISELUBUNGI-JEREBU-DI-PUTRAJAYA-8.jpg",
-   "published": "2026-10-24T02:30:00.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "ca7e15904bde8657",
-   "title": "Dead detainee suffered multiple external injuries, no internal bleeding",
-   "link": "https://www.freemalaysiatoday.com/category/nation/2026/10/24/dead-detainee-suffered-multiple-external-injuries-no-internal-bleeding",
-   "summary": "Police are waiting for lab results to confirm the cause of death, with the case also referred to the Independent Police Conduct Commission.",
-   "image": "https://media.freemalaysiatoday.com/v3/2026/10/76a2c0d9-ae0c-4987-b37e-dd0fad48582b-Noorizwan-Zulkefly-fb-241026.jpg",
-   "published": "2026-10-24T02:28:43.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "106860051ac9c66c",
-   "title": "Haze: unhealthy Air Quality In 21 Areas At 9 Am, Seremban, Larkin Highest",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qWm1ZWmUzbFpoZy1vTEtMRnpWLUEwektxSFd3cjl1NGxVRTY4TVBIRElnaVRMSDNDR3NManJnaGhGLWlOSzRwU3RzR3JHWkhPc3BLMGktYTQ5QQ?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T02:25:00.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
    "topic": "malaysia",
    "hasBody": false,
    "top": false
@@ -1815,32 +1906,6 @@
    "feedId": "guardian-world",
    "topic": "world",
    "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "d86b2d98ab08f5c6",
-   "title": "Institusi beraja kekal tonggak kestabilan, titah Sultan Selangor",
-   "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/10/24/institusi-beraja-kekal-tonggak-kestabilan-titah-sultan-selangor",
-   "summary": "Sultan Sharafuddin Idris Shah bertitah institusi beraja memikul tanggungjawab menjunjung perlembagaan, memastikan kesinambungan institusi serta menjadi lambang perpaduan merentasi perbezaan politik.",
-   "image": "https://media.freemalaysiatoday.com/v3/2026/08/d73d32c9-52df-4124-bef9-bb2053b1b6bb-Sultan-Sharafuddin-Idris-Shah-bernamapic-280826.jpg",
-   "published": "2026-10-24T02:15:00.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "af9cd4b4faa69459",
-   "title": "Selangor's Strength Lies In Its People, Says Sultan",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sSVMtcjRhM2ZRZFlQVUV5QzZsNnl4eXhUSmZhMFNORWJNS0JiRXl5OFJkZlRLczI3LUFZTjVxMFB3cHZmYlFoRDkxalJUUHdJVjUtYXdUcnVnUQ?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T02:13:41.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
    "top": false
   },
   {
@@ -1922,19 +1987,6 @@
    "top": false
   },
   {
-   "id": "589ecf9250a55ea0",
-   "title": "Selangor Sultan Urges Youths To Stay United And Informed",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9EeWNVcFZZSGdRd0NjSGZfX1k4ZG5pSzVmdExIRHY2MnFrcTU4b1lTcUlEZVFLQ0ZFM1lzQVpERUR3MVNsbHFCQ0NYTzRCRFRiano2QmVUajFNdw?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T01:55:00.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "f81b154a1fe7ca18",
    "title": "England suffer back-to-back losses to Canada",
    "link": "https://www.bbc.co.uk/sport/rugby-union/videos/cmx235877eexo?at_medium=RSS&at_campaign=rss",
@@ -1944,19 +1996,6 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "f57f9c7e7cfddabc",
-   "title": "Selangor Sultan: Monarchy Remains A Pillar Of Stability",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBwOU1YYnl5NWRoQjJIV0RET3VhYmZwdDhUaU5sZUhYQktFY1VhUWpRbHoxRnJiSTZOS0FqdWtSNG44WUExUnc0UmNqNHN2cEZPWnFTNHJvTXRiQQ?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T01:47:00.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -2234,19 +2273,6 @@
    "top": false
   },
   {
-   "id": "e776c5b6a5f582ee",
-   "title": "(EMDM.N) | Stock Price & Latest News",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1xR25WcFlCSTJsNm9rbS0taGJqbzFJSXo2QmYwY3R4ajRaeHRYYTlrbnVZRThKRS1TQkVwMVFMX25Gdl9uQUFrSDdGYnJWX1pXWWpqOFA2eDk?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T00:10:44.000Z",
-   "source": "Reuters",
-   "feedId": "gnews-reuters-markets",
-   "topic": "investments",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "e15bed8eb96aa99c",
    "title": "How does the UK state pension compare with other countries?",
    "link": "https://www.bbc.co.uk/news/articles/c3gr84w85glyo?at_medium=RSS&at_campaign=rss",
@@ -2282,19 +2308,6 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "5c1ef0531fa82227",
-   "title": "(0MWJ.L) | Stock Price & Latest News",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKeUFzUVA3a0p2WDNQT0NhQjBhOFBVYnZlaWZJQXBMWVY1Vmd1Y3MtUG9MLXVTY3lwdlNyYm42cVEta3FObHM5b1YxMjRab2RSWG9OSGE3dm0?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T00:00:12.000Z",
-   "source": "Reuters",
-   "feedId": "gnews-reuters-markets",
-   "topic": "investments",
    "hasBody": false,
    "top": false
   },
@@ -2494,6 +2507,19 @@
    "top": false
   },
   {
+   "id": "6a8c28978d8641e7",
+   "title": "(ORCY.TO) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8zbkZCNVQyS0JWQ2hQbVJpNF9vZ293cGVkSElOYTc3dGNOd2xLWXFUbXZMMU1IcmpkWlVwNzVWM1VRQXNtQjM2S3NVVFZmZk1xdjJ6cFprVTg2VjhyYjRn?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T23:10:03.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "0188a98664d64368",
    "title": "Ruins of Limoges city hall a symbol of France divided by national protests",
    "link": "https://www.bbc.co.uk/news/articles/cxyvrged14d0o?at_medium=RSS&at_campaign=rss",
@@ -2685,19 +2711,6 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "94d214de11ac3223",
-   "title": "36B5.DE - | Stock Price & Latest News",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4yRU5kR2tnMUhWMDhLdXM1d2VIN0p6WTFLZkhscVQtcTFlYVhSenFMaFVCeWZpYi1jcVh3WDRVNVBhUURmelZlQ3hlMjNnQk53NWxGMVpfV0M5U1U3T1RUSTBpSlVLUS1CNzRUUFh3?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-23T22:48:43.000Z",
-   "source": "Reuters",
-   "feedId": "gnews-reuters-markets",
-   "topic": "investments",
    "hasBody": false,
    "top": false
   },
@@ -4353,19 +4366,6 @@
    "top": false
   },
   {
-   "id": "962a57be6ca4cff5",
-   "title": "Poulter & Hatton leave LIV as exodus continues",
-   "link": "https://www.bbc.co.uk/sport/golf/articles/cjp3g4nyv44lo?at_medium=RSS&at_campaign=rss",
-   "summary": "Englishmen Ian Poulter and Tyrrell Hatton are the latest star names to confirm they are quitting LIV Golf - leaving the breakaway tour's future looking increasingly uncertain.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ba47/live/f53f6b00-cf0b-11f1-b95c-310d5f3c558a.png",
-   "published": "2026-10-23T14:41:19.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "5bfc513c739e47c0",
    "title": "Gold drops below $4,000 as ‘haven’ asset joins market sell-off",
    "link": "https://www.ft.com/content/5a6e15e9-249d-4d59-a140-c51302930a9f?syn-25a6b1a6=1",
@@ -4454,19 +4454,6 @@
    "feedId": "guardian-opinion",
    "topic": "opinion",
    "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "e7d0fdcfe1b8420a",
-   "title": "Business, Market & Property News - NST Online",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBTY2hUQWhoSW0xdDVzVmhKUVo2dlFablNoNmtlbGRNcWtZSXFSODF3b3l1YlhLaXNaSmFyeG85UUpVV00tRmZaYjBqSFJUeEJRZWZ1M0hmSFpVNUEzMTlHUFpwU05mY3FUeWRlR3RWRQ?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-23T14:00:00.000Z",
-   "source": "New Straits Times",
-   "feedId": "gnews-nst-business",
-   "topic": "finance",
-   "hasBody": false,
    "top": false
   },
   {
@@ -4964,9 +4951,9 @@
    "top": false
   },
   {
-   "id": "c82fa332c9b8c9f5",
+   "id": "b3ec255f61b64576",
    "title": "CelcomDigi files RM10bil sukuk programme to refinance debt, fund expansion - NST Online",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWE9VWTUxNS0yMC1lN1VQaEl3YWVmNEtQXzhSNElwWFhROGp6eUFidG5QZHBZVHVFTlR1WUE4V3k5RnZHQnB2c2hKRWktMGNwN0lGcXdHWUZaMG84d0hvQmFQLXRrTlJNN2tMVFFuUkJkaXU5MDZwRzZMY1Q5bHYxUm5obGtlQWtuLVF1WmVEQnpjMkMtYTJrWGVhMkpOOWVmLTJwY0oyODZpSHNuWWJzRWRHNmlMME1mY3ZmVnhLOFFsQ1VheG5oM0RmTVjSAb8BQVVfeXFMTVRCLUFUOFM1RExNV2pyY29penBiUEdhNWE5ZWtfVTJRalVyY1NhMm1SSDZ5TzNxaTFPRWxVZTI3aWlkZXVTQkdsYk1VclBjYmRSR0VyZzJsTVNSY0FGVVJiTGtJa1doRHNhVmItSVAzelpBaHdoUDFOMlo3VDZOc0M3SzdzN3VqTGtVcTlCZmw5V2FMa0hWN1RYQ3RxU1ZfNjVmcUswRk1sb1pET3hIQnRENUpEaGcxUzM4TF9JcTQ?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTkprRXJLSVlzblhsY2F1b2JxZHpjU0NOcHAwa25ncWk5RWlVV2JoWXNfYnlSN094UnNVbUFXcjlkaTBPX3Z6aEVMR3VVMFBzRG5POV9fMmwybmNSSVdlYXR0VERXVTN5WFZHbjRmc3hob0lvWWJzek5qVTNCODN5QVNFb0pPdUR5OWtkaTVvMkFSVHhWaDBScE5PSFZOTkFXTktPcE1KbzNtcGlOV1VUd3REUUVJcE1TSlHSAb8BQVVfeXFMTVRCLUFUOFM1RExNV2pyY29penBiUEdhNWE5ZWtfVTJRalVyY1NhMm1SSDZ5TzNxaTFPRWxVZTI3aWlkZXVTQkdsYk1VclBjYmRSR0VyZzJsTVNSY0FGVVJiTGtJa1doRHNhVmItSVAzelpBaHdoUDFOMlo3VDZOc0M3SzdzN3VqTGtVcTlCZmw5V2FMa0hWN1RYQ3RxU1ZfNjVmcUswRk1sb1pET3hIQnRENUpEaGcxUzM4TF9JcTQ?oc=5",
    "summary": "",
    "image": "",
    "published": "2026-10-23T11:21:31.000Z",
@@ -5019,6 +5006,32 @@
    "id": "ae6eb9dd022d640d",
    "title": "SAMAIDEN-CG (0223CG), SAMAIDEN-CG: CW SAMAIDEN GROUP BERHAD (KIBB) - Market Watch",
    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeG5sWUJVdEI2NDliblRvaGhYNllKZjJpOUtJZHJlMVZyS3VyYWRhR0sxMEZtbF8yV1Z1MHVpalQwZ1VaLWp0WTU3TXk5RzZSSjJfS25TMi1JTjQwMXptamFWUXRGTTV2YjBsdHNEc01pYnU2WXZzLWRrclVZQTZ4cw?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T11:13:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star-marketwatch",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "0e21787279a0831a",
+   "title": "SUNMED-C1 (5555C1), SUNMED-C1: CW SUNWAY HEALTHCARE HOLDINGS BERHAD (MIBB) - Market Watch",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB3TnlCOFNoVlZmVUNBU0xZdkt3b1lDaWlvWEs5VE9kQmpFdXNYei03TnF4Y04wcjdLVFk4d2R0RkN6TG5OUG0tS3gwZ29XeUNNZzhXX1NTYTVBV2Zzck5FaFNuNTRta2RlX0FNTEgyWE1hRUhFaFk1ODE4V3hSQQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T11:13:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star-marketwatch",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "032fcb68add05d9c",
+   "title": "SCGBHD-C10: CW SOUTHERN CABLE GROUP BERHAD (MIBB)",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ZTlhGWDRURk5ZRG9aRzliMU9SaC1Dc0hKd0tkaVd0d2lnM2pQQ3F1aDhVVExpNzJYX3dLajV0MDVyN25SVzYtREUzTnVrdUN3LXdkUGZtSmxtOTZuNWYtWUc4NWlTYmNOUWZlQ1RrVVFnZWdOZDk3dlc1VXlqTjg?oc=5",
    "summary": "",
    "image": "",
    "published": "2026-10-23T11:13:00.000Z",
@@ -5146,32 +5159,6 @@
    "top": false
   },
   {
-   "id": "2312b29e2391a3b8",
-   "title": "CTOS-C40 (530140), CTOS-C40: CW CTOS DIGITAL BERHAD (CLSA) - Market Watch",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8zZDNlVl95YUZXaEhBb1FIUlI1YnFSYVZQeFRPY1dIRFV4d3R3cDBxU0RRc0NlMTBEOC1uTGZqRU1jNXNyT1hRN2wyTUVsU05uQ0VPSDVXM2R5ZWcwaDB6dndHY2J4cG0yMDdwMHVIZXpiZDBzd19OV2ZjSGM?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-23T11:11:00.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star-marketwatch",
-   "topic": "investments",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "149352d7837bdd2c",
-   "title": "DNEX-C57 (445657), DNEX-C57: CW DAGANG NEXCHANGE BERHAD (AFFIN) - Market Watch",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtVEJiczhheXZrYkdPRklzTzBDTjYza2FacHRrUzNtZk1xSnFBR1BkMnFjU3AzamJOYWhycC0xYi1yZzE1WVNNVG5tRnl5OVJWR2ZqRWVvLUdmQkd1dnUwQ0xUVHEtX1Q3cEp0dloxNEtjZDhjNzNucDBiSEU?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-23T11:11:00.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star-marketwatch",
-   "topic": "investments",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "cfa3175d3504a81f",
    "title": "Yinson Production, PTSC achieve first oil at Lac Da Vang field ahead of schedule - NST Online",
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYTYxd280OUdONVZxZkRsazdrYXd5Q2hFVkZ5UTU1WVY4bEtyN2VycWFyZFgwQm1OMllMckZwOHFWN1VuVjBON3NqSVRtZ2Q0Z2RvcU8wYWkwcHJ0REhUcVcyakxJb0wwUTJqY3E5ZjNWZkxkWWd6aWpodUhKY25RMnpTTFlXekVWWjVxLVNranRaMUZBaTdpeTRDel85ZnBxMjdYRTB4UHdhdl9NSDdFRUN4em04bUpRSm1mXzAtZ1NfdHNkSkFzbWhXQ0cyQnlFc3fSAcQBQVVfeXFMUHQ4YkVZTmhuNXlCSjBlS2phRTBhU3p2WG9UMmtscl93QjRtVjI1X2F1VE1lZUlrLVUtN2FSWDh1NmVyNDl5bGhjMy1LaEtvV2plREdlQmg2RmlRQWxEUDVXdzlFWGxnTXQ1Y0tManp2VFJpWk55ZEJ2M2wwak5TTmcxbGZKeWtmeTgxazRJMGFGb0t5QlNVdFRYcDl0RThOSHI5S1FQYVdFbTdETmFkN3FwcHN1eGJqTl81Q3lkMnRIMWJNTQ?oc=5",
@@ -5250,9 +5237,9 @@
    "top": false
   },
   {
-   "id": "8ec2302d926e6411",
+   "id": "d6d025dd6e886b88",
    "title": "DXN breaks ground on its first North African plant in Morocco - NST Online",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWWhraEJHRVNXV3FTbDJIWi1NVzhYZnc1cGNZdFVETWIwWlhpVGRoWFBfbEtMNXVKNUN1OVlFdHNmU3dyVjc4aE1nY2ZsVHQ3dnNaaHdGV3BMWjNsdTgzbnFQM2Z5RXlacEtrQkFmanhuV2VJbU82NjZKcU82R2k2d3I1YTBPSmRZUmFWRTJyMWc3QjZxbjBXLTduZXp4VWs5VW9QTGVVa3RiYnl3eFA1YUJqMNIBuAFBVV95cUxPNm5KYWozekFhQ3FaRjRGU0FQZWdncHFIaUFFWVJkNzNBcW1iRm1DUFpDd3dUZExIUnZFUGZCMFN0NjYtSXp4V2hsSG95aEFybXpxampvcnhMZUFKb09vcmdjemhRcnMxQ0lYckZlTW01bnJUWUZsc25lUUQya0xtQ2xHWXppRlZBdkRaYzZwN2xOSGFPSU5yMDNULWtoU2FfcGNkaENVb2NIZnllU0luLWJkOFVmRm9a?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWDF2WXpjTGk4ZHBRQkFhTldaUHZCaWZkODRUXzEzaDZZNnN3T2lrX1BKOHpNcjg0ckU0T1hTSjk1QmZmdGNOOFA5MEctOV83RHRKRmxGSFBvUF8xQkdhUElGTTVUNVA2RXd6cmJEX0ZIazEzSEg2SWN0UU11ODNER2ZPeVZaV0xwTElEbWdsWHFEalBJQjJERGdNei03RGZPOWhIb1lhLWZwS3MwWTVLZDkzcnQxYjFCbUpUM0tHcEdxVVNZZnfSAbgBQVVfeXFMTzZuSmFqM3pBYUNxWkY0RlNBUGVnZ3BxSGlBRVlSZDczQXFtYkZtQ1BaQ3d3VGRMSFJ2RVBmQjBTdDY2LUl6eFdobEhveWhBcm16cWpqb3J4TGVBSm9Pb3JnY3poUXJzMUNJWHJGZU1tNW5yVFlGbHNuZVFEMmtMbUNsR1l6aUZWQXZEWmM2cDdsTkhhT0lOcjAzVC1raFNhX3BjZGhDVW9jSGZ5ZVNJbi1iZDhVZkZvWg?oc=5",
    "summary": "",
    "image": "",
    "published": "2026-10-23T10:59:46.000Z",
@@ -5289,9 +5276,9 @@
    "top": false
   },
   {
-   "id": "2c024b63d5b80e5d",
+   "id": "f171f25822d2dac8",
    "title": "Waze rejects Malaysia's data security claims after civil servant ban",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWmlCQ2JGM3ByRy02akxpN2VqV1ZfNmxSODVndGhFaUxmZ2MtcERUdW1hR1RUZ3dxWDk2ZW9JNFFfM2pydkQ0SmFlSFZQWDZlbXJ4RzliVU1FUlJXV2o5NGtIeUFsQkpsV1NHcUVOenJURmdqMXlIbGFrbWIwMDZxR3d4VVB0Y21CT3ZINnlLSDRpQkpISjVEZVpoSXhQYnFMNzNKV2NqYVZ6NXdWcmtLMHlWX1BUU0VENU84OHh1aldIQ1BETXcyMkJ5X1FSOVl5QW11ZG5ITnBrdGRMUWwtS1BDSG13eGF5V09RRS1nOA?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaXlBazVBVEVZSDg2YjE0RGJ5RzFEVHNQV0kyX0Y3dlZWSXQ1d3hNUjlxNDhDUXFUV0lRaTRZMGpzT2s3dGFnRHlOd1d4dlBlRlN1VGJPdlVjcDgzZDhRM2xLUk80U0ZjLURja2pLSEZUOEVTTmVQSWMzcmViQWVBSjdjQXAzUmJKWklySk5HQWEwNmtsMVM1Qk1fSmt4cGNrNjVPNl81UUNRd0NpVEViZ2xEMzVTeUJhWndOMw?oc=5",
    "summary": "",
    "image": "",
    "published": "2026-10-23T10:43:00.000Z",
@@ -5416,6 +5403,19 @@
    "feedId": "malaymail-money",
    "topic": "finance",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "8a425760bdfffe20",
+   "title": "YTL prepares next generation to steer its billion-ringgit empire - NST Online",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMHFUTGhsMHU3YlI3c19ZRG9BbUx2cXV6Z1V5dkRYMm5ib0ctOHYza2VETEU0M3NydmE4Umt1YUF0TF9DOUhlR2F0X3lrX04xNmVzTkhyejZnSzVOd2d6Y1ZaSGpSQ24tM28xWVc2Y01ieGJ3WWVuVjN4NzhaV050SER4SXdtWW5KWmN2N3N6NFBFTDBXeVFuWWJfQ2p3RzRYUHhpa3FRSVFSTUNmMGVtdE1YM1FMcjFfc0gwSDdPUklsLU5aLWhVMzR0c0l5UdIBwAFBVV95cUxOR0FvamlaQWRiSWxsMlBmemtrQ0ZadEI3cjVPOXJRSFhXbWU2TW53TVN0T29ZZVU2TjhvYWIxWEdta3Y3WDdYczVrUnNHWHlzMUZvY2JyeEd5ZVBZVDNwdE1NMXp4UG0xWjVKZms2SnhaTUlRYkxLTVE0d01DWktzOXJ1dWZOdzRrRGVRMnBPM3Zjc3VKTk1qZU5pOHZIUWFzMVU2S1Z2U2xmaGhhQnlicWRQdk1HVVBwZnNicHpyYjI?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T10:19:39.000Z",
+   "source": "New Straits Times",
+   "feedId": "gnews-nst-business",
+   "topic": "finance",
+   "hasBody": false,
    "top": false
   },
   {
@@ -5571,6 +5571,19 @@
    "source": "Wired",
    "feedId": "wired",
    "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "62939f8030e7c85f",
+   "title": "Doreen Choo takes Affin Pheim helm - NST Online",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQU3FmSlhyaXRKbWpjcnc0M011M1FaTVBTNHZkcUM0OUx3T3FmLWhMVzBjSDQwMDFqOVdyRFJ5QjZabFVTaVVhT0JlMjNUamhtUEJ5WkF2VUUtdXJLQVZVTTZrSVBlS3BORHU4UDNkZUZmWU1YN0I0aWJqQ0U1UHZ1TWRBQUNmVGZVQUVZVjYxd0dUMFBEVU1udnpLSW5Jb1FoQ19pNUd4cEhwQdIBnAFBVV95cUxPb0hSQWZmaXpZSkNWdXc4UzM0ZjlHOGsxUkJTU29wYjJlMlFaM1BDa3pqNFhzQ2hTSm1ydzRGV25VaTN0aDcxODNqMUlzWGtsVVN4ZVVqNUVzb1BmNW9pbDhCMC04bHlmN3dYc1Nlek5XanNIOHJGTVdCVTJ2cjR4TmJVSDd0bHBMeV9kanhwNklXMkdqNU52ZXU3dG0?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T09:14:51.000Z",
+   "source": "New Straits Times",
+   "feedId": "gnews-nst-business",
+   "topic": "finance",
    "hasBody": false,
    "top": false
   },
@@ -6212,10 +6225,10 @@
    "top": false
   },
   {
-   "id": "865ffb65f1d593f0",
-   "title": "Canva releases its first image generation model",
-   "link": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
-   "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+   "id": "5d204276414bcfa2",
+   "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+   "link": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+   "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
    "image": "",
    "published": "2026-10-22T19:00:00.000Z",
    "source": "TechCrunch",
@@ -6225,10 +6238,10 @@
    "top": false
   },
   {
-   "id": "5d204276414bcfa2",
-   "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-   "link": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
-   "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+   "id": "865ffb65f1d593f0",
+   "title": "Canva releases its first image generation model",
+   "link": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+   "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
    "image": "",
    "published": "2026-10-22T19:00:00.000Z",
    "source": "TechCrunch",
