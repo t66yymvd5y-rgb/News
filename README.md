@@ -113,6 +113,15 @@ path for the query to match). MarketWatch Market Pulse and Federal Reserve press
 releases fetched cleanly but had nothing inside the five-day window, so both are
 disabled.
 
+**Full-text sources.** On 24.10.2026, twenty candidates were probed for feeds
+that syndicate whole articles, so more stories open in full in the reader. The
+thirteen that did were added: The Guardian (Business, Technology, Sport, Global
+development), The Conversation (Global, Business), Global Voices, Business Today
+Malaysia, 404 Media, Krebs on Security, Calculated Risk, A Wealth of Common
+Sense and The Big Picture. Rest of World, The Diplomat and Engadget work but
+carry only teasers; BenarNews, East Asia Forum and The Malaysian Reserve
+refused the runner.
+
 ## Optional: a news API on top of RSS
 
 Off by default. RSS alone is enough to run the site. If you want a wire

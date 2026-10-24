@@ -404,6 +404,112 @@
    "note": "Disabled 24.10.2026: the feed fetches and parses, but none of its items fell inside the maxAgeDays window, so it contributed no stories."
   },
   {
+   "id": "guardian-business",
+   "source": "The Guardian",
+   "topic": "business",
+   "url": "https://www.theguardian.com/uk/business/rss",
+   "enabled": true,
+   "maxItems": 12
+  },
+  {
+   "id": "businesstoday-my",
+   "source": "Business Today",
+   "topic": "business",
+   "url": "https://www.businesstoday.com.my/feed/",
+   "enabled": true,
+   "maxItems": 12
+  },
+  {
+   "id": "conversation-business",
+   "source": "The Conversation",
+   "topic": "finance",
+   "url": "https://theconversation.com/us/business/articles.atom",
+   "enabled": true,
+   "maxItems": 8,
+   "note": "Academic analysis, published under Creative Commons. No imagery in the feed."
+  },
+  {
+   "id": "calculated-risk",
+   "source": "Calculated Risk",
+   "topic": "finance",
+   "url": "https://www.calculatedriskblog.com/feeds/posts/default",
+   "enabled": true,
+   "maxItems": 8
+  },
+  {
+   "id": "wealth-common-sense",
+   "source": "A Wealth of Common Sense",
+   "topic": "investments",
+   "url": "https://awealthofcommonsense.com/feed/",
+   "enabled": true,
+   "maxItems": 8
+  },
+  {
+   "id": "ritholtz",
+   "source": "The Big Picture",
+   "topic": "investments",
+   "url": "https://ritholtz.com/feed/",
+   "enabled": true,
+   "maxItems": 6
+  },
+  {
+   "id": "conversation-global",
+   "source": "The Conversation",
+   "topic": "world",
+   "url": "https://theconversation.com/global/articles.atom",
+   "enabled": true,
+   "maxItems": 10,
+   "note": "Academic analysis, published under Creative Commons. No imagery in the feed."
+  },
+  {
+   "id": "guardian-globaldev",
+   "source": "The Guardian",
+   "topic": "world",
+   "url": "https://www.theguardian.com/global-development/rss",
+   "enabled": true,
+   "maxItems": 8
+  },
+  {
+   "id": "globalvoices",
+   "source": "Global Voices",
+   "topic": "world",
+   "url": "https://globalvoices.org/feed/",
+   "enabled": true,
+   "maxItems": 8
+  },
+  {
+   "id": "guardian-technology",
+   "source": "The Guardian",
+   "topic": "tech",
+   "url": "https://www.theguardian.com/uk/technology/rss",
+   "enabled": true,
+   "maxItems": 10
+  },
+  {
+   "id": "404media",
+   "source": "404 Media",
+   "topic": "tech",
+   "url": "https://www.404media.co/rss/",
+   "enabled": true,
+   "maxItems": 8
+  },
+  {
+   "id": "krebs",
+   "source": "Krebs on Security",
+   "topic": "tech",
+   "url": "https://krebsonsecurity.com/feed/",
+   "enabled": true,
+   "maxItems": 6
+  },
+  {
+   "id": "guardian-sport",
+   "source": "The Guardian",
+   "topic": "sport",
+   "url": "https://www.theguardian.com/uk/sport/rss",
+   "enabled": true,
+   "maxItems": 15
+  },
+  {
    "id": "gnews-star",
    "source": "The Star",
    "topic": "malaysia",
@@ -440,86 +546,5 @@
   "timeoutMs": 15000,
   "topStoriesSize": 40
  },
- "probe": [
-  {
-   "id": "benarnews",
-   "url": "https://www.benarnews.org/english/rss.xml"
-  },
-  {
-   "id": "benarnews-alt",
-   "url": "https://www.benarnews.org/english/rss"
-  },
-  {
-   "id": "conversation-global",
-   "url": "https://theconversation.com/global/articles.atom"
-  },
-  {
-   "id": "conversation-business",
-   "url": "https://theconversation.com/us/business/articles.atom"
-  },
-  {
-   "id": "restofworld",
-   "url": "https://restofworld.org/feed/latest"
-  },
-  {
-   "id": "eastasiaforum",
-   "url": "https://eastasiaforum.org/feed/"
-  },
-  {
-   "id": "globalvoices",
-   "url": "https://globalvoices.org/feed/"
-  },
-  {
-   "id": "thediplomat",
-   "url": "https://thediplomat.com/feed/"
-  },
-  {
-   "id": "guardian-business",
-   "url": "https://www.theguardian.com/business/rss"
-  },
-  {
-   "id": "guardian-technology",
-   "url": "https://www.theguardian.com/technology/rss"
-  },
-  {
-   "id": "guardian-sport",
-   "url": "https://www.theguardian.com/sport/rss"
-  },
-  {
-   "id": "guardian-globaldev",
-   "url": "https://www.theguardian.com/global-development/rss"
-  },
-  {
-   "id": "engadget",
-   "url": "https://www.engadget.com/rss.xml"
-  },
-  {
-   "id": "krebs",
-   "url": "https://krebsonsecurity.com/feed/"
-  },
-  {
-   "id": "404media",
-   "url": "https://www.404media.co/rss/"
-  },
-  {
-   "id": "malaysian-reserve",
-   "url": "https://themalaysianreserve.com/feed/"
-  },
-  {
-   "id": "businesstoday-my",
-   "url": "https://www.businesstoday.com.my/feed/"
-  },
-  {
-   "id": "wealth-common-sense",
-   "url": "https://awealthofcommonsense.com/feed/"
-  },
-  {
-   "id": "calculated-risk",
-   "url": "https://www.calculatedriskblog.com/feeds/posts/default"
-  },
-  {
-   "id": "ritholtz",
-   "url": "https://ritholtz.com/feed/"
-  }
- ]
+ "probe": []
 }
