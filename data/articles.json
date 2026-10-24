@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-24T06:13:27.088Z",
+ "generatedAt": "2026-10-24T06:14:49.536Z",
  "site": {
   "name": "Kertas",
   "tagline": "Malaysia first. The world next.",
@@ -77,17 +77,16 @@
   "malaysia": 120,
   "world": 94,
   "business": 35,
-  "investments": 46,
-  "finance": 51,
+  "investments": 54,
+  "finance": 81,
   "tech": 127,
   "sport": 25,
   "opinion": 41
  },
  "failedFeeds": [
-  "ai-news",
-  "gnews-bernama-business"
+  "ai-news"
  ],
- "withBody": 241,
+ "withBody": 262,
  "articles": [
   {
    "id": "323afe83d1cfb6b6",
@@ -155,16 +154,42 @@
    "top": false
   },
   {
-   "id": "4e6ac5c28142f952",
-   "title": "At Aberfan, I saw fathers digging for their missing children. And the lessons society should have learned, it hasn’t | John Humphrys",
-   "link": "https://www.theguardian.com/commentisfree/2026/oct/24/aberfan-disaster-missing-children-deaths-john-humphrys",
-   "summary": "Each of those 144 deaths was entirely avoidable, but nobody was held to account. We still don’t know how to get justice for ordinary people Aberfan taught us a lot. Mostly, of course, that those in power cannot be trusted. Correction: must not be trusted. Too…",
-   "image": "https://i.guim.co.uk/img/media/a47706138d487fe3c11954cd21f1dc9fe19b270a/32_0_1418_1134/master/1418.jpg?width=700&quality=85&auto=format&fit=max&s=414b990fe5238e3d00973835490ca9d7",
+   "id": "3800e854ebbc4bb0",
+   "title": "More than third of post offices in TG Jones stores to shut by early 2027",
+   "link": "https://www.theguardian.com/business/2026/oct/24/more-than-third-of-post-offices-in-tg-jones-stores-to-shut-by-early-2027",
+   "summary": "Closures within chain formerly under the WH Smith brand raise fears of high streets becoming ‘postal deserts’ Towns and even city centres face being left as “postal deserts” after it emerged that more than a third of post offices within the troubled TG Jones…",
+   "image": "https://i.guim.co.uk/img/media/a8139c42109cc47289fb100d05b3bd8b403f3d8a/479_0_4266_3415/master/4266.jpg?width=700&quality=85&auto=format&fit=max&s=53478138dfb5ec3ebeb457351d25791a",
+   "published": "2026-10-24T06:00:27.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-world",
+   "topic": "world",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "e2b0f7543f87805d",
+   "title": "Most levelling up projects still unfinished years after funding allocated",
+   "link": "https://www.theguardian.com/uk-news/2026/oct/24/most-conservative-party-levelling-up-projects-unfinished-funding-allocation",
+   "summary": "Data released under freedom of information laws reveals hundreds of projects unfinished despite Tory promises on regional equality • Can a £5.8bn scheme help revive Grimsby and other town centres? Most levelling up projects are not finished, years after funds…",
+   "image": "https://i.guim.co.uk/img/media/588781f018e7cc0d01db9ee1e82ab0083e525630/0_0_2000_1600/master/2000.jpg?width=700&quality=85&auto=format&fit=max&s=564f9e1f1680e02dfa041b6c44fe8978",
+   "published": "2026-10-24T06:00:27.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-world",
+   "topic": "world",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "df98c5c2c045fc99",
+   "title": "‘It’s part of our history’: can the menú del día survive Spain’s changing eating habits?",
+   "link": "https://www.theguardian.com/world/2026/oct/24/spain-diners-food-restaurants-menu-del-dia",
+   "summary": "Established under the Franco dictatorship, the lunchtime ritual is in decline but all is not lost A little before lunchtime each working day across Spain, evidence of one of the lingering, if less notorious, legacies of the Franco dictatorship is carefully…",
+   "image": "https://i.guim.co.uk/img/media/af32874f3ce2d8130594de4baed06f76c0446cec/312_0_6683_5344/master/6683.jpg?width=700&quality=85&auto=format&fit=max&s=143055e570a4c4905be63bd4a56b4acd",
    "published": "2026-10-24T06:00:26.000Z",
    "source": "The Guardian",
-   "feedId": "guardian-opinion",
-   "topic": "opinion",
-   "hasBody": false,
+   "feedId": "guardian-world",
+   "topic": "world",
+   "hasBody": true,
    "top": false
   },
   {
@@ -1039,6 +1064,19 @@
    "top": false
   },
   {
+   "id": "5522a284728296be",
+   "title": "(EDBLW.O) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9iem9Td0swNGNnWGxPck1rREV1UzUtcVpGVkJ1OXQxWTR5Mlc2NXFQbUdfTTJLU25CcHgtN0luVllMd1ZodHE5MzNuTGF1VkNMNjZHYlhpdVpKQQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T04:20:32.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "9cea35259b30e5c3",
    "title": "2 Malaysians injured in Typhoon Champi in Taiwan",
    "link": "https://www.nst.com.my/news/nation/2026/10/1562461/2-malaysians-injured-typhoon-champi-taiwan",
@@ -1061,6 +1099,32 @@
    "source": "Bernama",
    "feedId": "gnews-bernama",
    "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "1ddd004a22a43723",
+   "title": "(XCS6.DE) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNaUFIQ001QjB6T05MVTJmR1ZMcE9hUUJBc3ZBbWpuYWwzME5FbEpydW5RaENzWTFqZEUxYXFLc0JGSnU3dlFIT2ZuT25idGRKX3lpN1NDQW9xQQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T04:18:42.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "891c7b2299e838e2",
+   "title": "(MLAY.DE) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwaFNYbFl3LXpkc1F5ejZCRGw2UmtpNGtSQjFUTF9VNUFrSE5MTnpwQXVyOWhLcTlaVkpSYzJuc0dCejNTWEVkYzA1SjhUdGFibGg4RzBtczllUQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T04:17:27.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
    "hasBody": false,
    "top": false
   },
@@ -1091,6 +1155,19 @@
    "top": false
   },
   {
+   "id": "25691f0722840224",
+   "title": "(FTGF.DE) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5jMVdZSVlHbTdZSG9TN0hQODhRVmJqaE52QWpZaHNBXzRXc1g3YmhuWW4wUC1hS0R6OGNYb0d1N255M0I4Yjl0LTlLMzlRMlNvblZibURkN2pOQQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T04:14:00.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "0a28605dbe32abc5",
    "title": "Pulau Banggi Safe, Residents Hope For Better Basic Amenities, Healthcare",
    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYb0t6R18zVUxLM3A0aWx0UGNUVi1BcmtOcndweG1Vc0JJX3Y1OWlFRXpVWVVGdU9BYnlaT0RscTJFaHpPUV9fdThGRVdBTFo4TGc3ck1RMktfdw?oc=5",
@@ -1117,6 +1194,19 @@
    "top": false
   },
   {
+   "id": "fe1a2db0113cccc9",
+   "title": "(HYBI.O) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBaVXhzZTc0Wms4eXNGdllBbDZuc0lIVWppdE5uWEFPV1BSWk5MOXpLSHVSa0dCaDY4Y1kxNzUzV3RYYmdobjBjTFM3ZEd3N1A0TjdJaDh0cU0?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T04:12:58.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "5aebe2e509159f64",
    "title": "Defence Ministry proposes annual Veterans Day",
    "link": "https://www.nst.com.my/news/nation/2026/10/1562456/defence-ministry-proposes-annual-veterans-day",
@@ -1127,6 +1217,19 @@
    "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "f6ab7b4607851899",
+   "title": "(AXTX.N) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0yaDR1RUUxdFZBMW9iX1lYVmFDRWVxWHZncjVXZlBNd0dCd0tabkhRODdUdjRYLW13ek1VTzBzN2NNdW1KWE4xOFB6WGxUdmJ2ZDJ2MUc5X24?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T04:09:36.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1702,19 +1805,6 @@
    "top": false
   },
   {
-   "id": "d7c313f1251364a9",
-   "title": "(QREU.DE) | Stock Price & Latest News",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40QTdpS3N1elZwelc4ejMtRFJiNTFvSTllSUh1MzF3bi00SWhNQnRQZldZU0xZZHBBX3gzNW1sVWNNbUVyS2tVWW5fWWVFS2RoNDZROFJlbGJ6dw?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T02:32:30.000Z",
-   "source": "Reuters",
-   "feedId": "gnews-reuters-markets",
-   "topic": "investments",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "cd59aeab0f594260",
    "title": "Sukar bukti kes bukan alasan tiada akta jerebu, kata pakar",
    "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/10/24/sukar-bukti-kes-bukan-alasan-tiada-akta-jerebu-kata-pakar",
@@ -1855,6 +1945,32 @@
    "feedId": "bbc-sport",
    "topic": "sport",
    "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "fc1ca104c1415cc1",
+   "title": "(XAIW.N) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9XOVZzR2M5VVBOMGhRTVFfSXdyNkswQW84SGVReGh5aHotamZuWXlJbnVyZlg4YnBpS05wZkdEbnJvZkc0clR6YlFST2dtd255T3JiMXZIOHI?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T01:41:52.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "d9a5df34a7dd9973",
+   "title": "Gucci and Volvo Cars get hammered as oil and AI worries rattle markets",
+   "link": "https://www.malaymail.com/news/money/2026/10/24/gucci-and-volvo-cars-get-hammered-as-oil-and-ai-worries-rattle-markets/240379",
+   "summary": "NEW YORK, Oct 24 — Oil prices rose to their highest levels since late April on Friday, with benchmark crude contra...",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/24/370169.jpg",
+   "published": "2026-10-24T01:36:57.000Z",
+   "source": "Malay Mail",
+   "feedId": "malaymail-money",
+   "topic": "finance",
+   "hasBody": true,
    "top": false
   },
   {
@@ -2105,6 +2221,19 @@
    "top": false
   },
   {
+   "id": "e776c5b6a5f582ee",
+   "title": "(EMDM.N) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1xR25WcFlCSTJsNm9rbS0taGJqbzFJSXo2QmYwY3R4ajRaeHRYYTlrbnVZRThKRS1TQkVwMVFMX25Gdl9uQUFrSDdGYnJWX1pXWWpqOFA2eDk?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T00:10:44.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "e15bed8eb96aa99c",
    "title": "How does the UK state pension compare with other countries?",
    "link": "https://www.bbc.co.uk/news/articles/c3gr84w85glyo?at_medium=RSS&at_campaign=rss",
@@ -2140,6 +2269,19 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "5c1ef0531fa82227",
+   "title": "(0MWJ.L) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKeUFzUVA3a0p2WDNQT0NhQjBhOFBVYnZlaWZJQXBMWVY1Vmd1Y3MtUG9MLXVTY3lwdlNyYm42cVEta3FObHM5b1YxMjRab2RSWG9OSGE3dm0?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T00:00:12.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
    "hasBody": false,
    "top": false
   },
@@ -2196,6 +2338,19 @@
    "top": false
   },
   {
+   "id": "187dded282ab3a33",
+   "title": "France spared Moody’s rating downgrade as it struggles with unrest",
+   "link": "https://www.freemalaysiatoday.com/category/business/2026/10/24/france-spared-moody-s-rating-downgrade-as-it-struggles-with-unrest",
+   "summary": "France has struggled to rein in its public finances after a 2024 snap election produced a hung parliament and political paralysis.",
+   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2023/12/a8772b82-moodys.jpg",
+   "published": "2026-10-23T23:31:11.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt-business",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "e3d9c8df5d1e0006",
    "title": "Sitting all day? This mobility routine can help you loosen up",
    "link": "https://www.channelnewsasia.com/wellness/mobility-routine-sitting-6456071",
@@ -2205,6 +2360,19 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "db90e13c1ab5d2fe",
+   "title": "(SVTN.N) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5QVEhmZFBKZ2N2OTdQNXh3U0g0YjloUl9UcFljbFVzZlZYcFY1b0lNdTMxMUhHS0tHVld6ZUNsZHAtajNsanVsQnZOTW9oZWcwQzNuRXBfU2U?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T23:27:01.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
    "hasBody": false,
    "top": false
   },
@@ -2391,6 +2559,19 @@
    "top": false
   },
   {
+   "id": "581133cd9a28bdda",
+   "title": "(IXN.N) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5HcmRlMTlpeFNTN18zcFZIbmxITkYyQnUtMU84cVFvLWFmLVNyenJFeUQwWjNPZFV2MVEwSk02cXRkWFhVT3Bsa2NkM2hCOHJldTJ3b3U1TQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T23:02:02.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "f9d2afbb139ea4a5",
    "title": "Blue Planet III features cloudier footage to prove authenticity amid AI boom",
    "link": "https://www.theguardian.com/media/2026/oct/24/blue-planet-iii-cloudier-footage-prove-authenticity-ai-boom",
@@ -2400,6 +2581,19 @@
    "source": "The Guardian",
    "feedId": "guardian-world",
    "topic": "world",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "fbb2668a818ca36e",
+   "title": "US fines Air France, KLM over flights in prohibited Iraqi airspace",
+   "link": "https://www.freemalaysiatoday.com/category/business/2026/10/24/us-fines-air-france-klm-over-flights-in-prohibited-iraqi-airspace",
+   "summary": "Foreign airlines operating flights under a US airline’s code must comply with US restrictions, and both airlines operate flights under Delta codes.",
+   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2026/01/c42d6e78-7356205-federal-aviation-administration.webp",
+   "published": "2026-10-23T23:00:31.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt-business",
+   "topic": "finance",
    "hasBody": true,
    "top": false
   },
@@ -2430,15 +2624,41 @@
    "top": false
   },
   {
-   "id": "7dfb6c42f90eaebe",
-   "title": "Online safety laws have failed to protect children in UK, Ofcom admits",
-   "link": "https://www.theguardian.com/society/2026/oct/23/uk-children-just-as-likely-to-have-suffered-harm-on-social-media-despite-crackdown-ofcom-online-safety-act",
-   "summary": "Campaigners call lack of progress ‘staggering’ as online regulator issues review of first nine months of new regime Landmark online safety measures have failed to limit the proportion of children suffering harm from social media, the UK’s online regulator has…",
-   "image": "https://i.guim.co.uk/img/media/d8ca7107a32ae75c0414d1c2341b3ee1dd62c0ff/761_0_6147_4918/master/6147.jpg?width=700&quality=85&auto=format&fit=max&s=419bc524836477cdb24cd5dac74efacb",
-   "published": "2026-10-23T22:51:50.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-world",
-   "topic": "world",
+   "id": "7c5c8f109c7713a7",
+   "title": "Napa Valley wineries lose Canadian market and see tourist decline amid Trump tariffs",
+   "link": "https://www.malaymail.com/news/life/2026/10/23/napa-valley-wineries-lose-canadian-market-tourist-decline-amid-trumps-tariff-squeeze/240295",
+   "summary": "NAPA (California), Oct 24 — Napa Valley rocketed to international fame when its vintages shocked French rivals in...",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/23/370056.jpg",
+   "published": "2026-10-23T23:00:00.000Z",
+   "source": "Malay Mail",
+   "feedId": "malaymail-money",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "0151d02ea7e7d46c",
+   "title": "Ukraine refinery strikes, Middle East war: What’s driving US fuel prices?",
+   "link": "https://www.malaymail.com/news/money/2026/10/24/ukraine-refinery-strikes-middle-east-war-whats-driving-us-fuel-prices/240289",
+   "summary": "LONDON, Oct 24 — Ahead of next month’s midterm US elections, Donald Trump has increasingly blamed Ukrainian...",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/23/370053.jpg",
+   "published": "2026-10-23T23:00:00.000Z",
+   "source": "Malay Mail",
+   "feedId": "malaymail-money",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "bc2d74d3223ab109",
+   "title": "Fast-fashion group Shein agrees to pay US$100mil to settle US trade probe",
+   "link": "https://www.freemalaysiatoday.com/category/business/2026/10/24/fast-fashion-group-shein-agrees-to-pay-us-100mil-to-settle-us-trade-probe",
+   "summary": "The settlement over delivery delays and other customer complaints, equivalent to 44% of its Q2 profit, adds to the regulatory and tax pressures facing the online retailer.",
+   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2023/11/002b1ee8-shein.jpg",
+   "published": "2026-10-23T22:51:00.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt-business",
+   "topic": "finance",
    "hasBody": true,
    "top": false
   },
@@ -2452,6 +2672,19 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "94d214de11ac3223",
+   "title": "36B5.DE - | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4yRU5kR2tnMUhWMDhLdXM1d2VIN0p6WTFLZkhscVQtcTFlYVhSenFMaFVCeWZpYi1jcVh3WDRVNVBhUURmelZlQ3hlMjNnQk53NWxGMVpfV0M5U1U3T1RUSTBpSlVLUS1CNzRUUFh3?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T22:48:43.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
    "hasBody": false,
    "top": false
   },
@@ -2586,19 +2819,6 @@
    "top": false
   },
   {
-   "id": "8a1b08f0bea433bb",
-   "title": "Thousands of homes without power as Storm Austen hits south-west England",
-   "link": "https://www.theguardian.com/uk-news/2026/oct/23/storm-austen-weather-updates-thousands-without-power-south-west-england",
-   "summary": "Dozens of schools in Cornwall also affected as Storm Boelo heads for Scotland, Northern Ireland and north of England Thousands of homes are without power and schools were closed as the first named storm of the year hit UK shores. Storm Austen brought severe…",
-   "image": "https://i.guim.co.uk/img/media/defb52d17a98c272784c56e832b7b215dc0c188f/0_0_5160_4128/master/5160.jpg?width=700&quality=85&auto=format&fit=max&s=819db5d05fc448f96cc1ebcdd5dc5747",
-   "published": "2026-10-23T22:21:28.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-world",
-   "topic": "world",
-   "hasBody": true,
-   "top": false
-  },
-  {
    "id": "74bce54dfd507f6f",
    "title": "'That's what I do' - Wade scores again to equal Prem try-scoring record",
    "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c3j47y0yy5e1o?at_medium=RSS&at_campaign=rss",
@@ -2634,6 +2854,19 @@
    "source": "Channel NewsAsia",
    "feedId": "cna",
    "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "24f7b2f2d074f7fc",
+   "title": "(BILZ.N) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE54bnZfN3hkcExDSEg5NC14M0V1b0x2X1ZYZG94S1l1Y0ZRM2NKZUR3ZkxwZ1htZk1oNlNwUTA4SEVHM0Ixc1RXbnZFWWFMNk5BM1o5eDMxdWk?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T22:13:39.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
    "hasBody": false,
    "top": false
   },
@@ -2703,6 +2936,19 @@
    "top": false
   },
   {
+   "id": "3f214aa8370558f2",
+   "title": "PHP Foundation 'under-funded' with one full-time staff member, director says",
+   "link": "https://www.channelnewsasia.com/business/php-foundation-under-funded-one-full-time-staff-member-director-says-6488116",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T21:57:45.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna-business",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "85f7429a1fefbea6",
    "title": "Wade equals Prem try-scoring record as Newcastle beat Sale",
    "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cqwy7e08jlxpo?at_medium=RSS&at_campaign=rss",
@@ -2755,6 +3001,19 @@
    "top": false
   },
   {
+   "id": "600ae33278f6dbdc",
+   "title": "Wall Street closes lower to end rocky week",
+   "link": "https://www.freemalaysiatoday.com/category/business/2026/10/24/wall-street-closes-lower-to-end-rocky-week",
+   "summary": "Investors look ahead to a busy slate of corporate earnings and a US Federal Reserve interest-rate policy meeting.",
+   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2026/07/112f18d6-afp__20240820__2167560269__v1__midres__marketsopentuesdaymorningaftersp500posts8thst_1_cropped.webp",
+   "published": "2026-10-23T21:44:26.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt-business",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "ec10704829a60eae",
    "title": "Xbox’s first chief operating officer is out after just a few months",
    "link": "https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure",
@@ -2765,6 +3024,19 @@
    "feedId": "theverge",
    "topic": "tech",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "ff8d75ae3aa1011c",
+   "title": "(XBCI.OQ) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52RHNWTWJhY1ZqYlFqNEhsZE56Q3p0RHdPNF9UblRseUpDUGpXMnhXU1hTYnhWaWx6ZnBBM2tBcXAwOVZGX0pHQ2ZCSlZvV29OcXJFY0s0RkdRQQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T21:38:22.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
+   "hasBody": false,
    "top": false
   },
   {
@@ -2790,6 +3062,19 @@
    "source": "Simon Willison",
    "feedId": "simonw",
    "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "4d9ae6d86032a865",
+   "title": "(MOBXW.O) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlUnRhQTBVY2ZSNFcwWWY5bTJ1cVhyNWZzY1VkZVFGeXlaX25jYTd1eVVHUzVtQXFPakNkd0JNWl9KQ2dsLW82dWIxR0ZoS3pTdmk0ckJyVVhkUQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T21:33:57.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
    "hasBody": false,
    "top": false
   },
@@ -3041,6 +3326,19 @@
    "top": false
   },
   {
+   "id": "6b97e23b260801b7",
+   "title": "OpenAI resumes frontier AI training after security overhaul, discloses flaw in widely used software",
+   "link": "https://www.channelnewsasia.com/business/openai-resumes-frontier-ai-training-after-security-overhaul-discloses-flaw-in-widely-used-software-6487981",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T20:06:51.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna-business",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "129661734740ec73",
    "title": "There's a third PHP2Shell bug, but it won't get an emergency fix",
    "link": "https://www.theregister.com/security/2026/10/23/theres-a-third-php2shell-bug-but-it-wont-get-an-emergency-fix/5305208",
@@ -3194,6 +3492,19 @@
    "feedId": "arstechnica",
    "topic": "tech",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "2ee9ba637655762e",
+   "title": "After previous day's slump, trading is quieter among AI shares",
+   "link": "https://www.channelnewsasia.com/business/after-previous-days-slump-trading-quieter-among-ai-shares-6487931",
+   "summary": "",
+   "image": "https://dam.mediacorp.sg/image/upload/s--_zBrfSv0--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-10-23T193358Z_1_LYNXMPEM9M1RK_RTROPTP_3_USA-STOCKS-META.JPG?itok=IpWo2FeM",
+   "published": "2026-10-23T19:33:58.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna-business",
+   "topic": "finance",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3375,6 +3686,19 @@
    "source": "Wired",
    "feedId": "wired",
    "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "e1b53e937980eda1",
+   "title": "Senator says planned Meta commercial terms update could harm US businesses",
+   "link": "https://www.channelnewsasia.com/business/senator-says-planned-meta-commercial-terms-update-could-harm-us-businesses-6487861",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T18:09:59.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna-business",
+   "topic": "finance",
    "hasBody": false,
    "top": false
   },
@@ -3613,19 +3937,6 @@
    "top": false
   },
   {
-   "id": "234c310d70071ece",
-   "title": "Oil price rises above $117 a barrel amid fears US will renew strikes on Iran",
-   "link": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
-   "summary": "Brent crude increase follows Tehran threatening retaliatory attacks on Gulf refineries and datacentres Oil has hit its highest level in more than six months as fears of fresh escalation in the Middle East conflict grip the energy markets. Brent crude, the…",
-   "image": "https://i.guim.co.uk/img/media/c0f302e34e0b51e7da8489af30c4f6d217592b8a/424_0_4520_3616/master/4520.jpg?width=700&quality=85&auto=format&fit=max&s=2332037b020bf1cf0409c256058c3e75",
-   "published": "2026-10-23T16:48:28.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-world",
-   "topic": "world",
-   "hasBody": true,
-   "top": false
-  },
-  {
    "id": "6746acd47a9dccfc",
    "title": "Elevating SMEs to be global players key to Malaysia’s success — Anwar",
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1XdGJvRmRwSzJqWXUtU24zNkJTT0pTYVdHNV9xSURwUmRRcHFoOXJWS1hRemdFbXhtUm1PcjJRSG1DLTR3RmJYMzRodFBrclBX?oc=5",
@@ -3652,6 +3963,19 @@
    "top": false
   },
   {
+   "id": "5a782336b5c55c47",
+   "title": "Stocks fall, but tech shares steady after selloff; oil hits highest in nearly six months",
+   "link": "https://www.channelnewsasia.com/business/stocks-fall-tech-shares-steady-after-selloff-oil-hits-highest-in-nearly-six-months-6485001",
+   "summary": "",
+   "image": "https://dam.mediacorp.sg/image/upload/s--c_fIEC7a--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-10-23T194754Z_1_LYNXMPEM9M1SN_RTROPTP_3_USA-STOCKS.JPG?itok=wfQYVJPR",
+   "published": "2026-10-23T16:38:14.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna-business",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "8e0f541945223afa",
    "title": "The first broken iPhone Duos are here",
    "link": "https://www.theverge.com/tech/1017623/iphone-duo-broken-cracked-screen",
@@ -3662,6 +3986,19 @@
    "feedId": "theverge",
    "topic": "tech",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "35505cd259ff3ddf",
+   "title": "US telecom operators wobble after report SpaceX in talks for cell sites",
+   "link": "https://www.channelnewsasia.com/business/us-telecom-operators-wobble-after-report-spacex-in-talks-cell-sites-6487406",
+   "summary": "",
+   "image": "https://dam.mediacorp.sg/image/upload/s--Uk-oKMHG--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-10-23T163623Z_1_LYNXMPEM9M1KX_RTROPTP_3_SPACEX-RESULTS.JPG?itok=x6BTB-HM",
+   "published": "2026-10-23T16:36:23.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna-business",
+   "topic": "finance",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3704,6 +4041,19 @@
    "top": false
   },
   {
+   "id": "29f7a7b359ea42e2",
+   "title": "PwC confirms cybersecurity incident involving employee learning records",
+   "link": "https://www.channelnewsasia.com/business/pwc-confirms-cybersecurity-incident-involving-employee-learning-records-6487381",
+   "summary": "",
+   "image": "https://dam.mediacorp.sg/image/upload/s--6ttoFZMK--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-10-23T214457Z_3_LYNXMPEM9M1K8_RTROPTP_3_IRELAND-ECONOMY.JPG?itok=HU59QTuo",
+   "published": "2026-10-23T16:22:07.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna-business",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "2c268d0851cd1ea1",
    "title": "Commonwealth Fusion Systems gets $85M to build better fusion-ready semiconductors",
    "link": "https://techcrunch.com/2026/10/23/commonwealth-fusion-systems-gets-85m-to-build-better-fusion-ready-semiconductors/",
@@ -3713,6 +4063,19 @@
    "source": "TechCrunch",
    "feedId": "techcrunch",
    "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "449523e0a60623fa",
+   "title": "AT&T, T-Mobile tighten AI guardrails as autonomous networks remain years away",
+   "link": "https://www.channelnewsasia.com/business/att-t-mobile-tighten-ai-guardrails-autonomous-networks-remain-years-away-6487386",
+   "summary": "",
+   "image": "https://dam.mediacorp.sg/image/upload/s--E6cBldP9--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-10-23T161859Z_1_LYNXMPEM9M1K1_RTROPTP_3_AT-T-RESULTS.JPG?itok=INTm_Jn_",
+   "published": "2026-10-23T16:18:59.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna-business",
+   "topic": "finance",
    "hasBody": false,
    "top": false
   },
@@ -3769,6 +4132,19 @@
    "top": false
   },
   {
+   "id": "2039d9885e12c639",
+   "title": "Bank of Italy calls for digital asset investments by banks despite uncertainty",
+   "link": "https://www.channelnewsasia.com/business/bank-italy-calls-digital-asset-investments-banks-despite-uncertainty-6487331",
+   "summary": "",
+   "image": "https://dam.mediacorp.sg/image/upload/s--kDcd7fm1--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-10-23T211828Z_1_LYNXMPEM9M1VV_RTROPTP_3_ITALY-BUDGET.JPG?itok=AwOmRLfl",
+   "published": "2026-10-23T15:57:05.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna-business",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "78de8c1fd984597f",
    "title": "Michigan prof creates Python-like Jac language for AI agents",
    "link": "https://www.theregister.com/devops/2026/10/23/michigan-prof-creates-python-like-jac-language-for-ai-agents/5305110",
@@ -3821,6 +4197,19 @@
    "top": false
   },
   {
+   "id": "14bad790520863b1",
+   "title": "Trump says he will fix any Starlink access problem in Ukraine",
+   "link": "https://www.channelnewsasia.com/business/trump-says-he-will-fix-any-starlink-access-problem-in-ukraine-6487286",
+   "summary": "",
+   "image": "https://dam.mediacorp.sg/image/upload/s--r8zuMYO1--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-10-23T153604Z_2_LYNXMPEM9M1HM_RTROPTP_3_USA-TRUMP.JPG?itok=ioLNcM-h",
+   "published": "2026-10-23T15:36:04.000Z",
+   "source": "Channel NewsAsia",
+   "feedId": "cna-business",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "6335825f6512eb7e",
    "title": "Oil spill washes up on UAE beaches after tanker strike",
    "link": "https://www.bbc.co.uk/news/articles/c6rey3n974g5o?at_medium=RSS&at_campaign=rss",
@@ -3869,6 +4258,19 @@
    "source": "The Register",
    "feedId": "register",
    "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "dc03a0af7e6e3e83",
+   "title": "US authorises emergency release of up to 400,000 barrels of oil from reserve",
+   "link": "https://www.freemalaysiatoday.com/category/business/2026/10/23/us-authorises-emergency-release-of-up-to-400-000-oil-barrels-from-strategic-reserve",
+   "summary": "The authorisation was issued to address a supply disruption affecting Phillips 66's Lake Charles refinery in Louisiana.",
+   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2026/06/d51473eb-oil-barrels-envato-elements-pic-090626-2.webp",
+   "published": "2026-10-23T15:22:00.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt-business",
+   "topic": "finance",
    "hasBody": true,
    "top": false
   },
@@ -4289,6 +4691,19 @@
    "top": false
   },
   {
+   "id": "736579f1a7ab421d",
+   "title": "Astro’s MBNS to sell broadband business assets to Maxis Broadband for RM83m",
+   "link": "https://www.malaymail.com/news/money/2026/10/23/astros-mbns-to-sell-broadband-business-assets-to-maxis-broadband-for-rm83m/240369",
+   "summary": "KUALA LUMPUR, Oct 23 — Astro Malaysia Holdings Bhd’s wholly owned subsidiary, Measat Broadcast Network Syste...",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/23/370143.jpg",
+   "published": "2026-10-23T12:16:40.000Z",
+   "source": "Malay Mail",
+   "feedId": "malaymail-money",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "7c1376bba21c6dfa",
    "title": "Sarawak polls: Wawasan to discuss possible cooperation with Perikatan",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSjhIb0RuZWJDSHplSFV5a0R6bGJ1SEVxcjNkeFBJTTNZMVVnZUU1eHp0QXY2SUhtd0YzWllxYWg1NEhSN1BkbVNPTE53Z1RCMXZiekZjbG5RQzNtQjVlZEdLUXN5cUxBSC1SZF9SbjFIeFdiSXRHbk56ZkRfTmw0ZW1kX0RBYl8wWlFPUFVtUW5YQnhMbXBrMlVpTzRhOXdRekRGT1dvUmRud1R0aHBOSWpwXy1oTXJVUHc?oc=5",
@@ -4419,6 +4834,19 @@
    "top": false
   },
   {
+   "id": "2ddeed9d6db622c9",
+   "title": "Zetrix AI redesignates Norraesah Mohamad as non-executive chairman",
+   "link": "https://www.malaymail.com/news/money/2026/10/23/zetrix-ai-redesignates-norraesah-mohamad-as-non-executive-chairman/240365",
+   "summary": "KUALA LUMPUR, Oct 23 — Zetrix AI Bhd has announced in a Bursa Malaysia filing the redesignation of Datuk Dr Norrae...",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/23/370137.jpg",
+   "published": "2026-10-23T11:51:33.000Z",
+   "source": "Malay Mail",
+   "feedId": "malaymail-money",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "0138714beaa91c6a",
    "title": "Earnings limit of up to £140K for first-time buyers loan scheme",
    "link": "https://www.bbc.co.uk/news/articles/c6n8dex0zeg9o?at_medium=RSS&at_campaign=rss",
@@ -4442,6 +4870,32 @@
    "feedId": "gnews-edge",
    "topic": "business",
    "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "9666ef1952d5847f",
+   "title": "Oil hits five-month high near US$115 as markets weigh AI spending, earnings",
+   "link": "https://www.malaymail.com/news/money/2026/10/23/oil-hits-five-month-high-near-us115-as-markets-weigh-ai-spending-earnings/240363",
+   "summary": "LONDON, Oct 23 — Oil prices traded at five-month highs today, with benchmark crude contract Brent North Sea near U...",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/23/370135.jpg",
+   "published": "2026-10-23T11:44:11.000Z",
+   "source": "Malay Mail",
+   "feedId": "malaymail-money",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "77b98a1fcc32d5af",
+   "title": "Apple’s foldable iPhone hits stores with US$2,000 price tag and scarce supply",
+   "link": "https://www.freemalaysiatoday.com/category/business/2026/10/23/apple-s-foldable-iphone-hits-stores-with-us-2-000-price-tag-and-scarce-supply",
+   "summary": "Demand was strong from Singapore and Shanghai to London and Berlin, but limited sales meant fewer long queues and overnight camp-outs that once marked iPhone launches.",
+   "image": "https://media.freemalaysiatoday.com/v3/2026/10/83bf5f36-4086-4c6d-820b-2c27b53505c7-Iphone-Duo-New-York-que-Reuters-23102026-.webp",
+   "published": "2026-10-23T11:43:49.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt-business",
+   "topic": "finance",
+   "hasBody": true,
    "top": false
   },
   {
@@ -4562,19 +5016,6 @@
    "top": false
   },
   {
-   "id": "0e21787279a0831a",
-   "title": "SUNMED-C1 (5555C1), SUNMED-C1: CW SUNWAY HEALTHCARE HOLDINGS BERHAD (MIBB) - Market Watch",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB3TnlCOFNoVlZmVUNBU0xZdkt3b1lDaWlvWEs5VE9kQmpFdXNYei03TnF4Y04wcjdLVFk4d2R0RkN6TG5OUG0tS3gwZ29XeUNNZzhXX1NTYTVBV2Zzck5FaFNuNTRta2RlX0FNTEgyWE1hRUhFaFk1ODE4V3hSQQ?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-23T11:13:00.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star-marketwatch",
-   "topic": "investments",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "032fcb68add05d9c",
    "title": "SCGBHD-C10: CW SOUTHERN CABLE GROUP BERHAD (MIBB)",
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ZTlhGWDRURk5ZRG9aRzliMU9SaC1Dc0hKd0tkaVd0d2lnM2pQQ3F1aDhVVExpNzJYX3dLajV0MDVyN25SVzYtREUzTnVrdUN3LXdkUGZtSmxtOTZuNWYtWUc4NWlTYmNOUWZlQ1RrVVFnZWdOZDk3dlc1VXlqTjg?oc=5",
@@ -4676,6 +5117,32 @@
    "feedId": "gnews-star-marketwatch",
    "topic": "investments",
    "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "8049494d973c8d36",
+   "title": "EQ8C50 (0823EA), EQ8 FTSE CHINA 50 ETF - Market Watch",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0xQkFRWWNadVBvZ19UYVQ5ZEJIQlFPdmJHeEFqbFpjOUQ1TUtPSldRdWdTR2V3RW14SlJ2TWNRTTI5YlA2NmU3M3Q1YTFlNy03eEpKeTlDN05YcUxLZy1Jb0FZR2tpQ3k5VHVxd3hZZVlGZmwxSUdlMjZB?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T11:12:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star-marketwatch",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "9a0af2f9075d0a33",
+   "title": "Weight-loss drug boom in China, India, Brazil could create US$22bil market by 2035",
+   "link": "https://www.freemalaysiatoday.com/category/business/2026/10/23/weight-loss-drug-boom-in-china-india-brazil-could-create-us-22bil-market-by-2035",
+   "summary": "High costs have limited the uptake of weight-loss drugs in emerging markets, with penetration rates below 0.1% in China and 0.2% in India, but this is expected to change.",
+   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2026/03/688f7baf-india-weigh-loss-drug-24_03_26.webp",
+   "published": "2026-10-23T11:12:00.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt-business",
+   "topic": "finance",
+   "hasBody": true,
    "top": false
   },
   {
@@ -4783,6 +5250,19 @@
    "top": false
   },
   {
+   "id": "b8b835dad03c06f8",
+   "title": "Ringgit ends easier against US dollar, mixed versus major currencies amid AI, bond yield concerns",
+   "link": "https://www.malaymail.com/news/money/2026/10/23/ringgit-ends-easier-against-us-dollar-mixed-versus-major-currencies-amid-ai-bond-yield-concerns/240354",
+   "summary": "KUALA LUMPUR, Oct 23 — The ringgit ended slightly lower against the US dollar today as market sentiment remained c...",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/23/370124.jpg",
+   "published": "2026-10-23T10:57:22.000Z",
+   "source": "Malay Mail",
+   "feedId": "malaymail-money",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "471bbf8beedd5bf9",
    "title": "Turtle Beach Vulcan II XP Review: Clicky Compromise",
    "link": "https://www.wired.com/review/turtle-beach-vulcan-xp-ii/",
@@ -4835,6 +5315,19 @@
    "top": false
   },
   {
+   "id": "2275d63e3f235b77",
+   "title": "Ringgit closes lower against US dollar amid AI stock concerns",
+   "link": "https://www.freemalaysiatoday.com/category/business/2026/10/23/ringgit-closes-lower-against-us-dollar-amid-ai-stock-concerns",
+   "summary": "Investors remain cautious ahead of next week’s Federal Open Market Committee statement, despite widespread expectations that interest rates will hold steady, says an analyst.",
+   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2024/03/a03957c5-ringgit_down-new-2024-3.webp",
+   "published": "2026-10-23T10:34:00.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt-business",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "bf8a469e4eea53ee",
    "title": "TDM Neo Hybrid Headphones Review: Two-in-One Woes",
    "link": "https://www.wired.com/review/tdm-neo-hybrid-headphones/",
@@ -4845,6 +5338,32 @@
    "feedId": "wired",
    "topic": "tech",
    "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "6a1f84e9ac5097f9",
+   "title": "Tanker loaded with diesel leaves Russian port for New York",
+   "link": "https://www.freemalaysiatoday.com/category/business/2026/10/23/tanker-loaded-with-diesel-leaves-russian-port-for-new-york",
+   "summary": "The tanker, loaded with nearly 300,000 barrels of diesel, left Primorsk on the night of Oct 22 to 23 and is expected to arrive on the US East Coast around Nov 7.",
+   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2026/06/af01cfd1-oil-tanker-envato-elements-pic-090626-1.webp",
+   "published": "2026-10-23T10:28:36.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt-business",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "93a6b96277e80384",
+   "title": "Following strikes, Etihad extends Saudi flights suspension until Nov 5",
+   "link": "https://www.malaymail.com/news/money/2026/10/23/following-strikes-etihad-extends-saudi-flights-suspension-until-nov-5/240349",
+   "summary": "DUBAI, Oct 23 — UAE national airline Etihad has extended until November 5 its suspension of flights to Riyadh and...",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/23/370118.jpg",
+   "published": "2026-10-23T10:27:59.000Z",
+   "source": "Malay Mail",
+   "feedId": "malaymail-money",
+   "topic": "finance",
+   "hasBody": true,
    "top": false
   },
   {
@@ -4874,6 +5393,32 @@
    "top": false
   },
   {
+   "id": "a221aaf937100eca",
+   "title": "Bursa Malaysia’s key index ends at intraday high on selective buying in heavyweights",
+   "link": "https://www.malaymail.com/news/money/2026/10/23/bursa-malaysias-key-index-ends-at-intraday-high-on-selective-buying-in-heavyweights/240347",
+   "summary": "KUALA LUMPUR, Oct 23 — Bursa Malaysia ended the week on a flattish note, although the benchmark index managed to f...",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/23/370115.jpg",
+   "published": "2026-10-23T10:20:14.000Z",
+   "source": "Malay Mail",
+   "feedId": "malaymail-money",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "16586bf0ec20cfea",
+   "title": "Following strikes, Etihad extends Saudi flights suspension",
+   "link": "https://www.freemalaysiatoday.com/category/business/2026/10/23/following-strikes-etihad-extends-saudi-flights-suspension",
+   "summary": "The airline had suspended its service to Riyadh on Oct 12, two days after a deadly attack on a passenger terminal killed 13 people.",
+   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2025/05/587165d4-7986446_1_1600x1000_1.webp",
+   "published": "2026-10-23T10:17:09.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt-business",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "5aa410ac9a7c2810",
    "title": "A Dating App Is Offering ‘Chivalry Mode’ and ‘Marriage Timeline’ to Get Gen Z Married",
    "link": "https://www.wired.com/story/a-dating-app-is-offering-chivalry-mode-and-marriage-timeline-to-get-gen-z-married/",
@@ -4887,6 +5432,19 @@
    "top": false
   },
   {
+   "id": "423350242b97fb0d",
+   "title": "Investors pile into Ambani’s Jio IPO as bids top 10 times",
+   "link": "https://www.freemalaysiatoday.com/category/business/2026/10/23/investors-pile-into-ambani-s-jio-ipo-as-bids-top-10-times",
+   "summary": "As of Friday, the IPO’s institutional tranche was subscribed 26.5 times, reflecting strong demand from major investors, while the retail tranche was subscribed 2.3 times.",
+   "image": "https://media.freemalaysiatoday.com/v3/2026/10/746a6ab2-4c3c-4dbe-b8f3-5cae39455d04-Jio-India-telecommunication-EPA-23102026-.webp",
+   "published": "2026-10-23T10:11:43.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt-business",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "5fff09c601fd3de5",
    "title": "What Type of Mattress Is Right for You? (2026)",
    "link": "https://www.wired.com/story/mattress-types-explained-2026/",
@@ -4896,19 +5454,6 @@
    "source": "Wired",
    "feedId": "wired",
    "topic": "tech",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "39ca58dcc7f27308",
-   "title": "Mapping the Market: Path to S&P 500 rally strewn with obstacles",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWHR0U3JXOGh1UGNkNnl3UXRaRzlFdm5JcngtWkRCWlhoc3c5ci1BMjRibmlCdjNqWG5rSG9zZUx5dlplQzNfYWhuQkFWUGozeWRBaTBOZ29BZ1JCSjM5OG1qZlRBckVEQVo3enB2X0xkcC1HZTNVd2Z2ZmpCOVdKNVg3Nk4zMHZJVi1RMw?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-23T10:03:38.000Z",
-   "source": "Reuters",
-   "feedId": "gnews-reuters-markets",
-   "topic": "investments",
    "hasBody": false,
    "top": false
   },
@@ -4987,19 +5532,6 @@
    "source": "BBC News",
    "feedId": "bbc-world",
    "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "a96f9389b84b3692",
-   "title": "Hedge fund returns worsen this week as tech selloff deepens",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS0h2UUh0dUpTb1VWWGJYWm1KOXM4eXZQc1dyTlJMSWNnQ2tOVS1JRmdTMmJMaGpJSEo1c05kLUpXamZVTWVPWUppREI5OWFPUmZVV3hnektWdlRmWXVHNHpkQldJUk1PVEN0QUQ5NE0zczdSc0RMRGhOV28yYkZqeHFEMTFXUElRTDVCMXUybHRGSFhXcUFBS0hoS3V1NWVSREJGa2FCT1ludVU?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-23T09:16:53.000Z",
-   "source": "Reuters",
-   "feedId": "gnews-reuters-markets",
-   "topic": "investments",
    "hasBody": false,
    "top": false
   },
@@ -5758,19 +6290,6 @@
    "top": false
   },
   {
-   "id": "03212f5527409c65",
-   "title": "Europe's STOXX 600 posts biggest drop in three weeks as banks tumble and oil climbs",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdVJKdFpHOVNMc2FWbnFjeWFhUnpnQmhwSXAtNHA0amRvS0tSVjZYVTFTTWZNa01FaEVsQVp5TVRtSTVjMERpS0NaZnZoYWVwWDdsQV9IcXRoemlWc040dnI4MV82RDNsZVB2RlBCVmd6a1hTV0k4aXU4cG9Edzh4WHF0LXdXelJuUXRNbUhtalFoVm1OWVRFQXh1SHdEcWpIbFFhLUZYYw?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-22T17:19:19.000Z",
-   "source": "Reuters",
-   "feedId": "gnews-reuters-markets",
-   "topic": "investments",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "cdc5eb2368995710",
    "title": "We will make the net-zero transition work for Britain – approving the Jackdaw gasfield is part of the plan | Andy Burnham",
    "link": "https://www.theguardian.com/commentisfree/2026/oct/22/net-zero-transition-britain-jackdaw-gasfield-jobs-energy-security-labour",
@@ -5849,19 +6368,6 @@
    "top": false
   },
   {
-   "id": "3f94321efcfd769e",
-   "title": "Ahead of the US midterms, Gen Z investors are making portfolio changes",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaDN4TDhBbHBrVlhiUzVMTTM2LXNkMG5ZM1hDcU54OVg3V3o0a0Z5ZDBLak51UmN1YURXSlJ0UEVnQ1BXU0FwcWQxc3ZJcjF5RWxrdWM4QnZIdk5oWDE4M2l1RmdQQ3VBZFVVa3lxdUhTNGV0b2lrcVBFbEdLeXAzeWhFOS1ZY3BHYUpuaWc0emhfdlU3QWIyQWdkcjJ4Wm9henFvS1M4YmtoZWd6Uk4zUmhnN2F2bXhXbUhF?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-22T15:38:00.000Z",
-   "source": "Reuters",
-   "feedId": "gnews-reuters-markets",
-   "topic": "investments",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "6cf146c7e71fd559",
    "title": "Quoting Armin Ronacher",
    "link": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
@@ -5888,19 +6394,6 @@
    "top": false
   },
   {
-   "id": "2a1af758c1ab1f85",
-   "title": "Germany's higher tax revenue estimates will not offer more fiscal leeway, minister says",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMmZLY1FnazRxeXJHTDVaQzlROWRady1ZcTI3STBXMVBMNUp5LTdKRHlFbHZRVzE3QWtWZ2R6RmNTSmhZUlpaR2Q4UUx2NDFOdWMzYmpuX09wLTQ2Y3hLT2Q3bXc2cmRyN2dReDFqdGM5YzhRWXZsYUMzNXN1NmhoZXEyMWFiOHJBZWNYYXFpNFZIeHBsSXdoM01na3czaEpsdEYzZkIzajUtQQ?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-22T15:28:31.000Z",
-   "source": "Reuters",
-   "feedId": "gnews-reuters-markets",
-   "topic": "investments",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "102299c28073e94f",
    "title": "Carers can’t live on 51p an hour | Letter",
    "link": "https://www.theguardian.com/society/2026/oct/22/carers-cant-live-on-51p-an-hour",
@@ -5910,6 +6403,19 @@
    "source": "The Guardian",
    "feedId": "guardian-money",
    "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "6cb49225160c0cb5",
+   "title": "Do Stormont politics stifle the non-sectarian parties? | Letters",
+   "link": "https://www.theguardian.com/uk-news/2026/oct/22/do-stormont-politics-stifle-the-non-sectarian-parties",
+   "summary": "Responding to an editorial, Boyd Black deplores Labour’s policy of not fielding candidates in Northern Ireland. Plus a letter by Declan O’Neill Your editorial on the dysfunction in Northern Ireland politics (15 October) does not mention the main cause: the…",
+   "image": "https://i.guim.co.uk/img/media/815f838b8a15615c2426423c4da32af873d95794/292_0_2917_2333/master/2917.jpg?width=700&quality=85&auto=format&fit=max&s=f01b0bd1c9ce63ab9696000f18ae98e4",
+   "published": "2026-10-22T15:25:52.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-opinion",
+   "topic": "opinion",
    "hasBody": true,
    "top": false
   },
@@ -6132,19 +6638,6 @@
    "feedId": "guardian-economics",
    "topic": "finance",
    "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "0eb55b1d70b91b11",
-   "title": "Singapore's wealthy clients see growing assets over past year, Citi report says",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOanoxcGZmekN6ZlZpNkxDRnZkV0FzLTREQU1Ccmhkb1UtQ0dYT2RUYWdsWXppUG10MExidjRkd3U0djBwWnh5d3FCQloybkRhaTFkLTBxLUpwTldtMmxfWU1LYWQ2bGtsUjBIaWZpR0thY2NuQ3hWc1Z1SFBLeVk0ZDdsMHBsTTJ5aU5IM3F1cXBVb0stdThWWDNmNF9xdTVoamc2T0VIbG9tbDlyeVcyLUNYRG9tdWN4VTNJby02RjFLTlBRMllr?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-22T10:05:43.000Z",
-   "source": "Reuters",
-   "feedId": "gnews-reuters-markets",
-   "topic": "investments",
-   "hasBody": false,
    "top": false
   },
   {
