@@ -1,6 +1,7 @@
 # PRD — Private full-text reader for Kertas
 
-Status: APPROVED (strict) — 24.10.2026. Build paused at step 1; see §8.
+Status: SHELVED — 24.10.2026. Approved (strict), then shelved at step 1 in favour of
+sourcing feeds that syndicate full text; see §8.
 Date: 24.10.2026
 Owner: Nicholas Hor
 
