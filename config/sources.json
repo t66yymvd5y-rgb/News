@@ -23,6 +23,14 @@
    "label": "Business"
   },
   {
+   "id": "investments",
+   "label": "Investments"
+  },
+  {
+   "id": "finance",
+   "label": "Finance"
+  },
+  {
    "id": "tech",
    "label": "Tech"
   },
@@ -264,6 +272,96 @@
    "maxItems": 10
   },
   {
+   "id": "cnbc-investing",
+   "source": "CNBC",
+   "topic": "investments",
+   "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=15839069",
+   "enabled": true,
+   "maxItems": 15
+  },
+  {
+   "id": "ft-markets",
+   "source": "Financial Times",
+   "topic": "investments",
+   "url": "https://www.ft.com/markets?format=rss",
+   "enabled": true,
+   "maxItems": 12,
+   "note": "Headlines are free; most FT articles are behind a hard paywall."
+  },
+  {
+   "id": "gnews-reuters-markets",
+   "source": "Reuters",
+   "topic": "investments",
+   "url": "https://news.google.com/rss/search?q=site:reuters.com/markets+when:2d&hl=en-MY&gl=MY&ceid=MY:en",
+   "enabled": true,
+   "maxItems": 15,
+   "via": "google-news",
+   "note": "Reuters withdrew its public RSS. Bridged via Google News: links go to a Google redirect that forwards to the publisher, and there is no imagery or syndicated article text."
+  },
+  {
+   "id": "gnews-star-marketwatch",
+   "source": "The Star",
+   "topic": "investments",
+   "url": "https://news.google.com/rss/search?q=site:thestar.com.my/business/marketwatch+when:2d&hl=en-MY&gl=MY&ceid=MY:en",
+   "enabled": true,
+   "maxItems": 12,
+   "via": "google-news",
+   "note": "StarBiz market reports on Bursa Malaysia. Bridged via Google News: links go to a Google redirect that forwards to the publisher, and there is no imagery or syndicated article text."
+  },
+  {
+   "id": "guardian-money",
+   "source": "The Guardian",
+   "topic": "finance",
+   "url": "https://www.theguardian.com/money/rss",
+   "enabled": true,
+   "maxItems": 12
+  },
+  {
+   "id": "guardian-economics",
+   "source": "The Guardian",
+   "topic": "finance",
+   "url": "https://www.theguardian.com/business/economics/rss",
+   "enabled": true,
+   "maxItems": 12
+  },
+  {
+   "id": "cnbc-finance",
+   "source": "CNBC",
+   "topic": "finance",
+   "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664",
+   "enabled": true,
+   "maxItems": 15
+  },
+  {
+   "id": "economist-finance",
+   "source": "The Economist",
+   "topic": "finance",
+   "url": "https://www.economist.com/finance-and-economics/rss.xml",
+   "enabled": true,
+   "maxItems": 10,
+   "note": "Headlines are free; articles are metered."
+  },
+  {
+   "id": "gnews-bernama-business",
+   "source": "Bernama",
+   "topic": "finance",
+   "url": "https://news.google.com/rss/search?q=site:bernama.com/en/business+when:2d&hl=en-MY&gl=MY&ceid=MY:en",
+   "enabled": true,
+   "maxItems": 12,
+   "via": "google-news",
+   "note": "Bridged via Google News: links go to a Google redirect that forwards to the publisher, and there is no imagery or syndicated article text."
+  },
+  {
+   "id": "gnews-nst-business",
+   "source": "New Straits Times",
+   "topic": "finance",
+   "url": "https://news.google.com/rss/search?q=site:nst.com.my/business+when:2d&hl=en-MY&gl=MY&ceid=MY:en",
+   "enabled": true,
+   "maxItems": 12,
+   "via": "google-news",
+   "note": "NST's own feed is site-wide only. Bridged via Google News: links go to a Google redirect that forwards to the publisher, and there is no imagery or syndicated article text."
+  },
+  {
    "id": "gnews-star",
    "source": "The Star",
    "topic": "malaysia",
@@ -300,5 +398,38 @@
   "timeoutMs": 15000,
   "topStoriesSize": 40
  },
- "probe": []
+ "probe": [
+  {
+   "id": "marketwatch-pulse",
+   "url": "https://feeds.content.dowjones.io/public/rss/mw_marketpulse"
+  },
+  {
+   "id": "marketwatch-pf",
+   "url": "https://feeds.content.dowjones.io/public/rss/mw_personalfinance"
+  },
+  {
+   "id": "nikkei-asia",
+   "url": "https://asia.nikkei.com/rss/feed/nar"
+  },
+  {
+   "id": "cna-business",
+   "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6936"
+  },
+  {
+   "id": "malaymail-money",
+   "url": "https://www.malaymail.com/feed/rss/money"
+  },
+  {
+   "id": "fmt-business",
+   "url": "https://www.freemalaysiatoday.com/category/business/feed/"
+  },
+  {
+   "id": "bnm",
+   "url": "https://www.bnm.gov.my/rss"
+  },
+  {
+   "id": "fed-press",
+   "url": "https://www.federalreserve.gov/feeds/press_all.xml"
+  }
+ ]
 }
