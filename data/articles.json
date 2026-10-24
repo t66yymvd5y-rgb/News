@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-24T06:31:43.853Z",
+ "generatedAt": "2026-10-24T06:40:38.558Z",
  "site": {
   "name": "Kertas",
   "tagline": "Malaysia first. The world next.",
@@ -90,11 +90,74 @@
   "sport": 40,
   "opinion": 41
  },
- "failedFeeds": [
-  "ai-news"
- ],
+ "failedFeeds": [],
  "withBody": 348,
  "articles": [
+  {
+   "id": "2be7c7427fe04f81",
+   "title": "Shooting range tests leadership skills of senior civil servants",
+   "link": "https://www.nst.com.my/news/nation/2026/10/1562523/shooting-range-tests-leadership-skills-senior-civil-servants",
+   "summary": "PUTRAJAYA: Senior civil servants were put through a different kind of leadership test when a shooting sports activity was incorporated into the Advanced Leadership and Management Programme (ALMP) Series 89 No. 4/2026.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/114B7D85AE3DE9DAE4989736D2A4CBD5_data_2.jpg",
+   "published": "2026-10-24T06:40:12.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "7d369ca8b550f891",
+   "title": "Podcaster to be called up over ex-journalist's Sentul drug claims",
+   "link": "https://www.nst.com.my/news/nation/2026/10/1562521/podcaster-be-called-over-ex-journalists-sentul-drug-claims",
+   "summary": "KUALA LUMPUR: Police will summon a podcaster to assist in an investigation into claims made on a podcast about drug dealing near the Sentul police headquarters.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/1246622D337DDF9E46A27EC488E86456_data_2.jpg",
+   "published": "2026-10-24T06:36:50.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "419a083cacb98575",
+   "title": "Over 275,000 New MyKad Released As Of Oct 20, Johor Tops List",
+   "link": "https://www.businesstoday.com.my/2026/10/24/over-275000-new-mykad-released-as-of-oct-20-johor-tops-list/?utm_source=rss&utm_medium=rss&utm_campaign=over-275000-new-mykad-released-as-of-oct-20-johor-tops-list",
+   "summary": "The National Registration Department (JPN) has issued 275,785 new-generation MyKad nationwide as of Oct 20, with Johor recording the highest number at 31,392 since the cards were launched on Sept 17. Home Minister Datuk Seri Saifuddin Nasution Ismail said…",
+   "image": "https://www.businesstoday.com.my/wp-content/uploads/2026/09/MyKAD-640x427.jpg",
+   "published": "2026-10-24T06:35:44.000Z",
+   "source": "Business Today",
+   "feedId": "businesstoday-my",
+   "topic": "business",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "5014b59db362dc72",
+   "title": "Smith v Puello world title fight predictions",
+   "link": "https://www.bbc.co.uk/sport/boxing/articles/cwe9ldpmeljyo?at_medium=RSS&at_campaign=rss",
+   "summary": "Figures from the boxing world give their predictions for Saturday's light-welterweight title fight between WBC champion Dalton Smith and Alberto Puello.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44ca/live/f2a09dc0-ce1a-11f1-906e-e3128518d85d.png",
+   "published": "2026-10-24T06:35:17.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "dcacec931418d126",
+   "title": "Farhash files second defamation suit against Rafizi over podcast remarks",
+   "link": "https://www.nst.com.my/news/nation/2026/10/1562519/farhash-files-second-defamation-suit-against-rafizi-over-podcast",
+   "summary": "KUALA LUMPUR: Businessman Datuk Seri Farhash Wafa Salvador Rizal Mubarak has initiated legal proceedings against former economy minister Datuk Seri Rafizi Ramli over allegedly defamatory statements made about him in a podcast.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/0A576B4DDB127CA4657B6CC9048D3267_data_2.jpg",
+   "published": "2026-10-24T06:34:09.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
   {
    "id": "33a125d9064993b8",
    "title": "Some foreigners marry elderly Malaysian women to register vehicles, says RTD",
@@ -171,6 +234,19 @@
    "feedId": "guardian-world",
    "topic": "world",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "89d3239d6b565a12",
+   "title": "Has Vivek Ramaswamy’s attack ad against Amy Acton backfired?",
+   "link": "https://www.aljazeera.com/news/2026/10/24/has-vivek-ramaswamys-attack-ad-against-amy-acton-backfired?traffic_source=rss",
+   "summary": "Ramaswamy's ad featuring Acton's estranged mother draws Republican criticism as Ohio governor's race heats up.",
+   "image": "",
+   "published": "2026-10-24T06:21:11.000Z",
+   "source": "Al Jazeera",
+   "feedId": "aljazeera",
+   "topic": "world",
+   "hasBody": false,
    "top": false
   },
   {
@@ -588,19 +664,6 @@
    "topic": "malaysia",
    "hasBody": true,
    "top": true
-  },
-  {
-   "id": "fade199b162e9dfb",
-   "title": "(TACU.N) | Stock Price & Latest News",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5LYy1PRkxGSnNOakJ0TjRJVnJOT0J0NGxUa2M5aW52LTRpQWwzY3NUbVZBSDZCS05Wbjd1THlkWktfZWloU2FFbHlKV1J3VXFRQ3hSR29ZUGw?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T05:31:20.000Z",
-   "source": "Reuters",
-   "feedId": "gnews-reuters-markets",
-   "topic": "investments",
-   "hasBody": false,
-   "top": false
   },
   {
    "id": "00657c44de649d70",
@@ -1042,7 +1105,7 @@
    "feedId": "malaymail",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "65bb303a8fb727f0",
@@ -1068,7 +1131,7 @@
    "feedId": "malaymail",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "47d9bf1b19c85a0c",
@@ -1094,7 +1157,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "c82824b0de0945c6",
@@ -1292,6 +1355,19 @@
    "top": false
   },
   {
+   "id": "afd4589f72159209",
+   "title": "(XBCI.O) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wYkVOR0ZiVXU1T1ZVZkUwQXNjSE9YUU1uS0wzTWlvN0w2S3FOOHY2RVFvWi11MGtTcU1jbnRYNHVKMXZTcUY0VnJtdXFPUFFXY2Q5SFpZYTE?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T04:29:33.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "2a8456a4aeeb8e78",
    "title": "One dead, 500 hurt as Champi batters Taiwan, then turns towards Shanghai",
    "link": "https://www.malaymail.com/news/world/2026/10/24/one-dead-500-hurt-as-champi-batters-taiwan-then-turns-towards-shanghai/240407",
@@ -1383,19 +1459,6 @@
    "top": false
   },
   {
-   "id": "5522a284728296be",
-   "title": "(EDBLW.O) | Stock Price & Latest News",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9iem9Td0swNGNnWGxPck1rREV1UzUtcVpGVkJ1OXQxWTR5Mlc2NXFQbUdfTTJLU25CcHgtN0luVllMd1ZodHE5MzNuTGF1VkNMNjZHYlhpdVpKQQ?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T04:20:32.000Z",
-   "source": "Reuters",
-   "feedId": "gnews-reuters-markets",
-   "topic": "investments",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "0d69b0f02f20735c",
    "title": "Has The DNB Dust Really Settled?",
    "link": "https://www.businesstoday.com.my/2026/10/24/has-the-dnb-dust-really-settled/?utm_source=rss&utm_medium=rss&utm_campaign=has-the-dnb-dust-really-settled",
@@ -1419,19 +1482,6 @@
    "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "9c7d6a8488bc570d",
-   "title": "Pulau Banggi Safe, Residents Hope For Better Basic Amenities, Healthcare",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBzUTdTRlRwcndmbV9CVnJGbUlkNFJsc3NlWXI4R2VhOFVqVmlxak51VVA5Rl9YTS1yZjFMOHFlVUtaVG45c3llZTJRaFVVM1JQaTBwZXllYml0QTRzc1djdXkybWU?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T04:19:21.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
    "top": false
   },
   {
@@ -1522,6 +1572,19 @@
    "source": "Reuters",
    "feedId": "gnews-reuters-markets",
    "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "0a28605dbe32abc5",
+   "title": "Pulau Banggi Safe, Residents Hope For Better Basic Amenities, Healthcare",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYb0t6R18zVUxLM3A0aWx0UGNUVi1BcmtOcndweG1Vc0JJX3Y1OWlFRXpVWVVGdU9BYnlaT0RscTJFaHpPUV9fdThGRVdBTFo4TGc3ck1RMktfdw?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T04:14:00.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -1630,19 +1693,6 @@
    "top": false
   },
   {
-   "id": "94afe088f99bdd87",
-   "title": "Immigration raids Jalan Ampang nightclub, detains 68 foreigners",
-   "link": "https://www.nst.com.my/news/nation/2026/10/1562451/immigration-raids-jalan-ampang-nightclub-detains-68-foreigners",
-   "summary": "KUALA LUMPUR: Immigration officers detained 68 foreigners, including 47 Thai women working as guest relations officers (GROs), in a raid on a Jalan Ampang nightclub during Ops Gegar at midnight.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/0ED0CE056091BE0C0CEE92ACD27AB527_data_0.jpg",
-   "published": "2026-10-24T04:02:24.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
    "id": "573cfdc58769c95c",
    "title": "Chow eyes April 2027 completion for Air Itam-LCE bypass",
    "link": "https://www.freemalaysiatoday.com/category/nation/2026/10/24/chow-eyes-april-2027-completion-for-air-itam-lce-bypass",
@@ -1734,19 +1784,6 @@
    "top": false
   },
   {
-   "id": "d512e5e958953c44",
-   "title": "Digital push key to Bahasa Melayu's future, says Fadhlina",
-   "link": "https://www.nst.com.my/news/nation/2026/10/1562448/digital-push-key-bahasa-melayus-future-says-fadhlina",
-   "summary": "GEORGE TOWN: Bahasa Melayu has a bright future if its use is expanded through digital technology, creative content and economic opportunities, says Education Minister Datuk Seri Fadhlina Sidek.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/EC0E3079F0E2873BA4D6D49D2D98592B_data_2_0.jpg",
-   "published": "2026-10-24T03:52:08.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
    "id": "77c8e48f1a84af3d",
    "title": "Argentina identifies dozens of victims killed in its ‘Dirty War’",
    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/24/argentina-identifies-dozens-of-victims-killed-in-its-dirty?traffic_source=rss",
@@ -1761,7 +1798,7 @@
   },
   {
    "id": "9c2ca5294c0b1375",
-   "title": "Arrest made after fire at Hitler's Eagle's Nest retreat",
+   "title": "Arrest made after fire at Hitler's famed Eagle's Nest retreat",
    "link": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
    "summary": "Around 200 emergency personnel are deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d34/live/65d3d980-cf72-11f1-963f-2b7c43362d02.jpg",
@@ -1783,19 +1820,6 @@
    "feedId": "aljazeera",
    "topic": "world",
    "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "e597fe70b20c6e28",
-   "title": "Tatum delivers as Celtics down winless Knicks",
-   "link": "https://www.nst.com.my/sports/others/2026/10/1562445/tatum-delivers-celtics-down-winless-knicks",
-   "summary": "LOS ANGELES: Jayson Tatum scored 36 points as the Boston Celtics defeated the New York Knicks 107-103 to leave the NBA champions waiting for their first win of the season on Friday.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/237341E3CA066A944749D423F7285A75_data_0.jpg",
-   "published": "2026-10-24T03:48:19.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
-   "hasBody": true,
    "top": false
   },
   {
@@ -1851,6 +1875,19 @@
    "top": false
   },
   {
+   "id": "8eebc60fc983f58e",
+   "title": "Brewers survive chaotic ninth-inning replay drama to beat Rays in World Series opener",
+   "link": "https://www.theguardian.com/sport/2026/oct/23/brewers-rays-world-series-game-one-christian-yelich",
+   "summary": "Brewers claim 3-2 victory in Game 1 of World Series Yelich triples home a run and scores in first inning Misiorowski and Megill hold off late Rays fightback Trevor Megill struck out Jonny DeLuca with runners on second and third to escape a ninth-inning jam as…",
+   "image": "https://i.guim.co.uk/img/media/adf2a960c1ddcb98387a4862a5a5d91ef503c598/820_0_6124_4900/master/6124.jpg?width=700&quality=85&auto=format&fit=max&s=b80ae5f77803abcf1ff3b4f78e948084",
+   "published": "2026-10-24T03:40:41.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-sport",
+   "topic": "sport",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "1c2ecf5abe20e223",
    "title": "Rubio calls on Cubans to work with CIA",
    "link": "https://www.freemalaysiatoday.com/category/world/2026/10/24/rubio-calls-on-cubans-to-work-with-cia",
@@ -1874,19 +1911,6 @@
    "feedId": "aljazeera",
    "topic": "world",
    "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "3089ce471074759d",
-   "title": "Exclusive: CM Shares His Vision Of Penang’s Next Growth Chapter",
-   "link": "https://www.businesstoday.com.my/2026/10/24/exclusive-cm-shares-vision-penangs-next-growth-chapter/?utm_source=rss&utm_medium=rss&utm_campaign=exclusive-cm-shares-vision-penangs-next-growth-chapter",
-   "summary": "Penang is shifting its economic strategy from attracting investments in volume to securing higher-value projects that strengthen its semiconductor ecosystem, advance artificial intelligence (AI) capabilities and create better-paying jobs, Chief Minister Chow…",
-   "image": "https://www.businesstoday.com.my/wp-content/uploads/2026/10/Penang-Mutiara-Line-640x427.jpg",
-   "published": "2026-10-24T03:37:37.000Z",
-   "source": "Business Today",
-   "feedId": "businesstoday-my",
-   "topic": "business",
-   "hasBody": true,
    "top": false
   },
   {
@@ -2163,9 +2187,9 @@
    "top": false
   },
   {
-   "id": "887ad8dc89227e5b",
+   "id": "ab5238513b3e3274",
    "title": "Authors",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB4eEUwSFM0V2lIN1V6TzVqNGJLRXFzNjBaSE90U1BVZHVWbi05VFdEdzRXdzhmbE9Fd21Ca0M1YnpVek53RFZDemdDcXROOVk1aTZ5UzhOdXNkUTBLSno2ZDNsUQ?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9xT0M5VW5RQVZFbTVvMVdlaFBacEpuVVN5SmMwTE5uOHdWdUhqMDBKcDN6QW5YcmhrdC02NEFDU3BCZTh0eXBEVnNMa1RNRjJWZWJvTUNFUjVmVVNUSkJBeg?oc=5",
    "summary": "",
    "image": "",
    "published": "2026-10-24T02:00:00.000Z",
@@ -2580,9 +2604,9 @@
   },
   {
    "id": "e624d46c92924e44",
-   "title": "Iran war live: Saudi Arabia downs Houthi ballistic missile targeting Riyadh",
+   "title": "Iran war live: Tehran says US military banned entirely from Gulf entry",
    "link": "https://www.aljazeera.com/news/liveblog/2026/10/24/iran-war-live-israel-launches-targeted-hebron-operation-after-attack?traffic_source=rss",
-   "summary": "Saudi-led coalition says air defences downed a Houthi ballistic missile targeting Riyadh.",
+   "summary": "Iran top general says US military vessels will not be allowed to enter the Gulf \"under any circumstances.\"",
    "image": "",
    "published": "2026-10-24T00:00:00.000Z",
    "source": "Al Jazeera",
@@ -2601,6 +2625,19 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "6d9e0b8a026b1ba6",
+   "title": "Walkable cities need safer drivers",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONUs4QXlMODJWUDBpTm9HdVZuMDBnc3dheTU5RlZLN1MzY2gybi1pNmo3c3NJdDRybmxibzZLTDhfcDdUOFAzVW54TEFSWkFvcWUzVWI0ejVLY1VxWFd5YnRRVDFJMDk0VjJYRWxUZFAwRXJlNDJRa0tHb1pTVHJTWi04blBOckIzZk5TcURMOTEzXzRTNWJZUlVQUy1BYU9vQXc?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T23:49:22.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star",
+   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -2930,19 +2967,6 @@
    "top": false
   },
   {
-   "id": "06fdbf23f72a8d4e",
-   "title": "VOOY.N - | Stock Price & Latest News",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB5LXNnOTN5cm44dzlxeEVjdWRtU0ZiSVY5anU0b1lNNGNDUkY0NXR4SnpIRlNpbG5HdEZTX2ptRm4tZVNYV3FiaEtVd1UyS0ROcTFRVGQxVFJqS292R3VXb0VNS2xQSzBBcU56LQ?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-23T22:54:08.000Z",
-   "source": "Reuters",
-   "feedId": "gnews-reuters-markets",
-   "topic": "investments",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "bc2d74d3223ab109",
    "title": "Fast-fashion group Shein agrees to pay US$100mil to settle US trade probe",
    "link": "https://www.freemalaysiatoday.com/category/business/2026/10/24/fast-fashion-group-shein-agrees-to-pay-us-100mil-to-settle-us-trade-probe",
@@ -2965,19 +2989,6 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "94d214de11ac3223",
-   "title": "36B5.DE - | Stock Price & Latest News",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4yRU5kR2tnMUhWMDhLdXM1d2VIN0p6WTFLZkhscVQtcTFlYVhSenFMaFVCeWZpYi1jcVh3WDRVNVBhUURmelZlQ3hlMjNnQk53NWxGMVpfV0M5U1U3T1RUSTBpSlVLUS1CNzRUUFh3?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-23T22:48:43.000Z",
-   "source": "Reuters",
-   "feedId": "gnews-reuters-markets",
-   "topic": "investments",
    "hasBody": false,
    "top": false
   },
@@ -3134,6 +3145,19 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "fe566fdf05d3e1e6",
+   "title": "(EAGL.N) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE11SGpHcXB3YzhmTkp0SWpCcTJMazYwMzUzWUJxTkFSUEdhaVZnNXB4VGduam42SGlZRm44aGg5U1FZWExfVXk1UExpVmNqckl5ZTZQS3BUUF8?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T22:21:50.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
    "hasBody": false,
    "top": false
   },
@@ -3372,6 +3396,19 @@
    "top": false
   },
   {
+   "id": "ff8d75ae3aa1011c",
+   "title": "(XBCI.OQ) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52RHNWTWJhY1ZqYlFqNEhsZE56Q3p0RHdPNF9UblRseUpDUGpXMnhXU1hTYnhWaWx6ZnBBM2tBcXAwOVZGX0pHQ2ZCSlZvV29OcXJFY0s0RkdRQQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T21:38:22.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "aa315f9bbd991f77",
    "title": "Borussia M'gladbach finally get first win after five-goal thriller",
    "link": "https://www.bbc.co.uk/sport/football/videos/ck87zl4v2ld8o?at_medium=RSS&at_campaign=rss",
@@ -3394,6 +3431,19 @@
    "source": "Simon Willison",
    "feedId": "simonw",
    "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "4d9ae6d86032a865",
+   "title": "(MOBXW.O) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlUnRhQTBVY2ZSNFcwWWY5bTJ1cVhyNWZzY1VkZVFGeXlaX25jYTd1eVVHUzVtQXFPakNkd0JNWl9KQ2dsLW82dWIxR0ZoS3pTdmk0ckJyVVhkUQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T21:33:57.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
    "hasBody": false,
    "top": false
   },
@@ -3749,19 +3799,6 @@
    "top": false
   },
   {
-   "id": "c30910ca4ce3628b",
-   "title": "Trump’s broken promises: economy, war and ICE",
-   "link": "https://www.aljazeera.com/video/head-to-head/2026/10/23/trumps-broken-promises-economy-war-and-ice?traffic_source=rss",
-   "summary": "Mehdi Hasan debates ex-Trump adviser Steve Cortes on the economy, Trump’s immigration policies and Islamophobia.",
-   "image": "",
-   "published": "2026-10-23T20:01:21.000Z",
-   "source": "Al Jazeera",
-   "feedId": "aljazeera",
-   "topic": "world",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "19c94f2ed7f1df55",
    "title": "Lunch break under threat as Hong Kong looks at longer trading day",
    "link": "https://www.ft.com/content/bc13b5f1-387e-4fae-927e-d96ac24ea645?syn-25a6b1a6=1",
@@ -3772,19 +3809,6 @@
    "feedId": "ft-markets",
    "topic": "investments",
    "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "abe1f603de2b64f2",
-   "title": "Aaron Rodgers says NFL’s Paris game is safe despite PSG cancellation amid unrest",
-   "link": "https://www.theguardian.com/sport/2026/oct/23/aaron-rodgers-nfl-paris-game-protests-steelers-saints",
-   "summary": "Steelers, Saints still on for NFL’s Paris debut on Sunday Violent protests prompt US security warning for fans PSG cancel Sunday match amid escalating Paris unrest The NFL would have cancelled its first regular-season game in Paris, scheduled for Sunday, if…",
-   "image": "https://i.guim.co.uk/img/media/1c5532d4edd7d47ed7791624ae3c39f16ff1da3a/307_0_2950_2360/master/2950.jpg?width=700&quality=85&auto=format&fit=max&s=3b1ec5a02a15f0fabb87bb782290ec82",
-   "published": "2026-10-23T19:55:09.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-sport",
-   "topic": "sport",
-   "hasBody": true,
    "top": false
   },
   {
@@ -4867,19 +4891,6 @@
    "top": false
   },
   {
-   "id": "1b17642ea6d51c5d",
-   "title": "Derby day - when Chelsea and Spurs meet, is chaos guaranteed?",
-   "link": "https://www.bbc.co.uk/sport/football/videos/c50mex301jjno?at_medium=RSS&at_campaign=rss",
-   "summary": "Chelsea face Tottenham Hotspur in the Premier League this weekend - and BBC Sport looks back at five memorable matches between the London rivals.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b82/live/9ccec700-ce3d-11f1-a64c-550be9e3c66b.jpg",
-   "published": "2026-10-23T14:49:59.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "a1a169cac493ab40",
    "title": "A farewell to BioWare, maker of some of the best games of the 21st century | Lucy James",
    "link": "https://www.theguardian.com/games/2026/oct/23/bioware-rpg-games-ea-closure-mass-effect",
@@ -5582,9 +5593,9 @@
    "top": false
   },
   {
-   "id": "032fcb68add05d9c",
-   "title": "SCGBHD-C10: CW SOUTHERN CABLE GROUP BERHAD (MIBB)",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ZTlhGWDRURk5ZRG9aRzliMU9SaC1Dc0hKd0tkaVd0d2lnM2pQQ3F1aDhVVExpNzJYX3dLajV0MDVyN25SVzYtREUzTnVrdUN3LXdkUGZtSmxtOTZuNWYtWUc4NWlTYmNOUWZlQ1RrVVFnZWdOZDk3dlc1VXlqTjg?oc=5",
+   "id": "0e21787279a0831a",
+   "title": "SUNMED-C1 (5555C1), SUNMED-C1: CW SUNWAY HEALTHCARE HOLDINGS BERHAD (MIBB) - Market Watch",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB3TnlCOFNoVlZmVUNBU0xZdkt3b1lDaWlvWEs5VE9kQmpFdXNYei03TnF4Y04wcjdLVFk4d2R0RkN6TG5OUG0tS3gwZ29XeUNNZzhXX1NTYTVBV2Zzck5FaFNuNTRta2RlX0FNTEgyWE1hRUhFaFk1ODE4V3hSQQ?oc=5",
    "summary": "",
    "image": "",
    "published": "2026-10-23T11:13:00.000Z",
@@ -6060,19 +6071,6 @@
    "feedId": "guardian-economics",
    "topic": "finance",
    "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "c1372021ed3be0aa",
-   "title": "Heart And Soul: A memorable experience for a first-time actor",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZm5yUGRsTmlTVW5xRjEyb2VMdERVRDFiZzY5UEVHR1k5dUVrWmNjWTMzLVFuclU5M1JHVkliOHFpbmVPbUpHUDVJZklNYmd3QTliZVRFdlc3M1Q5UzF4MVRWY1RoZnByenVNLXRFeEM0T2lwczRfZmQ0S2dZRmw1QTZfSk1FUkwtSTJQc3JwU2hGYVN1SFhUdUlLWGZEaVNoMHZYOWNMSDhqNmFXYnBreHdmOVlBQVF5YXJZRGZ2YkEzSENYU09kcw?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-23T10:00:00.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star",
-   "topic": "malaysia",
-   "hasBody": false,
    "top": false
   },
   {
@@ -6934,10 +6932,10 @@
    "top": false
   },
   {
-   "id": "865ffb65f1d593f0",
-   "title": "Canva releases its first image generation model",
-   "link": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
-   "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+   "id": "5d204276414bcfa2",
+   "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+   "link": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+   "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
    "image": "",
    "published": "2026-10-22T19:00:00.000Z",
    "source": "TechCrunch",
@@ -6947,10 +6945,10 @@
    "top": false
   },
   {
-   "id": "5d204276414bcfa2",
-   "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-   "link": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
-   "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+   "id": "865ffb65f1d593f0",
+   "title": "Canva releases its first image generation model",
+   "link": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+   "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
    "image": "",
    "published": "2026-10-22T19:00:00.000Z",
    "source": "TechCrunch",
