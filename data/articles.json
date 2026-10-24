@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-24T06:14:49.536Z",
+ "generatedAt": "2026-10-24T06:18:19.558Z",
  "site": {
   "name": "Kertas",
   "tagline": "Malaysia first. The world next.",
@@ -86,7 +86,7 @@
  "failedFeeds": [
   "ai-news"
  ],
- "withBody": 262,
+ "withBody": 261,
  "articles": [
   {
    "id": "323afe83d1cfb6b6",
@@ -190,6 +190,19 @@
    "feedId": "guardian-world",
    "topic": "world",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "4e6ac5c28142f952",
+   "title": "At Aberfan, I saw fathers digging for their missing children. And the lessons society should have learned, it hasn’t | John Humphrys",
+   "link": "https://www.theguardian.com/commentisfree/2026/oct/24/aberfan-disaster-missing-children-deaths-john-humphrys",
+   "summary": "Each of those 144 deaths was entirely avoidable, but nobody was held to account. We still don’t know how to get justice for ordinary people Aberfan taught us a lot. Mostly, of course, that those in power cannot be trusted. Correction: must not be trusted. Too…",
+   "image": "https://i.guim.co.uk/img/media/a47706138d487fe3c11954cd21f1dc9fe19b270a/32_0_1418_1134/master/1418.jpg?width=700&quality=85&auto=format&fit=max&s=414b990fe5238e3d00973835490ca9d7",
+   "published": "2026-10-24T06:00:26.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-opinion",
+   "topic": "opinion",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1090,19 +1103,6 @@
    "top": false
   },
   {
-   "id": "868ea69ae210c01b",
-   "title": "Malaysia Exports Fish Surplus, But Imports Certain Species - LKIM",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HRGhpcGJYRkpZMUQyVmpSSzkxYXhKZTVjVTgyOURGb2stZHJYajcxY1Q5ekl2QW5rUlpCQXVZLTYwMnJtVzN4aklZWFUtUExxQ1VHWGF0S2lVWUVUZkJXbXRGUHc?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T04:19:12.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "1ddd004a22a43723",
    "title": "(XCS6.DE) | Stock Price & Latest News",
    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNaUFIQ001QjB6T05MVTJmR1ZMcE9hUUJBc3ZBbWpuYWwzME5FbEpydW5RaENzWTFqZEUxYXFLc0JGSnU3dlFIT2ZuT25idGRKX3lpN1NDQW9xQQ?oc=5",
@@ -1350,19 +1350,6 @@
    "top": false
   },
   {
-   "id": "ce1ea568f2c8d2c1",
-   "title": "Vanuatu Hit By 7.0-magnitude Quake",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE12anBJOFdYTl8zTkVxRC1vV0Rfa3JOSkJ6YUtMTVJjSGJMUE55cjlDMThIQThQN3NwWGxRb29wLURGb3I5Zk5RbVRaVU5xVE9ybGxuc1J0ZVNEeGtVbGloZ0htMEQ?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T04:00:00.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "98809a656bbfda74",
    "title": "MSI Malaysia unveils the Prestige N16 Flip AI+, the world’s first Nvidia RTX Spark-powered 2-in-1 laptop",
    "link": "https://www.malaymail.com/news/tech-gadgets/2026/10/24/msi-malaysia-unveils-the-prestige-n16-flip-ai-the-worlds-first-nvidia-rtx-spark-powered-2-in-1-laptop/240403",
@@ -1506,19 +1493,6 @@
    "top": false
   },
   {
-   "id": "b3eb79fe7830e37f",
-   "title": "Sultan Mizan's Brother Passes Away; Terengganu Declares Three-Day Mourning",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE13MlpkRjZ5QWYyMEk5MDFmbm5JZHM0c1JVS3pGSDZwR1dxRTNjQUF5QzBJR3J0ZXBDTVBHN0N6TURxNjZOMUpaME5IQ2gtdS1zcFZCX1N2S1EzUQ?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T03:41:00.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "1c2ecf5abe20e223",
    "title": "Rubio calls on Cubans to work with CIA",
    "link": "https://www.freemalaysiatoday.com/category/world/2026/10/24/rubio-calls-on-cubans-to-work-with-cia",
@@ -1577,19 +1551,6 @@
    "summary": "",
    "image": "",
    "published": "2026-10-24T03:33:51.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "3cdc510225dd9208",
-   "title": "Bursa Malaysia Likely To Stage Recovery Next Week On Bargain Hunting",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE03X2Z6dktNSXZsVG8tdTAxOUgxNVlXNS1TT1MzV1NuSzRlMmpHNnVQSkp4Wndtc1czT2sxdDQ2ck9zSmNzRUZmdFdjN0pFVGlmU2REZGZqTUxLbFNOSU04dHhLQQ?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T03:33:02.000Z",
    "source": "Bernama",
    "feedId": "gnews-bernama",
    "topic": "malaysia",
@@ -1662,19 +1623,6 @@
    "top": false
   },
   {
-   "id": "cf42ae415cc5fc19",
-   "title": "Ringgit Expected To Trade In Narrow Range Vs Greenbback Ahead Of Fed Meeting Next Week",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9pSFFVR2VGUy01MElienlNbzlHT2szYm1taG9OMGx2YmNGWktEX0J1clpCODg1ODVsMHQwbFg3dDh2YVZsZlIweC1yaTMxejF5QV9TRXJrQmp0UnVsOEJiQk14aw?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T03:10:22.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "eb7e324cf893eca2",
    "title": "Two Malaysians injured as Typhoon Champi hits Taiwan, says Wisma Putra",
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ0NqNGdtWWZyVlRWYVJNWi02aDloSk5hakh4Sm1PT3g2bGg1eVVwS1VSRUF1SmNJRHB0a25BQ2lDR3RzQmQ0cWNGVVM5QTdQMzhfZEFzWHk2VXkxWk1LdFhYXzI1aE5PbzFxbVpJOG04VU1wQWI0RFh3SWRsQWgzdW5TcnBFMjZyUmhqLV9UR1EzX1IwOVllY2dTWTB3RVJBVTNFYXBMdWc2M2lpYVZjVXhNNnN2em40ZFVV?oc=5",
@@ -1698,19 +1646,6 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "c57c2f0c721157cc",
-   "title": "Messi Becomes 1st Footballer To Individually Win Princess Of Asturias Award For Sports",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PMktGOFNaeHBiWmo5cVdUOXlrVlVITFJSUnVvSmMwSnUyTDdtOUxLNXVTcFVUVHFkZjhUaHoybHVMZHpTdlV1N2Q5eG9Mei1vNllPNS1mUXNzZw?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T02:58:12.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
    "top": false
   },
   {
@@ -1805,6 +1740,32 @@
    "top": false
   },
   {
+   "id": "8e67a051bbe2718b",
+   "title": "UMT Repository Houses 20 Stingless Bee Species, Including Rare Finds",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE03RXJvWTYwYllJZVUwc0lFOU9NcE1jd1d6bFlpbjItTy1FWEg0UWFrTGFlWUVRY0dLQmJVelMzdkJvcGUwalNaMFUxUFVEZjNFNzd0bjVNLXphZw?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T02:34:55.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "3329b6f21b508c57",
+   "title": "CelcomDigi Turns Customer Insights Into Action To Elevate Service Delivery",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBKWmVFaEE4YjZ3ZTZqNDBYUERrckxZVjZTbGFxVEJPRVBSX1RCNS1Rdll0UGRRc2s5VWhiM09odmRPTTlJb3BvQWhBZ1ZDMVpndlZqN3h5NXZDdw?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T02:34:52.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "cd59aeab0f594260",
    "title": "Sukar bukti kes bukan alasan tiada akta jerebu, kata pakar",
    "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/10/24/sukar-bukti-kes-bukan-alasan-tiada-akta-jerebu-kata-pakar",
@@ -1831,6 +1792,19 @@
    "top": false
   },
   {
+   "id": "106860051ac9c66c",
+   "title": "Haze: unhealthy Air Quality In 21 Areas At 9 Am, Seremban, Larkin Highest",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qWm1ZWmUzbFpoZy1vTEtMRnpWLUEwektxSFd3cjl1NGxVRTY4TVBIRElnaVRMSDNDR3NManJnaGhGLWlOSzRwU3RzR3JHWkhPc3BLMGktYTQ5QQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T02:25:00.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "eaaf83d8c8b9cc4c",
    "title": "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
    "link": "https://www.theguardian.com/world/2026/oct/24/typhoon-champi-kills-one-and-injures-more-than-500-in-taiwan-as-it-heads-to-china",
@@ -1854,6 +1828,19 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "af9cd4b4faa69459",
+   "title": "Selangor's Strength Lies In Its People, Says Sultan",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sSVMtcjRhM2ZRZFlQVUV5QzZsNnl4eXhUSmZhMFNORWJNS0JiRXl5OFJkZlRLczI3LUFZTjVxMFB3cHZmYlFoRDkxalJUUHdJVjUtYXdUcnVnUQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T02:13:41.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
    "top": false
   },
   {
@@ -1935,6 +1922,19 @@
    "top": false
   },
   {
+   "id": "589ecf9250a55ea0",
+   "title": "Selangor Sultan Urges Youths To Stay United And Informed",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9EeWNVcFZZSGdRd0NjSGZfX1k4ZG5pSzVmdExIRHY2MnFrcTU4b1lTcUlEZVFLQ0ZFM1lzQVpERUR3MVNsbHFCQ0NYTzRCRFRiano2QmVUajFNdw?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T01:55:00.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "f81b154a1fe7ca18",
    "title": "England suffer back-to-back losses to Canada",
    "link": "https://www.bbc.co.uk/sport/rugby-union/videos/cmx235877eexo?at_medium=RSS&at_campaign=rss",
@@ -1944,6 +1944,19 @@
    "source": "BBC Sport",
    "feedId": "bbc-sport",
    "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "f57f9c7e7cfddabc",
+   "title": "Selangor Sultan: Monarchy Remains A Pillar Of Stability",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBwOU1YYnl5NWRoQjJIV0RET3VhYmZwdDhUaU5sZUhYQktFY1VhUWpRbHoxRnJiSTZOS0FqdWtSNG44WUExUnc0UmNqNHN2cEZPWnFTNHJvTXRiQQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T01:47:00.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
    "hasBody": false,
    "top": false
   },
@@ -5016,19 +5029,6 @@
    "top": false
   },
   {
-   "id": "032fcb68add05d9c",
-   "title": "SCGBHD-C10: CW SOUTHERN CABLE GROUP BERHAD (MIBB)",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ZTlhGWDRURk5ZRG9aRzliMU9SaC1Dc0hKd0tkaVd0d2lnM2pQQ3F1aDhVVExpNzJYX3dLajV0MDVyN25SVzYtREUzTnVrdUN3LXdkUGZtSmxtOTZuNWYtWUc4NWlTYmNOUWZlQ1RrVVFnZWdOZDk3dlc1VXlqTjg?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-23T11:13:00.000Z",
-   "source": "The Star",
-   "feedId": "gnews-star-marketwatch",
-   "topic": "investments",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "abe8fab242f15325",
    "title": "SNS-CY (0259CY), SNS-CY: CW SNS NETWORK TECHNOLOGY BERHAD (CLSA) - Market Watch",
    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XSzhuOVZsSXp5Zi1zb2R0cG5qMXR0dnRjdldlcHVBbjFITXBWMF9WX0JXV2o4T19iTGNMaW1SMXp4TEVSVEc3R3RYU1NUU09uTDRZLXRuYWNoX2QtT1ZmZ3I1Q21jX1dYaEpxVkFjdE9vV0FkZlNGOWVR?oc=5",
@@ -5146,9 +5146,22 @@
    "top": false
   },
   {
-   "id": "6ed36649f0fa498f",
-   "title": "ECOWLD-C63: CW ECO WORLD DEVELOPMENT GROUP BERHAD (AM)",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sX3cyYUpqMTdaV2FfWnM0c1NqZ3R6YUFCcE55OG1lTjVjVFE0TTJyNl9SVEktOGY4ZXF6Yk1KdVA2RWZpLXNvX3ZzeW9XOTV2UktJQ1JJSk5fWDRxZ19BRDBnVjVFcVdEMV9QV3FWRUdKc1JoQ1lOdzJHNVotYW8?oc=5",
+   "id": "2312b29e2391a3b8",
+   "title": "CTOS-C40 (530140), CTOS-C40: CW CTOS DIGITAL BERHAD (CLSA) - Market Watch",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8zZDNlVl95YUZXaEhBb1FIUlI1YnFSYVZQeFRPY1dIRFV4d3R3cDBxU0RRc0NlMTBEOC1uTGZqRU1jNXNyT1hRN2wyTUVsU05uQ0VPSDVXM2R5ZWcwaDB6dndHY2J4cG0yMDdwMHVIZXpiZDBzd19OV2ZjSGM?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T11:11:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star-marketwatch",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "149352d7837bdd2c",
+   "title": "DNEX-C57 (445657), DNEX-C57: CW DAGANG NEXCHANGE BERHAD (AFFIN) - Market Watch",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtVEJiczhheXZrYkdPRklzTzBDTjYza2FacHRrUzNtZk1xSnFBR1BkMnFjU3AzamJOYWhycC0xYi1yZzE1WVNNVG5tRnl5OVJWR2ZqRWVvLUdmQkd1dnUwQ0xUVHEtX1Q3cEp0dloxNEtjZDhjNzNucDBiSEU?oc=5",
    "summary": "",
    "image": "",
    "published": "2026-10-23T11:11:00.000Z",
@@ -6403,19 +6416,6 @@
    "source": "The Guardian",
    "feedId": "guardian-money",
    "topic": "finance",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "6cb49225160c0cb5",
-   "title": "Do Stormont politics stifle the non-sectarian parties? | Letters",
-   "link": "https://www.theguardian.com/uk-news/2026/oct/22/do-stormont-politics-stifle-the-non-sectarian-parties",
-   "summary": "Responding to an editorial, Boyd Black deplores Labour’s policy of not fielding candidates in Northern Ireland. Plus a letter by Declan O’Neill Your editorial on the dysfunction in Northern Ireland politics (15 October) does not mention the main cause: the…",
-   "image": "https://i.guim.co.uk/img/media/815f838b8a15615c2426423c4da32af873d95794/292_0_2917_2333/master/2917.jpg?width=700&quality=85&auto=format&fit=max&s=f01b0bd1c9ce63ab9696000f18ae98e4",
-   "published": "2026-10-22T15:25:52.000Z",
-   "source": "The Guardian",
-   "feedId": "guardian-opinion",
-   "topic": "opinion",
    "hasBody": true,
    "top": false
   },
