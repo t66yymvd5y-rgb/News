@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-24T06:03:03.325Z",
+ "generatedAt": "2026-10-24T06:13:27.088Z",
  "site": {
   "name": "Kertas",
   "tagline": "Malaysia first. The world next.",
@@ -24,6 +24,14 @@
    "label": "Business"
   },
   {
+   "id": "investments",
+   "label": "Investments"
+  },
+  {
+   "id": "finance",
+   "label": "Finance"
+  },
+  {
    "id": "tech",
    "label": "Tech"
   },
@@ -42,7 +50,9 @@
   "BBC News",
   "BBC Sport",
   "Bernama",
+  "CNBC",
   "Channel NewsAsia",
+  "Financial Times",
   "Free Malaysia Today",
   "Google",
   "Google DeepMind",
@@ -51,8 +61,10 @@
   "Malay Mail",
   "Malaysiakini",
   "New Straits Times",
+  "Reuters",
   "Simon Willison",
   "TechCrunch",
+  "The Economist",
   "The Edge Malaysia",
   "The Guardian",
   "The Register",
@@ -65,15 +77,96 @@
   "malaysia": 120,
   "world": 94,
   "business": 35,
+  "investments": 46,
+  "finance": 51,
   "tech": 127,
   "sport": 25,
   "opinion": 41
  },
  "failedFeeds": [
-  "ai-news"
+  "ai-news",
+  "gnews-bernama-business"
  ],
- "withBody": 219,
+ "withBody": 241,
  "articles": [
+  {
+   "id": "323afe83d1cfb6b6",
+   "title": "US spy chief says Iran is stepping up plots targeting Americans, Trump hints at ‘another little Epic Fury’",
+   "link": "https://www.malaymail.com/news/world/2026/10/24/us-spy-chief-says-iran-is-stepping-up-plots-targeting-americans-trump-hints-at-another-little-epic-fury/240426",
+   "summary": "WASHINGTON, Oct 24 — Iran has “substantially increased” its efforts to target Americans in the Middle...",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/24/370245.jpg",
+   "published": "2026-10-24T06:13:11.000Z",
+   "source": "Malay Mail",
+   "feedId": "malaymail",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "3a6a609851bbcaaa",
+   "title": "New-generation MyKad records 275,785 issuances in first month",
+   "link": "https://www.malaymail.com/news/malaysia/2026/10/24/new-generation-mykad-records-275785-issuances-in-first-month/240434",
+   "summary": "KULAI, Oct 24 — The National Registration Department (JPN) has issued 275,785 new-generation MyKad nationwide sinc...",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/24/370243.jpg",
+   "published": "2026-10-24T06:12:05.000Z",
+   "source": "Malay Mail",
+   "feedId": "malaymail",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "f6cdd0df83ad95e7",
+   "title": "Haze: Malaysia ready to seek Gulf assistance to help Indonesia fight forest fires",
+   "link": "https://www.nst.com.my/news/nation/2026/10/1562512/haze-malaysia-ready-seek-gulf-assistance-help-indonesia-fight-forest",
+   "summary": "REMBAU: Malaysia is prepared to provide any form of assistance to Indonesia in tackling transboundary haze, including seeking support from Gulf countries if necessary.",
+   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/FB5311156EF0014A5205AA9D89291F31_data_0.jpg",
+   "published": "2026-10-24T06:04:02.000Z",
+   "source": "New Straits Times",
+   "feedId": "nst",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "a709014d8cb9d474",
+   "title": "Dip-buyers could lift Bursa next week, but oil and foreign selling may rattle it",
+   "link": "https://www.malaymail.com/news/money/2026/10/24/dip-buyers-could-lift-bursa-next-week-but-oil-and-foreign-selling-may-rattle-it/240428",
+   "summary": "KUALA LUMPUR, Oct 24 — Bursa Malaysia is likely to trend upwards next week, with the benchmark index expected to t...",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/24/370241.jpg",
+   "published": "2026-10-24T06:03:55.000Z",
+   "source": "Malay Mail",
+   "feedId": "malaymail",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
+  },
+  {
+   "id": "22c157d1d5fb63fb",
+   "title": "Why Tottenham v Arsenal could define their seasons - live on BBC One",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ck240l3n774zo?at_medium=RSS&at_campaign=rss",
+   "summary": "With Tottenham stuttering and Arsenal floundering, these fierce rivals both need a victory in Saturday's showdown, live on BBC One.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/131f/live/f29e9740-cd30-11f1-bc2e-018d645d8d21.jpg",
+   "published": "2026-10-24T06:02:44.000Z",
+   "source": "BBC Sport",
+   "feedId": "bbc-sport",
+   "topic": "sport",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "4e6ac5c28142f952",
+   "title": "At Aberfan, I saw fathers digging for their missing children. And the lessons society should have learned, it hasn’t | John Humphrys",
+   "link": "https://www.theguardian.com/commentisfree/2026/oct/24/aberfan-disaster-missing-children-deaths-john-humphrys",
+   "summary": "Each of those 144 deaths was entirely avoidable, but nobody was held to account. We still don’t know how to get justice for ordinary people Aberfan taught us a lot. Mostly, of course, that those in power cannot be trusted. Correction: must not be trusted. Too…",
+   "image": "https://i.guim.co.uk/img/media/a47706138d487fe3c11954cd21f1dc9fe19b270a/32_0_1418_1134/master/1418.jpg?width=700&quality=85&auto=format&fit=max&s=414b990fe5238e3d00973835490ca9d7",
+   "published": "2026-10-24T06:00:26.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-opinion",
+   "topic": "opinion",
+   "hasBody": false,
+   "top": false
+  },
   {
    "id": "10629099d2e40e38",
    "title": "Will the US Fed change its tone? Ringgit waits for clues",
@@ -203,6 +296,19 @@
    "topic": "world",
    "hasBody": true,
    "top": false
+  },
+  {
+   "id": "5a866d923ec536ea",
+   "title": "Khalid wants PH to take anti-Umno, PAS stand in Melaka polls, GE16",
+   "link": "https://www.freemalaysiatoday.com/category/nation/2026/10/24/khalid-wants-ph-to-take-anti-umno-pas-stand-in-melaka-polls-ge16",
+   "summary": "The Amanah leader calls for PH to go solo so it can offer policies and candidates without any confusion about political manoeuvering or cooperation with other parties.",
+   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2026/04/f754b217-khalid-samad-bernama-pic-170426.webp",
+   "published": "2026-10-24T05:45:00.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
   },
   {
    "id": "799db4e77934ba71",
@@ -398,6 +504,19 @@
    "topic": "world",
    "hasBody": false,
    "top": false
+  },
+  {
+   "id": "346822a1c7bdd55c",
+   "title": "Perkasa bahasa Melayu dalam dunia digital untuk tarik minat generasi alpha",
+   "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/10/24/perkasa-bahasa-melayu-dalam-dunia-digital-untuk-tarik-minat-generasi-alpha",
+   "summary": "Menteri pendidikan berkata bahasa Melayu mempunyai masa hadapan yang cerah jika kita berani mengubah pendekatan dan memperluas ruang penggunaannya.",
+   "image": "https://media.freemalaysiatoday.com/v3/2026/09/213a680c-cd46-40a2-84bf-951765efb802-FADHLINA-SIDEK-SIDANG-MEDIA-PENGUMUMAN-PISA-KEMENTERIAN-PENDIDIKAN-PUTRAJAYA-11.jpg",
+   "published": "2026-10-24T05:26:57.000Z",
+   "source": "Free Malaysia Today",
+   "feedId": "fmt",
+   "topic": "malaysia",
+   "hasBody": true,
+   "top": true
   },
   {
    "id": "8a60cdc197d5f2a6",
@@ -800,7 +919,7 @@
    "feedId": "malaymail",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "cb0c7d12bdf754f7",
@@ -839,7 +958,7 @@
    "feedId": "fmt",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "2a8456a4aeeb8e78",
@@ -852,7 +971,7 @@
    "feedId": "malaymail",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "dd4e86e643c2d420",
@@ -865,7 +984,7 @@
    "feedId": "malaymail",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "0c9045b2e59ce9d9",
@@ -891,7 +1010,7 @@
    "feedId": "nst",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "9858eb93132e75ea",
@@ -904,7 +1023,7 @@
    "feedId": "malaymail",
    "topic": "malaysia",
    "hasBody": true,
-   "top": true
+   "top": false
   },
   {
    "id": "8efe4c2deeca5f9f",
@@ -933,12 +1052,25 @@
    "top": false
   },
   {
+   "id": "868ea69ae210c01b",
+   "title": "Malaysia Exports Fish Surplus, But Imports Certain Species - LKIM",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HRGhpcGJYRkpZMUQyVmpSSzkxYXhKZTVjVTgyOURGb2stZHJYajcxY1Q5ekl2QW5rUlpCQXVZLTYwMnJtVzN4aklZWFUtUExxQ1VHWGF0S2lVWUVUZkJXbXRGUHc?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T04:19:12.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "b7d94478eb6f3d9c",
    "title": "2 Malaysians injured as Typhoon Champi lashes Taiwan",
    "link": "https://www.freemalaysiatoday.com/category/nation/2026/10/24/2-malaysians-injured-as-typhoon-champi-lashes-taiwan",
    "summary": "The pair are receiving consular assistance from the Malaysian Friendship and Trade Centre.",
    "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2026/07/e08adfac-afp__20260711__b9wf6xl__v1__highres__taiwanweathertyphoon_cropped_1.webp",
-   "published": "2026-10-24T04:17:42.000Z",
+   "published": "2026-10-24T04:17:00.000Z",
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
@@ -1042,7 +1174,7 @@
    "link": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/10/24/saya-tarik-diri-kata-bekas-ketua-dap-melaka-berkait-pelan-ph-plus",
    "summary": "Damian Yeo menolak kerjasama pilihan raya PH dan Bersatu atas alasan luka akibat Langkah Sheraton pada 2020 belum sembuh.",
    "image": "https://media.freemalaysiatoday.com/v3/2026/10/94a79fd4-bb7e-40f3-952e-0c75447b5baf-damian-yeo-fb-241026.jpg",
-   "published": "2026-10-24T04:04:32.000Z",
+   "published": "2026-10-24T04:04:00.000Z",
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
@@ -1089,25 +1221,51 @@
    "top": false
   },
   {
+   "id": "7ca5a27fbd311840",
+   "title": "A little bit of luck is lifting UK Budget expectations",
+   "link": "https://www.ft.com/content/6a059ab0-a9fc-4e4c-8ae7-1d110faf5adf",
+   "summary": "Healey is poised to deliver his plans just as this year’s drag on global bonds appears to be turning",
+   "image": "",
+   "published": "2026-10-24T04:00:33.000Z",
+   "source": "Financial Times",
+   "feedId": "ft-markets",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "67fe2421ac10a2c9",
+   "title": "‘Disrupter’ exchanges battle for ETFs in challenge to NYSE and Nasdaq",
+   "link": "https://www.ft.com/content/8dd8e115-c45e-4b66-8390-b5eeea4671d5?syn-25a6b1a6=1",
+   "summary": "Cboe captures nearly half of US listings as intensifying competition reflects rapid growth in derivative-heavy funds",
+   "image": "",
+   "published": "2026-10-24T04:00:04.000Z",
+   "source": "Financial Times",
+   "feedId": "ft-markets",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "ce1ea568f2c8d2c1",
+   "title": "Vanuatu Hit By 7.0-magnitude Quake",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE12anBJOFdYTl8zTkVxRC1vV0Rfa3JOSkJ6YUtMTVJjSGJMUE55cjlDMThIQThQN3NwWGxRb29wLURGb3I5Zk5RbVRaVU5xVE9ybGxuc1J0ZVNEeGtVbGloZ0htMEQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T04:00:00.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "98809a656bbfda74",
    "title": "MSI Malaysia unveils the Prestige N16 Flip AI+, the world’s first Nvidia RTX Spark-powered 2-in-1 laptop",
    "link": "https://www.malaymail.com/news/tech-gadgets/2026/10/24/msi-malaysia-unveils-the-prestige-n16-flip-ai-the-worlds-first-nvidia-rtx-spark-powered-2-in-1-laptop/240403",
    "summary": "PETALING JAYA, Oct 24 — MSI Malaysia unveiled the Prestige N16 Flip AI+, its first laptop powered by NVIDIA RTX Sp...",
    "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/24/370195.jpg",
    "published": "2026-10-24T03:57:11.000Z",
-   "source": "Malay Mail",
-   "feedId": "malaymail",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "55d41dc47b2366ec",
-   "title": "Is Long John Silver’s leaving Singapore? Just 10 outlets left after latest closure",
-   "link": "https://www.malaymail.com/news/singapore/2026/10/24/is-long-john-silvers-leaving-singapore-just-10-outlets-left-after-latest-closure/240406",
-   "summary": "SINGAPORE, Oct 24 — Could Long John Silver’s be sailing away from our sunny island?That’s a concern on...",
-   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/24/370200.jpg",
-   "published": "2026-10-24T03:53:58.000Z",
    "source": "Malay Mail",
    "feedId": "malaymail",
    "topic": "malaysia",
@@ -1245,16 +1403,16 @@
    "top": false
   },
   {
-   "id": "8d6e96856808f994",
-   "title": "Don’t scan that ‘Carousell invoice’: Scam hits 63 sellers in Singapore",
-   "link": "https://www.malaymail.com/news/singapore/2026/10/24/dont-scan-that-carousell-invoice-scam-hits-63-sellers-in-singapore/240405",
-   "summary": "SINGAPORE, Oct 24 — Scammers have swindled at least S$180,000 (RM575,136) from Carousell sellers since July, with...",
-   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/24/370193.jpg",
-   "published": "2026-10-24T03:44:30.000Z",
-   "source": "Malay Mail",
-   "feedId": "malaymail",
+   "id": "b3eb79fe7830e37f",
+   "title": "Sultan Mizan's Brother Passes Away; Terengganu Declares Three-Day Mourning",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE13MlpkRjZ5QWYyMEk5MDFmbm5JZHM0c1JVS3pGSDZwR1dxRTNjQUF5QzBJR3J0ZXBDTVBHN0N6TURxNjZOMUpaME5IQ2gtdS1zcFZCX1N2S1EzUQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T03:41:00.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
    "topic": "malaysia",
-   "hasBody": true,
+   "hasBody": false,
    "top": false
   },
   {
@@ -1266,19 +1424,6 @@
    "published": "2026-10-24T03:40:13.000Z",
    "source": "Free Malaysia Today",
    "feedId": "fmt",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "21b5a3b8e5123bb2",
-   "title": "Blackpink’s Lisa releases six-track solo EP ‘Press Play’, led by lead single ‘Tarantino’ (VIDEO)",
-   "link": "https://www.malaymail.com/news/showbiz/2026/10/24/blackpinks-lisa-releases-six-track-solo-ep-press-play-led-by-lead-single-tarantino-video/240400",
-   "summary": "SEOUL, Oct 24 — Lisa of K-pop girl group Blackpink returned to the music scene yesterday with her new solo EP, Pre...",
-   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/24/370191.jpg",
-   "published": "2026-10-24T03:39:03.000Z",
-   "source": "Malay Mail",
-   "feedId": "malaymail",
    "topic": "malaysia",
    "hasBody": true,
    "top": false
@@ -1359,19 +1504,6 @@
    "feedId": "gnews-bernama",
    "topic": "malaysia",
    "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "b70c891f3ac475e3",
-   "title": "Blakely wins world all-around title after injury setbacks",
-   "link": "https://www.nst.com.my/sports/others/2026/10/1562436/blakely-wins-world-all-around-title-after-injury-setbacks",
-   "summary": "ROTTERDAM: American Skye Blakely won the women’s all-around title at the World Artistic Gymnastics Championships on Friday, completing a comeback from an Achilles injury that derailed her bid for the 2024 Paris Olympics.",
-   "image": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/27072D86BEBCE9201FE5D4527023C648_data_0_0.jpg",
-   "published": "2026-10-24T03:32:14.000Z",
-   "source": "New Straits Times",
-   "feedId": "nst",
-   "topic": "malaysia",
-   "hasBody": true,
    "top": false
   },
   {
@@ -1466,6 +1598,19 @@
    "top": false
   },
   {
+   "id": "c57c2f0c721157cc",
+   "title": "Messi Becomes 1st Footballer To Individually Win Princess Of Asturias Award For Sports",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PMktGOFNaeHBiWmo5cVdUOXlrVlVITFJSUnVvSmMwSnUyTDdtOUxLNXVTcFVUVHFkZjhUaHoybHVMZHpTdlV1N2Q5eG9Mei1vNllPNS1mUXNzZw?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-24T02:58:12.000Z",
+   "source": "Bernama",
+   "feedId": "gnews-bernama",
+   "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "3afcb6c2eb5354df",
    "title": "Takiyuddin refuses to retract ‘hypocrite’ remark, seeks mediation",
    "link": "https://www.freemalaysiatoday.com/category/nation/2026/10/24/takiyuddin-refuses-to-retract-hypocrite-remark-seeks-mediation",
@@ -1557,28 +1702,15 @@
    "top": false
   },
   {
-   "id": "8e67a051bbe2718b",
-   "title": "UMT Repository Houses 20 Stingless Bee Species, Including Rare Finds",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE03RXJvWTYwYllJZVUwc0lFOU9NcE1jd1d6bFlpbjItTy1FWEg0UWFrTGFlWUVRY0dLQmJVelMzdkJvcGUwalNaMFUxUFVEZjNFNzd0bjVNLXphZw?oc=5",
+   "id": "d7c313f1251364a9",
+   "title": "(QREU.DE) | Stock Price & Latest News",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40QTdpS3N1elZwelc4ejMtRFJiNTFvSTllSUh1MzF3bi00SWhNQnRQZldZU0xZZHBBX3gzNW1sVWNNbUVyS2tVWW5fWWVFS2RoNDZROFJlbGJ6dw?oc=5",
    "summary": "",
    "image": "",
-   "published": "2026-10-24T02:34:55.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "3329b6f21b508c57",
-   "title": "CelcomDigi Turns Customer Insights Into Action To Elevate Service Delivery",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBKWmVFaEE4YjZ3ZTZqNDBYUERrckxZVjZTbGFxVEJPRVBSX1RCNS1Rdll0UGRRc2s5VWhiM09odmRPTTlJb3BvQWhBZ1ZDMVpndlZqN3h5NXZDdw?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T02:34:52.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
+   "published": "2026-10-24T02:32:30.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
    "hasBody": false,
    "top": false
   },
@@ -1609,19 +1741,6 @@
    "top": false
   },
   {
-   "id": "106860051ac9c66c",
-   "title": "Haze: unhealthy Air Quality In 21 Areas At 9 Am, Seremban, Larkin Highest",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qWm1ZWmUzbFpoZy1vTEtMRnpWLUEwektxSFd3cjl1NGxVRTY4TVBIRElnaVRMSDNDR3NManJnaGhGLWlOSzRwU3RzR3JHWkhPc3BLMGktYTQ5QQ?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T02:25:00.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "eaaf83d8c8b9cc4c",
    "title": "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
    "link": "https://www.theguardian.com/world/2026/oct/24/typhoon-champi-kills-one-and-injures-more-than-500-in-taiwan-as-it-heads-to-china",
@@ -1641,32 +1760,6 @@
    "summary": "Sultan Sharafuddin Idris Shah bertitah institusi beraja memikul tanggungjawab menjunjung perlembagaan, memastikan kesinambungan institusi serta menjadi lambang perpaduan merentasi perbezaan politik.",
    "image": "https://media.freemalaysiatoday.com/v3/2026/08/d73d32c9-52df-4124-bef9-bb2053b1b6bb-Sultan-Sharafuddin-Idris-Shah-bernamapic-280826.jpg",
    "published": "2026-10-24T02:15:00.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "af9cd4b4faa69459",
-   "title": "Selangor's Strength Lies In Its People, Says Sultan",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sSVMtcjRhM2ZRZFlQVUV5QzZsNnl4eXhUSmZhMFNORWJNS0JiRXl5OFJkZlRLczI3LUFZTjVxMFB3cHZmYlFoRDkxalJUUHdJVjUtYXdUcnVnUQ?oc=5",
-   "summary": "",
-   "image": "",
-   "published": "2026-10-24T02:13:41.000Z",
-   "source": "Bernama",
-   "feedId": "gnews-bernama",
-   "topic": "malaysia",
-   "hasBody": false,
-   "top": false
-  },
-  {
-   "id": "8da33a63b74fa6ae",
-   "title": "Iran planning to hit Gulf undersea cables if war resumes, say officials",
-   "link": "https://www.freemalaysiatoday.com/category/world/2026/10/24/iran-planning-to-hit-gulf-undersea-cables-if-war-resumes-say-officials",
-   "summary": "An IRGC official said Iran could target seven major internet cables beneath the Strait of Hormuz, potentially slowing internet services and disrupting financial transactions.",
-   "image": "https://media.freemalaysiatoday.com/wp-content/uploads/2026/03/581cd706-strait-of-hormuz-epa-images-pic-160326-1.webp",
-   "published": "2026-10-24T02:09:49.000Z",
    "source": "Free Malaysia Today",
    "feedId": "fmt",
    "topic": "malaysia",
@@ -1713,22 +1806,9 @@
    "top": false
   },
   {
-   "id": "0c7ee30d52fb9367",
-   "title": "Mafia korporat dan mafia politik: Siapa lindung siapa?",
-   "link": "https://www.freemalaysiatoday.com/category/bahasa/pandangan/2026/10/24/mafia-korporat-dan-mafia-politik-siapa-lindung-siapa",
-   "summary": "Kerajaan berpeluang jadikan kontroversi ini titik pembaikan institusi. Ukuran kejayaan sama ada hubungan antara wang, pengaruh dan penguatkuasaan lebih telus serta sukar disalah guna.",
-   "image": "https://media.freemalaysiatoday.com/v3/2026/10/aeeec133-187a-4690-992e-aaea5f8e2d20-mafia-envato-elements-pic-231026-1.jpg",
-   "published": "2026-10-24T02:00:00.000Z",
-   "source": "Free Malaysia Today",
-   "feedId": "fmt",
-   "topic": "malaysia",
-   "hasBody": true,
-   "top": false
-  },
-  {
-   "id": "ab5238513b3e3274",
+   "id": "887ad8dc89227e5b",
    "title": "Authors",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9xT0M5VW5RQVZFbTVvMVdlaFBacEpuVVN5SmMwTE5uOHdWdUhqMDBKcDN6QW5YcmhrdC02NEFDU3BCZTh0eXBEVnNMa1RNRjJWZWJvTUNFUjVmVVNUSkJBeg?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB4eEUwSFM0V2lIN1V6TzVqNGJLRXFzNjBaSE90U1BVZHVWbi05VFdEdzRXdzhmbE9Fd21Ca0M1YnpVek53RFZDemdDcXROOVk1aTZ5UzhOdXNkUTBLSno2ZDNsUQ?oc=5",
    "summary": "",
    "image": "",
    "published": "2026-10-24T02:00:00.000Z",
@@ -2008,6 +2088,19 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "b4f6db151614a07d",
+   "title": "US executives quit $25bn gas venture over claims of secret Russian control",
+   "link": "https://www.ft.com/content/e9cfbfbb-e65a-4303-aebb-20d59319ef1b?syn-25a6b1a6=1",
+   "summary": "Former CEO of Polar Train LNG tells FT that energy giant Novatek financed and held reins of strategic Alaska project without Washington’s approval",
+   "image": "",
+   "published": "2026-10-24T00:22:20.000Z",
+   "source": "Financial Times",
+   "feedId": "ft-markets",
+   "topic": "investments",
    "hasBody": false,
    "top": false
   },
@@ -2415,6 +2508,19 @@
    "top": false
   },
   {
+   "id": "516a170d2e11e0f9",
+   "title": "Trump ends tariffs on some Canadian products, aiming to help Senator Collins - NST Online",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONDBsSGFVWVRiY0hpbTNBRm1FQ0JjTHRpLXRIRWhNZDR0UWFmVGVvNnVUSEZLVFNqQmhRSjVMTHpBcU9OWHB1Q1lScGVMVHg3Nk42YlZVakJrUU5FdS1qVTVCd1p3cTNvYzFscDJ6c0Z3Q3N3aWNacWs4NWhnakREcnlZYnhSUS10V3FNX3RGTmFtNGxXOE4wZnBJLWlaOVhrcjlVOGFVQXEwZl9uXzVES1BJd1NObVhsRm03VHpBU2dNOGRVU1FwZGJ5Njd3QdIBwAFBVV95cUxNUXJsZzB6TFpSSVdUUmpTaUx1d2VYckRpTWVtMFEzQUxqVC1Ha0dhUy1HT3hoNEE5alBYTEZRb1EyaGp2emJJS09IYkwwLUtwNXEwMjJOYU55aWJHQXRUZlNuTkM5YUdwTEdlSXRHeGdWZGdRZWZ6eDA3UjZzTXhUajVYM2kyNWJxbm9tckpuNjRnWU42aXpaeHJlcEhDOTJ4bEFwazlFR1drMl9oWVNuR24wV0ZFa0tIS2tLMm1URUU?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T22:35:10.000Z",
+   "source": "New Straits Times",
+   "feedId": "gnews-nst-business",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "5540737531f6d8f9",
    "title": "Kenya announces second Ebola death, says ‘no evidence’ of community spread",
    "link": "https://www.aljazeera.com/news/2026/10/23/kenya-announces-second-ebola-death-says-no-evidence-of-community-spread?traffic_source=rss",
@@ -2450,6 +2556,19 @@
    "source": "The Star",
    "feedId": "gnews-star",
    "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "80ac86cd2bfaf4f1",
+   "title": "France avoids downgrade from Moody’s in boost for Macron’s government",
+   "link": "https://www.ft.com/content/840f9c94-cb41-4340-9fc4-41e76d908831?syn-25a6b1a6=1",
+   "summary": "Rating agency retains Aa3 score as it assumes ‘deficit-reducing budget for 2027 will be adopted’",
+   "image": "",
+   "published": "2026-10-23T22:28:52.000Z",
+   "source": "Financial Times",
+   "feedId": "ft-markets",
+   "topic": "investments",
    "hasBody": false,
    "top": false
   },
@@ -2909,6 +3028,19 @@
    "top": false
   },
   {
+   "id": "12e10a5c3b57adf6",
+   "title": "Oil hits $117 for first time since April on fears of flare-up in Iran hostilities",
+   "link": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
+   "summary": "Rise in energy prices pushes US inflation expectations higher",
+   "image": "",
+   "published": "2026-10-23T20:13:21.000Z",
+   "source": "Financial Times",
+   "feedId": "ft-markets",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "129661734740ec73",
    "title": "There's a third PHP2Shell bug, but it won't get an emergency fix",
    "link": "https://www.theregister.com/security/2026/10/23/theres-a-third-php2shell-bug-but-it-wont-get-an-emergency-fix/5305208",
@@ -2957,6 +3089,19 @@
    "source": "Al Jazeera",
    "feedId": "aljazeera",
    "topic": "world",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "19c94f2ed7f1df55",
+   "title": "Lunch break under threat as Hong Kong looks at longer trading day",
+   "link": "https://www.ft.com/content/bc13b5f1-387e-4fae-927e-d96ac24ea645?syn-25a6b1a6=1",
+   "summary": "HKEX discusses scrapping ‘antiquated practice’ as Nasdaq plans move to 23 hours",
+   "image": "",
+   "published": "2026-10-23T20:00:09.000Z",
+   "source": "Financial Times",
+   "feedId": "ft-markets",
+   "topic": "investments",
    "hasBody": false,
    "top": false
   },
@@ -3117,6 +3262,19 @@
    "top": false
   },
   {
+   "id": "29f5425779bbebec",
+   "title": "Apple is set to take back the market-cap crown from Nvidia. Upcoming earnings may push it over the top",
+   "link": "https://www.cnbc.com/2026/10/23/apple-nvidia-market-cap-earnings.html",
+   "summary": "Apple stock is trading near record highs and closing in on Nvidia's market cap. Portfolio manager Jeff Kilburg explains what's driving the rally and why he thinks the momentum could continue.",
+   "image": "",
+   "published": "2026-10-23T19:07:32.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-investing",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "e106ef754ee80a2d",
    "title": "US housing starts fall to one of the worst paces since pandemic",
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Wa3FkYVVlUWtCdDA2U1NUcU9Ea1d1b2JfMC0zcVVRY1poZlFjRUxhTzFWWkpQZHplamllTG5ITmtXQUFxMXJmUVBKaGJPTk1j?oc=5",
@@ -3179,6 +3337,19 @@
    "feedId": "theverge",
    "topic": "tech",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "56a9038735842cce",
+   "title": "ECRL on track to start commercial operations by Jan 2027 [WATCH] - NST Online",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTGlmQjM1VVloT1VLX2tNVGhOckZlZ09Pejl3aWtlaDBKTEM0bUY1emZiZGdzQUNZc0tHMjF4VzJ1VmQyWGF6RkxyblFOaUhyOGJIVFRPMEtFOG1oM1F0X0xRVEJJRU9oRVo5TklRQTA3YnZEa1UxaUozd2Fib05PZm44OVJrOU10XzhMSmZWQUQ1OEVoazFNMDBqaWZDbmtPX1hVX0F2cDR1ZkhfM3RJeNIBtgFBVV95cUxQVlB6S3hCM0EyWGpUejhxQ0dnUndqVldsNGNub1ZPOGZfdnZNZFRudXBGNWh4Q2VUT1RzOWptMF9WRE0yU29RLXAtWTZqcWRXNklvTXI3ek45eHYtM0hhOTd4MFQ0aElPdWtuZ2VTaVRWT0htRUp0S2ZidldRSnlFak5PUm5VZ2NVMHFCd3RYNnZINkhUeVlhYjBhY085NVNra214QURDSzkzdGpUelI1WklLbGMtQQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T18:39:49.000Z",
+   "source": "New Straits Times",
+   "feedId": "gnews-nst-business",
+   "topic": "finance",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3325,6 +3496,19 @@
    "top": false
   },
   {
+   "id": "20315176894874fe",
+   "title": "The S&P 500 is forming a bearish chart pattern. Can it snap out of it?",
+   "link": "https://www.cnbc.com/2026/10/23/the-sp-500-is-forming-a-bearish-chart-pattern-can-it-snap-out-of-it.html",
+   "summary": "The S&P 500 has struggled to break decisively above 7,800 since first reaching that area in late July.",
+   "image": "",
+   "published": "2026-10-23T17:14:01.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-investing",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "518241bf77696df6",
    "title": "The Guardian view on Europe’s protests: the social contract has broken – and young people want solutions | Editorial",
    "link": "https://www.theguardian.com/commentisfree/2026/oct/23/the-guardian-view-on-europes-protests-the-social-contract-has-broken-and-young-people-want-solutions",
@@ -3348,6 +3532,32 @@
    "feedId": "theverge",
    "topic": "tech",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "26acf367f81ebde2",
+   "title": "The ledger problem",
+   "link": "https://www.ft.com/content/e3bd8426-defb-41d0-8680-81ce72948e83",
+   "summary": "Tokenisation doesn’t suspend the laws of finance",
+   "image": "",
+   "published": "2026-10-23T17:00:08.000Z",
+   "source": "Financial Times",
+   "feedId": "ft-markets",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "f815503834a42612",
+   "title": "Stockpickers: Aberdeen, ITM Power, Tristel",
+   "link": "https://www.ft.com/content/2aeaf5c1-1fc2-45ae-a6dd-0634384ae9d7",
+   "summary": "Our experts discuss which companies to buy, sell or hold this week",
+   "image": "",
+   "published": "2026-10-23T17:00:08.000Z",
+   "source": "Financial Times",
+   "feedId": "ft-markets",
+   "topic": "investments",
+   "hasBody": false,
    "top": false
   },
   {
@@ -3517,6 +3727,19 @@
    "feedId": "wired",
    "topic": "tech",
    "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "1a14c27e44dabcea",
+   "title": "Tell us: have your spending habits changed recently?",
+   "link": "https://www.theguardian.com/business/2026/oct/23/tell-us-have-your-spending-habits-changed-recently",
+   "summary": "We would like to hear whether your spending habits have changed and why Consumer confidence in the UK has fallen at the fastest rate outside of the Covid pandemic since the 2016 Brexit vote as the economic fallout from the war in the Middle East has hit…",
+   "image": "https://i.guim.co.uk/img/media/4b619f66c1998b451b6ebb61bfe607e11749fbf9/231_0_3614_2892/master/3614.jpg?width=700&quality=85&auto=format&fit=max&s=d8d7341bf73113c714d4b727c9c7d9bb",
+   "published": "2026-10-23T16:04:14.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-money",
+   "topic": "finance",
+   "hasBody": true,
    "top": false
   },
   {
@@ -3728,6 +3951,19 @@
    "top": false
   },
   {
+   "id": "5bfc513c739e47c0",
+   "title": "Gold drops below $4,000 as ‘haven’ asset joins market sell-off",
+   "link": "https://www.ft.com/content/5a6e15e9-249d-4d59-a140-c51302930a9f?syn-25a6b1a6=1",
+   "summary": "Price has plunged this week even as investors rush to safety of US Treasuries",
+   "image": "",
+   "published": "2026-10-23T14:37:46.000Z",
+   "source": "Financial Times",
+   "feedId": "ft-markets",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "7e1090e818b11134",
    "title": "SparkyOS: Lightweight general-purpose Arch, on a pendrive",
    "link": "https://www.theregister.com/os-platforms/2026/10/23/sparkyos-lightweight-general-purpose-arch-on-a-pendrive/5304984",
@@ -3780,19 +4016,6 @@
    "top": false
   },
   {
-   "id": "aa666dddde224666",
-   "title": "PSG v Lyon moved as Paris prepares for more protests",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cw8rz3eyn26po?at_medium=RSS&at_campaign=rss",
-   "summary": "Paris St-Germain's Ligue 1 match against Lyon at the Parc des Princes is pushed back 24 hours as the French capital prepares for another weekend of protests.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e74/live/35aca470-cee7-11f1-bdca-23c64447299f.jpg",
-   "published": "2026-10-23T14:18:41.000Z",
-   "source": "BBC Sport",
-   "feedId": "bbc-sport",
-   "topic": "sport",
-   "hasBody": false,
-   "top": false
-  },
-  {
    "id": "6ede44b55f3df2ad",
    "title": "Nasdaq ticks up as tech stocks steady; SpaceX worries hit telecoms",
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGT1o2aUliNWJ0UzdndFZlVjlINEpJTVhMUmp2dmxoUUt4MzdNRWs2VGtxMWg1ZkFNWHVnRmRMMTBDZ1F4NU9YdnFpeWpwWTdu?oc=5",
@@ -3815,6 +4038,45 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "e7d0fdcfe1b8420a",
+   "title": "Business, Market & Property News - NST Online",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBTY2hUQWhoSW0xdDVzVmhKUVo2dlFablNoNmtlbGRNcWtZSXFSODF3b3l1YlhLaXNaSmFyeG85UUpVV00tRmZaYjBqSFJUeEJRZWZ1M0hmSFpVNUEzMTlHUFpwU05mY3FUeWRlR3RWRQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T14:00:00.000Z",
+   "source": "New Straits Times",
+   "feedId": "gnews-nst-business",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "4be84f389cc61573",
+   "title": "I warned against buying this AI chip stock. Now I think it could nearly double",
+   "link": "https://www.cnbc.com/2026/10/23/investor-paul-meeks-buying-cerebras-cbrs.html",
+   "summary": "Cerebras has lost roughly 72% of its value since its peak, but contrarian tech investor Paul Meeks says its AI technology and massive backlog could fuel a comeback.",
+   "image": "",
+   "published": "2026-10-23T13:52:55.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-investing",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "0164775150588ecf",
+   "title": "UK government to make unprecedented intervention in setting of water bills",
+   "link": "https://www.theguardian.com/business/2026/oct/23/ministers-water-companies-bills-investment",
+   "summary": "Exclusive: Angela Eagle tells utility bosses next price review ‘must focus on value for money for customers’ Ministers will make an unprecedented intervention in water bills and how companies prioritise investment, directing bosses to bring down costs and…",
+   "image": "https://i.guim.co.uk/img/media/42eff267592462762d01a6b8e780e7713d9f1b8d/0_8_2955_2364/master/2955.jpg?width=700&quality=85&auto=format&fit=max&s=5b86da937d82591cdb875450d36cac2b",
+   "published": "2026-10-23T13:51:10.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-money",
+   "topic": "finance",
    "hasBody": true,
    "top": false
   },
@@ -3880,6 +4142,19 @@
    "source": "The Star",
    "feedId": "gnews-star",
    "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "54377cf7737c3ea7",
+   "title": "Why investors are moving back into Treasurys",
+   "link": "https://www.cnbc.com/2026/10/23/treasurys-haven-ai-credit-risks.html",
+   "summary": "U.S. Treasurys are returning to favor as a safe haven play that sidesteps investors' worries over a shaky economy and the future of the data center build-out.",
+   "image": "",
+   "published": "2026-10-23T13:08:12.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-investing",
+   "topic": "investments",
    "hasBody": false,
    "top": false
   },
@@ -3962,6 +4237,19 @@
    "top": false
   },
   {
+   "id": "916d1abcbcb16074",
+   "title": "Potholes, bus fares and headphone dodgers: will Burnham’s strategy of ‘everyday fixes’ succeed?",
+   "link": "https://www.theguardian.com/politics/2026/oct/23/andy-burnham-everyday-fixes-strategy-bus-fares-pubs-potholes-headphone-dodgers",
+   "summary": "New PM has prioritised small fixes to show voters Labour can make a real difference, and government insiders are delighted at the public’s reaction In the first episode of Armando Iannucci’s political satire The Thick of It, the hapless minister Hugh Abbot is…",
+   "image": "https://i.guim.co.uk/img/media/003da183962f9dc4377ce59f18c5a6e1bb85abb6/3282_779_5109_4087/master/5109.jpg?width=700&quality=85&auto=format&fit=max&s=f24b607b0889e637c2d62a7fa071149d",
+   "published": "2026-10-23T12:26:53.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-money",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "f5325d2d7c0d8eef",
    "title": "Opinion: G25 statement on due process and public service",
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB0bU9hZ0lkbWZHRlBSc0pfQXBuUEp5N0hTdXhCSjBtdmRqa0RPYXlNQ29pS1p4ZThhS1ltLTlObGVjdUs0U3J1SlJkSlZCTDZm?oc=5",
@@ -4040,6 +4328,32 @@
    "top": false
   },
   {
+   "id": "54411630200c66d2",
+   "title": "KKR founders back Valencia in deal valuing football club at €1.25bn",
+   "link": "https://www.ft.com/content/f75c25c2-4164-4dfc-9d56-fc6a86704c47?syn-25a6b1a6=1",
+   "summary": "Family offices of KKR co-founders George Roberts and Henry Kravis are part of consortium that has agreed to take 42% stake in Spanish team",
+   "image": "",
+   "published": "2026-10-23T12:02:13.000Z",
+   "source": "Financial Times",
+   "feedId": "ft-markets",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "b5f3022572295a3c",
+   "title": "Zetrix AI fails to resolve RM2bil sukuk breach, offers 789mil share options - NST Online",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQckpjbFRVYmZyenZscUdJck1BZlVrM3FPTjNwYnMwLXhWME9XRUlhUG9ybUx3eVVjRTR4Z2JkNFVQY2JDOWxMcXM0eXhINFBEQmkyZ1RoT3ZyeE9LUG9aaTJsRWpKSVRMRlRWZmdnNzVlQUtCc0NwYi1BTHVmdFpMMVZKVGxpdmRKX3NOZWpHUzA3WU0zcm5qTjJKN3cydlNQdGxFbG90TFh5NS1jNXJjYmxQd0U2MG1TNVE0eVBDN1puem1KQWVhQnEtR0wxa29B0gHDAUFVX3lxTFBTNlozV0d2R0pXeFZpQlJ0d3VjbXpuSklkbDNSclc4WTMzekRrbjB3eWZCUXo1bEF3enV1b1NjNTBpSEhnRno0VDdlOHhHVEZucHJVYjhzbHZ1MENXVDJxdmVWVHEtUTUyRUFoMTVuTk54Q0pNUEZrZ1MtNVBFcEx6aTYwbDJWRW43czVibWNXSTRXdU5BYWh2WXBkbWpUMG5abFN0LVQ3S1lvSWNhWkpWOEdVU01XUTVJLVhCSVhXcmhZbw?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T12:01:49.000Z",
+   "source": "New Straits Times",
+   "feedId": "gnews-nst-business",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "0ee9287622a540d5",
    "title": "A Democratic win in Texas is a long shot – but Ken Paxton’s weakness is obvious | Moira Donegan",
    "link": "https://www.theguardian.com/commentisfree/2026/oct/23/texas-senate-ken-paxton-weakness",
@@ -4050,6 +4364,19 @@
    "feedId": "guardian-opinion",
    "topic": "opinion",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "8abebd1c093d4e62",
+   "title": "MAG buys SAE from Airbus to expand MRO business [WATCH] - NST Online",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSUVoTHZOZUp5d1dRZ1d3WW5KVlFwcGQwSFF5bkRxeTVqbHI4OVVTZHpucHhmZktmdDdxYk5SOUVrZXRucjFuaDNuRW1DaUFCNy1MYjliUjI4LVROM0NGbFEwcXdtUzVHSndnQVk1cENOOFdrb1Q3dnRUeUhhbUtoREdTc3Ffc2xNXzVtSXZRY21zbW9xYTVYbXJsZWlnaDZRV01EeVNn0gGrAUFVX3lxTFBOdlNsTTFITWZSN2UxN19lN3hKY2RMMHFrSHIzb0QxWll2SS1FZU1RLXNwWlpnQ0ZBUndPemh5YlZveW05eWV6am81Z0g3c1ozMENheTJ4V0I5Rml0U2VXMkp0dGk3UXp4NnVQVHl3bkpwcUFvR1BpZDNTc0tuUTZtNkwzNnlCWXpRSkV0UFl1Sm5jYUpHZFF1MDFJY3FPWXF0NFUzVGIzRG5fUQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T12:00:00.000Z",
+   "source": "New Straits Times",
+   "feedId": "gnews-nst-business",
+   "topic": "finance",
+   "hasBody": false,
    "top": false
   },
   {
@@ -4075,6 +4402,19 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "ca1a181836c49681",
+   "title": "Zetrix AI redesignates Norraesah from executive chairman to chairman - NST Online",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRXlRTGo2NWtZVEdid0FsWGdEMnZuMFcwVUxlOU1rbzN1S3FDZUt2N1BybVFNTmE0NVZwaVJ1NzlZRkNpZncxWGp1NVpYd29qMUhrMmc5dUZfZWhaRzE1X3YyZjBTeFBzU3RPenZsX3Y3QzhtZE51T0ZoMkFLS25fTElnbGFKRk55dXNmcFhCSFVwWTYwR0VBN1lMX096a2JMN1YzQ05oM01ONllOZl9YTjdibDdCdGVLc3fSAb8BQVVfeXFMUFVtbWp0UVdFSkFtbjY4SzktSG4wRWlLQmRSb3NkOXprc25DMWZURjRvQ0ZwY2ZZUXh2YUQ0ZDdtdE9aZjQ5NVk3ZVpFakJlRmE2S3AtNUNNSTBfNnRQYWpnWGwzV0tTeTNZUnNkV0tkQ2RSckpCNUZUNkJwSHdjbGRjaTA3eVRhZnhJWUNGQk5ZM0hHOWNGazgyUVhTeEJ2ZUFsT1BYVmZVNkdhTWY4enFleVl3QnZYSlN4Z3pZN2M?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T11:51:43.000Z",
+   "source": "New Straits Times",
+   "feedId": "gnews-nst-business",
+   "topic": "finance",
    "hasBody": false,
    "top": false
   },
@@ -4157,6 +4497,19 @@
    "top": false
   },
   {
+   "id": "c82fa332c9b8c9f5",
+   "title": "CelcomDigi files RM10bil sukuk programme to refinance debt, fund expansion - NST Online",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWE9VWTUxNS0yMC1lN1VQaEl3YWVmNEtQXzhSNElwWFhROGp6eUFidG5QZHBZVHVFTlR1WUE4V3k5RnZHQnB2c2hKRWktMGNwN0lGcXdHWUZaMG84d0hvQmFQLXRrTlJNN2tMVFFuUkJkaXU5MDZwRzZMY1Q5bHYxUm5obGtlQWtuLVF1WmVEQnpjMkMtYTJrWGVhMkpOOWVmLTJwY0oyODZpSHNuWWJzRWRHNmlMME1mY3ZmVnhLOFFsQ1VheG5oM0RmTVjSAb8BQVVfeXFMTVRCLUFUOFM1RExNV2pyY29penBiUEdhNWE5ZWtfVTJRalVyY1NhMm1SSDZ5TzNxaTFPRWxVZTI3aWlkZXVTQkdsYk1VclBjYmRSR0VyZzJsTVNSY0FGVVJiTGtJa1doRHNhVmItSVAzelpBaHdoUDFOMlo3VDZOc0M3SzdzN3VqTGtVcTlCZmw5V2FMa0hWN1RYQ3RxU1ZfNjVmcUswRk1sb1pET3hIQnRENUpEaGcxUzM4TF9JcTQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T11:21:31.000Z",
+   "source": "New Straits Times",
+   "feedId": "gnews-nst-business",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "c635b7970199bd90",
    "title": "This man has quit Badenoch’s increasingly hard-right Tory party – others should be brave enough to do the same | Polly Toynbee",
    "link": "https://www.theguardian.com/commentisfree/2026/oct/23/tory-party-kemi-badenoch-quit-andrew-boff",
@@ -4180,6 +4533,214 @@
    "feedId": "arstechnica",
    "topic": "tech",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "0afeb028554a818b",
+   "title": "SPSETIA-C1S (86641S), SPSETIA-C1S: CW S P SETIA BERHAD (MIBB) - Market Watch",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOckJhNkl3OVNIQTk1eDNyQUVDT1BqNVlpV0NXLTZLSHFzLV9mN2s0V3V0d2tmWXJ6TlBuS29IN2NPemIxQmJNVkx6cFpnZGdSNVFiYXpMYkFQd2tMRHdLbmhXUkpPVkQxeTlLcFFUdzJZaHNwSWRJZHhuZDhZOWxjSQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T11:13:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star-marketwatch",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "ae6eb9dd022d640d",
+   "title": "SAMAIDEN-CG (0223CG), SAMAIDEN-CG: CW SAMAIDEN GROUP BERHAD (KIBB) - Market Watch",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeG5sWUJVdEI2NDliblRvaGhYNllKZjJpOUtJZHJlMVZyS3VyYWRhR0sxMEZtbF8yV1Z1MHVpalQwZ1VaLWp0WTU3TXk5RzZSSjJfS25TMi1JTjQwMXptamFWUXRGTTV2YjBsdHNEc01pYnU2WXZzLWRrclVZQTZ4cw?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T11:13:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star-marketwatch",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "0e21787279a0831a",
+   "title": "SUNMED-C1 (5555C1), SUNMED-C1: CW SUNWAY HEALTHCARE HOLDINGS BERHAD (MIBB) - Market Watch",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB3TnlCOFNoVlZmVUNBU0xZdkt3b1lDaWlvWEs5VE9kQmpFdXNYei03TnF4Y04wcjdLVFk4d2R0RkN6TG5OUG0tS3gwZ29XeUNNZzhXX1NTYTVBV2Zzck5FaFNuNTRta2RlX0FNTEgyWE1hRUhFaFk1ODE4V3hSQQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T11:13:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star-marketwatch",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "032fcb68add05d9c",
+   "title": "SCGBHD-C10: CW SOUTHERN CABLE GROUP BERHAD (MIBB)",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ZTlhGWDRURk5ZRG9aRzliMU9SaC1Dc0hKd0tkaVd0d2lnM2pQQ3F1aDhVVExpNzJYX3dLajV0MDVyN25SVzYtREUzTnVrdUN3LXdkUGZtSmxtOTZuNWYtWUc4NWlTYmNOUWZlQ1RrVVFnZWdOZDk3dlc1VXlqTjg?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T11:13:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star-marketwatch",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "abe8fab242f15325",
+   "title": "SNS-CY (0259CY), SNS-CY: CW SNS NETWORK TECHNOLOGY BERHAD (CLSA) - Market Watch",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XSzhuOVZsSXp5Zi1zb2R0cG5qMXR0dnRjdldlcHVBbjFITXBWMF9WX0JXV2o4T19iTGNMaW1SMXp4TEVSVEc3R3RYU1NUU09uTDRZLXRuYWNoX2QtT1ZmZ3I1Q21jX1dYaEpxVkFjdE9vV0FkZlNGOWVR?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T11:13:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star-marketwatch",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "c4a715b6064c3080",
+   "title": "SCIENTX-C2 (4731C2), SCIENTX-C2: CW SCIENTEX BERHAD (MIBB) - Market Watch",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDM3NUZHJjM0d2ZEh2RjhjbVptc3BHZm4tOWpkWmhKbmFScE1tV0dKbzZrNEZ3TUJNOFhDZENUams5Z0dvWG9rTHlJVzBHUnpaTGtWdlJaZ2lSVUlWLTlPdl9DenotYzNCZEhmd1ZwVF9odUZJVWx2VXRUNnM0LUE?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T11:13:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star-marketwatch",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "2c1026254fedf31f",
+   "title": "NWEBHD (0478), NWE RESOURCES GROUP BERHAD - Market Watch",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4tVi01UzhKa2ZYN3Z1S25PY2txakxVZVB3RUVvc0VmWG40RmNFUzg2SXJuc2FaV1I0Y0lfZWg1R0NZUDRXU3VQQURXcGpLOTNkZ3B6MDJ3RVRCZkU5LU5weWlBMkxmZ3BWLS1MUWh5SkNuTllMcHdmVzJn?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T11:12:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star-marketwatch",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "e827930f583310b1",
+   "title": "HSI-CWW6 (0652W6), HSI-CWW6: CW HANG SENG INDEX (KIBB) - Market Watch",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9lQk1EM0YySGRpS0pYbGdRTk5nbm9hZHZZM0UwTDJKVTExVDhpSFJmSWhOb25RWEdkWmdZNXB0WWx1U1ZSTjJSR2g4Nmc3cVpvazU3TTRiR2xzUUt3LVRseEJ6UGlmWm5IWTRkYnhjRDBQZENKamh0MnRKd0o?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T11:12:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star-marketwatch",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "b6291930f9f2ed4e",
+   "title": "IHH-C74 (522574), IHH-C74: CW IHH HEALTHCARE BERHAD (AM) - Market Watch",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8tVE5IUEFyZXVWZDFFSzRKSjBzYTZ0VkYwMkU4d0dVbEI0dm1ZY0hwdDJ2c19yNDkxdUt6anJQdzBXOTV5OEprczN0MlZwTFRYMGZhaVAxNE54NHNFTUdMSllKVVFRT2gzNWQ4WHZZT0RiTHVGWjF0cHQ1Yw?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T11:12:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star-marketwatch",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "f3c7862112937b52",
+   "title": "IJM-C2I (33362I), IJM-C2I: CW IJM CORPORATION BERHAD (MIBB) - Market Watch",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1sX202X1hHM2RqYzJBeHFydUkwWXhxSXRrbjg1SUtIbEw2aDMyVXZyQlJDekdXN0pFSElyNjEwZFd2dlUxelA4cXlvM0tXN0tDN09WMjg3MFJqRGNwWVltZ2ZiaUMxclA2WGRKWUZwQ2FvY05PZE9RQVhsZw?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T11:12:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star-marketwatch",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "50540681722ccb83",
+   "title": "EMPIRE-CG (5351CG), EMPIRE-CG: CW EMPIRE PREMIUM FOOD BERHAD (MIBB) - Market Watch",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9LVFhQcHBnNFk0UlNlNTdKX0d2b0VMVmFXR0d0THI4TUdTQUZmWW45eVIwLXJ0b1hCYUZ5M3J1cGZmVHBhNlBLdldhMzRxUmZhU2lRczZMSWl6WGRlNXItRnpWbWljMTlKNlJQRmpkQmNrZ2RRaHFqMDVlRmRtUQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T11:12:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star-marketwatch",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "6ed36649f0fa498f",
+   "title": "ECOWLD-C63: CW ECO WORLD DEVELOPMENT GROUP BERHAD (AM)",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sX3cyYUpqMTdaV2FfWnM0c1NqZ3R6YUFCcE55OG1lTjVjVFE0TTJyNl9SVEktOGY4ZXF6Yk1KdVA2RWZpLXNvX3ZzeW9XOTV2UktJQ1JJSk5fWDRxZ19BRDBnVjVFcVdEMV9QV3FWRUdKc1JoQ1lOdzJHNVotYW8?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T11:11:00.000Z",
+   "source": "The Star",
+   "feedId": "gnews-star-marketwatch",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "cfa3175d3504a81f",
+   "title": "Yinson Production, PTSC achieve first oil at Lac Da Vang field ahead of schedule - NST Online",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYTYxd280OUdONVZxZkRsazdrYXd5Q2hFVkZ5UTU1WVY4bEtyN2VycWFyZFgwQm1OMllMckZwOHFWN1VuVjBON3NqSVRtZ2Q0Z2RvcU8wYWkwcHJ0REhUcVcyakxJb0wwUTJqY3E5ZjNWZkxkWWd6aWpodUhKY25RMnpTTFlXekVWWjVxLVNranRaMUZBaTdpeTRDel85ZnBxMjdYRTB4UHdhdl9NSDdFRUN4em04bUpRSm1mXzAtZ1NfdHNkSkFzbWhXQ0cyQnlFc3fSAcQBQVVfeXFMUHQ4YkVZTmhuNXlCSjBlS2phRTBhU3p2WG9UMmtscl93QjRtVjI1X2F1VE1lZUlrLVUtN2FSWDh1NmVyNDl5bGhjMy1LaEtvV2plREdlQmg2RmlRQWxEUDVXdzlFWGxnTXQ1Y0tManp2VFJpWk55ZEJ2M2wwak5TTmcxbGZKeWtmeTgxazRJMGFGb0t5QlNVdFRYcDl0RThOSHI5S1FQYVdFbTdETmFkN3FwcHN1eGJqTl81Q3lkMnRIMWJNTQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T11:04:39.000Z",
+   "source": "New Straits Times",
+   "feedId": "gnews-nst-business",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "86a7d034f8a7e553",
+   "title": "SpaceX bear flips to big bull because of AI business. Analyst now sees 70% gain",
+   "link": "https://www.cnbc.com/2026/10/23/spacex-double-upgraded-by-phillipcapital.html",
+   "summary": "PhillipCapital moved its rating on the Elon Musk giant to buy from sell, with the bullishness stemming from the company's AI business.",
+   "image": "",
+   "published": "2026-10-23T11:02:56.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-investing",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "92c5332926b9fd0f",
+   "title": "MARKET PULSE PM OCT 23, 2026 [WATCH] - NST Online",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaGVKT2pkbGJVb0hpV0pxeElPUWVWOG04aDMwaV9jRXNHUW5qOTZxVGJqcXJsYkRyRVYycWk3U25GdzZfZXJpalBSRWUzNjR0UU5jTTQyWVFGbjdkdm1iQUlQVU9ZRnFrSG0xVHYyVFhoNFQ2Sm5HSVowRXVPNDNmdzhOSk1maXMzY00xb0NobkFtdWVFSlHSAZsBQVVfeXFMT29RV3FyXzZvOFZXbzdrdklXVUVmU1pYZkFLY1h1cjVXMmdLX2lQYnhIazVsVkxrN3htcnNCdHV3Um1iQk5peXpPNkNXRUlaTnkwZzJ1UURKTVhuLUFUSlVJQ0ZvRU8xU1RLXzh6b2EzYjhoMkNoX01RU0owTDdrYXFWZk15dXFhM0h6OWpCU25waFExcGxpOHlpN0k?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T11:02:09.000Z",
+   "source": "New Straits Times",
+   "feedId": "gnews-nst-business",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "ab9a04a6229f6a4f",
+   "title": "What the coming copper crunch means for the global economy",
+   "link": "https://www.ft.com/content/06209f51-de7c-4de0-8e66-5c621a960b87?syn-25a6b1a6=1",
+   "summary": "A looming shortage of the metal will push up costs for AI, defence tech and the green transition",
+   "image": "",
+   "published": "2026-10-23T11:01:09.000Z",
+   "source": "Financial Times",
+   "feedId": "ft-markets",
+   "topic": "investments",
+   "hasBody": false,
    "top": false
   },
   {
@@ -4209,6 +4770,19 @@
    "top": false
   },
   {
+   "id": "8ec2302d926e6411",
+   "title": "DXN breaks ground on its first North African plant in Morocco - NST Online",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWWhraEJHRVNXV3FTbDJIWi1NVzhYZnc1cGNZdFVETWIwWlhpVGRoWFBfbEtMNXVKNUN1OVlFdHNmU3dyVjc4aE1nY2ZsVHQ3dnNaaHdGV3BMWjNsdTgzbnFQM2Z5RXlacEtrQkFmanhuV2VJbU82NjZKcU82R2k2d3I1YTBPSmRZUmFWRTJyMWc3QjZxbjBXLTduZXp4VWs5VW9QTGVVa3RiYnl3eFA1YUJqMNIBuAFBVV95cUxPNm5KYWozekFhQ3FaRjRGU0FQZWdncHFIaUFFWVJkNzNBcW1iRm1DUFpDd3dUZExIUnZFUGZCMFN0NjYtSXp4V2hsSG95aEFybXpxampvcnhMZUFKb09vcmdjemhRcnMxQ0lYckZlTW01bnJUWUZsc25lUUQya0xtQ2xHWXppRlZBdkRaYzZwN2xOSGFPSU5yMDNULWtoU2FfcGNkaENVb2NIZnllU0luLWJkOFVmRm9a?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T10:59:46.000Z",
+   "source": "New Straits Times",
+   "feedId": "gnews-nst-business",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "471bbf8beedd5bf9",
    "title": "Turtle Beach Vulcan II XP Review: Clicky Compromise",
    "link": "https://www.wired.com/review/turtle-beach-vulcan-xp-ii/",
@@ -4222,15 +4796,28 @@
    "top": false
   },
   {
-   "id": "f171f25822d2dac8",
+   "id": "2c024b63d5b80e5d",
    "title": "Waze rejects Malaysia's data security claims after civil servant ban",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaXlBazVBVEVZSDg2YjE0RGJ5RzFEVHNQV0kyX0Y3dlZWSXQ1d3hNUjlxNDhDUXFUV0lRaTRZMGpzT2s3dGFnRHlOd1d4dlBlRlN1VGJPdlVjcDgzZDhRM2xLUk80U0ZjLURja2pLSEZUOEVTTmVQSWMzcmViQWVBSjdjQXAzUmJKWklySk5HQWEwNmtsMVM1Qk1fSmt4cGNrNjVPNl81UUNRd0NpVEViZ2xEMzVTeUJhWndOMw?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWmlCQ2JGM3ByRy02akxpN2VqV1ZfNmxSODVndGhFaUxmZ2MtcERUdW1hR1RUZ3dxWDk2ZW9JNFFfM2pydkQ0SmFlSFZQWDZlbXJ4RzliVU1FUlJXV2o5NGtIeUFsQkpsV1NHcUVOenJURmdqMXlIbGFrbWIwMDZxR3d4VVB0Y21CT3ZINnlLSDRpQkpISjVEZVpoSXhQYnFMNzNKV2NqYVZ6NXdWcmtLMHlWX1BUU0VENU84OHh1aldIQ1BETXcyMkJ5X1FSOVl5QW11ZG5ITnBrdGRMUWwtS1BDSG13eGF5V09RRS1nOA?oc=5",
    "summary": "",
    "image": "",
    "published": "2026-10-23T10:43:00.000Z",
    "source": "The Star",
    "feedId": "gnews-star",
    "topic": "malaysia",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "f8b8c16dbf07be8c",
+   "title": "Kazakhstan's Air Astana first B787-9 Dreamliner begins flight tests ahead of 2027 service - NST Online",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUmVWM21KMkh2U3g3SkhkMnJsRGNiNnlHQURJbXVJczJ5V0lwRlE5TEpqdkRPMVI0Y1B4ckFNRy1lcmRZSjJveGpOd3JVYUpxelFPdHZIMTNTS2kxbXUtakFXVTNrY1dCR240c3pNTkM1eFlTUmYtOC1BRlo2M3o5cGgzTmJPVXdzVk15dFlmQVdaaENXaURmWUNrek5tQVZsQUZZdW1ndGVQbWt6WXp5NDh6bFpnRG9YOGt0VWgzWUNhSl9lTGdQajRPQkrSAb8BQVVfeXFMTy1fUXA3S19ZWXB5VkFJMVI0c09zcWN2clZRenExbFZTNHNyb0N2VjNLSFFOMmx2bk81ZTBnVkl5WGI0Ylg0MDlWdHlxOXRBU19zX1FKZVpQQVFObk43dUlWbHQ5MVdwd21DYUFsQTdiRkQ0YmUxQk12VnNZUTR1VTdZdFQ3TVdoSGRrNDZJUmp3bko1Ym8wOXM2TTZJNlNpeWxrLUxCbXRWcHdITm9ucE55TjJTdHh3MmVuZjREdTQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T10:40:30.000Z",
+   "source": "New Straits Times",
+   "feedId": "gnews-nst-business",
+   "topic": "finance",
    "hasBody": false,
    "top": false
   },
@@ -4313,6 +4900,19 @@
    "top": false
   },
   {
+   "id": "39ca58dcc7f27308",
+   "title": "Mapping the Market: Path to S&P 500 rally strewn with obstacles",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWHR0U3JXOGh1UGNkNnl3UXRaRzlFdm5JcngtWkRCWlhoc3c5ci1BMjRibmlCdjNqWG5rSG9zZUx5dlplQzNfYWhuQkFWUGozeWRBaTBOZ29BZ1JCSjM5OG1qZlRBckVEQVo3enB2X0xkcC1HZTNVd2Z2ZmpCOVdKNVg3Nk4zMHZJVi1RMw?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T10:03:38.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "a9a62719ac750606",
    "title": "The Trump-Putin love story’s next chapter: selling out Ukraine | Sidney Blumenthal",
    "link": "https://www.theguardian.com/commentisfree/2026/oct/23/trump-putin-ukraine",
@@ -4322,6 +4922,19 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "0e8de041510ca628",
+   "title": "Is a job guarantee the solution to mass AI unemployment?",
+   "link": "https://www.theguardian.com/technology/2026/oct/23/job-guarantee-ai-mass-unemployment",
+   "summary": "An old idea springs anew as a chorus of influential voices predicts that AI may trigger crises of vast magnitude In a preface to his book Capitalism and Freedom, the American economist Milton Friedman famously observed that a crisis can propel once-fringe…",
+   "image": "https://i.guim.co.uk/img/media/5d838343b80e3163461a99b84753451e52e54078/724_0_7211_5773/master/7211.jpg?width=700&quality=85&auto=format&fit=max&s=5cd686023752b1a55f29fb43e16b54cd",
+   "published": "2026-10-23T10:00:30.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-economics",
+   "topic": "finance",
    "hasBody": true,
    "top": false
   },
@@ -4378,6 +4991,19 @@
    "top": false
   },
   {
+   "id": "a96f9389b84b3692",
+   "title": "Hedge fund returns worsen this week as tech selloff deepens",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS0h2UUh0dUpTb1VWWGJYWm1KOXM4eXZQc1dyTlJMSWNnQ2tOVS1JRmdTMmJMaGpJSEo1c05kLUpXamZVTWVPWUppREI5OWFPUmZVV3hnektWdlRmWXVHNHpkQldJUk1PVEN0QUQ5NE0zczdSc0RMRGhOV28yYkZqeHFEMTFXUElRTDVCMXUybHRGSFhXcUFBS0hoS3V1NWVSREJGa2FCT1ludVU?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-23T09:16:53.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "f7f9a9927ea915e7",
    "title": "'No answers, no arrests': Dead detainee's family heads to Anwar's doorstep",
    "link": "https://www.malaysiakini.com/news/887752-no-answers-no-arrests-dead-detainees-family-heads-to-anwars-doorstep",
@@ -4426,6 +5052,19 @@
    "source": "Wired",
    "feedId": "wired",
    "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "df03e4fbf942ccec",
+   "title": "Anthropic strikes deal to launch European consultancy",
+   "link": "https://www.ft.com/content/df70bf20-e809-48d0-8485-f8f514a7fbc4?syn-25a6b1a6=1",
+   "summary": "New company backed by Anthropic and UK buyout group Hg will advise companies on how to deploy AI",
+   "image": "",
+   "published": "2026-10-23T09:04:09.000Z",
+   "source": "Financial Times",
+   "feedId": "ft-markets",
+   "topic": "investments",
    "hasBody": false,
    "top": false
   },
@@ -4521,6 +5160,19 @@
    "top": false
   },
   {
+   "id": "89d08de9537f8406",
+   "title": "UK consumer confidence falls at fastest rate since Brexit vote as cost of living bites",
+   "link": "https://www.theguardian.com/business/2026/oct/23/uk-consumer-confidence-falls-fastest-since-covid-cost-of-living",
+   "summary": "Economic fallout from war in Middle East adds to pressures on consumers and on chancellor before budget Consumer confidence in the UK has fallen at the fastest rate outside the Covid pandemic since the 2016 Brexit vote as the escalating economic damage from…",
+   "image": "https://i.guim.co.uk/img/media/beb7d211c357532b1fb71fd027d947ef985ba7e5/716_0_4840_3872/master/4840.jpg?width=700&quality=85&auto=format&fit=max&s=63bce950d460e896ac86394b3a2035b8",
+   "published": "2026-10-23T07:25:57.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-economics",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "bc9a1ecc9c38c77e",
    "title": "Lights will stay on this winter, grid operator says after concerns",
    "link": "https://www.bbc.co.uk/news/articles/cmy56q2n1veqo?at_medium=RSS&at_campaign=rss",
@@ -4530,6 +5182,19 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "1adea6d1308201a0",
+   "title": "Five homes in England to get sport lovers’ hearts racing – in pictures",
+   "link": "https://www.theguardian.com/money/gallery/2026/oct/23/five-homes-in-england-for-sport-lovers-in-pictures",
+   "summary": "From recreation-rich pile in Devon to former coach house near Windermere, properties that energise Continue reading...",
+   "image": "https://i.guim.co.uk/img/media/88c3a27b43d5a637fc253d54001efdcfb8505f00/166_0_2832_2268/master/2832.jpg?width=700&quality=85&auto=format&fit=max&s=33d9500c985c3d384dcf904e2aa00a96",
+   "published": "2026-10-23T06:00:02.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-money",
+   "topic": "finance",
    "hasBody": false,
    "top": false
   },
@@ -4703,6 +5368,19 @@
    "top": false
   },
   {
+   "id": "c59fe0351f57471d",
+   "title": "These funds can juice your tax-free portfolio income. Just be sure to mind the risk",
+   "link": "https://www.cnbc.com/2026/10/22/municipal-bond-funds-tax-free-income.html",
+   "summary": "A bout of volatility has hit the price of municipal bonds, but there are solid buying opportunities available — including one high-yielding corner.",
+   "image": "",
+   "published": "2026-10-22T23:59:27.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-investing",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "93ee3750c1cc600a",
    "title": "Mark Zuckerberg’s creative plan to pay California’s proposed billionaire tax without losing control of Meta",
    "link": "https://techcrunch.com/2026/10/22/mark-zuckerbergs-creative-plan-to-pay-californias-proposed-billionaire-tax-without-losing-control-of-meta/",
@@ -4726,6 +5404,19 @@
    "feedId": "fmt-opinion",
    "topic": "opinion",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "e718528639475628",
+   "title": "Friday's big stock stories: What’s likely to move the market in the next trading session",
+   "link": "https://www.cnbc.com/2026/10/22/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
+   "summary": "The Nasdaq Composite dropped 2.6% on Thursday as worries over spending on artificial intelligence ramped up.",
+   "image": "",
+   "published": "2026-10-22T23:26:43.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-investing",
+   "topic": "investments",
+   "hasBody": false,
    "top": false
   },
   {
@@ -5067,6 +5758,19 @@
    "top": false
   },
   {
+   "id": "03212f5527409c65",
+   "title": "Europe's STOXX 600 posts biggest drop in three weeks as banks tumble and oil climbs",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdVJKdFpHOVNMc2FWbnFjeWFhUnpnQmhwSXAtNHA0amRvS0tSVjZYVTFTTWZNa01FaEVsQVp5TVRtSTVjMERpS0NaZnZoYWVwWDdsQV9IcXRoemlWc040dnI4MV82RDNsZVB2RlBCVmd6a1hTV0k4aXU4cG9Edzh4WHF0LXdXelJuUXRNbUhtalFoVm1OWVRFQXh1SHdEcWpIbFFhLUZYYw?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-22T17:19:19.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "cdc5eb2368995710",
    "title": "We will make the net-zero transition work for Britain – approving the Jackdaw gasfield is part of the plan | Andy Burnham",
    "link": "https://www.theguardian.com/commentisfree/2026/oct/22/net-zero-transition-britain-jackdaw-gasfield-jobs-energy-security-labour",
@@ -5106,6 +5810,19 @@
    "top": false
   },
   {
+   "id": "ba0b2087609528d4",
+   "title": "‘No indications’ PHP code flaw has led to government systems being hacked, cyber security official says – as it happened",
+   "link": "https://www.theguardian.com/politics/live/2026/oct/22/john-healey-chancellor-budget-red-tape-small-businsesses-jackdaw-oil-latest-news-updates",
+   "summary": "Some 32 government services are offline while work is carried out to address potential cybersecurity issues, a minister has said Tell us: have you been affected by the PHP code flaw? The Office for National Statistics has also published a report on the gender…",
+   "image": "https://i.guim.co.uk/img/media/fdb777dfffef92203021c9e3b97cc439e4ca9c1a/56_0_6273_5018/master/6273.jpg?width=700&quality=85&auto=format&fit=max&s=9ba12d0db35d6da48a0ab3aecbaa6a81",
+   "published": "2026-10-22T16:16:40.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-economics",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "2e9a4426b96429c2",
    "title": "Uber puts all 30,000 employees on ChatGPT Work",
    "link": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
@@ -5115,6 +5832,32 @@
    "source": "TechCrunch",
    "feedId": "tc-ai",
    "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "12113a82e1df7c31",
+   "title": "Sam Bankman-Fried says he has paid his debts",
+   "link": "https://www.economist.com/finance-and-economics/2026/10/22/sam-bankman-fried-says-he-has-paid-his-debts",
+   "summary": "The crypto tycoon speaks with The Economist from prison in California",
+   "image": "",
+   "published": "2026-10-22T15:51:39.000Z",
+   "source": "The Economist",
+   "feedId": "economist-finance",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "3f94321efcfd769e",
+   "title": "Ahead of the US midterms, Gen Z investors are making portfolio changes",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaDN4TDhBbHBrVlhiUzVMTTM2LXNkMG5ZM1hDcU54OVg3V3o0a0Z5ZDBLak51UmN1YURXSlJ0UEVnQ1BXU0FwcWQxc3ZJcjF5RWxrdWM4QnZIdk5oWDE4M2l1RmdQQ3VBZFVVa3lxdUhTNGV0b2lrcVBFbEdLeXAzeWhFOS1ZY3BHYUpuaWc0emhfdlU3QWIyQWdkcjJ4Wm9henFvS1M4YmtoZWd6Uk4zUmhnN2F2bXhXbUhF?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-22T15:38:00.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
    "hasBody": false,
    "top": false
   },
@@ -5145,15 +5888,28 @@
    "top": false
   },
   {
-   "id": "6cb49225160c0cb5",
-   "title": "Do Stormont politics stifle the non-sectarian parties? | Letters",
-   "link": "https://www.theguardian.com/uk-news/2026/oct/22/do-stormont-politics-stifle-the-non-sectarian-parties",
-   "summary": "Responding to an editorial, Boyd Black deplores Labour’s policy of not fielding candidates in Northern Ireland. Plus a letter by Declan O’Neill Your editorial on the dysfunction in Northern Ireland politics (15 October) does not mention the main cause: the…",
-   "image": "https://i.guim.co.uk/img/media/815f838b8a15615c2426423c4da32af873d95794/292_0_2917_2333/master/2917.jpg?width=700&quality=85&auto=format&fit=max&s=f01b0bd1c9ce63ab9696000f18ae98e4",
-   "published": "2026-10-22T15:25:52.000Z",
+   "id": "2a1af758c1ab1f85",
+   "title": "Germany's higher tax revenue estimates will not offer more fiscal leeway, minister says",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMmZLY1FnazRxeXJHTDVaQzlROWRady1ZcTI3STBXMVBMNUp5LTdKRHlFbHZRVzE3QWtWZ2R6RmNTSmhZUlpaR2Q4UUx2NDFOdWMzYmpuX09wLTQ2Y3hLT2Q3bXc2cmRyN2dReDFqdGM5YzhRWXZsYUMzNXN1NmhoZXEyMWFiOHJBZWNYYXFpNFZIeHBsSXdoM01na3czaEpsdEYzZkIzajUtQQ?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-22T15:28:31.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "102299c28073e94f",
+   "title": "Carers can’t live on 51p an hour | Letter",
+   "link": "https://www.theguardian.com/society/2026/oct/22/carers-cant-live-on-51p-an-hour",
+   "summary": "Emma Sainsbury questions whether government policy takes sufficient account of people whose caring responsibilities shape their finances and ability to keep a home For 13 years, I have cared for my lovely 101-year-old adoptive mum who requires round-the-clock…",
+   "image": "https://i.guim.co.uk/img/media/2d5ff3af9e9dfcccfbf71b9b62851e67af782267/560_0_5600_4480/master/5600.jpg?width=700&quality=85&auto=format&fit=max&s=e23c8fd2b511245394075cdcfbb7ca11",
+   "published": "2026-10-22T15:26:59.000Z",
    "source": "The Guardian",
-   "feedId": "guardian-opinion",
-   "topic": "opinion",
+   "feedId": "guardian-money",
+   "topic": "finance",
    "hasBody": true,
    "top": false
   },
@@ -5210,6 +5966,19 @@
    "top": false
   },
   {
+   "id": "d98fdc6a0d25fbe1",
+   "title": "Why cybersecurity stocks are getting another big boost. They're key to the AI trade",
+   "link": "https://www.cnbc.com/2026/10/22/why-cybersecurity-stocks-are-getting-another-big-boost-theyre-key-to-the-ai-trade.html",
+   "summary": "Cyber stocks jumped Wednesday amid a rush of warnings from security agencies about threats to a widely used programming language.",
+   "image": "",
+   "published": "2026-10-22T14:35:03.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-investing",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "655df0fb22ace891",
    "title": "Beyond tree cover: mapping the world’s forest types",
    "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
@@ -5249,6 +6018,19 @@
    "top": false
   },
   {
+   "id": "c90075e9f83b3ad3",
+   "title": "The AI trade may be at a turning point. Where it may go, and how to play it",
+   "link": "https://www.cnbc.com/2026/10/21/the-ai-trade-may-be-at-a-turning-point-where-it-may-go-and-how-to-play-it.html",
+   "summary": "The AI trade may be at a turning point. Where it may go, and how to play it — according to Todd Gordon.",
+   "image": "",
+   "published": "2026-10-22T13:34:51.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-investing",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "e44fd6bce90b4b7c",
    "title": "The Briefing Room",
    "link": "https://www.bbc.co.uk/sounds/play/m00333cg?at_medium=RSS&at_campaign=rss",
@@ -5258,6 +6040,32 @@
    "source": "BBC News",
    "feedId": "bbc-business",
    "topic": "business",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "91c72bba5f3541b6",
+   "title": "Meta Platforms beat the Street. Here's why analysts are bullish on the stock",
+   "link": "https://www.cnbc.com/2026/10/22/meta-platforms-beat-the-street-heres-why-analysts-are-bullish-on-the-stock.html",
+   "summary": "Meta posted third-quarter financial results postmarket Wednesday. Afterward, analysts said there is a lot to like about the Instagram parent's stock.",
+   "image": "",
+   "published": "2026-10-22T12:48:13.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-investing",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "0d19df852afe065f",
+   "title": "Here are Thursday's biggest analyst calls: Nvidia, Tesla, SpaceX, Meta, CoreWeave, IBM, Block & more",
+   "link": "https://www.cnbc.com/2026/10/22/wall-street-analyst-calls-nvidia-tesla-meta-spacex.html",
+   "summary": "Here are Thursday's biggest calls on Wall Street.",
+   "image": "",
+   "published": "2026-10-22T12:29:36.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-investing",
+   "topic": "investments",
    "hasBody": false,
    "top": false
   },
@@ -5275,6 +6083,32 @@
    "top": false
   },
   {
+   "id": "99a2ccdd00a9fb88",
+   "title": "Tesla is falling even after earnings. What analysts are saying",
+   "link": "https://www.cnbc.com/2026/10/22/tesla-q3-2026-earnings-analysts.html",
+   "summary": "Tesla is pulling back after reporting its latest quarterly financial results. Here's what analysts are saying about the stock.",
+   "image": "",
+   "published": "2026-10-22T11:38:03.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-investing",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "2b44d895b54a3ab4",
+   "title": "Tax online sales more heavily to save high streets, Burnham urged",
+   "link": "https://www.theguardian.com/uk-news/2026/oct/22/save-high-street-tax-online-sales-burnham-urged",
+   "summary": "Exclusive: British Chambers of Commerce president calls for overhaul of business rates and greater powers for local leaders How Middleton’s revival could inspire struggling towns What makes a good town? Here are five key ingredients Andy Burnham has been…",
+   "image": "https://i.guim.co.uk/img/media/9e5866f85438efb4d6419bf45774a644549b0daa/0_0_2000_1600/master/2000.jpg?width=700&quality=85&auto=format&fit=max&s=8cd0b255bcd8a982391735da648a2620",
+   "published": "2026-10-22T11:32:45.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-money",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "24bd4af128ab13d0",
    "title": "Donald Trump has sold out Ukraine. He makes appeaser Chamberlain look like a man of iron principle | Simon Tisdall",
    "link": "https://www.theguardian.com/commentisfree/2026/oct/22/donald-trump-ukraine-betrayal-putin-nato",
@@ -5285,6 +6119,32 @@
    "feedId": "guardian-opinion",
    "topic": "opinion",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "30d2d0b761c60066",
+   "title": "Too little, too late: Trump takes on gas prices as fuel costs hamper his midterm hopes",
+   "link": "https://www.theguardian.com/us-news/2026/oct/22/trump-high-gas-prices-midterms-cycle",
+   "summary": "Polls show US voters are deeply upset by high gas prices and are likely to punish Republicans in the midterms as a result How will Trump’s mass deportation agenda shape the US midterm elections? Our reporters answer your questions With fewer than two weeks…",
+   "image": "https://i.guim.co.uk/img/media/48409507b97b27256278d0fc1d3d4df39035668a/646_0_6475_5181/master/6475.jpg?width=700&quality=85&auto=format&fit=max&s=0f1b34edcbec4f7d17c65c848c72186a",
+   "published": "2026-10-22T11:00:40.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-economics",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "0eb55b1d70b91b11",
+   "title": "Singapore's wealthy clients see growing assets over past year, Citi report says",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOanoxcGZmekN6ZlZpNkxDRnZkV0FzLTREQU1Ccmhkb1UtQ0dYT2RUYWdsWXppUG10MExidjRkd3U0djBwWnh5d3FCQloybkRhaTFkLTBxLUpwTldtMmxfWU1LYWQ2bGtsUjBIaWZpR0thY2NuQ3hWc1Z1SFBLeVk0ZDdsMHBsTTJ5aU5IM3F1cXBVb0stdThWWDNmNF9xdTVoamc2T0VIbG9tbDlyeVcyLUNYRG9tdWN4VTNJby02RjFLTlBRMllr?oc=5",
+   "summary": "",
+   "image": "",
+   "published": "2026-10-22T10:05:43.000Z",
+   "source": "Reuters",
+   "feedId": "gnews-reuters-markets",
+   "topic": "investments",
+   "hasBody": false,
    "top": false
   },
   {
@@ -5314,6 +6174,45 @@
    "top": false
   },
   {
+   "id": "f32d165abb6c3ed4",
+   "title": "New research tries to defuse the “China shock”",
+   "link": "https://www.economist.com/finance-and-economics/2026/10/22/new-research-tries-to-defuse-the-china-shock",
+   "summary": "An almighty fight over an influential finding",
+   "image": "",
+   "published": "2026-10-22T09:12:40.000Z",
+   "source": "The Economist",
+   "feedId": "economist-finance",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "ba1671c5bef23903",
+   "title": "Brazil’s weird economy needs serious reform",
+   "link": "https://www.economist.com/finance-and-economics/2026/10/22/brazils-weird-economy-needs-serious-reform",
+   "summary": "Neither Lula nor Flávio Bolsonaro have the stomach for it",
+   "image": "",
+   "published": "2026-10-22T09:11:38.000Z",
+   "source": "The Economist",
+   "feedId": "economist-finance",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "247837b80bd72ec9",
+   "title": "AI compute is the new oil—and needs a new market",
+   "link": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+   "summary": "Financial firms race to create instruments to trade processing power",
+   "image": "",
+   "published": "2026-10-22T09:07:29.000Z",
+   "source": "The Economist",
+   "feedId": "economist-finance",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "8cacaf29b1375238",
    "title": "AI’s hidden storage bill: What inference leaves behind",
    "link": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
@@ -5323,6 +6222,19 @@
    "source": "MIT Technology Review",
    "feedId": "mittr",
    "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "636c6fa564709f9b",
+   "title": "French borrowing costs overtake US amid budget turmoil",
+   "link": "https://www.theguardian.com/world/2026/oct/22/french-borrowing-costs-overtake-us-amid-budget-turmoil",
+   "summary": "France’s bond market hit by another bout of selling as country recovers from weekend protests French borrowing costs continued to rise on Thursday, as investors fret that France’s government is struggling to pass a federal budget after public protests gripped…",
+   "image": "https://i.guim.co.uk/img/media/75bedd6d2c81e2f2be23f61588ee0e589a2a9d70/1090_0_4382_3508/master/4382.jpg?width=700&quality=85&auto=format&fit=max&s=7260cd48d34a2da168716868d5085275",
+   "published": "2026-10-22T08:40:36.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-economics",
+   "topic": "finance",
    "hasBody": true,
    "top": false
   },
@@ -5379,6 +6291,19 @@
    "top": false
   },
   {
+   "id": "7be14c131ee7e97b",
+   "title": "Thursday's big stock stories: What’s likely to move the market in the next trading session",
+   "link": "https://www.cnbc.com/2026/10/21/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
+   "summary": "Stocks closed higher on Wednesday, with the Nasdaq Composite rising 1% as SpaceX and Tesla rallied.",
+   "image": "",
+   "published": "2026-10-22T00:24:40.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-investing",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "e3f519129b2e62b1",
    "title": "Don’t blame Anwar for the low minimum wage",
    "link": "https://www.freemalaysiatoday.com/category/opinion/2026/10/22/don-t-blame-anwar-for-the-low-minimum-wage",
@@ -5389,6 +6314,19 @@
    "feedId": "fmt-opinion",
    "topic": "opinion",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "9d037a7a41885e94",
+   "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
+   "link": "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
+   "summary": "Rick Rieder, BlackRock's CIO of global fixed income, lays out his expectations for the fourth quarter and where he sees the best opportunities.",
+   "image": "",
+   "published": "2026-10-21T19:54:16.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-investing",
+   "topic": "investments",
+   "hasBody": false,
    "top": false
   },
   {
@@ -5457,6 +6395,19 @@
    "top": false
   },
   {
+   "id": "7f488821f99e89d0",
+   "title": "A plan to ensure energy is affordable for all | Letters",
+   "link": "https://www.theguardian.com/money/2026/oct/21/a-plan-to-ensure-energy-is-affordable-for-all",
+   "summary": "Dr Alex Chapman calls for a government-funded price cap on an essential block of electricity and gas, in response to an article by Nils Pratley Nils Pratley thinks that the secretary of state, Miatta Fahnbulleh, should “keep things simple” and develop a…",
+   "image": "https://i.guim.co.uk/img/media/459e2e646fed165a62d51015a47269205428d351/399_0_2702_2162/master/2702.jpg?width=700&quality=85&auto=format&fit=max&s=7a17ae43b4f4673602e0c7ec1a699d8c",
+   "published": "2026-10-21T16:32:37.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-money",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "5158d3df898bb242",
    "title": "Panache — RTS Belle Époque pour mobile",
    "link": "https://simonwillison.net/2026/Oct/21/panache/",
@@ -5466,6 +6417,32 @@
    "source": "Simon Willison",
    "feedId": "simonw",
    "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "694acebb4f20d9ce",
+   "title": "Earnings season is in full swing. These are Morgan Stanley's highest conviction plays",
+   "link": "https://www.cnbc.com/2026/10/21/morgan-stanley-western-digital-terawulf-williams.html",
+   "summary": "Morgan Stanley expects a handful of stocks that are reporting quarterly results soon to see big gains. Here's the list",
+   "image": "",
+   "published": "2026-10-21T16:20:51.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-investing",
+   "topic": "investments",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "136465deae8bccbd",
+   "title": "Goldman Sachs, JPMorgan and Morgan Stanley are dominating the AI stock boom. Here's their edge",
+   "link": "https://www.cnbc.com/2026/10/21/goldman-sachs-jpmorgan-morgan-stanley-ai-trading.html",
+   "summary": "Wall Street’s Big Three have generated $52 billion in equity trading revenue this year, capturing about 80% of the market on rising margin lending to hedge funds.",
+   "image": "",
+   "published": "2026-10-21T15:30:50.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-finance",
+   "topic": "finance",
    "hasBody": false,
    "top": false
   },
@@ -5483,6 +6460,19 @@
    "top": false
   },
   {
+   "id": "339181588a34eb74",
+   "title": "Double blow to Healey as inflation rises to 3.5% and monthly deficit hits £24bn",
+   "link": "https://www.theguardian.com/business/2026/oct/21/inflation-rises-middle-east-conflict-drives-up-fuel-prices",
+   "summary": "Consumer prices rise by more than expected while government’s debt interest payments surge to record high for September Inflation surged to 3.5% last month while the government deficit was a worse-than-forecast £24.5bn, in a double dose of bad news for John…",
+   "image": "https://i.guim.co.uk/img/media/2e51fbd24ddfbd516a71422c5fb55bf2d29d53ac/1377_631_3681_2945/master/3681.jpg?width=700&quality=85&auto=format&fit=max&s=cfcb0199d22ec18242c165cfb538647a",
+   "published": "2026-10-21T13:21:16.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-economics",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "05c8eb78562a8d38",
    "title": "The Download: introducing the Impossible issue",
    "link": "https://www.technologyreview.com/2026/10/21/1147573/the-download-introducing-impossible-issue/",
@@ -5496,6 +6486,32 @@
    "top": false
   },
   {
+   "id": "dbf88092092f42f8",
+   "title": "Stocks making the biggest moves premarket: SpaceX, Super Micro Computer, Netflix, Dell and more",
+   "link": "https://www.cnbc.com/2026/10/21/stocks-making-the-biggest-moves-premarket-spcx-smci-nflx-more.html",
+   "summary": "These are the stocks posting the largest moves premarket.",
+   "image": "",
+   "published": "2026-10-21T11:49:11.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-finance",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "b70859c3c9f3d6b9",
+   "title": "Bereaved civil service families could face ‘unjust’ tax bills due to pension scheme delays",
+   "link": "https://www.theguardian.com/politics/2026/oct/21/bereaved-civil-service-families-tax-bills-pension-scheme-delays-capita-death-in-benefit-claims",
+   "summary": "MPs say ‘chaos’ at Capita-run scheme could mean some claims miss tax-free time limit on lump sum payments Bereaved families could face “unconscionable” tax bills because of “chaos” in the civil service pension scheme, the government has been warned. Some lump…",
+   "image": "https://i.guim.co.uk/img/media/7e05629c61b0333e56dc3fe3ceba89fbfbcf46d2/688_0_6880_5504/master/6880.jpg?width=700&quality=85&auto=format&fit=max&s=ae56ef988e5a6e65f788d9c41a8fbb7c",
+   "published": "2026-10-21T11:12:49.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-money",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "5b3ce3d240be4172",
    "title": "We can do impossible things",
    "link": "https://www.technologyreview.com/2026/10/21/1146053/editor-letter-we-can-do-impossible-things/",
@@ -5505,6 +6521,45 @@
    "source": "MIT Technology Review",
    "feedId": "mittr",
    "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "b098680b32ba0424",
+   "title": "UK government borrowing rises to £24.5bn as John Healey prepares for budget",
+   "link": "https://www.theguardian.com/business/2026/oct/21/uk-government-borrowing-rises-john-healey-budget",
+   "summary": "Government paid £10.9bn in debt interest, the highest September figure since records began Business live – latest updates The Treasury ran a higher than expected budget deficit of £24.5bn last month as rising inflation pushed up the interest paid on…",
+   "image": "https://i.guim.co.uk/img/media/1c14f3ec4c42fe0ddf52479032cdd090187325e4/0_3_6252_5001/master/6252.jpg?width=700&quality=85&auto=format&fit=max&s=2258b717eede2dfff7a2a9bed45c2127",
+   "published": "2026-10-21T06:48:00.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-economics",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "8bba4d6ab7c413b8",
+   "title": "‘I can charge my car for £6’: could new rules cut costs for EV drivers?",
+   "link": "https://www.theguardian.com/money/2026/oct/21/charge-car-new-rules-ev-drivers-cross-pavement-gully",
+   "summary": "Owners in England with no driveway can now slash their costs by installing a cross-pavement gully – but it’s a postcode lottery When Alison Williams bought her electric Volkswagen ID.3 two years ago, she thought she was making the right choice for the…",
+   "image": "https://i.guim.co.uk/img/media/cb3ad1858f276cba2ff75c89b626ad49816f1262/1692_367_6041_4835/master/6041.jpg?width=700&quality=85&auto=format&fit=max&s=c72ab2bc55d9110277ee5a78efff6a81",
+   "published": "2026-10-21T06:00:03.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-money",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "874eb4fc5dedc38f",
+   "title": "Streeting delays defence jobs plan for young people after union pushback",
+   "link": "https://www.theguardian.com/politics/2026/oct/21/wes-streeting-delays-defence-jobs-plan-young-people-union-pushback-mod-uk",
+   "summary": "UK defence secretary had been due to unveil proposals on Thursday until concerns were raised at 11th hour Wes Streeting has been forced to delay the publication of a plan to get more young people into defence industry jobs after pushback from trade unions,…",
+   "image": "https://i.guim.co.uk/img/media/3d1b21de59f5dc280d242fab381347800e8624f2/303_0_1764_1412/master/1764.jpg?width=700&quality=85&auto=format&fit=max&s=766417d4c4b049aae8d22824407edf34",
+   "published": "2026-10-21T05:00:05.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-money",
+   "topic": "finance",
    "hasBody": true,
    "top": false
   },
@@ -5574,6 +6629,19 @@
    "top": false
   },
   {
+   "id": "fa6479629996139f",
+   "title": "Stocks making the biggest moves after hours: Super Micro Computer, Intuitive Surgical, Netflix, SpaceX & more",
+   "link": "https://www.cnbc.com/2026/10/20/stocks-making-the-biggest-moves-after-hours-isrg-nflx-spcx.html",
+   "summary": "Here are some of the companies making headlines after the closing bell.",
+   "image": "",
+   "published": "2026-10-20T22:55:27.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-finance",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "a054bcdb27918d02",
    "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
    "link": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
@@ -5609,6 +6677,19 @@
    "source": "Simon Willison",
    "feedId": "simonw",
    "topic": "tech",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "dd4eaf142d62ef5c",
+   "title": "The late Perry Mehrling explained the hierarchy of money",
+   "link": "https://www.economist.com/finance-and-economics/2026/10/20/the-late-perry-mehrling-explained-the-hierarchy-of-money",
+   "summary": "The course for par",
+   "image": "",
+   "published": "2026-10-20T18:32:09.000Z",
+   "source": "The Economist",
+   "feedId": "economist-finance",
+   "topic": "finance",
    "hasBody": false,
    "top": false
   },
@@ -5652,6 +6733,58 @@
    "top": false
   },
   {
+   "id": "d71c6f56569c1949",
+   "title": "NatWest cracks down on 13,000 staff attending office two days a month",
+   "link": "https://www.theguardian.com/business/2026/oct/20/natwest-staff-back-two-days-a-week-policy",
+   "summary": "Union furious as bank scraps remote-first policy from February 2027, forcing all UK employees to come in at least twice a week NatWest has ordered 13,000 staff to increase their in-office days from two days a month to two days a week, angering its staff…",
+   "image": "https://i.guim.co.uk/img/media/117f292c810d39c4b3feafb273aa60cc1c7c365b/1114_0_6808_5449/master/6808.jpg?width=700&quality=85&auto=format&fit=max&s=1e02500030a41793d6917f8342b93fb3",
+   "published": "2026-10-20T16:45:24.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-money",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "da42559c0b6e6f8d",
+   "title": "Stocks making the biggest moves midday: Hasbro, Northrop Grumman, Equifax, General Motors & more",
+   "link": "https://www.cnbc.com/2026/10/20/stocks-making-the-biggest-moves-midday-has-noc-efx-gm.html",
+   "summary": "These are the stocks posting the largest moves midday.",
+   "image": "",
+   "published": "2026-10-20T16:45:06.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-finance",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "66d9f32ee73db192",
+   "title": "Stocks making the biggest moves premarket: RTX, General Motors, Northrop Grumman, Steel Dynamics & more",
+   "link": "https://www.cnbc.com/2026/10/20/stocks-making-the-biggest-moves-premarket-rtx-gm-noc-stld.html",
+   "summary": "These are the stocks posting the largest moves in early trading.",
+   "image": "",
+   "published": "2026-10-20T16:35:41.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-finance",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "a3fae4429aa12824",
+   "title": "Google Cloud outage: problems fixed for ‘most‘ customers, as regulators push for details – as it happened",
+   "link": "https://www.theguardian.com/business/live/2026/oct/20/uk-unemployment-rate-pre-budget-boost-wages-vacancies-latest-news-updates",
+   "summary": "Google apologises after power issue causes a major Cloud outage in its London region today that led to problems at banks, Revolut, and court video cameras Google cloud failure hits millions as UK courts and banks knocked offline The pound has rallied after…",
+   "image": "https://i.guim.co.uk/img/media/221fff45a746e52af9e420c3d04a3b467698626d/642_0_6424_5139/master/6424.jpg?width=700&quality=85&auto=format&fit=max&s=2eb9d1ee98f368c6e147fd225299eb2a",
+   "published": "2026-10-20T15:38:25.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-economics",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
    "id": "9a892035dd55c082",
    "title": "Publish studies on motorcycle licensing age",
    "link": "https://www.freemalaysiatoday.com/category/opinion/2026/10/20/publish-studies-on-motorcycle-licensing-age",
@@ -5678,6 +6811,19 @@
    "top": false
   },
   {
+   "id": "3be6cc823e7532fd",
+   "title": "HSBC CEO warns the AI boom won’t make every data center a good bet",
+   "link": "https://www.cnbc.com/2026/10/20/data-center-financing-ai-debt-hsbc.html",
+   "summary": "Data center campuses house the servers that power AI and cloud computing.",
+   "image": "",
+   "published": "2026-10-20T10:39:17.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-finance",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "8855f5d2f5ac1f2c",
    "title": "We can stop Trump’s assault on the international criminal court | Kenneth Roth",
    "link": "https://www.theguardian.com/commentisfree/2026/oct/20/trump-icc-sanctions-opinion",
@@ -5688,6 +6834,58 @@
    "feedId": "guardian-opinion",
    "topic": "opinion",
    "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "a70e4dcb6d0bd9b0",
+   "title": "Are you a first-time buyer in England? Would the government’s Your First Home scheme help you?",
+   "link": "https://www.theguardian.com/money/2026/oct/20/are-you-a-first-time-buyer-in-england-would-the-governments-your-first-home-scheme-help-you",
+   "summary": "We would like to speak to people in England who are planning to buy a new-build flat or house as their first home Last month, the government announced plans for Your First Home (YFH), a scheme which aims to give a helping hand to first-time buyers who do not…",
+   "image": "https://i.guim.co.uk/img/media/2cd536d49329101a02b28fea60b2a9074498551c/120_0_2760_2209/master/2760.jpg?width=700&quality=85&auto=format&fit=max&s=3324e0518e20aa51bca15554a05c7f79",
+   "published": "2026-10-20T09:42:47.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-money",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "0ec798d66cc5a36a",
+   "title": "Excessive wealth, extreme emissions – and ecocide: what I learned at Europe’s big superyacht show",
+   "link": "https://www.theguardian.com/news/2026/oct/20/excessive-wealth-extreme-emissions-and-ecocide-what-i-learned-at-europes-big-superyacht-show",
+   "summary": "These yachts are highly popular with the ‘super-bourgeoisie’ – and getting bigger. Can anything be done to stop them destroying our seas? Who knew? Apparently everyone did, apart from me: you don’t wear shoes on a superyacht. Now, about to step on to my first…",
+   "image": "https://i.guim.co.uk/img/media/dbde1eee5b098c813263060981ce6adf1d555d53/0_0_5356_4284/master/5356.jpg?width=700&quality=85&auto=format&fit=max&s=da00391ab0904f3ed7da0ec73ae98d90",
+   "published": "2026-10-20T09:00:22.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-economics",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "f33be5d0faa5ebde",
+   "title": "Surprise drop in UK unemployment to 4.7% as John Healey’s first budget looms",
+   "link": "https://www.theguardian.com/business/2026/oct/20/uk-unemployment-rate-surprise-drop",
+   "summary": "Latest ONS data presents mixed picture amid slump in job vacancies and analysts warning labour market is ‘running on idle’ Healey to reject calls to raise CGT in budget Unemployment in the UK has fallen unexpectedly in the final snapshot of the jobs market…",
+   "image": "https://i.guim.co.uk/img/media/620a3507183ab101881df40acb747d5e30fe4448/451_0_4774_3819/master/4774.jpg?width=700&quality=85&auto=format&fit=max&s=394af4c20c16554700c33d9773dbf8fb",
+   "published": "2026-10-20T08:39:27.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-economics",
+   "topic": "finance",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "010f04560432f27a",
+   "title": "The world’s finance chiefs see new risks — and less China angst",
+   "link": "https://www.cnbc.com/2026/10/20/imf-debt-yields-russia-china-takeaway-.html",
+   "summary": "Debt, AI and Ukraine dominated the conversation at the IMF-World Bank meetings in Bangkok, while China, the focus in 2018, slipped into the background.",
+   "image": "",
+   "published": "2026-10-20T05:27:53.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-finance",
+   "topic": "finance",
+   "hasBody": false,
    "top": false
   },
   {
@@ -5782,6 +6980,19 @@
    "top": false
   },
   {
+   "id": "cfe45de259da2aef",
+   "title": "Who will buy $120bn-worth of fresh Japanese government bonds?",
+   "link": "https://www.economist.com/finance-and-economics/2026/10/19/who-will-buy-120bn-worth-of-fresh-japanese-government-bonds",
+   "summary": "Japan wants its pension fund and households to buy more government debt",
+   "image": "",
+   "published": "2026-10-19T18:11:37.000Z",
+   "source": "The Economist",
+   "feedId": "economist-finance",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "1375bb961f6a8369",
    "title": "AI game clones are making indie developers afraid to show their work",
    "link": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
@@ -5791,6 +7002,32 @@
    "source": "Ars Technica",
    "feedId": "ars-ai",
    "topic": "tech",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "e8e3c84b36857048",
+   "title": "Anthropic is AI trade's last big hope for a major IPO this year",
+   "link": "https://www.cnbc.com/2026/10/19/anthropic-ipo-ai-trade.html",
+   "summary": "On Kalshi, Anthropic is seen as the last major IPO in 2026 after OpenAI delayed its public market debut. Others have postponed too.",
+   "image": "",
+   "published": "2026-10-19T16:42:14.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-finance",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "8d04a40b65f97d55",
+   "title": "France hit by debt sell-off as violent protests unnerve investors",
+   "link": "https://www.theguardian.com/world/2026/oct/19/france-hit-by-debt-sell-off-as-protests-unnerve-investors",
+   "summary": "Difference between French and German borrowing costs widens after public buildings burned and shops looted France has been hit by a fresh wave of selling in its bond and stock markets after violent protests over the weekend led to thousands of arrests and…",
+   "image": "https://i.guim.co.uk/img/media/ff2dc74cc6caff96ab8cb23e046cdf2ad57f24bc/404_72_1229_983/master/1229.jpg?width=700&quality=85&auto=format&fit=max&s=0fd3fc3c15f14d137ca893cefdcc5866",
+   "published": "2026-10-19T15:23:54.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-economics",
+   "topic": "finance",
    "hasBody": true,
    "top": false
   },
@@ -5808,6 +7045,32 @@
    "top": false
   },
   {
+   "id": "dd6781f1d42fd0c5",
+   "title": "Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments",
+   "link": "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html",
+   "summary": "With $5 billion already deployed off its balance sheet, JPMorgan Chase is racing ahead on direct investments in defense tech, hardware and supply chains.",
+   "image": "",
+   "published": "2026-10-19T12:34:01.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-finance",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
+   "id": "f578d9808713e98a",
+   "title": "Stocks making the biggest moves premarket: Cleveland-Cliffs, Intel, Datadog, Amazon & more",
+   "link": "https://www.cnbc.com/2026/10/19/stocks-making-the-biggest-moves-premarket-clf-intc-ddog-amzn.html",
+   "summary": "These are the stocks posting the largest moves premarket.",
+   "image": "",
+   "published": "2026-10-19T12:00:34.000Z",
+   "source": "CNBC",
+   "feedId": "cnbc-finance",
+   "topic": "finance",
+   "hasBody": false,
+   "top": false
+  },
+  {
    "id": "e1117d799e1f1415",
    "title": "Saudi Arabia is learning the hard way: they can’t count on Trump for protection | Mohamad Bazzi",
    "link": "https://www.theguardian.com/commentisfree/2026/oct/19/saudi-arabia-trump-relationship",
@@ -5817,6 +7080,19 @@
    "source": "The Guardian",
    "feedId": "guardian-opinion",
    "topic": "opinion",
+   "hasBody": true,
+   "top": false
+  },
+  {
+   "id": "8da04d3f021c873a",
+   "title": "China’s economy grows faster than forecast after AI boom boosts exports",
+   "link": "https://www.theguardian.com/world/2026/oct/19/china-economy-grows-faster-than-forecast-after-ai-boom-boosted-exports",
+   "summary": "Third-quarter GDP up by 4.5% compared with last year as industrial output is buoyed by electronics demand Roaring exports lifted China’s economic growth in the third quarter of this year, with factory output growing much faster than consumer spending. China’s…",
+   "image": "https://i.guim.co.uk/img/media/892bb878342a5fcbb68c7a85fb2b553e42c94669/495_0_4953_3962/master/4953.jpg?width=700&quality=85&auto=format&fit=max&s=ecf05897960b0d1f482bcfa1cd2fb648",
+   "published": "2026-10-19T09:27:04.000Z",
+   "source": "The Guardian",
+   "feedId": "guardian-economics",
+   "topic": "finance",
    "hasBody": true,
    "top": false
   }
