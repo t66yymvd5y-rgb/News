@@ -31,7 +31,8 @@ magazine-style reader over feeds we choose.
 - RSS/Atom as the primary source. An optional API key slot (GNews/NewsAPI) read
   from Actions secrets, off by default, that enriches items when present.
 - Malaysia-first source set, international secondary, in an editable config.
-- Topic sections: Top Stories, Malaysia, World, Business, Tech, Sport, Opinion.
+- Topic sections: Top Stories, Malaysia, World, Business, Investments, Finance,
+  Tech, Sport, Opinion.
 - Magazine mosaic layout — one hero tile plus asymmetric supporting tiles —
   paginated, with a page-turn (fold) animation between pages.
 - Save for later, stored in browser localStorage. No accounts, no server.

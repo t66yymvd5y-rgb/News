@@ -94,6 +94,22 @@ nothing more. Delete the three `gnews-` entries to drop the bridge.
 **Reuters** is disabled for the same reason — they withdrew their public RSS
 feeds some time ago.
 
+**Investments and Finance** were added on 24.10.2026. *Investments* covers
+markets and portfolios: CNBC Investing, Financial Times Markets, Reuters Markets
+and StarBiz Marketwatch (Bursa Malaysia). *Finance* covers the economy, banking
+and personal finance: The Guardian (Money, Economics), CNBC Finance, The
+Economist (Finance & economics), Bernama Business and NST Business. Reuters,
+StarBiz, Bernama and NST are bridged through Google News with a path-restricted
+`site:` query, with the trade-offs described above. The FT is hard-paywalled
+and The Economist is metered: headlines are free, most articles are not. These
+section feeds sit ahead of the site-wide Google News bridges in the config, so
+when the same story arrives through both, it is filed under the more specific
+section.
+
+Further candidates — MarketWatch, Nikkei Asia, CNA Business, Malay Mail Money,
+FMT Business, Bank Negara and the Federal Reserve — are listed under `probe`.
+Check the next run's log, promote the ones marked `probe OK`, and clear the list.
+
 ## Optional: a news API on top of RSS
 
 Off by default. RSS alone is enough to run the site. If you want a wire
