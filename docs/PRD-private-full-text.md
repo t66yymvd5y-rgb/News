@@ -1,6 +1,6 @@
 # PRD — Private full-text reader for Kertas
 
-Status: DRAFT — awaiting sign-off
+Status: APPROVED (strict) — 24.10.2026. Build paused at step 1; see §8.
 Date: 24.10.2026
 Owner: Nicholas Hor
 
@@ -120,3 +120,29 @@ repository secret. Everything else is in the repository.
    redirect links, accepting that it may break whenever Google changes them?
 4. **Single user.** Confirm the private copy stays Nicholas-only, with no access
    for Allya or Shannon.
+
+## 8. Decisions and step 1 findings (24.10.2026)
+
+**Approved, strict:** Cloudflare as host; Nicholas as the only user; any
+publisher whose terms of use prohibit automated access is excluded outright.
+Open question 3 (the Google News sources) remains deferred to v2.
+
+**Step 1, terms-of-use check — incomplete.** The primary terms pages could not
+be read from the build environment (its network policy blocks the publishers'
+sites), so what follows rests on secondary sources and must be confirmed
+against the live terms before any domain goes on the allowlist.
+
+| Publisher | Indication | Status |
+| --- | --- | --- |
+| BBC | Formally told Perplexity in 2025 that scraping BBC content breaches its terms of use. | Exclude |
+| TechCrunch | Listed by a terms tracker under Yahoo's terms, which bar collecting data with scrapers or other automated tools without prior permission. Which terms now govern TechCrunch needs confirming. | Exclude unless confirmed otherwise |
+| Google, Google DeepMind | Google's current terms reportedly prohibit automated access only where it breaks machine-readable instructions such as robots.txt. | Likely allowed, subject to robots.txt |
+| Wired (Condé Nast) | User agreement has a "Prohibitions on Use of the Service" section; its wording was not seen. | Unverified |
+| CNBC (NBCUniversal) | NBCUniversal's prohibited-actions page was seen only in excerpt; no automated-access clause was visible. | Unverified |
+| Al Jazeera | Not found. | Unverified |
+| CNA (Mediacorp) | Not found. | Unverified |
+
+**Implication.** If the unverified publishers follow the industry norm of
+prohibiting automated access, the strict allowlist shrinks to the Google and
+DeepMind blogs. That would not justify the build. Step 1 should be finished
+before step 2 starts.
