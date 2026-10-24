@@ -346,10 +346,10 @@
    "source": "Bernama",
    "topic": "finance",
    "url": "https://news.google.com/rss/search?q=site:bernama.com/en/business+when:2d&hl=en-MY&gl=MY&ceid=MY:en",
-   "enabled": true,
+   "enabled": false,
    "maxItems": 12,
    "via": "google-news",
-   "note": "Bridged via Google News: links go to a Google redirect that forwards to the publisher, and there is no imagery or syndicated article text."
+   "note": "Returned no items on 24.10.2026: Bernama's article URLs do not carry a /en/business path, so the site: query matches nothing. Bernama business stories still arrive through the site-wide gnews-bernama bridge under Malaysia."
   },
   {
    "id": "gnews-nst-business",
@@ -360,6 +360,46 @@
    "maxItems": 12,
    "via": "google-news",
    "note": "NST's own feed is site-wide only. Bridged via Google News: links go to a Google redirect that forwards to the publisher, and there is no imagery or syndicated article text."
+  },
+  {
+   "id": "marketwatch-pulse",
+   "source": "MarketWatch",
+   "topic": "investments",
+   "url": "https://feeds.content.dowjones.io/public/rss/mw_marketpulse",
+   "enabled": true,
+   "maxItems": 12
+  },
+  {
+   "id": "malaymail-money",
+   "source": "Malay Mail",
+   "topic": "finance",
+   "url": "https://www.malaymail.com/feed/rss/money",
+   "enabled": true,
+   "maxItems": 12
+  },
+  {
+   "id": "fmt-business",
+   "source": "Free Malaysia Today",
+   "topic": "finance",
+   "url": "https://www.freemalaysiatoday.com/category/business/feed/",
+   "enabled": true,
+   "maxItems": 12
+  },
+  {
+   "id": "cna-business",
+   "source": "Channel NewsAsia",
+   "topic": "finance",
+   "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6936",
+   "enabled": true,
+   "maxItems": 12
+  },
+  {
+   "id": "fed-press",
+   "source": "Federal Reserve",
+   "topic": "finance",
+   "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+   "enabled": true,
+   "maxItems": 6
   },
   {
    "id": "gnews-star",
@@ -398,38 +438,5 @@
   "timeoutMs": 15000,
   "topStoriesSize": 40
  },
- "probe": [
-  {
-   "id": "marketwatch-pulse",
-   "url": "https://feeds.content.dowjones.io/public/rss/mw_marketpulse"
-  },
-  {
-   "id": "marketwatch-pf",
-   "url": "https://feeds.content.dowjones.io/public/rss/mw_personalfinance"
-  },
-  {
-   "id": "nikkei-asia",
-   "url": "https://asia.nikkei.com/rss/feed/nar"
-  },
-  {
-   "id": "cna-business",
-   "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6936"
-  },
-  {
-   "id": "malaymail-money",
-   "url": "https://www.malaymail.com/feed/rss/money"
-  },
-  {
-   "id": "fmt-business",
-   "url": "https://www.freemalaysiatoday.com/category/business/feed/"
-  },
-  {
-   "id": "bnm",
-   "url": "https://www.bnm.gov.my/rss"
-  },
-  {
-   "id": "fed-press",
-   "url": "https://www.federalreserve.gov/feeds/press_all.xml"
-  }
- ]
+ "probe": []
 }
